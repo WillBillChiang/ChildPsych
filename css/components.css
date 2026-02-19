@@ -743,10 +743,25 @@
   font-style: italic;
 }
 
+.figure-card > div:not(.figure-avatar) {
+  min-width: 0;
+}
+
 .figure-card p {
   font-size: var(--text-sm);
   color: var(--neutral-500);
   margin-bottom: 0;
+}
+
+.figure-insight {
+  margin-top: 0.75rem;
+  padding: 0.625rem 0.875rem;
+  background: var(--neutral-50);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  color: var(--neutral-600);
+  font-style: italic;
+  line-height: 1.5;
 }
 
 /* ========================================
