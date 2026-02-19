@@ -1,0 +1,1134 @@
+{
+  "modules": [
+    {
+      "moduleId": "module1",
+      "title": "The Child Who Changed Science",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m1q1",
+          "type": "multiple-choice",
+          "question": "Jean Piaget originally worked on IQ tests for children. What unexpected discovery led him to develop his theory of cognitive development?",
+          "options": [
+            { "id": "a", "text": "Children scored higher than adults" },
+            { "id": "b", "text": "Children of the same age tended to make the same types of errors" },
+            { "id": "c", "text": "Children from different countries scored identically" },
+            { "id": "d", "text": "Children's scores improved dramatically with practice" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Piaget noticed that children of the same age consistently made similar wrong answers, suggesting they weren't simply 'less intelligent' than adults but had qualitatively different ways of thinking at each developmental stage."
+        },
+        {
+          "id": "m1q2",
+          "type": "true-false",
+          "question": "Lev Vygotsky argued that cognitive development is primarily an individual process, with social interaction playing a minor role.",
+          "correctAnswer": false,
+          "explanation": "Vygotsky argued the opposite—that social interaction and cultural tools are the primary drivers of cognitive development. He believed higher mental functions develop first on the social level before being internalized."
+        },
+        {
+          "id": "m1q3",
+          "type": "multiple-choice",
+          "question": "Approximately what percentage of published psychology studies successfully replicated in the landmark 2015 replication project?",
+          "options": [
+            { "id": "a", "text": "75%" },
+            { "id": "b", "text": "50%" },
+            { "id": "c", "text": "36%" },
+            { "id": "d", "text": "15%" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Only about 36% of the 100 studies produced statistically significant results the second time around, raising serious questions about the reliability of published psychological research."
+        },
+        {
+          "id": "m1q4",
+          "type": "multiple-choice",
+          "question": "What does the acronym WEIRD stand for in psychological research?",
+          "options": [
+            { "id": "a", "text": "Western, Educated, Industrialized, Rich, Democratic" },
+            { "id": "b", "text": "Widespread Evidence In Research Data" },
+            { "id": "c", "text": "Widely Established International Research Design" },
+            { "id": "d", "text": "Well-Examined Investigations Regarding Development" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "WEIRD stands for Western, Educated, Industrialized, Rich, and Democratic. Most psychology research has been conducted on WEIRD populations, which represent roughly 12% of the global population."
+        },
+        {
+          "id": "m1q5",
+          "type": "multiple-choice",
+          "question": "A researcher wants to study whether 4-month-old infants can distinguish facial expressions. Which method would be most appropriate?",
+          "options": [
+            { "id": "a", "text": "Asking parents to report their observations" },
+            { "id": "b", "text": "Habituation/preferential looking with eye-tracking" },
+            { "id": "c", "text": "Structured interview with the infant" },
+            { "id": "d", "text": "Naturalistic playground observation" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Habituation paradigms with eye-tracking are ideal for studying infant perception. They measure where and how long infants look at stimuli, revealing what they can distinguish without requiring verbal or motor responses."
+        },
+        {
+          "id": "m1q6",
+          "type": "multiple-choice",
+          "question": "In Bronfenbrenner's ecological systems theory, which system contains cultural values, laws, and societal norms that indirectly shape development?",
+          "options": [
+            { "id": "a", "text": "Microsystem" },
+            { "id": "b", "text": "Mesosystem" },
+            { "id": "c", "text": "Exosystem" },
+            { "id": "d", "text": "Macrosystem" }
+          ],
+          "correctAnswer": "d",
+          "explanation": "The macrosystem is the outermost layer in Bronfenbrenner's model and contains cultural values, beliefs, laws, and societal norms. Though not directly experienced by the child, it shapes all inner systems and profoundly influences development."
+        },
+        {
+          "id": "m1q7",
+          "type": "multiple-choice",
+          "question": "Which of the following best describes why the Little Albert experiment (1920) is considered deeply unethical by modern standards?",
+          "options": [
+            { "id": "a", "text": "It used animals instead of children" },
+            { "id": "b", "text": "Watson failed to obtain true informed consent and deliberately conditioned a fear response without removing it" },
+            { "id": "c", "text": "The study produced no useful scientific findings" },
+            { "id": "d", "text": "It used too small a sample size" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Watson conditioned a fear of a white rat in infant Albert without proper consent (the mother may not have fully understood the study) and then left the fear unconditioned when the study ended—potentially causing lasting psychological harm."
+        },
+        {
+          "id": "m1q8",
+          "type": "multiple-choice",
+          "question": "The ManyBabies consortium was formed specifically to:",
+          "options": [
+            { "id": "a", "text": "Promote infant adoption programs worldwide" },
+            { "id": "b", "text": "Replicate infant development findings across many labs and cultures to increase reliability" },
+            { "id": "c", "text": "Create standardized IQ tests for infants" },
+            { "id": "d", "text": "Fund longitudinal studies on childhood poverty" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "ManyBabies is a large-scale collaborative consortium launched in 2017 that coordinates replication studies of infant research findings across 50+ labs in 17 countries, dramatically improving the robustness and cultural generalizability of infant psychology."
+        },
+        {
+          "id": "m1q9",
+          "type": "multiple-choice",
+          "question": "The ACE Study (Adverse Childhood Experiences) found a dose-response relationship, meaning:",
+          "options": [
+            { "id": "a", "text": "One adverse experience has no measurable effect" },
+            { "id": "b", "text": "As the number of ACEs increases, adult health and social risks increase proportionally" },
+            { "id": "c", "text": "Children recover fully regardless of how many ACEs they experience" },
+            { "id": "d", "text": "ACEs only matter if they occur before age 2" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Felitti and Anda's landmark ACE Study showed a clear dose-response: each additional adverse childhood experience (abuse, neglect, household dysfunction) significantly increased the risk of adult depression, addiction, heart disease, and early death."
+        },
+        {
+          "id": "m1q10",
+          "type": "multiple-choice",
+          "question": "An introverted child who is shy and quiet causes their teacher to provide more one-on-one instruction. This is an example of:",
+          "options": [
+            { "id": "a", "text": "Passive gene-environment correlation" },
+            { "id": "b", "text": "Active gene-environment correlation" },
+            { "id": "c", "text": "Evocative gene-environment correlation" },
+            { "id": "d", "text": "Gene-environment interaction" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Evocative (reactive) gene-environment correlation occurs when a child's genetically influenced traits provoke or elicit particular responses from others. The child's inherited temperament evokes a specific reaction from the environment."
+        }
+      ]
+    },
+    {
+      "moduleId": "module2",
+      "title": "You Are Not Just Your DNA",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m2q1",
+          "type": "multiple-choice",
+          "question": "What does epigenetics study?",
+          "options": [
+            { "id": "a", "text": "Changes in DNA sequence" },
+            { "id": "b", "text": "Changes in gene expression without changing DNA sequence" },
+            { "id": "c", "text": "Inheritance of acquired physical characteristics" },
+            { "id": "d", "text": "Relationship between genes and intelligence" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Epigenetics studies how environmental factors can change gene expression through mechanisms like DNA methylation and histone modification, without altering the underlying DNA sequence itself."
+        },
+        {
+          "id": "m2q2",
+          "type": "true-false",
+          "question": "A heritability estimate of 0.80 means 80% of an individual's trait is determined by genes.",
+          "correctAnswer": false,
+          "explanation": "Heritability is a population-level statistic about how much variation in a trait is associated with genetic variation within a specific population. It says nothing about what determines a trait in any individual person."
+        },
+        {
+          "id": "m2q3",
+          "type": "multiple-choice",
+          "question": "In Michael Meaney's rat studies, what was the critical finding about maternal licking and grooming?",
+          "options": [
+            { "id": "a", "text": "Genetic factors alone determined anxiety levels" },
+            { "id": "b", "text": "Maternal behavior caused permanent epigenetic changes affecting stress response" },
+            { "id": "c", "text": "Effects disappeared in adulthood" },
+            { "id": "d", "text": "Only female pups were affected" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "High licking and grooming caused lasting epigenetic changes in the glucocorticoid receptor gene, resulting in better stress regulation throughout the pups' lives. This showed environment can permanently alter gene expression."
+        },
+        {
+          "id": "m2q4",
+          "type": "multiple-choice",
+          "question": "What type of gene-environment correlation is illustrated by a musically talented child choosing to join the school orchestra?",
+          "options": [
+            { "id": "a", "text": "Passive rGE" },
+            { "id": "b", "text": "Evocative rGE" },
+            { "id": "c", "text": "Active rGE" },
+            { "id": "d", "text": "Epigenetic rGE" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Active gene-environment correlation (rGE) occurs when individuals actively seek out environments that match their genetic predispositions. The child's genetic musical talent drives them to choose musical activities."
+        },
+        {
+          "id": "m2q5",
+          "type": "multiple-choice",
+          "question": "The Dutch Hunger Winter studies are important because they show:",
+          "options": [
+            { "id": "a", "text": "Famine has no long-term effects on health" },
+            { "id": "b", "text": "Environmental stress can cause epigenetic changes passed to subsequent generations" },
+            { "id": "c", "text": "DNA sequence changes from malnutrition" },
+            { "id": "d", "text": "Only physical traits are affected by famine" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Children conceived during the Dutch Hunger Winter of 1944–45 showed health effects decades later, and remarkably, effects were observed even in subsequent generations—demonstrating transgenerational epigenetic inheritance."
+        },
+        {
+          "id": "m2q6",
+          "type": "multiple-choice",
+          "question": "Caspi et al.'s (2003) landmark MAOA gene study demonstrated that:",
+          "options": [
+            { "id": "a", "text": "A single gene for violence exists and determines behavior regardless of environment" },
+            { "id": "b", "text": "Low MAOA gene activity only predicted antisocial behavior in those who experienced childhood maltreatment" },
+            { "id": "c", "text": "Childhood maltreatment always leads to violence regardless of genetics" },
+            { "id": "d", "text": "Gene variants have no relationship to behavior" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "This foundational GxE interaction study found that the low-MAOA variant only elevated antisocial behavior risk in individuals who had experienced childhood maltreatment—neither the gene nor the environment alone was sufficient. This is a classic gene-by-environment interaction."
+        },
+        {
+          "id": "m2q7",
+          "type": "multiple-choice",
+          "question": "The 'orchid-dandelion' hypothesis (Belsky & Pluess) proposes that 'orchid children':",
+          "options": [
+            { "id": "a", "text": "Are biologically superior to dandelion children" },
+            { "id": "b", "text": "Are highly sensitive to both positive and negative environments, thriving with support and struggling without it" },
+            { "id": "c", "text": "Are resilient and thrive regardless of environment" },
+            { "id": "d", "text": "Only exist in Western cultures" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Orchid children carry genetic variants that make them highly sensitive to their environment—they wilt in harsh conditions but bloom spectacularly in nurturing ones. Dandelion children are more robust and develop adequately across a wide range of environments."
+        },
+        {
+          "id": "m2q8",
+          "type": "true-false",
+          "question": "Genome-wide association studies (GWAS) have identified a single 'intelligence gene' that accounts for most of the heritability of cognitive ability.",
+          "correctAnswer": false,
+          "explanation": "No single intelligence gene exists. GWAS research has found that educational attainment is influenced by thousands of genetic variants, each contributing a tiny effect. The largest GWAS identified over 1,200 variants that collectively explain only about 10–15% of variance in educational attainment."
+        },
+        {
+          "id": "m2q9",
+          "type": "multiple-choice",
+          "question": "The Överkalix studies by Pembrey and Bygren are notable for demonstrating:",
+          "options": [
+            { "id": "a", "text": "The benefits of a high-calorie diet in childhood" },
+            { "id": "b", "text": "That grandparental food availability during a critical period predicted grandchildren's health and longevity" },
+            { "id": "c", "text": "That genetic mutations accumulate across generations" },
+            { "id": "d", "text": "The role of exercise in brain development" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The Överkalix studies showed that paternal grandfathers' food availability during their slow-growth prepubertal period predicted grandsons' cardiovascular mortality risk—a striking example of transgenerational epigenetic inheritance across two generations."
+        },
+        {
+          "id": "m2q10",
+          "type": "multiple-choice",
+          "question": "Judith Rich Harris's 'Nurture Assumption' argued that the most important environmental influence on children's personality is:",
+          "options": [
+            { "id": "a", "text": "Parenting style" },
+            { "id": "b", "text": "Birth order" },
+            { "id": "c", "text": "Non-shared experiences, particularly peer groups" },
+            { "id": "d", "text": "Socioeconomic status" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Harris argued that siblings share genes and family environment but turn out differently because the non-shared environment—especially peer groups—matters far more than parenting. Twin studies confirm that siblings' shared family environment accounts for little variance in adult personality."
+        }
+      ]
+    },
+    {
+      "moduleId": "module3",
+      "title": "Building a Mind",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m3q1",
+          "type": "multiple-choice",
+          "question": "A child who cannot understand conservation of liquid is in which Piagetian stage?",
+          "options": [
+            { "id": "a", "text": "Sensorimotor" },
+            { "id": "b", "text": "Preoperational" },
+            { "id": "c", "text": "Concrete Operational" },
+            { "id": "d", "text": "Formal Operational" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Conservation failures are characteristic of the preoperational stage (ages 2–7). Children in this stage exhibit centration—focusing on one dimension (like height of liquid) while ignoring others (width of container)."
+        },
+        {
+          "id": "m3q2",
+          "type": "true-false",
+          "question": "Modern research has confirmed all aspects of Piaget's theory exactly as he proposed them.",
+          "correctAnswer": false,
+          "explanation": "While Piaget's theory remains highly influential, modern research has shown he significantly underestimated infant capabilities. Infants demonstrate object knowledge, number sense, and causal reasoning much earlier than he claimed."
+        },
+        {
+          "id": "m3q3",
+          "type": "multiple-choice",
+          "question": "What does Vygotsky's Zone of Proximal Development refer to?",
+          "options": [
+            { "id": "a", "text": "The physical space where learning occurs best" },
+            { "id": "b", "text": "The gap between what a child can do alone versus with guidance" },
+            { "id": "c", "text": "The brain area most active during learning" },
+            { "id": "d", "text": "The time period of peak receptivity to new information" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The Zone of Proximal Development (ZPD) is the range of tasks a child can accomplish with help from a more knowledgeable other but cannot yet do independently. It represents the frontier of learning potential."
+        },
+        {
+          "id": "m3q4",
+          "type": "multiple-choice",
+          "question": "Elizabeth Spelke's core knowledge theory proposes infants are born with innate understanding of:",
+          "options": [
+            { "id": "a", "text": "Language grammar and syntax" },
+            { "id": "b", "text": "Objects, number, space, agents, and geometry" },
+            { "id": "c", "text": "Emotions and social rules" },
+            { "id": "d", "text": "Musical rhythm and melody" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Spelke identifies approximately 5–6 domain-specific core knowledge systems—including objects, number, space, agents, and geometry—that are present from very early infancy and form the foundation for later learning."
+        },
+        {
+          "id": "m3q5",
+          "type": "multiple-choice",
+          "question": "The A-not-B error in infants is now thought to reflect:",
+          "options": [
+            { "id": "a", "text": "A complete lack of object permanence" },
+            { "id": "b", "text": "Immature executive function and difficulty inhibiting motor responses" },
+            { "id": "c", "text": "Poor memory capacity" },
+            { "id": "d", "text": "Visual processing delays" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Modern research suggests the A-not-B error reflects immature inhibitory control rather than a fundamental failure of object knowledge. Infants know where the object is but struggle to override the habitual reaching response."
+        },
+        {
+          "id": "m3q6",
+          "type": "multiple-choice",
+          "question": "Working memory capacity increases dramatically across childhood. How many items can the average 3-year-old hold in working memory, compared to a typical adult?",
+          "options": [
+            { "id": "a", "text": "About 2 items vs. 7 items for adults" },
+            { "id": "b", "text": "About 5 items vs. 10 items for adults" },
+            { "id": "c", "text": "About 1 item vs. 4 items for adults" },
+            { "id": "d", "text": "About 7 items vs. 7 items—working memory doesn't change" }
+          ],
+          "correctAnswer": "a",
+          "explanation": "Three-year-olds typically hold about 2 items in working memory; this expands to approximately 5 items by age 7 and reaches adult levels of ~7 items by early adolescence. This increase in capacity underlies improvements in reasoning, problem-solving, and academic learning."
+        },
+        {
+          "id": "m3q7",
+          "type": "multiple-choice",
+          "question": "Cross-cultural research on Piaget's formal operations stage has found that:",
+          "options": [
+            { "id": "a", "text": "All cultures develop formal operations at exactly age 12" },
+            { "id": "b", "text": "Formal operational thinking may not emerge, or emerge much later, in cultures without formal schooling" },
+            { "id": "c", "text": "Formal operations are culturally biased and don't exist anywhere" },
+            { "id": "d", "text": "Non-Western children are cognitively inferior" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Dasen and others found that formal operational thinking is less universal than Piaget claimed—it appears linked to formal schooling and particular types of technological experience. This suggests it's a culturally specific cognitive achievement, not a universal biological milestone."
+        },
+        {
+          "id": "m3q8",
+          "type": "multiple-choice",
+          "question": "Alison Gopnik's 'theory theory' of cognitive development proposes that children learn by:",
+          "options": [
+            { "id": "a", "text": "Passively absorbing information from adults" },
+            { "id": "b", "text": "Acting like scientists—forming theories, making predictions, and revising based on evidence" },
+            { "id": "c", "text": "Memorizing and reciting information" },
+            { "id": "d", "text": "Inheriting knowledge genetically" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Gopnik's theory theory proposes that children are natural scientists who actively construct and revise naïve theories about physics, biology, and psychology. Like scientists, they form hypotheses, test them through play and exploration, and revise their theories when evidence conflicts with predictions."
+        },
+        {
+          "id": "m3q9",
+          "type": "multiple-choice",
+          "question": "Research by Clancy Blair shows that executive function in kindergarten predicts:",
+          "options": [
+            { "id": "a", "text": "Only physical fitness in adulthood" },
+            { "id": "b", "text": "Academic achievement better than IQ does in some studies" },
+            { "id": "c", "text": "Music ability exclusively" },
+            { "id": "d", "text": "Attachment security in infancy" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Blair and others found that EF skills—especially working memory, cognitive flexibility, and inhibitory control—predict reading and math achievement above and beyond IQ measures. This has made EF training programs like Tools of the Mind central to early childhood education reform."
+        },
+        {
+          "id": "m3q10",
+          "type": "multiple-choice",
+          "question": "What is the key difference between 'hot' and 'cool' executive function?",
+          "options": [
+            { "id": "a", "text": "Hot EF involves physical tasks; cool EF involves mental tasks" },
+            { "id": "b", "text": "Cool EF involves abstract, decontextualized problems; hot EF involves emotionally or motivationally significant decisions" },
+            { "id": "c", "text": "Hot EF is for older children; cool EF is for toddlers" },
+            { "id": "d", "text": "They are different names for the same process" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Cool EF (e.g., DCCS card-sorting task) operates in emotionally neutral, abstract contexts. Hot EF (e.g., delay of gratification tasks like the marshmallow test) operates when motivation, reward, or emotion is involved. Both develop across early childhood but are partly dissociable."
+        }
+      ]
+    },
+    {
+      "moduleId": "module4",
+      "title": "The Language Explosion",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m4q1",
+          "type": "multiple-choice",
+          "question": "At what age do infants typically lose the ability to discriminate non-native phonemes?",
+          "options": [
+            { "id": "a", "text": "3–4 months" },
+            { "id": "b", "text": "6–8 months" },
+            { "id": "c", "text": "10–12 months" },
+            { "id": "d", "text": "18–24 months" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Perceptual narrowing occurs between 6–12 months, with most non-native phoneme contrasts becoming indistinguishable by 10–12 months as the brain specializes for the native language(s)."
+        },
+        {
+          "id": "m4q2",
+          "type": "true-false",
+          "question": "Research consistently shows bilingualism delays language development and harms cognitive functioning.",
+          "correctAnswer": false,
+          "explanation": "While bilingual children may have smaller per-language vocabularies at any given time, their total conceptual vocabulary is comparable to monolinguals. Bilingualism does not harm cognitive functioning and may confer certain cognitive advantages."
+        },
+        {
+          "id": "m4q3",
+          "type": "multiple-choice",
+          "question": "What makes infant-directed speech (parentese) different from adult-directed speech?",
+          "options": [
+            { "id": "a", "text": "More complex vocabulary and grammar" },
+            { "id": "b", "text": "Higher pitch, slower tempo, and exaggerated intonation" },
+            { "id": "c", "text": "More abstract and conceptual language" },
+            { "id": "d", "text": "Spoken more quietly and gently" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Parentese features—higher pitch, slower tempo, exaggerated intonation, and longer pauses—help infants detect word boundaries and grammatical structure, supporting language acquisition."
+        },
+        {
+          "id": "m4q4",
+          "type": "multiple-choice",
+          "question": "Statistical learning in infants refers to:",
+          "options": [
+            { "id": "a", "text": "Learning math and statistical concepts" },
+            { "id": "b", "text": "Detecting patterns and regularities in speech streams" },
+            { "id": "c", "text": "Memorizing vocabulary lists through repetition" },
+            { "id": "d", "text": "Understanding probability and statistics" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Infants detect transitional probabilities between syllables to identify word boundaries in continuous speech. For example, the syllables 'ba-by' occur together more often than 'ty-the,' helping infants parse words."
+        },
+        {
+          "id": "m4q5",
+          "type": "multiple-choice",
+          "question": "The 'vocabulary explosion' typically occurs around age:",
+          "options": [
+            { "id": "a", "text": "6 months" },
+            { "id": "b", "text": "12 months" },
+            { "id": "c", "text": "18–24 months" },
+            { "id": "d", "text": "3–4 years" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Children's vocabularies expand rapidly from approximately 50 words to around 300 words between 18–24 months, a period known as the 'vocabulary explosion' or 'naming explosion.'"
+        },
+        {
+          "id": "m4q6",
+          "type": "multiple-choice",
+          "question": "When a child says 'I goed to the store' or 'she runned fast,' this grammatical error is called:",
+          "options": [
+            { "id": "a", "text": "Undergeneralization" },
+            { "id": "b", "text": "Overregularization" },
+            { "id": "c", "text": "Fast mapping" },
+            { "id": "d", "text": "Telegraphic speech" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Overregularization occurs when children correctly learn a grammatical rule (add -ed for past tense) and over-apply it to irregular verbs. This is actually a sign of linguistic progress—the child has internalized the rule and is applying it systematically, even to words that are exceptions."
+        },
+        {
+          "id": "m4q7",
+          "type": "multiple-choice",
+          "question": "The 'whole object constraint' in word learning means that when a child hears a new word paired with a novel object, they assume:",
+          "options": [
+            { "id": "a", "text": "The word refers to the object's color" },
+            { "id": "b", "text": "The word refers to the entire object, not a part or property" },
+            { "id": "c", "text": "The word is an action verb" },
+            { "id": "d", "text": "The word is a proper name for that specific item" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Proposed by Ellen Markman, the whole object constraint is a bias that helps children narrow down what a new word could mean. Rather than guessing it refers to a part, texture, or color, children default to assuming it names the whole object—helping them learn nouns rapidly."
+        },
+        {
+          "id": "m4q8",
+          "type": "true-false",
+          "question": "Deaf children exposed to sign language from birth acquire language on the same developmental timeline as hearing children acquiring spoken language.",
+          "correctAnswer": true,
+          "explanation": "Deaf children learning sign language from birth show the same developmental milestones—babbling (manual babbling), first words/signs, two-word combinations, grammar acquisition—on the same timeline as hearing children learning spoken language. This confirms that the human language acquisition device is modality-independent."
+        },
+        {
+          "id": "m4q9",
+          "type": "multiple-choice",
+          "question": "Romeo et al. (2018) found that the strongest predictor of children's language brain development and IQ was:",
+          "options": [
+            { "id": "a", "text": "Total number of words children heard per day" },
+            { "id": "b", "text": "The number of back-and-forth conversational turns between child and adult" },
+            { "id": "c", "text": "Amount of screen-based educational content" },
+            { "id": "d", "text": "Parental education level" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Romeo's neuroimaging study found that conversational turns—not just sheer word count—were the key variable linked to stronger Broca's area activation and higher verbal IQ. Interactive dialogue, not passive exposure, is what builds language circuits."
+        },
+        {
+          "id": "m4q10",
+          "type": "multiple-choice",
+          "question": "Which skill is consistently identified as the single strongest predictor of early reading success?",
+          "options": [
+            { "id": "a", "text": "Vocabulary size" },
+            { "id": "b", "text": "Letter-name knowledge" },
+            { "id": "c", "text": "Phonological awareness" },
+            { "id": "d", "text": "Listening comprehension" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Phonological awareness—the ability to detect and manipulate the sound structure of language (rhymes, syllables, phonemes)—is the strongest predictor of reading acquisition. Children who struggle with phonological awareness are at high risk for dyslexia regardless of intelligence."
+        }
+      ]
+    },
+    {
+      "moduleId": "module5",
+      "title": "The Invisible Bond",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m5q1",
+          "type": "multiple-choice",
+          "question": "In Harlow's experiments, what did frightened infant monkeys do?",
+          "options": [
+            { "id": "a", "text": "Ran to the wire mother that provided food" },
+            { "id": "b", "text": "Ran to the cloth mother for comfort" },
+            { "id": "c", "text": "Hid in the corner of the cage" },
+            { "id": "d", "text": "Showed no preference for either surrogate" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "When frightened, monkeys overwhelmingly chose the cloth mother for comfort over the wire mother with food, spending 17–18 hours per day clinging to it. This demonstrated that contact comfort, not food, is the basis of attachment."
+        },
+        {
+          "id": "m5q2",
+          "type": "true-false",
+          "question": "In the still face experiment, infants show no emotional response when their mother stops interacting.",
+          "correctAnswer": false,
+          "explanation": "Infants show dramatic emotional responses during the still face paradigm—first attempting to re-engage the parent, then showing visible distress, and finally withdrawing with a hopeless expression. This demonstrates infants' deep sensitivity to social interaction."
+        },
+        {
+          "id": "m5q3",
+          "type": "multiple-choice",
+          "question": "Which attachment style shows high distress at separation but difficulty being comforted at reunion?",
+          "options": [
+            { "id": "a", "text": "Secure" },
+            { "id": "b", "text": "Insecure-Avoidant" },
+            { "id": "c", "text": "Insecure-Ambivalent/Resistant" },
+            { "id": "d", "text": "Disorganized" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Anxious-ambivalent/resistant infants show intense distress during separation and resist comfort upon reunion, mixing anger with proximity-seeking. This reflects inconsistent caregiving experiences."
+        },
+        {
+          "id": "m5q4",
+          "type": "multiple-choice",
+          "question": "Approximately what percentage of infants in Western samples show secure attachment?",
+          "options": [
+            { "id": "a", "text": "30–35%" },
+            { "id": "b", "text": "45–50%" },
+            { "id": "c", "text": "60–65%" },
+            { "id": "d", "text": "80–85%" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "About 60–65% of infants in Western samples are classified as securely attached in the Strange Situation procedure, making it the most common attachment classification."
+        },
+        {
+          "id": "m5q5",
+          "type": "multiple-choice",
+          "question": "Cross-cultural attachment research has found that:",
+          "options": [
+            { "id": "a", "text": "All cultures show identical attachment distributions" },
+            { "id": "b", "text": "Japanese infants show higher avoidant attachment rates" },
+            { "id": "c", "text": "Cultural differences reflect different but not deficient childrearing practices" },
+            { "id": "d", "text": "Only Western attachment patterns are considered healthy" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "The distribution of attachment styles varies across cultures, reflecting different but equally valid childrearing norms and practices—not deficiencies. Cultural context shapes what 'sensitive' caregiving looks like."
+        },
+        {
+          "id": "m5q6",
+          "type": "multiple-choice",
+          "question": "The Bucharest Early Intervention Project found that Romanian orphans adopted before what age showed the most complete developmental recovery?",
+          "options": [
+            { "id": "a", "text": "Before 6 months" },
+            { "id": "b", "text": "Before 2 years" },
+            { "id": "c", "text": "Before 5 years" },
+            { "id": "d", "text": "Age made no difference; recovery depended only on placement quality" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Zeanah, Nelson, and colleagues in the BEIP found that children placed into foster care before age 2 showed substantially greater cognitive, emotional, and attachment recovery than those placed later—highlighting the importance of early sensitive periods for social-emotional development."
+        },
+        {
+          "id": "m5q7",
+          "type": "multiple-choice",
+          "question": "The Adult Attachment Interview (AAI), developed by Mary Main, can predict an infant's attachment classification with approximately what accuracy—before the baby is born?",
+          "options": [
+            { "id": "a", "text": "25%" },
+            { "id": "b", "text": "50%" },
+            { "id": "c", "text": "75%" },
+            { "id": "d", "text": "Near 100%" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Remarkably, a parent's AAI classification—which assesses how coherently they narrate their own childhood—predicts their infant's Strange Situation attachment category with about 75% accuracy, even when conducted prenatally. This shows how parents' unresolved past shapes future caregiving."
+        },
+        {
+          "id": "m5q8",
+          "type": "true-false",
+          "question": "Research on attachment interventions shows that longer, more intensive programs produce better outcomes than shorter, focused ones.",
+          "correctAnswer": false,
+          "explanation": "Counterintuitively, Bakermans-Kranenburg's meta-analysis found that brief, focused interventions targeting parental sensitivity (like VIPP-SD, 6 home visits) produce larger effect sizes than longer, broader programs. Specificity and quality of the intervention matter more than duration."
+        }
+      ]
+    },
+    {
+      "moduleId": "module6",
+      "title": "Feeling It All",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m6q1",
+          "type": "multiple-choice",
+          "question": "Self-conscious emotions like guilt, shame, and pride typically emerge at:",
+          "options": [
+            { "id": "a", "text": "Birth" },
+            { "id": "b", "text": "6–8 months" },
+            { "id": "c", "text": "18–24 months" },
+            { "id": "d", "text": "4–5 years" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Self-conscious emotions require self-awareness (mirror self-recognition emerges around 18 months) and an understanding of social standards. They build on the basic emotions present from infancy."
+        },
+        {
+          "id": "m6q2",
+          "type": "true-false",
+          "question": "Giving a child a smartphone to calm a tantrum is research-supported as a strategy for building emotional regulation.",
+          "correctAnswer": false,
+          "explanation": "A 2024 study found that frequent use of digital devices as 'pacifiers' for children's emotional outbursts may actually hinder the development of self-regulatory skills. Children need to practice managing emotions themselves."
+        },
+        {
+          "id": "m6q3",
+          "type": "multiple-choice",
+          "question": "Thomas and Chess's research on temperament demonstrated:",
+          "options": [
+            { "id": "a", "text": "All children have the same basic temperament" },
+            { "id": "b", "text": "Temperament is entirely learned from parents" },
+            { "id": "c", "text": "Children show biologically-based individual differences from birth" },
+            { "id": "d", "text": "Difficult temperament always leads to behavioral problems" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Thomas and Chess identified innate temperamental differences (easy, difficult, slow-to-warm-up) and emphasized 'goodness of fit'—outcomes depend on the match between a child's temperament and their environment."
+        },
+        {
+          "id": "m6q4",
+          "type": "multiple-choice",
+          "question": "Children under age 6 have difficulty with:",
+          "options": [
+            { "id": "a", "text": "Feeling emotions" },
+            { "id": "b", "text": "Recognizing others' emotions" },
+            { "id": "c", "text": "Strategically masking their genuine emotions" },
+            { "id": "d", "text": "Experiencing fear" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Emotional display rules—the social conventions about when and how to express emotions—develop gradually from ages 6–10. Young children cannot reliably mask or modify their genuine emotional expressions."
+        },
+        {
+          "id": "m6q5",
+          "type": "multiple-choice",
+          "question": "Research by Simner (1971) and others on newborn emotional contagion found that:",
+          "options": [
+            { "id": "a", "text": "Newborns are completely unaware of other babies' emotional states" },
+            { "id": "b", "text": "Newborns cry more in response to another newborn's cry than to a synthetic cry of equal volume" },
+            { "id": "c", "text": "Newborns only respond to their own mother's voice" },
+            { "id": "d", "text": "Emotional contagion doesn't emerge until 6 months" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Simner found that newborns cry significantly more in response to a recording of another newborn crying than to equally loud artificial sounds or even their own recorded cry—suggesting a primitive, reflexive form of empathic contagion present from the very first days of life."
+        },
+        {
+          "id": "m6q6",
+          "type": "multiple-choice",
+          "question": "Felitti and Anda's ACE Study found that adults with 4 or more ACEs had significantly elevated risks for all of the following EXCEPT:",
+          "options": [
+            { "id": "a", "text": "Depression and suicide attempts" },
+            { "id": "b", "text": "Heart disease and cancer" },
+            { "id": "c", "text": "Substance addiction" },
+            { "id": "d", "text": "Higher intelligence scores" }
+          ],
+          "correctAnswer": "d",
+          "explanation": "The ACE study found dramatically elevated risks for mental illness, substance abuse, chronic physical diseases, and early death with increasing ACE scores. Intelligence is not protected by adversity—if anything, chronic stress impairs executive function and learning."
+        },
+        {
+          "id": "m6q7",
+          "type": "multiple-choice",
+          "question": "Dan Siegel's 'window of tolerance' describes:",
+          "options": [
+            { "id": "a", "text": "The age range during which attachment forms" },
+            { "id": "b", "text": "The optimal zone of arousal for learning and regulation, between hyperarousal and hypoarousal" },
+            { "id": "c", "text": "How long children can wait before losing emotional control" },
+            { "id": "d", "text": "The time a parent should spend comforting a distressed child" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The window of tolerance is the 'Goldilocks zone' of nervous system arousal where children can feel, think, and regulate simultaneously. Below the window is hypoarousal (shutdown, dissociation); above it is hyperarousal (panic, rage). Trauma shrinks this window, making it harder to stay regulated."
+        },
+        {
+          "id": "m6q8",
+          "type": "multiple-choice",
+          "question": "Lisa Feldman Barrett's 'constructed emotion' theory proposes that emotions are:",
+          "options": [
+            { "id": "a", "text": "Hardwired programs in the brain with universal facial expressions" },
+            { "id": "b", "text": "Actively constructed by the brain from bodily sensations, context, and past experience" },
+            { "id": "c", "text": "Located in specific brain regions unique to each emotion" },
+            { "id": "d", "text": "Learned entirely through social reinforcement with no biological basis" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Barrett challenges the classical view of emotions as discrete hardwired programs (Ekman's basic emotions). Instead, she argues the brain actively constructs emotional experiences by integrating interoceptive signals, contextual predictions, and learned conceptual categories—making emotions fundamentally cultural and constructive."
+        }
+      ]
+    },
+    {
+      "moduleId": "module7",
+      "title": "Reading Minds",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m7q1",
+          "type": "multiple-choice",
+          "question": "At what age do most children pass the classic false belief (Sally-Anne) test?",
+          "options": [
+            { "id": "a", "text": "18 months" },
+            { "id": "b", "text": "2–3 years" },
+            { "id": "c", "text": "4–5 years" },
+            { "id": "d", "text": "7–8 years" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Most children pass the classic false belief test between ages 4–5, marking a milestone in explicit Theory of Mind. However, implicit understanding—measured through looking times—may emerge as early as 15 months."
+        },
+        {
+          "id": "m7q2",
+          "type": "true-false",
+          "question": "The other-race effect in face recognition is innate and present at birth.",
+          "correctAnswer": false,
+          "explanation": "The other-race effect is not present at birth. At 3 months, infants recognize faces of all races equally well. The bias emerges between 6–9 months through perceptual narrowing driven by differential exposure to faces."
+        },
+        {
+          "id": "m7q3",
+          "type": "multiple-choice",
+          "question": "Karen Wynn's research at Yale's Baby Lab showed that 6-month-olds:",
+          "options": [
+            { "id": "a", "text": "Can count to 10" },
+            { "id": "b", "text": "Prefer helper puppets over hinderer puppets" },
+            { "id": "c", "text": "Understand complex grammatical structures" },
+            { "id": "d", "text": "Can solve spatial puzzles" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Infants as young as 6 months showed a clear preference for prosocial (helper) characters over antisocial (hinderer) characters, suggesting a rudimentary capacity for social and moral evaluation."
+        },
+        {
+          "id": "m7q4",
+          "type": "multiple-choice",
+          "question": "The 2024 cross-cultural Theory of Mind meta-analysis found that:",
+          "options": [
+            { "id": "a", "text": "Only Western children develop theory of mind" },
+            { "id": "b", "text": "ToM develops in a universal sequence but with cultural variations in ordering" },
+            { "id": "c", "text": "Theory of mind is entirely learned from parents" },
+            { "id": "d", "text": "All children develop ToM at exactly the same age worldwide" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The meta-analysis revealed a universal progressive sequence of ToM development, but collectivist versus individualist cultures show different orderings of specific milestones, reflecting cultural emphases on different social-cognitive skills."
+        },
+        {
+          "id": "m7q5",
+          "type": "multiple-choice",
+          "question": "Damian Milton's 'double empathy problem' (2012) challenges Baron-Cohen's mindblindness theory by arguing:",
+          "options": [
+            { "id": "a", "text": "Autistic people have superior empathy to neurotypical people" },
+            { "id": "b", "text": "Communication difficulties between autistic and non-autistic people reflect a two-way mismatch, not a one-sided autistic deficit" },
+            { "id": "c", "text": "Empathy is entirely culturally constructed with no neurological basis" },
+            { "id": "d", "text": "Theory of mind is unnecessary for social interaction" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Milton argued that the social difficulties autistic people experience stem not from a one-sided deficit but from a bidirectional empathy gap: neurotypical people also struggle to understand autistic people's mental states. Crompton (2020) confirmed autistic-autistic pairs communicate as effectively as neurotypical pairs."
+        },
+        {
+          "id": "m7q6",
+          "type": "multiple-choice",
+          "question": "Research by Sutton, Smith & Swettenham (1999) on bullying and Theory of Mind found that:",
+          "options": [
+            { "id": "a", "text": "Bullies have poor ToM and cannot understand others' feelings" },
+            { "id": "b", "text": "Bullies (especially ringleaders) often have above-average ToM, using it to manipulate others" },
+            { "id": "c", "text": "Victims of bullying have better ToM than bullies" },
+            { "id": "d", "text": "ToM has no relationship to bullying behavior" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Contrary to the popular view that bullies are socially incompetent, ringleader bullies scored higher on ToM tasks than either victims or bystanders. They use social intelligence strategically to identify vulnerable targets and coordinate their group—a form of 'Machiavellian intelligence.'"
+        },
+        {
+          "id": "m7q7",
+          "type": "multiple-choice",
+          "question": "Kang Lee's research on children and lying found that the ability to tell a convincing lie:",
+          "options": [
+            { "id": "a", "text": "Is unrelated to ToM development" },
+            { "id": "b", "text": "Requires passing the false belief task and working memory to track what the listener knows" },
+            { "id": "c", "text": "Is a sign of serious moral deficiency requiring intervention" },
+            { "id": "d", "text": "Only emerges in adolescence" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Lee's research shows that successful deception requires ToM (knowing that the listener has a false belief you want to maintain), inhibitory control (suppressing the truth), and working memory (tracking what you've said). Lying is therefore a cognitive achievement, not a moral failure, in young children."
+        },
+        {
+          "id": "m7q8",
+          "type": "multiple-choice",
+          "question": "Rebecca Saxe's neuroimaging research identified which brain region as especially critical for thinking about other people's thoughts?",
+          "options": [
+            { "id": "a", "text": "Primary visual cortex" },
+            { "id": "b", "text": "Right temporoparietal junction (rTPJ)" },
+            { "id": "c", "text": "Cerebellum" },
+            { "id": "d", "text": "Hippocampus" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Saxe identified the right temporoparietal junction (rTPJ) as selectively activated when people think about others' beliefs, intentions, and mental states. When rTPJ activity is disrupted using TMS, participants make more errors on moral judgment tasks that require considering intentions."
+        }
+      ]
+    },
+    {
+      "moduleId": "module8",
+      "title": "The Brain Under Construction",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m8q1",
+          "type": "multiple-choice",
+          "question": "How many new synaptic connections per second does the brain form in early childhood?",
+          "options": [
+            { "id": "a", "text": "10–50" },
+            { "id": "b", "text": "100–200" },
+            { "id": "c", "text": "700–1,000" },
+            { "id": "d", "text": "10,000–50,000" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "The developing brain forms approximately 700–1,000 new synaptic connections every second during the first few years of life, building the neural infrastructure that underlies all future learning."
+        },
+        {
+          "id": "m8q2",
+          "type": "true-false",
+          "question": "Synaptic pruning is a form of brain damage that should be prevented.",
+          "correctAnswer": false,
+          "explanation": "Synaptic pruning is a normal and essential developmental process. By eliminating unused or weak connections, it makes neural networks more efficient and specialized—much like sculpting a statue from a block of marble."
+        },
+        {
+          "id": "m8q3",
+          "type": "multiple-choice",
+          "question": "Why do adolescents tend to take more risks than adults?",
+          "options": [
+            { "id": "a", "text": "They lack intelligence and common sense" },
+            { "id": "b", "text": "Their emotional/reward systems mature before their prefrontal cortex" },
+            { "id": "c", "text": "They are intentionally defiant and rebellious" },
+            { "id": "d", "text": "Their brains are fully mature but they choose to ignore reason" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The dual-systems model explains adolescent risk-taking: the limbic system (emotions and reward) is largely mature by mid-adolescence, but the prefrontal cortex (impulse control and judgment) continues developing until approximately age 25."
+        },
+        {
+          "id": "m8q4",
+          "type": "multiple-choice",
+          "question": "The prefrontal cortex is responsible for:",
+          "options": [
+            { "id": "a", "text": "Vision and hearing" },
+            { "id": "b", "text": "Balance and coordination" },
+            { "id": "c", "text": "Planning, impulse control, and judgment" },
+            { "id": "d", "text": "Heart rate and breathing" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "The prefrontal cortex handles executive functions including planning, decision-making, impulse control, and judgment. It is the last brain region to fully myelinate, reaching maturity around age 25."
+        },
+        {
+          "id": "m8q5",
+          "type": "multiple-choice",
+          "question": "Hubel and Wiesel's classic kitten experiments demonstrated the concept of a critical period by showing that:",
+          "options": [
+            { "id": "a", "text": "Kittens can recover full vision at any age if given proper stimulation" },
+            { "id": "b", "text": "Covering one eye during a specific developmental window caused permanent vision loss in that eye, even when later uncovered" },
+            { "id": "c", "text": "Visual cortex development is entirely determined by genetics" },
+            { "id": "d", "text": "Kittens see better than adult cats" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Hubel and Wiesel found that monocular deprivation during a specific early window caused permanent reorganization of the visual cortex—the deprived eye's columns shrank while the open eye's expanded. After the critical period closed, restoring visual input had little effect, demonstrating true critical period constraints."
+        },
+        {
+          "id": "m8q6",
+          "type": "multiple-choice",
+          "question": "Galvan et al.'s (2006) neuroimaging research found that adolescents differ from adults in showing:",
+          "options": [
+            { "id": "a", "text": "Less ventral striatum activation during reward anticipation" },
+            { "id": "b", "text": "Exaggerated ventral striatum (reward center) activation that peaks in mid-adolescence" },
+            { "id": "c", "text": "Greater prefrontal control over impulsive responses" },
+            { "id": "d", "text": "No difference in brain reward responses" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Galvan found that the ventral striatum—the brain's reward hub—shows its peak sensitivity to rewards during mid-adolescence, even greater than in adults. This dopamine-driven reward hypersensitivity, combined with an immature PFC, helps explain why adolescents are especially drawn to thrilling, risky behaviors."
+        },
+        {
+          "id": "m8q7",
+          "type": "multiple-choice",
+          "question": "Spalding et al. (2013) provided evidence for adult hippocampal neurogenesis by finding that:",
+          "options": [
+            { "id": "a", "text": "Adult brains generate new neurons at the same rate as infant brains" },
+            { "id": "b", "text": "Approximately 700 new neurons are added to the adult human hippocampus every day" },
+            { "id": "c", "text": "Neurogenesis only occurs in the cerebellum, not the hippocampus" },
+            { "id": "d", "text": "Neurons can only be replaced by glial cells in adults" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Using carbon-14 dating of DNA from deceased individuals (from Cold War nuclear testing that incorporated into dividing cells), Spalding's team estimated that humans generate roughly 700 new hippocampal neurons per day throughout adult life—with implications for learning, memory, and treatment of depression."
+        },
+        {
+          "id": "m8q8",
+          "type": "multiple-choice",
+          "question": "Gruber et al.'s (2012) study extended school-aged children's sleep by 27 minutes per night for 5 nights. What did they find?",
+          "options": [
+            { "id": "a", "text": "No measurable cognitive or behavioral difference" },
+            { "id": "b", "text": "Significant improvements in academic performance and reductions in teacher-rated behavioral problems" },
+            { "id": "c", "text": "Children became harder to wake in the morning" },
+            { "id": "d", "text": "Memory improved but attention did not change" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Even a modest 27-minute increase in sleep produced significant improvements in neurobehavioral functioning—teachers (blinded to the study) rated the well-rested children as having better attention, less sleepiness, and fewer behavioral problems. Sleep restriction in the control group had the opposite effect."
+        }
+      ]
+    },
+    {
+      "moduleId": "module9",
+      "title": "Serious Fun",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m9q1",
+          "type": "multiple-choice",
+          "question": "Which approach is most effective for teaching academic content to children under 8?",
+          "options": [
+            { "id": "a", "text": "Free play with no adult involvement" },
+            { "id": "b", "text": "Guided play with adult scaffolding" },
+            { "id": "c", "text": "Direct instruction only" },
+            { "id": "d", "text": "All approaches are equally effective" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "A 2025 meta-synthesis of 87 studies found that guided play—where adults scaffold learning within a playful context—outperforms both free play and direct instruction for academic learning in young children."
+        },
+        {
+          "id": "m9q2",
+          "type": "true-false",
+          "question": "Rough-and-tumble play is the same as aggressive behavior and should be stopped.",
+          "correctAnswer": false,
+          "explanation": "Rough-and-tumble play is distinctly different from aggression. It is characterized by positive affect (smiling, laughing), role reversals, and voluntary participation. It helps children learn to read social cues and regulate physical interactions."
+        },
+        {
+          "id": "m9q3",
+          "type": "multiple-choice",
+          "question": "Why is pretend play important for Theory of Mind development?",
+          "options": [
+            { "id": "a", "text": "It teaches children about fictional characters" },
+            { "id": "b", "text": "It requires tracking reality and pretend states simultaneously" },
+            { "id": "c", "text": "It is the only way children learn to lie" },
+            { "id": "d", "text": "It develops physical coordination" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Pretend play requires 'dual representation'—holding both the real identity of an object and its pretend identity in mind simultaneously. This cognitive skill is structurally similar to false belief understanding in Theory of Mind."
+        },
+        {
+          "id": "m9q4",
+          "type": "multiple-choice",
+          "question": "Parten's stages of social play progress from:",
+          "options": [
+            { "id": "a", "text": "Cooperative to solitary play" },
+            { "id": "b", "text": "Solitary to parallel to associative to cooperative play" },
+            { "id": "c", "text": "Group play to individual play" },
+            { "id": "d", "text": "Structured to unstructured play" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Parten identified a developmental progression: solitary play (0–2 years), parallel play (playing alongside but not with others), associative play (shared activities with loose organization), and cooperative play (4+ years, organized with roles and goals)."
+        },
+        {
+          "id": "m9q5",
+          "type": "multiple-choice",
+          "question": "Jaak Panksepp's research identified a dedicated PLAY circuit in the mammalian brain and found evidence of rat 'laughter' by:",
+          "options": [
+            { "id": "a", "text": "Training rats to vocalize in human frequency ranges" },
+            { "id": "b", "text": "Detecting 50kHz ultrasonic vocalizations during play and tickling that rats actively sought out" },
+            { "id": "c", "text": "Observing smiling behavior in rats using slow-motion cameras" },
+            { "id": "d", "text": "Surgically stimulating facial muscles of rats during play" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Panksepp discovered that rats emit 50kHz ultrasonic chirps during rough-and-tumble play and when tickled by humans—chirps that correlate with positive affect states. Remarkably, rats would actively seek out the tickling hand, suggesting these vocalizations represent something functionally analogous to joy or laughter."
+        },
+        {
+          "id": "m9q6",
+          "type": "multiple-choice",
+          "question": "Gaskins, Haight & Lancy's cross-cultural research identified three cultural models of children's play. Which model describes cultures where adults see play as children's natural domain and actively enrich it with toys and lessons?",
+          "options": [
+            { "id": "a", "text": "Curtailed play" },
+            { "id": "b", "text": "Accepted play" },
+            { "id": "c", "text": "Cultivated play" },
+            { "id": "d", "text": "Cooperative play" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "In the 'cultivated play' model (typical of Western middle-class families), adults view play as important enough to actively support with toys, lessons, and enrichment activities. 'Accepted play' (common in many traditional societies) tolerates play without promoting it. 'Curtailed play' occurs when children's economic contributions are prioritized over play."
+        },
+        {
+          "id": "m9q7",
+          "type": "true-false",
+          "question": "Research on boredom suggests it is purely negative and should be eliminated as quickly as possible for children.",
+          "correctAnswer": false,
+          "explanation": "Mann & Cadman (2014) found that boredom activates the default mode network—the brain's creativity hub—and can spark divergent thinking and self-directed exploration. Peter Gray argues that scheduled, adult-orchestrated activities have replaced the boredom that historically drove children to invent their own imaginative play."
+        },
+        {
+          "id": "m9q8",
+          "type": "multiple-choice",
+          "question": "Ray and Bratton's meta-analysis of play therapy research (encompassing 93 studies) found:",
+          "options": [
+            { "id": "a", "text": "Play therapy has no measurable effect on child outcomes" },
+            { "id": "b", "text": "Play therapy produced moderate to large effect sizes across a wide range of presenting problems" },
+            { "id": "c", "text": "Play therapy only works for anxiety disorders, not behavioral problems" },
+            { "id": "d", "text": "Child-centered play therapy outperformed all other forms of psychotherapy for adults" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The comprehensive meta-analysis of 93 controlled studies found that play therapy produced moderate to large positive effect sizes across diverse presenting problems including anxiety, aggression, trauma, and social difficulties—establishing it as an evidence-based treatment for children."
+        }
+      ]
+    },
+    {
+      "moduleId": "module10",
+      "title": "Growing Up Digital",
+      "passingScore": 70,
+      "questions": [
+        {
+          "id": "m10q1",
+          "type": "multiple-choice",
+          "question": "What did the 2018 marshmallow test replication find?",
+          "options": [
+            { "id": "a", "text": "The original results were fully confirmed" },
+            { "id": "b", "text": "The effect was half as large and largely explained by socioeconomic factors" },
+            { "id": "c", "text": "The effect was even larger than originally reported" },
+            { "id": "d", "text": "No children could delay gratification at all" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Watts et al. (2018) found the marshmallow test's predictive effect was about half as strong as originally claimed and largely disappeared after controlling for family background and socioeconomic factors."
+        },
+        {
+          "id": "m10q2",
+          "type": "true-false",
+          "question": "Scientific research has definitively proven that social media causes mental illness in all adolescents.",
+          "correctAnswer": false,
+          "explanation": "The evidence shows small but real associations between social media use and mental health outcomes that vary significantly by population and individual factors. The scientific debate remains active and nuanced—it is not a settled, simple conclusion."
+        },
+        {
+          "id": "m10q3",
+          "type": "multiple-choice",
+          "question": "According to 2025 research, what can counteract negative brain effects of infant screen time?",
+          "options": [
+            { "id": "a", "text": "More educational content on screens" },
+            { "id": "b", "text": "Parent-child reading at age 3" },
+            { "id": "c", "text": "Limiting screen time to exactly 1 hour" },
+            { "id": "d", "text": "Playing classical music during screen time" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Research found that parent-child reading at age 3 significantly weakened the link between infant screen time and altered brain development, highlighting the protective power of responsive human interaction."
+        },
+        {
+          "id": "m10q4",
+          "type": "multiple-choice",
+          "question": "The most important protective factor for childhood resilience is:",
+          "options": [
+            { "id": "a", "text": "High IQ" },
+            { "id": "b", "text": "A wealthy family" },
+            { "id": "c", "text": "At least one stable, committed relationship with a supportive adult" },
+            { "id": "d", "text": "Attending a good school" }
+          ],
+          "correctAnswer": "c",
+          "explanation": "Research consistently identifies a stable, responsive caregiving relationship with at least one supportive adult as the single most important protective factor for childhood resilience across all types of adversity."
+        },
+        {
+          "id": "m10q5",
+          "type": "multiple-choice",
+          "question": "What lesson does the marshmallow test's history teach us about psychology?",
+          "options": [
+            { "id": "a", "text": "All psychological research is fundamentally wrong" },
+            { "id": "b", "text": "Compelling narratives and clever experiments aren't the same as robust science" },
+            { "id": "c", "text": "We should never trust any scientific studies" },
+            { "id": "d", "text": "Only the most recent studies are valid" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The marshmallow test's journey from iconic finding to humbled result illustrates how compelling narratives and clever experimental designs are not substitutes for robust, replicated science. It shows that replication strengthens the scientific process."
+        },
+        {
+          "id": "m10q6",
+          "type": "multiple-choice",
+          "question": "The 'video deficit effect' (Anderson & Pempek, 2005) refers to the finding that:",
+          "options": [
+            { "id": "a", "text": "Educational videos have no value for children of any age" },
+            { "id": "b", "text": "Children under approximately 30 months learn significantly less from video than from the same content presented live by a person" },
+            { "id": "c", "text": "Watching too much TV makes children lose the ability to read" },
+            { "id": "d", "text": "Video games cause attention deficits in all age groups" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The video deficit effect shows that very young children (under ~30 months) struggle to transfer learning from 2D screens to the 3D world—they learn words, imitation tasks, and problem-solving far more efficiently from live human interaction than from identical video content. This underpins AAP recommendations against solo screen use for this age group."
+        },
+        {
+          "id": "m10q7",
+          "type": "multiple-choice",
+          "question": "Why are adolescents particularly vulnerable to the persuasive design features of social media and gaming platforms (notifications, likes, variable reward schedules)?",
+          "options": [
+            { "id": "a", "text": "They are less intelligent than adults and cannot identify manipulation" },
+            { "id": "b", "text": "Their dopamine system peaks in sensitivity during adolescence while PFC regulatory control is still developing" },
+            { "id": "c", "text": "Adolescents use devices more hours per day than any other group" },
+            { "id": "d", "text": "They lack access to parental guidance about technology" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "The dual-systems model applies directly to digital vulnerability: adolescents' reward circuits (ventral striatum) show peak dopamine sensitivity—making variable reward schedules like 'likes' and notifications disproportionately compelling—while the PFC needed to override these impulses is still maturing until age 25."
+        },
+        {
+          "id": "m10q8",
+          "type": "multiple-choice",
+          "question": "Research on screens and sleep identifies which intervention as most effective for protecting adolescents' sleep quality?",
+          "options": [
+            { "id": "a", "text": "Using blue-light filtering glasses during evening screen use" },
+            { "id": "b", "text": "Keeping all devices out of the bedroom entirely" },
+            { "id": "c", "text": "Limiting daily screen time to 2 hours regardless of time of day" },
+            { "id": "d", "text": "Switching devices to night mode after 8pm" }
+          ],
+          "correctAnswer": "b",
+          "explanation": "Hale & Guan's meta-analysis (67 studies) found that the presence of devices in the bedroom was the strongest modifiable predictor of poor sleep. Removing devices from the bedroom—eliminating both blue light exposure and the constant temptation to check notifications—is consistently identified as the most effective single sleep-protective intervention."
+        }
+      ]
+    }
+  ]
+}

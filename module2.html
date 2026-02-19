@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 2: You Are Not Just Your DNA | Growing Minds</title>
+  <meta name="description" content="Explore the interplay of nature, nurture, and epigenetics in child development. Learn how genes and environments dance together to shape who we become.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS v4 via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-module-id="module2">
+
+<div aria-hidden="true" style="position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;">
+  <svg class="animate-star-twinkle" style="position:absolute;top:15%;left:5%;width:16px;height:16px;opacity:0.22;" viewBox="0 0 24 24" fill="#FFA3BA"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-star-twinkle" style="position:absolute;top:45%;right:4%;width:12px;height:12px;opacity:0.18;animation-delay:0.4s;" viewBox="0 0 24 24" fill="#D4A6EB"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-float-wiggle" style="position:absolute;bottom:20%;left:6%;width:14px;height:14px;opacity:0.15;" viewBox="0 0 24 24" fill="#FF85A3"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"/></svg>
+</div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="main-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" data-transition>
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+          <path d="M16 4C10 4 6 8.5 6 14c0 3.5 1.5 6 4 8l-1 6h14l-1-6c2.5-2 4-4.5 4-8 0-5.5-4-10-10-10z" fill="var(--primary-200)" stroke="var(--primary-600)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 28h8" stroke="var(--primary-600)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M16 4c0 0-3 4-3 8s1.5 6 3 8" stroke="var(--primary-400)" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+          <path d="M16 4c0 0 3 4 3 8s-1.5 6-3 8" stroke="var(--primary-400)" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+          <circle cx="12" cy="13" r="1.5" fill="var(--primary-500)" opacity="0.7"/>
+          <circle cx="20" cy="13" r="1.5" fill="var(--secondary-500)" opacity="0.7"/>
+          <circle cx="16" cy="10" r="1.5" fill="var(--accent-400)" opacity="0.7"/>
+        </svg>
+        Growing Minds
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module1.html" data-transition>Module 1</a></li>
+        <li><a href="module2.html" class="is-active" data-transition>Module 2</a></li>
+        <li><a href="module3.html" data-transition>Module 3</a></li>
+      </ul>
+
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay">
+    <div class="mobile-nav-panel">
+      <button class="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="4" x2="16" y2="16"/>
+          <line x1="16" y1="4" x2="4" y2="16"/>
+        </svg>
+      </button>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module1.html" data-transition>Module 1</a></li>
+        <li><a href="module2.html" class="is-active" data-transition>Module 2</a></li>
+        <li><a href="module3.html" data-transition>Module 3</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============================================
+       PAGE WRAPPER
+       ============================================ -->
+  <div class="page-wrapper">
+
+    <!-- ============================================
+         MODULE HERO
+         ============================================ -->
+    <section class="module-hero">
+      <div class="module-hero-bg"></div>
+
+      <div class="module-hero-deco" aria-hidden="true">
+        <svg class="deco-float" style="position:absolute;top:10%;left:8%;width:120px;height:200px;opacity:0.07;" viewBox="0 0 80 140" fill="none">
+          <path d="M20 5c0 20 40 20 40 40s-40 20-40 40 40 20 40 40" stroke="#7EB8E8" stroke-width="2" stroke-linecap="round"/>
+          <path d="M60 5c0 20-40 20-40 40s40 20 40 40-40 20-40 40" stroke="#7EB8E8" stroke-width="2" stroke-linecap="round"/>
+          <line x1="25" y1="25" x2="55" y2="25" stroke="#7EB8E8" stroke-width="1.5" opacity="0.6"/>
+          <line x1="25" y1="65" x2="55" y2="65" stroke="#7EB8E8" stroke-width="1.5" opacity="0.6"/>
+          <line x1="25" y1="105" x2="55" y2="105" stroke="#7EB8E8" stroke-width="1.5" opacity="0.6"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;top:60%;right:10%;width:100px;height:180px;opacity:0.06;" viewBox="0 0 70 130" fill="none">
+          <path d="M15 5c0 18 40 18 40 36s-40 18-40 36 40 18 40 36" stroke="#7EB8E8" stroke-width="2" stroke-linecap="round"/>
+          <path d="M55 5c0 18-40 18-40 36s40 18 40 36-40 18-40 36" stroke="#7EB8E8" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;top:20%;right:18%;width:80px;height:120px;opacity:0.06;" viewBox="0 0 60 100" fill="none">
+          <path d="M15 5 Q30 25 15 50 Q0 75 15 95" stroke="#7EB8E8" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M45 5 Q30 25 45 50 Q60 75 45 95" stroke="#7EB8E8" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:25%;left:10%;width:70px;height:50px;opacity:0.07;" viewBox="0 0 70 40" fill="none">
+          <rect x="5" y="10" width="60" height="20" rx="10" stroke="#7EB8E8" stroke-width="2"/>
+          <circle cx="48" cy="20" r="7" fill="none" stroke="#7EB8E8" stroke-width="2"/>
+          <circle cx="48" cy="20" r="3" fill="#7EB8E8" opacity="0.4"/>
+        </svg>
+      </div>
+
+      <div class="module-hero-content container">
+        <span class="module-number-badge">
+          <svg width="18" height="16" viewBox="0 0 18 16" fill="none" aria-hidden="true">
+            <path d="M5 2c0 4 8 4 8 8s-8 4-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M13 2c0 4-8 4-8 8s8 4 8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Module 2
+        </span>
+        <h1 class="text-gradient">You Are Not Just Your DNA</h1>
+        <p class="module-hero-subtitle">Nature, Nurture & the Epigenetic Revolution</p>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 60L48 55C96 50 192 40 288 35C384 30 480 30 576 33.3C672 36.7 768 43.3 864 45C960 46.7 1056 43.3 1152 40C1248 36.7 1344 33.3 1392 31.7L1440 30V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION A: THE GREAT DEBATE
+         ============================================ -->
+    <section class="content-section" data-section-id="great-debate" style="background-color: white;">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Great Debate</h2>
+          <p>For centuries, thinkers have wrestled with a deceptively simple question: what makes us who we are?</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>In 1869, Sir Francis Galton coined the phrase <strong>"nature versus nurture"</strong> and argued that genius ran in families because of inherited biology. He studied the family trees of eminent men and concluded that greatness was bred, not made. Intelligence, temperament, and character were all, in his view, gifts of heredity.</p>
+
+          <p>Nearly two centuries earlier, the philosopher John Locke had proposed something radically different. He described the newborn mind as a <em>tabula rasa</em> -- a blank slate. Everything a child becomes, Locke argued, is written by experience. There are no inborn ideas, no genetic destiny. The environment is everything.</p>
+
+          <p>For over a hundred years, science swung like a pendulum between these two poles. Behaviorists like John Watson declared they could take any healthy infant and train them to become "any type of specialist" -- doctor, lawyer, artist, or thief. Meanwhile, behavior geneticists amassed evidence that twins raised apart were eerily similar in personality, intelligence, and even quirky habits.</p>
+
+          <p>The modern understanding? <strong>It was never either/or.</strong> Genes and environments are not separate forces competing for influence. They are intertwined systems that continuously shape one another, from the moment of conception to the last breath.</p>
+        </div>
+
+        <div class="blockquote" data-animate="fade-up" data-animate-delay="0.1">
+          <p>"Genes and environments are not independent. They are in continuous dialogue."</p>
+        </div>
+
+        <div data-animate="fade-up" data-animate-delay="0.15">
+          <p>This module will show you why. We will explore how genes and environments interact, why twin studies changed everything, and how the revolutionary science of <strong>epigenetics</strong> has rewritten the rules entirely. By the end, the old debate will feel not just outdated -- but meaningless.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0L48 5C96 10 192 20 288 25C384 30 480 30 576 26.7C672 23.3 768 16.7 864 15C960 13.3 1056 16.7 1152 20C1248 23.3 1344 26.7 1392 28.3L1440 30V0H0Z" fill="white"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION B: TWINS TELL A STORY
+         ============================================ -->
+    <section class="content-section" data-section-id="twins-study" style="background-color: var(--neutral-50);">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Twins Tell a Story</h2>
+          <p>Twin studies are the gold standard for untangling the contributions of genes and environment.</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>The logic is elegant. <strong>Identical (monozygotic) twins</strong> share 100% of their DNA. <strong>Fraternal (dizygotic) twins</strong> share about 50%, like any siblings. Both types of twins typically share the same home environment. So if identical twins are more similar on a trait than fraternal twins, the extra similarity must come from their shared genes.</p>
+
+          <p>This comparison allows researchers to calculate <strong>heritability</strong> -- the proportion of variation in a trait within a population that can be attributed to genetic differences. It is one of the most powerful tools in developmental science.</p>
+        </div>
+
+        <h3 class="font-heading text-xl mt-8 mb-4" style="color: var(--neutral-800);" data-animate="fade-up">What Heritability Really Means</h3>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>Heritability tells us how much of the <em>variation</em> in a trait across a <em>population</em> is due to genetic differences. It does not tell us how much of any single person's trait is "genetic." This is one of the most commonly misunderstood concepts in all of psychology.</p>
+
+          <p>A heritability of 80% for height does not mean 80% of your height comes from genes. It means that 80% of the <em>differences</em> in height among people in a particular population can be statistically linked to genetic variation. Change the environment dramatically -- severe malnutrition, for instance -- and the heritability estimate changes too.</p>
+        </div>
+
+        <!-- Myth Callout -->
+        <div class="callout callout-myth" data-animate="fade-up" data-animate-delay="0.075">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M8 1L1 14h14L8 1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M8 6v3M8 11.5v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ❌ Myth vs. Reality
+          </div>
+          <p><strong>MYTH:</strong> "Heritability of 80% means 80% of YOUR trait is genetic."</p>
+          <p style="margin-top: 0.75rem;"><strong>REALITY:</strong> Heritability is a <em>population</em> statistic, not an individual one. It describes how much of the variation between people is explained by genetic differences in that specific population and environment. It says nothing about any single person, and it changes when environments change.</p>
+        </div>
+
+        <h3 class="font-heading text-xl mt-8 mb-4" style="color: var(--neutral-800);" data-animate="fade-up">Heritability Estimates for Key Traits</h3>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>Decades of twin research have produced approximate heritability estimates for various human traits. These numbers come from studies of Western populations and should be interpreted with the caveats above in mind.</p>
+        </div>
+
+        <!-- Stat Grid: Heritability Estimates -->
+        <div class="stat-grid" data-animate="stagger">
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--primary-600);">~90%</div>
+            <div class="stat-label">Height</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--module-2);">50-80%</div>
+            <div class="stat-label">IQ</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--secondary-600);">40-60%</div>
+            <div class="stat-label">Personality</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--accent-600);">30-50%</div>
+            <div class="stat-label">Language</div>
+          </div>
+        </div>
+
+        <div data-animate="fade-up" data-animate-delay="0.1">
+          <p>Notice the pattern: physical traits tend to have higher heritability than psychological ones. This makes intuitive sense. The more a trait depends on learning, culture, and social interaction, the more room there is for environmental influence.</p>
+          <p>But the truly remarkable finding from twin research is not any single heritability number. It is the consistent discovery that <em>both</em> genes and environment matter for <em>every</em> trait ever studied. Not once has a complex human characteristic been found to be 100% genetic or 100% environmental.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 60L48 55C96 50 192 40 288 35C384 30 480 30 576 33.3C672 36.7 768 43.3 864 45C960 46.7 1056 43.3 1152 40C1248 36.7 1344 33.3 1392 31.7L1440 30V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION C: THREE WAYS GENES AND ENVIRONMENTS DANCE
+         ============================================ -->
+    <section class="content-section" data-section-id="gene-env-correlation" style="background-color: white;">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Three Ways Genes and Environments Dance Together</h2>
+          <p>Genes don't just wait passively to be expressed. They actively shape the environments we experience through gene-environment correlations (rGE).</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>The concept of <strong>gene-environment correlation</strong> (abbreviated rGE) is one of the most important ideas in modern developmental psychology. It describes the ways in which a person's genetic makeup is systematically linked to the environments they encounter. There are three types, each more active than the last.</p>
+        </div>
+
+        <!-- rGE Diagram -->
+        <div class="diagram-container" data-animate="scale-in" data-animate-delay="0.075">
+          <svg viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing three types of gene-environment correlations: passive, evocative, and active">
+            <defs>
+              <filter id="rge-shadow" x="-5%" y="-5%" width="110%" height="110%">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.08"/>
+              </filter>
+              <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-auto" fill="var(--primary-500)">
+                <path d="M 0 0 L 10 5 L 0 10 z"/>
+              </marker>
+              <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-auto" fill="var(--secondary-500)">
+                <path d="M 0 0 L 10 5 L 0 10 z"/>
+              </marker>
+              <marker id="arrow-amber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-auto" fill="var(--accent-500)">
+                <path d="M 0 0 L 10 5 L 0 10 z"/>
+              </marker>
+            </defs>
+
+            <!-- ===== ROW 1: PASSIVE rGE ===== -->
+            <g transform="translate(0, 10)">
+              <!-- Row label -->
+              <rect x="10" y="12" width="130" height="28" rx="14" fill="var(--primary-100)"/>
+              <text x="75" y="31" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="12" fill="var(--primary-700)">PASSIVE rGE</text>
+
+              <!-- Parent figure -->
+              <rect x="20" y="55" width="100" height="90" rx="12" fill="var(--primary-50)" stroke="var(--primary-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <circle cx="70" cy="77" r="12" fill="var(--primary-200)"/>
+              <path d="M60 77 L70 72 L80 77 L76 90 L64 90 Z" fill="var(--primary-300)" opacity="0.5"/>
+              <circle cx="70" cy="73" r="6" fill="var(--primary-400)"/>
+              <text x="70" y="114" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--primary-700)">Parents who</text>
+              <text x="70" y="126" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--primary-700)">love reading</text>
+
+              <!-- Arrow 1: Parents -> Books -->
+              <line x1="125" y1="85" x2="170" y2="85" stroke="var(--primary-500)" stroke-width="2" marker-end="url(#arrow-purple)"/>
+
+              <!-- Books icon -->
+              <rect x="178" y="55" width="100" height="90" rx="12" fill="var(--primary-50)" stroke="var(--primary-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <rect x="205" y="70" width="12" height="18" rx="2" fill="var(--primary-400)"/>
+              <rect x="220" y="67" width="12" height="21" rx="2" fill="var(--primary-500)"/>
+              <rect x="235" y="72" width="12" height="16" rx="2" fill="var(--primary-300)"/>
+              <text x="228" y="114" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--primary-700)">Books at</text>
+              <text x="228" y="126" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--primary-700)">home</text>
+
+              <!-- Arrow 1b: Parents -> DNA -->
+              <line x1="70" y1="148" x2="70" y2="148" stroke="none"/>
+              <path d="M 120 105 Q 200 155 280 85" stroke="var(--primary-400)" stroke-width="1.5" fill="none" stroke-dasharray="4 3" opacity="0.6"/>
+
+              <!-- DNA helix icon -->
+              <rect x="336" y="55" width="100" height="90" rx="12" fill="var(--primary-50)" stroke="var(--primary-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <path d="M370 70 Q395 80 370 92 Q345 104 370 114" stroke="var(--primary-500)" stroke-width="2" fill="none"/>
+              <path d="M400 70 Q375 80 400 92 Q425 104 400 114" stroke="var(--primary-500)" stroke-width="2" fill="none"/>
+              <line x1="375" y1="76" x2="395" y2="76" stroke="var(--primary-300)" stroke-width="1.5"/>
+              <line x1="365" y1="91" x2="405" y2="91" stroke="var(--primary-300)" stroke-width="1.5"/>
+              <line x1="375" y1="106" x2="395" y2="106" stroke="var(--primary-300)" stroke-width="1.5"/>
+              <text x="386" y="134" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--primary-700)">Pass on</text>
+              <text x="386" y="143" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--primary-600)">"reading genes"</text>
+
+              <!-- Arrows converging to child -->
+              <line x1="282" y1="95" x2="330" y2="95" stroke="var(--primary-500)" stroke-width="2" marker-end="url(#arrow-purple)"/>
+              <line x1="440" y1="95" x2="485" y2="95" stroke="var(--primary-500)" stroke-width="2" marker-end="url(#arrow-purple)"/>
+
+              <!-- Combined arrow to child -->
+              <path d="M 278 100 L 495 100" stroke="none"/>
+
+              <!-- Child figure -->
+              <rect x="492" y="55" width="180" height="90" rx="12" fill="var(--primary-50)" stroke="var(--primary-500)" stroke-width="2" filter="url(#rge-shadow)"/>
+              <circle cx="532" cy="85" r="10" fill="var(--primary-300)"/>
+              <circle cx="532" cy="81" r="5" fill="var(--primary-500)"/>
+              <rect x="554" y="72" width="10" height="14" rx="2" fill="var(--primary-300)" opacity="0.7"/>
+              <rect x="567" y="70" width="10" height="16" rx="2" fill="var(--primary-400)" opacity="0.7"/>
+              <rect x="580" y="73" width="10" height="13" rx="2" fill="var(--primary-300)" opacity="0.7"/>
+              <text x="582" y="110" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--primary-700)">Child surrounded</text>
+              <text x="582" y="122" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--primary-700)">by books + genes</text>
+            </g>
+
+            <!-- ===== ROW 2: EVOCATIVE rGE ===== -->
+            <g transform="translate(0, 175)">
+              <!-- Row label -->
+              <rect x="10" y="12" width="145" height="28" rx="14" fill="var(--secondary-100)"/>
+              <text x="82" y="31" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="12" fill="var(--secondary-700)">EVOCATIVE rGE</text>
+
+              <!-- Sociable baby -->
+              <rect x="20" y="55" width="120" height="90" rx="12" fill="var(--secondary-50)" stroke="var(--secondary-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <circle cx="80" cy="80" r="14" fill="var(--secondary-200)"/>
+              <circle cx="80" cy="77" r="7" fill="var(--secondary-400)"/>
+              <!-- Smile -->
+              <path d="M75 80 Q80 86 85 80" stroke="var(--secondary-600)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <text x="80" y="114" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--secondary-700)">Sociable baby</text>
+              <text x="80" y="126" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--secondary-700)">smiles at all</text>
+
+              <!-- Arrow -->
+              <line x1="145" y1="95" x2="195" y2="95" stroke="var(--secondary-500)" stroke-width="2" marker-end="url(#arrow-teal)"/>
+
+              <!-- People responding -->
+              <rect x="202" y="55" width="140" height="90" rx="12" fill="var(--secondary-50)" stroke="var(--secondary-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <!-- Person 1 -->
+              <circle cx="240" cy="78" r="8" fill="var(--secondary-300)"/>
+              <circle cx="240" cy="75" r="4.5" fill="var(--secondary-500)"/>
+              <!-- Person 2 -->
+              <circle cx="272" cy="74" r="8" fill="var(--secondary-200)"/>
+              <circle cx="272" cy="71" r="4.5" fill="var(--secondary-400)"/>
+              <!-- Person 3 -->
+              <circle cx="304" cy="78" r="8" fill="var(--secondary-300)"/>
+              <circle cx="304" cy="75" r="4.5" fill="var(--secondary-500)"/>
+              <!-- Happy response lines -->
+              <path d="M240 88 L240 92" stroke="var(--secondary-400)" stroke-width="1" stroke-linecap="round"/>
+              <path d="M272 84 L272 88" stroke="var(--secondary-400)" stroke-width="1" stroke-linecap="round"/>
+              <path d="M304 88 L304 92" stroke="var(--secondary-400)" stroke-width="1" stroke-linecap="round"/>
+              <text x="272" y="118" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--secondary-700)">People interact</text>
+              <text x="272" y="130" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--secondary-700)">more with baby</text>
+
+              <!-- Arrow -->
+              <line x1="347" y1="95" x2="397" y2="95" stroke="var(--secondary-500)" stroke-width="2" marker-end="url(#arrow-teal)"/>
+
+              <!-- More stimulation -->
+              <rect x="404" y="55" width="140" height="90" rx="12" fill="var(--secondary-50)" stroke="var(--secondary-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <!-- Stimulation burst icons -->
+              <circle cx="445" cy="82" r="5" fill="var(--secondary-300)" opacity="0.6"/>
+              <circle cx="462" cy="74" r="6" fill="var(--secondary-400)" opacity="0.7"/>
+              <circle cx="480" cy="82" r="5" fill="var(--secondary-300)" opacity="0.6"/>
+              <circle cx="462" cy="90" r="4" fill="var(--secondary-200)" opacity="0.5"/>
+              <path d="M448 74 L455 68 M468 68 L476 74 M455 92 L462 98 L468 92" stroke="var(--secondary-500)" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+              <text x="474" y="118" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--secondary-700)">Even MORE</text>
+              <text x="474" y="130" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--secondary-700)">social stimulation</text>
+
+              <!-- Feedback loop arrow -->
+              <path d="M 544 100 Q 580 100 580 60 Q 580 25 474 25 Q 272 25 80 25 Q 30 25 30 55" stroke="var(--secondary-400)" stroke-width="1.5" stroke-dasharray="5 4" fill="none" marker-end="url(#arrow-teal)" opacity="0.5"/>
+              <text x="310" y="19" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--secondary-500)" font-style="italic">feedback loop</text>
+            </g>
+
+            <!-- ===== ROW 3: ACTIVE rGE ===== -->
+            <g transform="translate(0, 340)">
+              <!-- Row label -->
+              <rect x="10" y="12" width="115" height="28" rx="14" fill="var(--accent-100)"/>
+              <text x="67" y="31" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="12" fill="var(--accent-600)">ACTIVE rGE</text>
+
+              <!-- Athletic child -->
+              <rect x="20" y="55" width="120" height="90" rx="12" fill="var(--accent-50)" stroke="var(--accent-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <!-- Running child figure -->
+              <circle cx="70" cy="73" r="7" fill="var(--accent-400)"/>
+              <path d="M66 82 L63 98 M74 82 L78 96 M63 86 L58 80 M77 86 L82 82" stroke="var(--accent-500)" stroke-width="2" stroke-linecap="round"/>
+              <!-- Motion lines -->
+              <line x1="48" y1="78" x2="55" y2="78" stroke="var(--accent-300)" stroke-width="1" stroke-linecap="round"/>
+              <line x1="46" y1="84" x2="54" y2="84" stroke="var(--accent-300)" stroke-width="1" stroke-linecap="round"/>
+              <line x1="48" y1="90" x2="55" y2="90" stroke="var(--accent-300)" stroke-width="1" stroke-linecap="round"/>
+              <text x="80" y="118" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--accent-600)">Athletic child</text>
+              <text x="80" y="130" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--accent-500)">seeks challenge</text>
+
+              <!-- Arrow -->
+              <line x1="145" y1="95" x2="195" y2="95" stroke="var(--accent-500)" stroke-width="2" marker-end="url(#arrow-amber)"/>
+
+              <!-- Sports team -->
+              <rect x="202" y="55" width="140" height="90" rx="12" fill="var(--accent-50)" stroke="var(--accent-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <!-- Soccer field -->
+              <rect x="230" y="70" width="80" height="45" rx="4" fill="#86EFAC" opacity="0.3" stroke="white" stroke-width="1"/>
+              <line x1="270" y1="70" x2="270" y2="115" stroke="white" stroke-width="1"/>
+              <circle cx="270" cy="92" r="8" fill="none" stroke="white" stroke-width="1"/>
+              <!-- Soccer ball -->
+              <circle cx="290" cy="85" r="5" fill="white" stroke="var(--accent-500)" stroke-width="1"/>
+              <text x="272" y="134" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--accent-600)">Joins sports teams</text>
+
+              <!-- Arrow -->
+              <line x1="347" y1="95" x2="397" y2="95" stroke="var(--accent-500)" stroke-width="2" marker-end="url(#arrow-amber)"/>
+
+              <!-- Gets better -->
+              <rect x="404" y="55" width="140" height="90" rx="12" fill="var(--accent-50)" stroke="var(--accent-300)" stroke-width="1.5" filter="url(#rge-shadow)"/>
+              <!-- Upward trend -->
+              <path d="M425 115 L445 100 L465 105 L485 88 L505 75" stroke="var(--accent-500)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- Star at top -->
+              <polygon points="510,68 512,73 518,73 513,77 515,82 510,78 505,82 507,77 502,73 508,73" fill="var(--accent-400)"/>
+              <text x="474" y="134" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--accent-600)">Gets better, seeks</text>
+              <text x="474" y="146" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--accent-600)">more challenge</text>
+
+              <!-- Feedback loop arrow -->
+              <path d="M 544 100 Q 580 100 580 60 Q 580 25 474 25 Q 272 25 80 25 Q 30 25 30 55" stroke="var(--accent-400)" stroke-width="1.5" stroke-dasharray="5 4" fill="none" marker-end="url(#arrow-amber)" opacity="0.5"/>
+              <text x="310" y="19" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--accent-500)" font-style="italic">self-reinforcing cycle</text>
+            </g>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <div data-animate="fade-up" data-animate-delay="0.1">
+          <h4 class="font-heading mt-6 mb-3" style="color: var(--primary-700);">1. Passive Gene-Environment Correlation</h4>
+          <p>In passive rGE, children passively inherit both genes and environments from their parents. Musical parents, for instance, both pass on genes associated with musical ability <em>and</em> fill the home with instruments and song. The child does nothing to create this correlation -- it is handed to them.</p>
+
+          <h4 class="font-heading mt-6 mb-3" style="color: var(--secondary-700);">2. Evocative Gene-Environment Correlation</h4>
+          <p>In evocative rGE, a child's genetically influenced traits evoke particular responses from others. A naturally cheerful baby draws more smiles, conversation, and cuddles from caregivers. A temperamentally difficult infant may elicit frustration. The child's genes are, in a sense, shaping the behavior of those around them.</p>
+
+          <h4 class="font-heading mt-6 mb-3" style="color: var(--accent-600);">3. Active Gene-Environment Correlation (Niche-Picking)</h4>
+          <p>As children grow and gain autonomy, they actively select environments that match their genetic predispositions. The bookish child gravitates to the library. The social child seeks out group activities. This is sometimes called <strong>niche-picking</strong>, and it becomes increasingly important from middle childhood onward. By adulthood, most of us have constructed lives that amplify our genetic tendencies rather than counteract them.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0L48 5C96 10 192 20 288 25C384 30 480 30 576 26.7C672 23.3 768 16.7 864 15C960 13.3 1056 16.7 1152 20C1248 23.3 1344 26.7 1392 28.3L1440 30V0H0Z" fill="white"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION D: THE EPIGENETIC REVOLUTION
+         ============================================ -->
+    <section class="content-section" data-section-id="epigenetics" style="background-color: var(--neutral-50);">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Epigenetic Revolution</h2>
+          <p>What if your experiences could change how your genes work -- without altering a single letter of your DNA?</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>For most of the twentieth century, the central dogma of biology was simple: DNA makes RNA, RNA makes protein, and that is the direction of information flow. Your genome was seen as a fixed instruction manual -- immutable, determined at conception, and beyond the reach of experience.</p>
+
+          <p><strong>Epigenetics shattered that view.</strong></p>
+
+          <p>The word "epigenetics" literally means "above genetics." It refers to changes in gene <em>expression</em> -- whether a gene is turned on or off, loud or quiet -- that do not involve changes to the underlying DNA sequence. Your cells all contain the same DNA, yet a neuron looks and functions nothing like a liver cell. The difference is epigenetic: different genes are active in different cells.</p>
+        </div>
+
+        <h3 class="font-heading text-xl mt-8 mb-4" style="color: var(--neutral-800);" data-animate="fade-up">How It Works: The Basics</h3>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>Two of the most important epigenetic mechanisms are <strong>DNA methylation</strong> and <strong>histone modification</strong>.</p>
+
+          <p>In DNA methylation, small chemical tags called <strong>methyl groups</strong> attach to specific locations on the DNA strand. When a methyl group sits on a gene's promoter region, it typically silences that gene -- like placing a lock on a door. Remove the methyl group, and the gene can be read again.</p>
+
+          <p><strong>Histone modification</strong> works differently. DNA is not a free-floating strand -- it is tightly wound around spool-like proteins called <strong>histones</strong>. When histones are tightly packed, the DNA wrapped around them is inaccessible, and those genes remain silent. When histones loosen, the DNA opens up and genes can be expressed. Chemical modifications to histones control this packing.</p>
+        </div>
+
+        <!-- Epigenetics Mechanism Diagram -->
+        <div class="diagram-container" data-animate="scale-in" data-animate-delay="0.075">
+          <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing epigenetic mechanisms: DNA methylation and histone modification, with Gene ON and Gene OFF states">
+            <defs>
+              <linearGradient id="dna-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="var(--primary-400)"/>
+                <stop offset="100%" stop-color="var(--module-2)"/>
+              </linearGradient>
+              <linearGradient id="gene-on-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#D1FAE5"/>
+                <stop offset="100%" stop-color="#A7F3D0"/>
+              </linearGradient>
+              <linearGradient id="gene-off-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FEE2E2"/>
+                <stop offset="100%" stop-color="#FECACA"/>
+              </linearGradient>
+              <filter id="epi-shadow" x="-3%" y="-3%" width="106%" height="106%">
+                <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.1"/>
+              </filter>
+            </defs>
+
+            <!-- === LEFT SIDE: GENE ON (Open Chromatin) === -->
+            <g transform="translate(10, 0)">
+              <!-- Background panel -->
+              <rect x="0" y="20" width="320" height="310" rx="16" fill="url(#gene-on-gradient)" stroke="#6EE7B7" stroke-width="1.5" filter="url(#epi-shadow)"/>
+
+              <!-- Header badge -->
+              <rect x="110" y="30" width="100" height="30" rx="15" fill="var(--success)" opacity="0.9"/>
+              <text x="160" y="50" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="white">GENE ON</text>
+
+              <!-- Subtitle -->
+              <text x="160" y="78" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-600)">Open Chromatin</text>
+
+              <!-- Histones (loosely spaced cylinders) -->
+              <ellipse cx="70" cy="130" rx="22" ry="14" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <rect x="48" y="118" width="44" height="12" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1" stroke-dasharray="0"/>
+              <ellipse cx="70" cy="118" rx="22" ry="14" fill="var(--primary-300)" stroke="var(--primary-400)" stroke-width="1"/>
+              <text x="70" y="123" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="8" fill="var(--primary-700)">Histone</text>
+
+              <ellipse cx="200" cy="130" rx="22" ry="14" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <rect x="178" y="118" width="44" height="12" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <ellipse cx="200" cy="118" rx="22" ry="14" fill="var(--primary-300)" stroke="var(--primary-400)" stroke-width="1"/>
+              <text x="200" y="123" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="8" fill="var(--primary-700)">Histone</text>
+
+              <!-- DNA strand winding loosely around histones -->
+              <path d="M 20 120 Q 40 95 70 105 Q 100 115 115 125 Q 135 135 160 120 Q 180 105 200 105 Q 230 105 260 120 Q 290 135 310 125" stroke="url(#dna-gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <!-- Second strand -->
+              <path d="M 20 128 Q 40 103 70 113 Q 100 123 115 133 Q 135 143 160 128 Q 180 113 200 113 Q 230 113 260 128 Q 290 143 310 133" stroke="var(--primary-300)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+              <!-- Base pair rungs (visible = accessible) -->
+              <line x1="35" y1="112" x2="35" y2="122" stroke="var(--secondary-400)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="120" y1="124" x2="120" y2="134" stroke="var(--secondary-400)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="155" y1="118" x2="155" y2="128" stroke="var(--secondary-400)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="245" y1="116" x2="245" y2="126" stroke="var(--secondary-400)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="280" y1="124" x2="280" y2="134" stroke="var(--secondary-400)" stroke-width="2" stroke-linecap="round"/>
+
+              <!-- NO methyl groups -->
+              <text x="160" y="175" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="10" fill="var(--success)">No methyl groups blocking access</text>
+
+              <!-- RNA Polymerase reading -->
+              <rect x="100" y="195" width="120" height="35" rx="8" fill="white" stroke="var(--success)" stroke-width="1.5"/>
+              <text x="160" y="210" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--success)">RNA Polymerase</text>
+              <text x="160" y="222" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--neutral-500)">can read gene</text>
+
+              <!-- Arrow showing expression -->
+              <line x1="160" y1="235" x2="160" y2="260" stroke="var(--success)" stroke-width="2" marker-end="url(#arrow-teal)"/>
+
+              <!-- Protein output -->
+              <rect x="110" y="265" width="100" height="30" rx="8" fill="white" stroke="var(--success)" stroke-width="1.5"/>
+              <text x="160" y="284" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="var(--success)">Protein Made</text>
+
+              <!-- Sparkle indicators -->
+              <circle cx="50" cy="200" r="3" fill="var(--success)" opacity="0.3"/>
+              <circle cx="270" cy="195" r="2" fill="var(--success)" opacity="0.4"/>
+              <circle cx="280" cy="270" r="3" fill="var(--success)" opacity="0.2"/>
+            </g>
+
+            <!-- === RIGHT SIDE: GENE OFF (Closed Chromatin) === -->
+            <g transform="translate(370, 0)">
+              <!-- Background panel -->
+              <rect x="0" y="20" width="320" height="310" rx="16" fill="url(#gene-off-gradient)" stroke="#FCA5A5" stroke-width="1.5" filter="url(#epi-shadow)"/>
+
+              <!-- Header badge -->
+              <rect x="110" y="30" width="100" height="30" rx="15" fill="var(--error)" opacity="0.9"/>
+              <text x="160" y="50" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="white">GENE OFF</text>
+
+              <!-- Subtitle -->
+              <text x="160" y="78" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-600)">Closed Chromatin</text>
+
+              <!-- Histones (tightly packed) -->
+              <ellipse cx="90" cy="130" rx="22" ry="14" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <rect x="68" y="118" width="44" height="12" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <ellipse cx="90" cy="118" rx="22" ry="14" fill="var(--primary-300)" stroke="var(--primary-400)" stroke-width="1"/>
+              <text x="90" y="123" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="8" fill="var(--primary-700)">Histone</text>
+
+              <ellipse cx="160" cy="130" rx="22" ry="14" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <rect x="138" y="118" width="44" height="12" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <ellipse cx="160" cy="118" rx="22" ry="14" fill="var(--primary-300)" stroke="var(--primary-400)" stroke-width="1"/>
+              <text x="160" y="123" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="8" fill="var(--primary-700)">Histone</text>
+
+              <ellipse cx="230" cy="130" rx="22" ry="14" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <rect x="208" y="118" width="44" height="12" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1"/>
+              <ellipse cx="230" cy="118" rx="22" ry="14" fill="var(--primary-300)" stroke="var(--primary-400)" stroke-width="1"/>
+              <text x="230" y="123" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="8" fill="var(--primary-700)">Histone</text>
+
+              <!-- DNA strand tightly wound -->
+              <path d="M 20 110 Q 50 90 90 100 Q 110 108 125 115 Q 140 108 160 100 Q 180 108 195 115 Q 210 108 230 100 Q 260 90 300 110" stroke="url(#dna-gradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <path d="M 20 118 Q 50 98 90 108 Q 110 116 125 123 Q 140 116 160 108 Q 180 116 195 123 Q 210 116 230 108 Q 260 98 300 118" stroke="var(--primary-300)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+              <!-- METHYL GROUPS (red dots) -->
+              <circle cx="60" cy="100" r="6" fill="#FF6B8A" opacity="0.9"/>
+              <text x="60" y="103" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="7" fill="white">CH3</text>
+
+              <circle cx="125" cy="108" r="6" fill="#FF6B8A" opacity="0.9"/>
+              <text x="125" y="111" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="7" fill="white">CH3</text>
+
+              <circle cx="195" cy="108" r="6" fill="#FF6B8A" opacity="0.9"/>
+              <text x="195" y="111" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="7" fill="white">CH3</text>
+
+              <circle cx="260" cy="100" r="6" fill="#FF6B8A" opacity="0.9"/>
+              <text x="260" y="103" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="7" fill="white">CH3</text>
+
+              <!-- Label for methyl groups -->
+              <text x="160" y="170" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="#FF6B8A">Methyl groups silence the gene</text>
+
+              <!-- Blocked RNA Polymerase -->
+              <rect x="100" y="195" width="120" height="35" rx="8" fill="white" stroke="var(--neutral-300)" stroke-width="1.5"/>
+              <text x="160" y="210" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--neutral-400)">RNA Polymerase</text>
+              <text x="160" y="222" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--neutral-400)">BLOCKED</text>
+
+              <!-- X mark -->
+              <line x1="148" y1="245" x2="172" y2="265" stroke="var(--error)" stroke-width="3" stroke-linecap="round"/>
+              <line x1="172" y1="245" x2="148" y2="265" stroke="var(--error)" stroke-width="3" stroke-linecap="round"/>
+
+              <!-- No protein -->
+              <rect x="110" y="275" width="100" height="30" rx="8" fill="white" stroke="var(--neutral-300)" stroke-width="1.5" stroke-dasharray="5 3"/>
+              <text x="160" y="294" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="var(--neutral-400)">No Protein</text>
+
+              <!-- Lock icon -->
+              <rect x="268" y="190" width="24" height="18" rx="3" fill="var(--error)" opacity="0.2" stroke="var(--error)" stroke-width="1"/>
+              <path d="M274 190 V185 Q280 178 286 185 V190" fill="none" stroke="var(--error)" stroke-width="1.5" stroke-linecap="round"/>
+            </g>
+
+            <!-- Center divider line -->
+            <line x1="350" y1="40" x2="350" y2="310" stroke="var(--neutral-300)" stroke-width="1" stroke-dasharray="6 4"/>
+            <text x="350" y="338" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="10" fill="var(--neutral-400)">Same DNA sequence, different expression</text>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <div data-animate="fade-up" data-animate-delay="0.075">
+          <p>The critical insight is this: <strong>experiences can change epigenetic marks.</strong> Stress, nutrition, toxins, love, neglect -- all of these can add or remove methyl groups from DNA, or alter histone configurations. The genome is not a fixed blueprint. It is a dynamic, responsive system that is constantly being edited by life.</p>
+        </div>
+
+        <!-- Rat Licking Study -->
+        <div class="callout callout-wow" data-animate="fade-up" data-animate-delay="0.1">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 5v3M8 10.5v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ✨ Landmark Study: The Rat Licking Study
+          </div>
+          <p>In the late 1990s, neuroscientist <strong>Michael Meaney</strong> and his team at McGill University made a groundbreaking discovery. They observed that some rat mothers naturally licked and groomed their pups extensively, while others did so minimally.</p>
+          <p style="margin-top: 0.75rem;">The pups of high-licking mothers grew up to be calmer, less reactive to stress, and better learners. But was this genetic inheritance or parenting behavior? Meaney's team performed <strong>cross-fostering experiments</strong>: they gave pups from low-licking mothers to high-licking mothers, and vice versa.</p>
+          <p style="margin-top: 0.75rem;">The result was unambiguous. <strong>It was the maternal behavior, not the genes, that determined the outcome.</strong> Pups raised by high-licking foster mothers became calm adults, regardless of their biological mother's behavior. The mechanism? Maternal licking changed the methylation patterns on the glucocorticoid receptor gene in the pups' hippocampus, permanently altering their stress response system. Same DNA, radically different expression.</p>
+        </div>
+
+        <!-- Dutch Hunger Winter -->
+        <div class="callout callout-wow" data-animate="fade-up" data-animate-delay="0.125">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 5v3M8 10.5v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ✨ Landmark Study: The Dutch Hunger Winter
+          </div>
+          <p>During the winter of 1944-1945, Nazi Germany imposed a brutal food embargo on the western Netherlands. For six months, the civilian population survived on as few as 400-800 calories per day. It became known as the <strong>Hongerwinter</strong> -- the Dutch Hunger Winter.</p>
+          <p style="margin-top: 0.75rem;">Decades later, researchers tracked the children who had been conceived during the famine. The findings were startling: these individuals showed significantly higher rates of <strong>obesity, cardiovascular disease, and schizophrenia</strong> -- even though they had lived in normal nutritional conditions for their entire postnatal lives.</p>
+          <p style="margin-top: 0.75rem;">The famine had altered epigenetic markers during the critical first weeks of development, and those changes persisted across the lifespan. Even more remarkably, some studies suggested that these epigenetic effects were <strong>transmitted to the next generation</strong> -- the grandchildren of famine survivors showed altered metabolic profiles.</p>
+        </div>
+
+        <!-- Visual 4: Dutch Hunger Winter Impact Diagram -->
+        <div class="diagram-container" data-animate="scale-in" data-animate-delay="0.075">
+          <svg viewBox="0 0 800 380" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing the Dutch Hunger Winter timeline with arrows branching to health outcomes across generations">
+            <defs>
+              <filter id="dhw-shadow" x="-5%" y="-5%" width="110%" height="110%">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.08"/>
+              </filter>
+              <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-auto" fill="#EF4444">
+                <path d="M 0 0 L 10 5 L 0 10 z"/>
+              </marker>
+              <marker id="arrow-neutral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-auto" fill="var(--neutral-400)">
+                <path d="M 0 0 L 10 5 L 0 10 z"/>
+              </marker>
+            </defs>
+
+            <!-- Title -->
+            <text x="400" y="30" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="16" fill="var(--neutral-700)">Dutch Hunger Winter: Epigenetic Impact Across Generations</text>
+
+            <!-- Timeline base line -->
+            <line x1="40" y1="90" x2="760" y2="90" stroke="var(--neutral-300)" stroke-width="3" stroke-linecap="round"/>
+
+            <!-- Pre-famine period -->
+            <circle cx="80" cy="90" r="6" fill="var(--neutral-400)"/>
+            <text x="80" y="115" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">1943</text>
+            <text x="80" y="75" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="10" fill="var(--neutral-400)">Pre-famine</text>
+
+            <!-- Famine period (red highlight) -->
+            <rect x="180" y="78" width="200" height="24" rx="12" fill="#EF4444" opacity="0.15" stroke="#EF4444" stroke-width="1.5"/>
+            <rect x="180" y="82" width="200" height="16" rx="8" fill="#EF4444" opacity="0.3"/>
+
+            <!-- Famine start marker -->
+            <circle cx="200" cy="90" r="8" fill="#EF4444" stroke="white" stroke-width="2"/>
+            <text x="200" y="115" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="12" fill="#EF4444">1944</text>
+
+            <!-- Famine end marker -->
+            <circle cx="360" cy="90" r="8" fill="#EF4444" stroke="white" stroke-width="2"/>
+            <text x="360" y="115" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="12" fill="#EF4444">1945</text>
+
+            <!-- Famine label -->
+            <text x="280" y="73" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="13" fill="#EF4444">FAMINE PERIOD</text>
+            <text x="280" y="60" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="10" fill="#EF4444">400-800 cal/day</text>
+
+            <!-- Post-famine marker -->
+            <circle cx="500" cy="90" r="6" fill="var(--neutral-400)"/>
+            <text x="500" y="115" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">1960s-90s</text>
+            <text x="500" y="75" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="10" fill="var(--neutral-400)">Offspring studied</text>
+
+            <!-- Second generation marker -->
+            <circle cx="680" cy="90" r="6" fill="var(--neutral-400)"/>
+            <text x="680" y="115" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">2000s+</text>
+            <text x="680" y="75" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="10" fill="var(--neutral-400)">Grandchildren</text>
+
+            <!-- Branching arrows from famine period to outcomes -->
+            <!-- Arrow to Obesity -->
+            <path d="M 280 102 Q 280 160 200 180" stroke="#EF4444" stroke-width="2" fill="none" marker-end="url(#arrow-red)"/>
+            <!-- Obesity circle -->
+            <circle cx="155" cy="200" r="48" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5" filter="url(#dhw-shadow)"/>
+            <text x="155" y="195" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="#DC2626">Obesity</text>
+            <text x="155" y="210" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="#DC2626">risk</text>
+
+            <!-- Arrow to Heart disease -->
+            <path d="M 280 102 Q 280 175 340 195" stroke="#EF4444" stroke-width="2" fill="none" marker-end="url(#arrow-red)"/>
+            <!-- Heart disease circle -->
+            <circle cx="385" cy="215" r="52" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5" filter="url(#dhw-shadow)"/>
+            <text x="385" y="210" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="#DC2626">Heart disease</text>
+            <text x="385" y="225" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="#DC2626">risk</text>
+
+            <!-- Arrow to Mental health -->
+            <path d="M 280 102 Q 350 160 490 185" stroke="#EF4444" stroke-width="2" fill="none" marker-end="url(#arrow-red)"/>
+            <!-- Mental health circle -->
+            <circle cx="540" cy="200" r="52" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5" filter="url(#dhw-shadow)"/>
+            <text x="540" y="195" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="#DC2626">Mental health</text>
+            <text x="540" y="210" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="11" fill="#DC2626">effects</text>
+
+            <!-- Second-generation arrow -->
+            <path d="M 540 252 Q 580 290 650 290 Q 700 290 700 310" stroke="var(--neutral-400)" stroke-width="2" fill="none" stroke-dasharray="6 3" marker-end="url(#arrow-neutral)"/>
+
+            <!-- Grandchildren affected circle -->
+            <circle cx="700" cy="340" r="40" fill="var(--neutral-100)" stroke="var(--neutral-400)" stroke-width="1.5" filter="url(#dhw-shadow)"/>
+            <text x="700" y="333" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--neutral-600)">Grandchildren</text>
+            <text x="700" y="348" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--neutral-600)">affected</text>
+
+            <!-- Dashed label for transgenerational -->
+            <text x="660" y="278" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--neutral-400)" font-style="italic">transgenerational</text>
+            <text x="660" y="290" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="9" fill="var(--neutral-400)" font-style="italic">epigenetic inheritance</text>
+          </svg>
+          <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <!-- Twin Divergence -->
+        <div class="callout callout-wow" data-animate="fade-up" data-animate-delay="0.15">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 5v3M8 10.5v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ✨ Striking Finding: Twin Divergence
+          </div>
+          <p>If genes were destiny, identical twins should remain biologically identical throughout life. They don't.</p>
+          <p style="margin-top: 0.75rem;">Research led by Mario Fraga and colleagues found that while <strong>identical twins start life with virtually the same epigenome</strong>, they diverge dramatically over time. By age 50, twins who had lived apart and had different lifestyles showed striking differences in DNA methylation and histone modification patterns across their genomes.</p>
+          <p style="margin-top: 0.75rem;">This helps explain a long-standing puzzle: why one identical twin may develop cancer, diabetes, or depression while the other remains healthy. <strong>Same DNA, different gene expression.</strong> Life experience writes on the genome in chemical ink.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 60L48 55C96 50 192 40 288 35C384 30 480 30 576 33.3C672 36.7 768 43.3 864 45C960 46.7 1056 43.3 1152 40C1248 36.7 1344 33.3 1392 31.7L1440 30V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION E: NATURE AND NURTURE — INTERACTIVE SCALE
+         ============================================ -->
+    <section class="content-section" data-section-id="interactive-scale" style="background-color: white;">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Nature AND Nurture</h2>
+          <p>The modern consensus is clear: it was never a competition. Genes and environments work together, always.</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>Every developmental outcome -- intelligence, temperament, mental health, physical growth -- emerges from the continuous interaction of genetic and environmental influences. Asking "how much is nature and how much is nurture?" is like asking "how much of the area of a rectangle is due to its length and how much to its width?" The question itself is flawed.</p>
+
+          <p>The interactive scale below illustrates how different factors can be placed on the nature or nurture side -- but notice that some, like epigenetics, belong on both. This is the point: the categories blur the closer you look.</p>
+        </div>
+
+        <!-- Visual 6: Gene-Environment Venn Diagram -->
+        <div class="diagram-container" data-animate="scale-in" data-animate-delay="0.075">
+          <svg viewBox="0 0 700 420" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Venn diagram showing the overlap of Genes and Environment, with Epigenetics in the intersection region">
+            <defs>
+              <filter id="venn-shadow" x="-5%" y="-5%" width="110%" height="110%">
+                <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.08"/>
+              </filter>
+            </defs>
+
+            <!-- Title -->
+            <text x="350" y="35" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="18" fill="var(--neutral-700)">Where Genes and Environment Meet</text>
+
+            <!-- Left Circle: Genes (purple) -->
+            <circle cx="270" cy="210" r="155" fill="#9B5BBF" opacity="0.15" stroke="#9B5BBF" stroke-width="2" filter="url(#venn-shadow)"/>
+            <!-- Right Circle: Environment (teal) -->
+            <circle cx="430" cy="210" r="155" fill="#3EB589" opacity="0.15" stroke="#3EB589" stroke-width="2" filter="url(#venn-shadow)"/>
+
+            <!-- Left circle label -->
+            <text x="185" y="145" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="20" fill="#9B5BBF">Genes</text>
+            <text x="185" y="170" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">DNA sequence</text>
+            <text x="185" y="188" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">Inherited traits</text>
+            <text x="185" y="206" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">Chromosomes</text>
+
+            <!-- Right circle label -->
+            <text x="515" y="145" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="20" fill="#3EB589">Environment</text>
+            <text x="515" y="170" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">Nutrition</text>
+            <text x="515" y="188" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">Parenting</text>
+            <text x="515" y="206" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="11" fill="var(--neutral-500)">Culture &amp; stress</text>
+
+            <!-- Overlap region label -->
+            <text x="350" y="175" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="18" fill="var(--accent-600)">Epigenetics</text>
+
+            <!-- Overlap items -->
+            <rect x="295" y="190" width="110" height="26" rx="13" fill="var(--accent-100)" stroke="var(--accent-300)" stroke-width="1"/>
+            <text x="350" y="208" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--accent-700)">DNA methylation</text>
+
+            <rect x="290" y="224" width="120" height="26" rx="13" fill="var(--accent-100)" stroke="var(--accent-300)" stroke-width="1"/>
+            <text x="350" y="242" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--accent-700)">Histone modification</text>
+
+            <rect x="295" y="258" width="110" height="26" rx="13" fill="var(--accent-100)" stroke="var(--accent-300)" stroke-width="1"/>
+            <text x="350" y="276" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="700" font-size="10" fill="var(--accent-700)">Stress calibration</text>
+
+            <!-- Bottom caption -->
+            <text x="350" y="400" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="600" font-size="12" fill="var(--neutral-500)">Epigenetics is the bridge -- where experience meets biology</text>
+          </svg>
+          <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <!-- Interactive Balance Scale -->
+        <div class="diagram-container" data-animate="scale-in" data-animate-delay="0.075">
+          <!-- Factor Tokens -->
+          <div class="flex flex-wrap justify-center gap-2 mb-6" data-animate="stagger">
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: var(--primary-50); border-color: var(--primary-300); color: var(--primary-700);" data-factor="nature" draggable="true">
+              Genetics
+            </div>
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: var(--primary-50); border-color: var(--primary-300); color: var(--primary-700);" data-factor="nature" draggable="true">
+              Temperament
+            </div>
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: var(--primary-50); border-color: var(--primary-300); color: var(--primary-700);" data-factor="nature" draggable="true">
+              Prenatal Health
+            </div>
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: var(--secondary-50); border-color: var(--secondary-300); color: var(--secondary-700);" data-factor="nurture" draggable="true">
+              Parenting Style
+            </div>
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: var(--secondary-50); border-color: var(--secondary-300); color: var(--secondary-700);" data-factor="nurture" draggable="true">
+              Education
+            </div>
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: var(--secondary-50); border-color: var(--secondary-300); color: var(--secondary-700);" data-factor="nurture" draggable="true">
+              Peer Influence
+            </div>
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: var(--secondary-50); border-color: var(--secondary-300); color: var(--secondary-700);" data-factor="nurture" draggable="true">
+              Socioeconomic Factors
+            </div>
+            <div class="drag-token px-4 py-2 rounded-full font-[Nunito] font-bold text-sm cursor-grab select-none border-2 shadow-sm transition-all hover:shadow-md" style="background: linear-gradient(135deg, var(--primary-50), var(--secondary-50)); border-color: var(--primary-400); color: var(--primary-800);" data-factor="both" draggable="true">
+              Epigenetics
+            </div>
+          </div>
+
+          <p class="text-center font-[Nunito] text-sm mb-4" style="color: var(--neutral-400); font-weight: 600;">Drag factors to each side to see how the scale tips</p>
+
+          <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interactive balance scale with Nature on the left and Nurture on the right. Drag factors to each pan.">
+            <defs>
+              <linearGradient id="scale-post-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="var(--neutral-300)"/>
+                <stop offset="50%" stop-color="var(--neutral-400)"/>
+                <stop offset="100%" stop-color="var(--neutral-300)"/>
+              </linearGradient>
+              <linearGradient id="nature-pan-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="var(--primary-100)"/>
+                <stop offset="100%" stop-color="var(--primary-200)"/>
+              </linearGradient>
+              <linearGradient id="nurture-pan-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="var(--secondary-100)"/>
+                <stop offset="100%" stop-color="var(--secondary-200)"/>
+              </linearGradient>
+              <filter id="scale-shadow" x="-5%" y="-5%" width="110%" height="115%">
+                <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.1"/>
+              </filter>
+              <filter id="pan-shadow" x="-5%" y="-5%" width="110%" height="115%">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.08"/>
+              </filter>
+            </defs>
+
+            <!-- === BASE / PEDESTAL === -->
+            <!-- Foundation -->
+            <rect x="330" y="440" width="140" height="12" rx="6" fill="var(--neutral-300)"/>
+            <rect x="350" y="430" width="100" height="14" rx="4" fill="var(--neutral-400)"/>
+
+            <!-- Central pillar -->
+            <rect x="392" y="230" width="16" height="204" rx="3" fill="url(#scale-post-gradient)"/>
+
+            <!-- Decorative base plate -->
+            <ellipse cx="400" cy="434" rx="50" ry="8" fill="var(--neutral-200)" opacity="0.5"/>
+
+            <!-- === PIVOT POINT === -->
+            <!-- Pivot triangle -->
+            <polygon points="400,215 388,235 412,235" fill="var(--neutral-500)" stroke="var(--neutral-600)" stroke-width="1"/>
+            <!-- Pivot circle -->
+            <circle cx="400" cy="225" r="8" fill="var(--neutral-100)" stroke="var(--neutral-500)" stroke-width="2"/>
+            <circle cx="400" cy="225" r="3" fill="var(--neutral-500)"/>
+
+            <!-- === BEAM === -->
+            <g id="scale-beam" style="transform-origin: 400px 225px;">
+              <!-- Main beam -->
+              <rect x="80" y="219" width="640" height="12" rx="6" fill="var(--neutral-400)" filter="url(#scale-shadow)"/>
+              <!-- Beam highlight -->
+              <rect x="80" y="219" width="640" height="5" rx="3" fill="var(--neutral-300)" opacity="0.5"/>
+
+              <!-- === LEFT CHAIN: NATURE === -->
+              <!-- Chain links -->
+              <line x1="160" y1="231" x2="160" y2="250" stroke="var(--neutral-400)" stroke-width="3" stroke-linecap="round"/>
+              <line x1="155" y1="250" x2="165" y2="250" stroke="var(--neutral-400)" stroke-width="2"/>
+              <line x1="160" y1="250" x2="160" y2="270" stroke="var(--neutral-400)" stroke-width="3" stroke-linecap="round"/>
+
+              <!-- Left pan (Nature) -->
+              <g class="scale-pan" data-side="nature">
+                <!-- Pan body -->
+                <ellipse cx="160" cy="290" rx="100" ry="12" fill="var(--primary-200)" stroke="var(--primary-400)" stroke-width="1.5"/>
+                <path d="M 60 290 Q 60 320 160 320 Q 260 320 260 290" fill="url(#nature-pan-gradient)" stroke="var(--primary-300)" stroke-width="1" filter="url(#pan-shadow)"/>
+                <!-- Pan inner shine -->
+                <ellipse cx="160" cy="290" rx="85" ry="8" fill="var(--primary-100)" opacity="0.5"/>
+
+                <!-- Chain attachment points -->
+                <line x1="90" y1="231" x2="90" y2="278" stroke="var(--neutral-400)" stroke-width="2" stroke-linecap="round"/>
+                <line x1="230" y1="231" x2="230" y2="278" stroke="var(--neutral-400)" stroke-width="2" stroke-linecap="round"/>
+
+                <!-- Nature label -->
+                <text x="160" y="345" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="16" fill="var(--primary-600)">NATURE</text>
+
+                <!-- DNA helix icon -->
+                <g transform="translate(135, 355)">
+                  <path d="M10 0 Q25 10 10 20 Q-5 30 10 40" stroke="var(--primary-400)" stroke-width="1.5" fill="none"/>
+                  <path d="M40 0 Q25 10 40 20 Q55 30 40 40" stroke="var(--primary-400)" stroke-width="1.5" fill="none"/>
+                  <line x1="14" y1="5" x2="36" y2="5" stroke="var(--primary-300)" stroke-width="1"/>
+                  <line x1="8" y1="20" x2="42" y2="20" stroke="var(--primary-300)" stroke-width="1"/>
+                  <line x1="14" y1="35" x2="36" y2="35" stroke="var(--primary-300)" stroke-width="1"/>
+                </g>
+              </g>
+
+              <!-- === RIGHT CHAIN: NURTURE === -->
+              <!-- Chain links -->
+              <line x1="640" y1="231" x2="640" y2="250" stroke="var(--neutral-400)" stroke-width="3" stroke-linecap="round"/>
+              <line x1="635" y1="250" x2="645" y2="250" stroke="var(--neutral-400)" stroke-width="2"/>
+              <line x1="640" y1="250" x2="640" y2="270" stroke="var(--neutral-400)" stroke-width="3" stroke-linecap="round"/>
+
+              <!-- Right pan (Nurture) -->
+              <g class="scale-pan" data-side="nurture">
+                <!-- Pan body -->
+                <ellipse cx="640" cy="290" rx="100" ry="12" fill="var(--secondary-200)" stroke="var(--secondary-400)" stroke-width="1.5"/>
+                <path d="M 540 290 Q 540 320 640 320 Q 740 320 740 290" fill="url(#nurture-pan-gradient)" stroke="var(--secondary-300)" stroke-width="1" filter="url(#pan-shadow)"/>
+                <!-- Pan inner shine -->
+                <ellipse cx="640" cy="290" rx="85" ry="8" fill="var(--secondary-100)" opacity="0.5"/>
+
+                <!-- Chain attachment points -->
+                <line x1="570" y1="231" x2="570" y2="278" stroke="var(--neutral-400)" stroke-width="2" stroke-linecap="round"/>
+                <line x1="710" y1="231" x2="710" y2="278" stroke="var(--neutral-400)" stroke-width="2" stroke-linecap="round"/>
+
+                <!-- Nurture label -->
+                <text x="640" y="345" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="16" fill="var(--secondary-600)">NURTURE</text>
+
+                <!-- Hands/heart icon -->
+                <g transform="translate(615, 355)">
+                  <!-- Heart -->
+                  <path d="M25 12 C25 6 18 2 14 6 C10 2 3 6 3 12 C3 20 14 28 25 34 C36 28 47 20 47 12 C47 6 40 2 36 6 C32 2 25 6 25 12Z" fill="none" stroke="var(--secondary-400)" stroke-width="1.5" transform="scale(0.6) translate(8, 0)"/>
+                  <!-- Hands -->
+                  <path d="M5 25 Q0 15 10 12" stroke="var(--secondary-400)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                  <path d="M45 25 Q50 15 40 12" stroke="var(--secondary-400)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                </g>
+              </g>
+            </g>
+
+            <!-- === DECORATIVE DETAILS === -->
+            <!-- Small ornamental circles on beam ends -->
+            <circle cx="80" cy="225" r="6" fill="var(--neutral-400)" stroke="var(--neutral-500)" stroke-width="1"/>
+            <circle cx="720" cy="225" r="6" fill="var(--neutral-400)" stroke="var(--neutral-500)" stroke-width="1"/>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0L48 5C96 10 192 20 288 25C384 30 480 30 576 26.7C672 23.3 768 16.7 864 15C960 13.3 1056 16.7 1152 20C1248 23.3 1344 26.7 1392 28.3L1440 30V0H0Z" fill="white"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION F: MODERN RESEARCH SPOTLIGHT
+         ============================================ -->
+    <section class="content-section" data-section-id="modern-research" style="background-color: var(--neutral-50);">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Modern Research Spotlight</h2>
+          <p>The science of epigenetics is accelerating. Here is where the frontier stands today.</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>One of the most exciting developments in recent epigenetics research is the concept of the <strong>epigenetic clock</strong>. Scientists have discovered that specific patterns of DNA methylation change in a highly predictable way as we age. By measuring these patterns, researchers can estimate a person's "biological age" -- which may differ substantially from their chronological age.</p>
+
+          <p>What makes this especially relevant to child psychology is the growing evidence that <strong>childhood adversity accelerates the epigenetic clock</strong>. Children who experience poverty, abuse, neglect, or chronic stress show patterns of DNA methylation that make their cells appear biologically older than they are. Their stress response systems, immune functions, and metabolic pathways bear the chemical signatures of accelerated aging.</p>
+
+          <p>Conversely, supportive environments may slow this clock. Research from 2024 has shown that children in high-quality caregiving environments maintain younger biological age markers, even when controlling for genetics. This suggests that the "setting" of our biological clock is not fixed at birth -- it is tuned, day by day, by the quality of our experiences in childhood.</p>
+        </div>
+
+        <!-- Stat Card -->
+        <div class="stat-grid" data-animate="stagger">
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--module-2);" data-count-to="2024" data-count-from="1990" data-count-duration="1.25">2024</div>
+            <div class="stat-label">Key Research Year for Epigenetic Aging</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--primary-600);" data-count-to="900" data-count-from="0" data-count-duration="1" data-count-suffix="+">0+</div>
+            <div class="stat-label">Epigenetic Clock Sites Identified</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--secondary-600);">3x</div>
+            <div class="stat-label">Faster Biological Aging in Adversity</div>
+          </div>
+        </div>
+
+        <!-- Visual 5: Epigenetic Clock Line Chart -->
+        <div class="chart-figure" data-animate="fade-up" data-animate-delay="0.075">
+          <h4 class="chart-title">Adversity Accelerates Biological Aging</h4>
+          <div class="chart-row">
+            <div data-chart data-chart-type="line" data-chart-data='[{"label":"Birth","value":0},{"label":"Age 5","value":5},{"label":"Age 10","value":12},{"label":"Age 15","value":20},{"label":"Age 20","value":28}]' data-chart-options='{"lineColor":"#FF6B8A","smooth":true}'></div>
+          </div>
+          <p class="chart-caption">The epigenetic clock measures biological aging through DNA methylation patterns. Children who experience chronic adversity -- poverty, abuse, neglect -- show accelerated biological aging, with their cells appearing years older than their chronological age. This line shows how biological age can outpace chronological age under adverse conditions.</p>
+        </div>
+
+        <div data-animate="fade-up" data-animate-delay="0.1">
+          <p>This research carries profound implications for policy and practice. If childhood stress literally ages our cells, then investing in children's wellbeing is not just a moral imperative -- it is a biological one. Early intervention programs, supportive parenting, quality childcare, and the reduction of childhood poverty may all leave measurable epigenetic traces that last a lifetime.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 60L48 55C96 50 192 40 288 35C384 30 480 30 576 33.3C672 36.7 768 43.3 864 45C960 46.7 1056 43.3 1152 40C1248 36.7 1344 33.3 1392 31.7L1440 30V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION G: CLOSING QUOTE
+         ============================================ -->
+    <section class="content-section" style="background-color: white;">
+      <div class="container-narrow">
+        <div class="blockquote" data-animate="fade-up" style="padding: 2rem 2rem 2rem 2.5rem; border-left-width: 4px;">
+          <p style="font-size: var(--text-xl); line-height: 1.7;">"The genome is not a blueprint; it's more like a recipe that is constantly being modified by the cook and the kitchen."</p>
+          <span class="blockquote-author">-- Adapted from modern epigenetics research</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0L48 5C96 10 192 20 288 25C384 30 480 30 576 26.7C672 23.3 768 16.7 864 15C960 13.3 1056 16.7 1152 20C1248 23.3 1344 26.7 1392 28.3L1440 30V0H0Z" fill="white"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION H: GENE-ENVIRONMENT INTERACTION
+         ============================================ -->
+    <section class="content-section" data-section-id="gene-env-interaction" style="background-color: var(--neutral-50);">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>When Genes and Environment <span class="text-gradient">Multiply</span></h2>
+          <p>Gene-environment interaction: the same gene produces different outcomes in different environments</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>Gene-environment interaction (GxE) is distinct from gene-environment correlation explored earlier. In rGE, genes influence which environments people experience. In GxE, genes influence <strong>how people respond to the same environment</strong>. The same environmental experience can have very different effects depending on a person's genetic makeup — and vice versa.</p>
+
+          <p>Avshalom Caspi and Terrie Moffitt's landmark 2002 study on the MAOA gene — sometimes called the "warrior gene" — provided one of the first demonstrated GxE interactions in humans. Males with a low-activity MAOA gene variant who experienced childhood maltreatment were significantly more likely to develop antisocial behavior than (a) maltreated males with high-activity MAOA, or (b) non-maltreated males with low-activity MAOA. Neither the gene nor the environment alone was sufficient — their interaction was the critical factor.</p>
+
+          <p>Jay Belsky's "Differential Susceptibility" hypothesis — also called the Orchid-Dandelion hypothesis (Belsky &amp; Pluess, 2009) — offers a compelling framework for understanding GxE. Some children are like dandelions: they develop reasonably well in most environments, good or bad. Others are like orchids: highly sensitive to their environment, doing poorly in negative environments but exceptionally well in positive ones. The "orchid" phenotype is not simply a risk factor but a sensitivity factor — the same biological sensitivity that makes these children vulnerable to harsh environments makes them especially responsive to nurturing ones.</p>
+
+          <p>This reframes the entire concept of biological risk. A child with genetic variants associated with sensitivity — such as the "short allele" of the serotonin transporter gene — is not simply at risk. They are differentially susceptible. In supportive environments, these children may outperform children with "resilient" genotypes. The policy implication is significant: high-quality environments may have larger positive effects on sensitive children than on less-sensitive children, making investment in early childhood programs especially valuable for precisely these children.</p>
+        </div>
+
+        <!-- GxE Interaction Diagram -->
+        <div class="chart-figure" data-animate="fade-up" data-animate-delay="0.075">
+          <h4 class="chart-title">Orchid vs. Dandelion: Differential Susceptibility</h4>
+          <div style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+            <svg viewBox="0 0 500 300" width="500" height="300" style="min-width: 400px; display: block; margin: 0 auto;" aria-label="GxE interaction diagram showing orchid and dandelion genotypes across environment quality">
+              <!-- Background -->
+              <rect width="500" height="300" fill="var(--neutral-50)" rx="12"/>
+
+              <!-- Axis lines -->
+              <line x1="60" y1="240" x2="440" y2="240" stroke="var(--neutral-400)" stroke-width="1.5"/>
+              <line x1="60" y1="40" x2="60" y2="240" stroke="var(--neutral-400)" stroke-width="1.5"/>
+
+              <!-- X-axis label -->
+              <text x="250" y="272" text-anchor="middle" font-size="12" fill="var(--neutral-600)" font-family="var(--font-heading)">Environment Quality</text>
+              <text x="72" y="258" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">Harsh</text>
+              <text x="390" y="258" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">Supportive</text>
+
+              <!-- Y-axis label -->
+              <text x="18" y="145" text-anchor="middle" font-size="12" fill="var(--neutral-600)" font-family="var(--font-heading)" transform="rotate(-90, 18, 145)">Outcome</text>
+              <text x="65" y="238" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">Poor</text>
+              <text x="65" y="55" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">Good</text>
+
+              <!-- Dandelion line (nearly flat, slight positive slope) -->
+              <line x1="80" y1="165" x2="420" y2="135" stroke="#94B8A0" stroke-width="2.5" stroke-dasharray="6,3"/>
+              <!-- Dandelion label -->
+              <text x="425" y="132" font-size="11" fill="#4A7C59" font-family="var(--font-heading)" font-weight="700">Dandelion</text>
+              <text x="425" y="146" font-size="10" fill="#4A7C59" font-family="var(--font-heading)">(stable)</text>
+
+              <!-- Orchid line (steep positive slope, crosses dandelion) -->
+              <line x1="80" y1="210" x2="420" y2="65" stroke="#E08090" stroke-width="2.5"/>
+              <!-- Orchid label -->
+              <text x="425" y="63" font-size="11" fill="#C0404E" font-family="var(--font-heading)" font-weight="700">Orchid</text>
+              <text x="425" y="77" font-size="10" fill="#C0404E" font-family="var(--font-heading)">(sensitive)</text>
+
+              <!-- Crossing point circle -->
+              <circle cx="230" cy="150" r="6" fill="none" stroke="var(--accent-400)" stroke-width="2"/>
+              <text x="195" y="128" font-size="10" fill="var(--neutral-600)" font-family="var(--font-heading)">Crossing point</text>
+
+              <!-- Region labels -->
+              <text x="90" y="100" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">Orchid does WORSE</text>
+              <text x="90" y="113" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">in harsh conditions</text>
+              <text x="310" y="100" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">Orchid does BETTER</text>
+              <text x="310" y="113" font-size="10" fill="var(--neutral-500)" font-family="var(--font-heading)">in supportive conditions</text>
+            </svg>
+          </div>
+          <p class="chart-caption">The Orchid-Dandelion model of differential susceptibility. Dandelion genotypes show relatively stable outcomes across environments. Orchid genotypes are highly sensitive: they do worse than dandelions in harsh environments but better than dandelions in supportive ones. Biological sensitivity is not simply a "risk" — it is a two-directional amplifier.</p>
+        </div>
+
+        <div class="callout callout-wow" data-animate="fade-up" data-animate-delay="0.1">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 5v3M8 10.5v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            💡 Key Insight
+          </div>
+          <p><strong>Orchids and Dandelions —</strong> Belsky's research identified that the same genetic sensitivity that makes some children highly vulnerable to negative environments makes them exquisitely responsive to positive ones. These "orchid children" are not simply fragile — they are sensors, calibrated to extract the maximum developmental information from their environment. Put them in a greenhouse, and they flourish.</p>
+        </div>
+
+        <div class="callout callout-research" data-animate="fade-up" data-animate-delay="0.125">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 1l2.5 5 5.5.8-4 3.9.9 5.3L9 13.5 4.1 16l.9-5.3-4-3.9 5.5-.8L9 1z" fill="var(--accent-400)"/>
+            </svg>
+            🔬 Landmark Study
+          </div>
+          <p><strong>The MAOA Study (Caspi &amp; Moffitt, 2002) —</strong> In a study of 442 males followed from birth to adulthood, maltreated boys with low-activity MAOA were significantly more likely to develop antisocial behavior than maltreated boys with high-activity MAOA or non-maltreated boys with either variant. Neither gene nor environment alone predicted the outcome — only their interaction did. This was heralded as a landmark GxE finding, though replication has been mixed.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 60L48 55C96 50 192 40 288 35C384 30 480 30 576 33.3C672 36.7 768 43.3 864 45C960 46.7 1056 43.3 1152 40C1248 36.7 1344 33.3 1392 31.7L1440 30V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION I: BEHAVIORAL GENETICS METHODS
+         ============================================ -->
+    <section class="content-section" data-section-id="behavioral-genetics-methods" style="background-color: white;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Beyond Twins: <span class="text-gradient">Modern Behavioral Genetics</span></h2>
+          <p>How genome-wide studies have transformed — and complicated — the nature-nurture story</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>Genome-Wide Association Studies (GWAS) have revolutionized behavioral genetics. Instead of relying on twin designs that estimate aggregate genetic influence, GWAS scan millions of specific genetic variants — SNPs, or single nucleotide polymorphisms — to identify which variants are statistically associated with traits. For IQ and educational attainment, GWAS studies with samples of millions of people have identified thousands of contributing variants.</p>
+
+          <p>Polygenic scores — the sum of an individual's variants associated with a trait — can now explain 10–15% of variance in educational attainment. This is genetically meaningful: heritability explains why tall parents have tall children even when you cannot point to a single "height gene." But it also reveals the <strong>Missing Heritability Problem</strong>: twin studies suggest roughly 50–80% heritability for IQ, but GWAS variants identified so far explain only 15–20%. Where is the rest? Possible explanations include rare variants not captured in GWAS, gene-gene interactions (epistasis), epigenetic effects, and gene-environment interactions.</p>
+
+          <p>The enormous number of contributing variants — 1,200 or more SNPs associated with educational attainment in the largest studies — demonstrates that complex psychological traits like intelligence, personality, and temperament are "polygenic" to an extreme degree. There is no single "gene for intelligence." Each variant contributes a tiny effect, most of which act through indirect pathways affecting motivation, energy levels, and health, rather than through direct effects on neural efficiency.</p>
+
+          <p>Ethical considerations are acute. Polygenic scores for educational attainment or IQ could be used to predict children's outcomes from birth — raising profound questions about equity, determinism, and self-fulfilling prophecies. The history of eugenics — using genetics to "improve" the population — is a cautionary tale. Modern behavioral geneticists work hard to distinguish scientific findings (which genes are associated with which traits) from policy implications (what we should do about it) — a distinction that science alone cannot resolve.</p>
+        </div>
+
+        <!-- Stat Grid -->
+        <div class="stat-grid" data-animate="stagger">
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--module-2);">1,200+</div>
+            <div class="stat-label">Genetic variants associated with educational attainment in largest GWAS studies</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--primary-600);">~15%</div>
+            <div class="stat-label">Variance in educational attainment explained by polygenic scores</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color: var(--secondary-600);">50–80%</div>
+            <div class="stat-label">Heritability estimate for IQ from twin studies — showing the "missing heritability" gap</div>
+          </div>
+        </div>
+
+        <div class="callout callout-myth" data-animate="fade-up" data-animate-delay="0.075">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M8 1L1 14h14L8 1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M8 6v3M8 11.5v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ⚡ Myth vs. Reality
+          </div>
+          <p><strong>MYTH:</strong> "They found the gene for intelligence."</p>
+          <p style="margin-top: 0.75rem;"><strong>REALITY:</strong> There is no single gene for intelligence. The largest GWAS studies identify 1,200+ variants, each with tiny effects. Intelligence is the product of thousands of genes interacting with each other and with the environment. A polygenic score for educational attainment explains only ~15% of variance — leaving 85% to other genetic variants, gene-environment interactions, epigenetics, and experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0L48 5C96 10 192 20 288 25C384 30 480 30 576 26.7C672 23.3 768 16.7 864 15C960 13.3 1056 16.7 1152 20C1248 23.3 1344 26.7 1392 28.3L1440 30V0H0Z" fill="white"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION J: EPIGENETICS IMPLICATIONS
+         ============================================ -->
+    <section class="content-section" data-section-id="epigenetics-implications" style="background-color: var(--neutral-50);">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>What Epigenetics Means <span class="text-gradient">for Children</span></h2>
+          <p>From laboratory mice to children's health: the real-world implications of epigenetic science</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>The most important practical implication of epigenetics is the <strong>biology of poverty and adversity</strong>. Martha Farah and Daniel Hackman's research on children from lower socioeconomic backgrounds shows structural differences in brain regions critical for learning — the prefrontal cortex, hippocampus, and language areas — that track with stress exposure, not just with access to educational resources. Chronic stress from poverty, neighborhood violence, food insecurity, and family instability acts through the HPA axis and epigenetic mechanisms to alter gene expression in these critical brain regions.</p>
+
+          <p>The reversibility of epigenetic marks offers hope. Unlike genetic sequences, epigenetic modifications can be changed. The key agent: responsive, nurturing relationships. Michael Meaney's research on rat mothers who lick and groom their pups more showed these pups had demethylated — more accessible — glucocorticoid receptor genes in the hippocampus, meaning their stress response systems were more adaptable. Human equivalents include warm, responsive parenting; safe, predictable environments; and access to high-quality childcare.</p>
+
+          <p>The Bucharest Early Intervention Project (Zeanah, Nelson, Fox) provided critical human evidence. Romanian orphans randomly assigned to high-quality foster care showed measurably better neural development — including EEG normalization and improved attachment — compared to those who remained institutionalized. Those placed before age 2 showed the strongest recovery. Importantly, the foster children had different methylation patterns than institutionalized peers, demonstrating that changed environments change epigenetic marks.</p>
+
+          <p>These findings carry profound policy implications. They suggest that poverty is not just an economic problem but a biological one — it gets under the skin and into the DNA. Investing in high-quality early childhood environments is not just a social policy choice but a neurobiological necessity. The Harvard Center on the Developing Child's framework of "toxic stress" has shaped early childhood policy in dozens of countries, translating epigenetic science into actionable recommendations.</p>
+        </div>
+
+        <div class="callout callout-research" data-animate="fade-up" data-animate-delay="0.075">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 1l2.5 5 5.5.8-4 3.9.9 5.3L9 13.5 4.1 16l.9-5.3-4-3.9 5.5-.8L9 1z" fill="var(--accent-400)"/>
+            </svg>
+            🔬 Landmark Study
+          </div>
+          <p><strong>BEIP: Foster Care Changes Epigenetics —</strong> Children in the Bucharest Early Intervention Project who were placed in high-quality foster care showed not just behavioral improvements but changes in their epigenetic markers compared to institutionalized peers. This demonstrated that changed caregiving environments literally change how genes are expressed — providing some of the first human evidence that epigenetic marks are responsive to relational experience.</p>
+        </div>
+
+        <div class="callout callout-wow" data-animate="fade-up" data-animate-delay="0.1">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 5v3M8 10.5v.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            💡 Key Insight
+          </div>
+          <p><strong>Poverty Gets Under the Skin —</strong> Research by Martha Farah and colleagues shows that children who grow up in poverty show measurable differences in prefrontal cortex and hippocampal volume compared to higher-income peers — even before accounting for access to educational resources. Chronic stress, through cortisol and epigenetic mechanisms, alters the physical architecture of developing brains. This is why economic inequality is not just a social problem — it is a neurodevelopmental one.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 60L48 55C96 50 192 40 288 35C384 30 480 30 576 33.3C672 36.7 768 43.3 864 45C960 46.7 1056 43.3 1152 40C1248 36.7 1344 33.3 1392 31.7L1440 30V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ============================================
+         SECTION K: NATURE-NURTURE CONCLUSION
+         ============================================ -->
+    <section class="content-section" data-section-id="nature-nurture-conclusion" style="background-color: white;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Beyond the <span class="text-gradient">Old Debate</span></h2>
+          <p>What we've learned: genes and environments are not rivals — they are partners in development</p>
+        </div>
+        <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+
+        <div data-animate="fade-up" data-animate-delay="0.05">
+          <p>The nature-nurture debate that has preoccupied psychology for centuries is now understood to be based on a false dichotomy. Genes and environments are not rivals — they are co-dependent systems that make sense only in relation to each other. A gene's effect depends on the environment. An environment's effect depends on the genome. Epigenetic mechanisms provide the molecular interface where experience writes itself onto gene expression.</p>
+
+          <p>Donald Hebb captured this beautifully: asking whether intelligence is due to genes or environment is like asking whether the area of a field is due to its length or its width. Both dimensions are essential; neither alone determines the area; and different fields can have the same area through very different combinations of dimensions. A genotype that thrives in one environment may falter in another. An environment that enriches one child may have no effect on another.</p>
+
+          <p>What this means practically: there is no such thing as a fixed developmental destiny. High genetic risk does not foreclose good outcomes with the right environment. Low genetic "endowment" by any measure does not foreclose intelligence, achievement, or wellbeing. The brain is not a deterministic machine but a dynamic, responsive system that builds itself in dialogue with experience across the entire lifespan.</p>
+
+          <p>The implications for how we treat children are profound. No child should be written off as "genetically destined" for failure. No adversity is "just the way things are." The science demands that we provide every child with the environmental conditions — safety, nourishment, responsive relationships, stimulation, and opportunity — in which their unique genetic endowment can find its best expression.</p>
+        </div>
+
+        <div class="callout callout-try" data-animate="fade-up" data-animate-delay="0.075">
+          <div class="callout-label">🎯 The Practical Takeaway</div>
+          <p>What epigenetics and behavioral genetics together tell parents and educators:</p>
+          <ol style="margin-top: 0.75rem; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem;">
+            <li><strong>Every child is genetically unique</strong> — what works for one may not work for another.</li>
+            <li><strong>Environments matter enormously</strong> — especially early, especially warmth and responsiveness.</li>
+            <li><strong>Children are not fixed</strong> — development is a dynamic dialogue between biology and experience.</li>
+            <li><strong>Early investment pays the highest returns</strong>, but it is never too late. The conversation between genes and environment continues throughout life.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0L48 5C96 10 192 20 288 25C384 30 480 30 576 26.7C672 23.3 768 16.7 864 15C960 13.3 1056 16.7 1152 20C1248 23.3 1344 26.7 1392 28.3L1440 30V0H0Z" fill="white"/>
+    </svg>
+
+    <!-- ============================================
+         QUIZ SECTION
+         ============================================ -->
+    <section class="content-section" style="background-color: var(--neutral-50);">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up" style="text-align: center;">
+          <h2>🎉 Test Your Understanding</h2>
+          <p style="margin: 0 auto;">See how well you absorbed the key concepts from this module.</p>
+        </div>
+
+        <div id="quiz-container" data-module="module2" data-animate="fade-up" data-animate-delay="0.075"></div>
+      </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 60L48 55C96 50 192 40 288 35C384 30 480 30 576 33.3C672 36.7 768 43.3 864 45C960 46.7 1056 43.3 1152 40C1248 36.7 1344 33.3 1392 31.7L1440 30V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ============================================
+         MODULE NAVIGATION
+         ============================================ -->
+    <section class="content-section" style="background-color: white;">
+      <div class="container">
+        <nav class="module-nav" aria-label="Module navigation">
+          <a href="module1.html" class="module-nav-link" data-transition>
+            <span class="nav-direction">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="display: inline; vertical-align: middle; margin-right: 4px;">
+                <path d="M9 3L5 7l4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Previous Module
+            </span>
+            <span class="nav-title">Module 1: The Child Who Changed Science</span>
+          </a>
+          <a href="module3.html" class="module-nav-link is-next" data-transition>
+            <span class="nav-direction">
+              Next Module
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="display: inline; vertical-align: middle; margin-left: 4px;">
+                <path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="nav-title">Module 3: Building a Mind</span>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>Growing Minds -- A Child Psychology Course</p>
+        <p style="margin-top: 0.5rem; font-size: 0.75rem; opacity: 0.7;">Built with 💜 curiosity and science ✨</p>
+      </div>
+    </footer>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- ============================================
+       SCRIPTS
+       ============================================ -->
+  <!-- GSAP 3.12 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
+
+  <!-- App Scripts -->
+  <script src="js/progress.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/diagrams.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

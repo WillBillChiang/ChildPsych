@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Module 5: Attachment Theory — Discover Bowlby's biological attachment system, Harlow's revolutionary monkey experiments, Ainsworth's Strange Situation, and the four attachment styles.">
+  <meta name="author" content="Growing Minds">
+  <meta name="theme-color" content="#FF6B8A">
+  <title>Module 5: The Invisible Bond | Growing Minds</title>
+
+  <!-- Tailwind CSS v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Tailwind Config -->
+  <style type="text/tailwindcss">
+    @theme {
+      --font-heading: 'Nunito', system-ui, -apple-system, sans-serif;
+      --font-body: 'Quicksand', 'Nunito', system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body data-module-id="module5">
+
+<div aria-hidden="true" style="position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;">
+  <svg class="animate-star-twinkle" style="position:absolute;top:15%;left:5%;width:16px;height:16px;opacity:0.22;" viewBox="0 0 24 24" fill="#FFA3BA"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-star-twinkle" style="position:absolute;top:45%;right:4%;width:12px;height:12px;opacity:0.18;animation-delay:0.4s;" viewBox="0 0 24 24" fill="#D4A6EB"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-float-wiggle" style="position:absolute;bottom:20%;left:6%;width:14px;height:14px;opacity:0.15;" viewBox="0 0 24 24" fill="#FF85A3"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"/></svg>
+</div>
+
+  <!-- ========================================
+       SCROLL PROGRESS BAR
+       ======================================== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ========================================
+       NAVIGATION
+       ======================================== -->
+  <nav class="main-nav" id="mainNav">
+    <div class="nav-inner">
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+          <circle cx="16" cy="16" r="14" fill="#F5E6FF" stroke="#9B5BBF" stroke-width="1.5"/>
+          <path d="M16 6C12.5 6 9 8.5 9 13c0 2.5 1 4 2.5 5.5C13 20 14 21.5 14 24h4c0-2.5 1-4 2.5-5.5C22 17 23 15.5 23 13c0-4.5-3.5-7-7-7z" fill="#D4A6EB" stroke="#9B5BBF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 6c-1 2-1.5 4-1.5 7 0 3 .5 5 1.5 7" stroke="#9B5BBF" stroke-width="0.8" opacity="0.5" stroke-linecap="round"/>
+          <path d="M16 6c1 2 1.5 4 1.5 7 0 3-.5 5-1.5 7" stroke="#9B5BBF" stroke-width="0.8" opacity="0.5" stroke-linecap="round"/>
+          <path d="M9.5 13h13" stroke="#9B5BBF" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
+          <path d="M10 10h12" stroke="#9B5BBF" stroke-width="0.8" opacity="0.3" stroke-linecap="round"/>
+          <path d="M10.5 16h11" stroke="#9B5BBF" stroke-width="0.8" opacity="0.3" stroke-linecap="round"/>
+          <rect x="13" y="24" width="6" height="2" rx="1" fill="#FFBE85" stroke="#E07830" stroke-width="0.8"/>
+        </svg>
+        <span>Growing Minds</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#modules">Modules</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+      <!-- Hamburger Button (mobile) -->
+      <button class="nav-hamburger" id="navHamburger" aria-label="Open navigation menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========================================
+       MOBILE NAV OVERLAY
+       ======================================== -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <div class="mobile-nav-panel">
+      <!-- Close Button -->
+      <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Mobile Navigation Title -->
+      <p class="font-heading font-bold text-xs uppercase tracking-wider text-neutral-400 mb-3 px-4">Course Modules</p>
+
+      <ul class="mobile-nav-list">
+        <li><a href="module1.html">1. The Child Who Changed Science</a></li>
+        <li><a href="module2.html">2. You Are Not Just Your DNA</a></li>
+        <li><a href="module3.html">3. Building a Mind</a></li>
+        <li><a href="module4.html">4. The Language Explosion</a></li>
+        <li><a href="module5.html" class="is-active">5. The Invisible Bond</a></li>
+        <li><a href="module6.html">6. Feeling It All</a></li>
+        <li><a href="module7.html">7. Reading Minds</a></li>
+        <li><a href="module8.html">8. The Brain Under Construction</a></li>
+        <li><a href="module9.html">9. Serious Fun</a></li>
+        <li><a href="module10.html">10. Growing Up Digital</a></li>
+      </ul>
+
+      <div class="mt-6 pt-6 border-t border-neutral-200">
+        <ul class="mobile-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================
+       PAGE WRAPPER (for page transitions)
+       ======================================== -->
+  <div class="page-wrapper" id="pageWrapper">
+
+    <!-- ========================================
+         MODULE HERO
+         ======================================== -->
+    <section class="module-hero">
+      <div class="module-hero-bg"></div>
+
+      <div class="module-hero-deco" aria-hidden="true">
+        <svg class="deco-float" style="position:absolute;top:10%;left:6%;width:120px;height:110px;opacity:0.07;" viewBox="0 0 100 90" fill="none">
+          <path d="M50 85 C20 60 5 45 5 30 C5 15 15 5 30 5 C40 5 47 12 50 18 C53 12 60 5 70 5 C85 5 95 15 95 30 C95 45 80 60 50 85Z" stroke="#FF6B8A" stroke-width="2.5"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;top:15%;right:10%;width:140px;height:90px;opacity:0.06;" viewBox="0 0 120 70" fill="none">
+          <circle cx="42" cy="35" r="25" stroke="#FF6B8A" stroke-width="2"/>
+          <circle cx="78" cy="35" r="25" stroke="#FF6B8A" stroke-width="2"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:12%;left:10%;width:100px;height:100px;opacity:0.06;" viewBox="0 0 80 80" fill="none">
+          <path d="M40 75 C15 65 5 50 5 35 L5 15 L40 5 L75 15 L75 35 C75 50 65 65 40 75Z" stroke="#FF6B8A" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M40 55 C25 48 18 40 18 32 L18 22 L40 15 L62 22 L62 32 C62 40 55 48 40 55Z" stroke="#FF6B8A" stroke-width="1.5" stroke-linejoin="round" opacity="0.5"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:22%;right:15%;width:80px;height:80px;opacity:0.05;" viewBox="0 0 80 80" fill="none">
+          <path d="M20 30 C20 25 15 20 10 25 C5 30 10 38 20 45 C30 38 35 30 30 25 C25 20 20 25 20 30Z" stroke="#FF6B8A" stroke-width="1.5"/>
+          <path d="M55 20 C55 16 51 12 47 16 C43 20 47 26 55 32 C63 26 67 20 63 16 C59 12 55 16 55 20Z" stroke="#FF6B8A" stroke-width="1.5"/>
+          <path d="M50 55 C50 51 46 47 42 51 C38 55 42 61 50 67 C58 61 62 55 58 51 C54 47 50 51 50 55Z" stroke="#FF6B8A" stroke-width="1.5"/>
+        </svg>
+      </div>
+
+      <div class="module-hero-content" data-animate="fade-up">
+        <div class="module-number-badge">
+          <svg width="18" height="16" viewBox="0 0 18 16" fill="none" aria-hidden="true">
+            <path d="M9 14l-5.5-5.5C2 7 2 5 3 4s3-1 4.5 0L9 5.5 10.5 4C12 3 14 3 15 4s1 3-.5 4.5L9 14z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+          Module 5
+        </div>
+        <h1><span class="text-gradient">The Invisible Bond</span></h1>
+        <p class="module-hero-subtitle">Attachment Theory and Its Modern Revolution</p>
+      </div>
+    </section>
+
+    <!-- ========================================
+         WAVE DIVIDER: Hero -> Content
+         ======================================== -->
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,60 C240,100 480,0 720,50 C960,100 1200,20 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION A: The Roots of Connection
+         ======================================== -->
+    <section class="content-section" data-section-id="section-a">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Roots of Connection</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How a British psychiatrist uncovered the biological foundations of human bonding</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>In the aftermath of World War II, British psychiatrist <strong>John Bowlby</strong> observed something that would reshape our understanding of childhood forever. Working with children separated from their families during the war, he witnessed the devastating psychological effects of broken bonds &mdash; and began to ask a question that no one had properly addressed: <em>Why do infants need their mothers?</em></p>
+
+          <p>The prevailing wisdom at the time was simple: babies love their mothers because mothers feed them. This was the "<strong>cupboard theory</strong>" of attachment &mdash; the idea that infants are essentially creatures of appetite, bonding to whoever fills their bellies. Bowlby saw something profoundly different.</p>
+
+          <p>Bowlby proposed that <strong>attachment is an evolved biological system</strong>. Just as baby ducks imprint on the first moving object they see, human infants are <strong>biologically programmed to seek proximity to caregivers</strong>. This isn't learned behavior &mdash; it's hardwired into our species through millions of years of evolution. Infants who stayed close to caregivers survived; those who didn't, perished.</p>
+
+          <p>From this insight came one of the most important concepts in developmental psychology: the <strong>"secure base."</strong> Children explore the world with confidence precisely because they know they can return to their caregiver when stressed. The attachment figure is like a home port for a ship &mdash; the vessel ventures out to explore vast waters, but always knows where safety lies.</p>
+        </div>
+
+        <!-- Bowlby Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #FCE7F3; color: #FF6B8A;">JB</div>
+          <div>
+            <h4>John Bowlby</h4>
+            <p class="figure-years">1907 &ndash; 1990</p>
+            <p>British psychiatrist and psychoanalyst who founded attachment theory. His work with war-displaced children revealed that early emotional bonds are as vital to development as food and shelter.</p>
+          </div>
+        </div>
+
+        <div class="blockquote" data-animate="fade-up">
+          <p>&ldquo;What cannot be communicated to the mother cannot be communicated to the self.&rdquo;</p>
+          <span class="blockquote-author">&mdash; John Bowlby</span>
+        </div>
+
+        <!-- Attachment Behavior Cycle Diagram -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" aria-label="Circular diagram showing the 5 stages of the attachment behavior cycle">
+            <!-- Background -->
+            <rect width="500" height="500" rx="12" fill="#FAFBFC"/>
+
+            <!-- Title -->
+            <text x="250" y="32" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="16" fill="#1E293B">The Attachment Behavior Cycle</text>
+
+            <!-- Arrow marker definitions -->
+            <defs>
+              <marker id="cycle-arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+                <path d="M0,0 L10,4 L0,8" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linejoin="round"/>
+              </marker>
+            </defs>
+
+            <!-- Center text -->
+            <text x="250" y="242" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#64748B">Attachment</text>
+            <text x="250" y="262" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#64748B">System</text>
+
+            <!-- Node 1: Child Explores (top center, green) -->
+            <g transform="translate(250, 80)">
+              <ellipse cx="0" cy="0" rx="68" ry="30" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+              <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#065F46">Child Explores</text>
+            </g>
+
+            <!-- Node 2: Stress Detected (top-right, amber) -->
+            <g transform="translate(420, 200)">
+              <ellipse cx="0" cy="0" rx="68" ry="30" fill="#FEF3C7" stroke="#FFA75A" stroke-width="2"/>
+              <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#92400E">Stress Detected</text>
+            </g>
+
+            <!-- Node 3: Seeks Proximity (bottom-right, teal) -->
+            <g transform="translate(355, 390)">
+              <ellipse cx="0" cy="0" rx="68" ry="30" fill="#CCFBF1" stroke="#3EB589" stroke-width="2"/>
+              <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#115E59">Seeks Proximity</text>
+            </g>
+
+            <!-- Node 4: Caregiver Responds (bottom-left, purple) -->
+            <g transform="translate(145, 390)">
+              <ellipse cx="0" cy="0" rx="68" ry="30" fill="#EDE9FE" stroke="#9B5BBF" stroke-width="2"/>
+              <text x="0" y="-2" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="11" fill="#4C1D95">Caregiver</text>
+              <text x="0" y="12" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="11" fill="#4C1D95">Responds</text>
+            </g>
+
+            <!-- Node 5: Felt Security (top-left, green) -->
+            <g transform="translate(80, 200)">
+              <ellipse cx="0" cy="0" rx="68" ry="30" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+              <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#065F46">Felt Security</text>
+            </g>
+
+            <!-- Curved arrows connecting nodes (1->2, 2->3, 3->4, 4->5, 5->1) -->
+            <!-- Arrow 1 -> 2: Child Explores to Stress Detected -->
+            <path d="M318 90 C370 100, 410 140, 420 168" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" marker-end="url(#cycle-arrow)"/>
+
+            <!-- Arrow 2 -> 3: Stress Detected to Seeks Proximity -->
+            <path d="M430 232 C440 280, 420 330, 385 358" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" marker-end="url(#cycle-arrow)"/>
+
+            <!-- Arrow 3 -> 4: Seeks Proximity to Caregiver Responds -->
+            <path d="M287 395 C260 410, 230 410, 213 395" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" marker-end="url(#cycle-arrow)"/>
+
+            <!-- Arrow 4 -> 5: Caregiver Responds to Felt Security -->
+            <path d="M110 360 C80 330, 68 280, 72 232" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" marker-end="url(#cycle-arrow)"/>
+
+            <!-- Arrow 5 -> 1: Felt Security to Child Explores -->
+            <path d="M115 172 C130 130, 170 95, 182 85" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" marker-end="url(#cycle-arrow)"/>
+
+            <!-- Small number badges on each node -->
+            <g font-family="'Nunito', sans-serif" font-weight="800" font-size="10" text-anchor="middle">
+              <circle cx="250" cy="48" r="10" fill="#10B981"/><text x="250" y="52" fill="white">1</text>
+              <circle cx="470" cy="178" r="10" fill="#FFA75A"/><text x="470" y="182" fill="white">2</text>
+              <circle cx="405" cy="410" r="10" fill="#3EB589"/><text x="405" y="414" fill="white">3</text>
+              <circle cx="95" cy="410" r="10" fill="#9B5BBF"/><text x="95" y="414" fill="white">4</text>
+              <circle cx="30" cy="178" r="10" fill="#10B981"/><text x="30" y="182" fill="white">5</text>
+            </g>
+          </svg>
+          <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION B: Harlow's Monkeys
+         ======================================== -->
+    <section class="content-section" data-section-id="section-b">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Harlow's Monkeys</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>The experiment that changed everything we thought we knew about love</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>While Bowlby was building his theory from clinical observation, American psychologist <strong>Harry Harlow</strong> was about to deliver the most dramatic experimental evidence the field had ever seen. What he discovered would destroy the cupboard theory once and for all &mdash; and force science to confront an uncomfortable truth about what babies truly need.</p>
+        </div>
+
+        <!-- WOW Callout: Comfort Over Food -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            ✨
+            Comfort Over Food
+          </div>
+          <p><strong>Harry Harlow</strong> placed infant rhesus monkeys in cages with two artificial "mothers": a <strong>wire mother</strong> that provided food, and a <strong>cloth mother</strong> that provided no food but was soft and warm. The results were staggering. The monkeys spent <strong>17&ndash;18 HOURS PER DAY</strong> clinging to the cloth mother and only visited the wire mother briefly to feed. When frightened by a loud noise or a strange object, they <strong>always</strong> ran to the cloth mother &mdash; never to the wire one that fed them.</p>
+          <p style="margin-top: 0.75rem;">This single experiment <strong>destroyed the "cupboard theory"</strong> &mdash; the widely held belief that attachment is simply about food. Harlow proved that <strong>contact comfort is the primary driver of attachment</strong>, not nourishment. The need to be held, to feel warmth and softness, is more fundamental than hunger itself.</p>
+        </div>
+
+        <!-- SVG Illustration: Harlow's Experiment -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" aria-label="Illustration of Harlow's monkey experiment showing wire mother with food vs cloth mother with comfort">
+            <!-- Background -->
+            <rect width="700" height="400" rx="12" fill="#FAFBFC"/>
+
+            <!-- Title -->
+            <text x="350" y="32" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="16" fill="#1E293B">Harlow's Surrogate Mother Experiment</text>
+
+            <!-- === LEFT SIDE: Wire Mother === -->
+            <g transform="translate(120, 70)">
+              <!-- Wire Mother Body - geometric wire-frame -->
+              <rect x="-25" y="20" width="50" height="90" rx="4" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-dasharray="6 3"/>
+              <!-- Wire head -->
+              <circle cx="0" cy="10" r="18" fill="none" stroke="#94A3B8" stroke-width="2.5"/>
+              <!-- Wire eyes (simple dots) -->
+              <circle cx="-6" cy="7" r="2" fill="#94A3B8"/>
+              <circle cx="6" cy="7" r="2" fill="#94A3B8"/>
+              <!-- Wire cross-bars (mesh texture) -->
+              <line x1="-25" y1="45" x2="25" y2="45" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+              <line x1="-25" y1="65" x2="25" y2="65" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+              <line x1="-25" y1="85" x2="25" y2="85" stroke="#94A3B8" stroke-width="1.5" opacity="0.5"/>
+              <line x1="-10" y1="20" x2="-10" y2="110" stroke="#94A3B8" stroke-width="1" opacity="0.4"/>
+              <line x1="10" y1="20" x2="10" y2="110" stroke="#94A3B8" stroke-width="1" opacity="0.4"/>
+              <!-- Wire legs -->
+              <line x1="-15" y1="110" x2="-15" y2="140" stroke="#94A3B8" stroke-width="2.5"/>
+              <line x1="15" y1="110" x2="15" y2="140" stroke="#94A3B8" stroke-width="2.5"/>
+
+              <!-- Baby bottle -->
+              <g transform="translate(35, 50)">
+                <rect x="0" y="0" width="14" height="28" rx="3" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+                <rect x="3" y="-6" width="8" height="8" rx="2" fill="#93C5FD" stroke="#3B82F6" stroke-width="1"/>
+                <!-- Milk level -->
+                <rect x="2" y="10" width="10" height="16" rx="2" fill="#93C5FD" opacity="0.5"/>
+                <text x="7" y="42" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="9" fill="#3B82F6" font-weight="700">Food</text>
+              </g>
+
+              <!-- Label -->
+              <text x="0" y="170" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="13" fill="#64748B">Wire Mother</text>
+              <text x="0" y="186" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="600" font-size="11" fill="#94A3B8">(Food)</text>
+            </g>
+
+            <!-- === RIGHT SIDE: Cloth Mother with Baby Monkey === -->
+            <g transform="translate(480, 70)">
+              <!-- Cloth Mother Body - soft rounded shape with texture -->
+              <ellipse cx="0" cy="70" rx="38" ry="50" fill="#D2B48C" stroke="#A0845C" stroke-width="2"/>
+              <!-- Cloth texture pattern -->
+              <ellipse cx="0" cy="70" rx="30" ry="42" fill="none" stroke="#C4A67D" stroke-width="0.8" opacity="0.5"/>
+              <ellipse cx="0" cy="70" rx="20" ry="32" fill="none" stroke="#C4A67D" stroke-width="0.6" opacity="0.3"/>
+              <!-- Cloth head -->
+              <circle cx="0" cy="10" r="20" fill="#D2B48C" stroke="#A0845C" stroke-width="2"/>
+              <!-- Warm eyes -->
+              <circle cx="-7" cy="7" r="3" fill="#8B6914"/>
+              <circle cx="7" cy="7" r="3" fill="#8B6914"/>
+              <circle cx="-6" cy="6" r="1" fill="white"/>
+              <circle cx="8" cy="6" r="1" fill="white"/>
+              <!-- Gentle smile -->
+              <path d="M-6 14 Q0 20 6 14" fill="none" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round"/>
+              <!-- Cloth arms -->
+              <ellipse cx="-35" cy="60" rx="12" ry="8" fill="#D2B48C" stroke="#A0845C" stroke-width="1.5" transform="rotate(-20 -35 60)"/>
+              <ellipse cx="35" cy="60" rx="12" ry="8" fill="#D2B48C" stroke="#A0845C" stroke-width="1.5" transform="rotate(20 35 60)"/>
+
+              <!-- === Baby Monkey clinging to cloth mother === -->
+              <g transform="translate(-5, 50)">
+                <!-- Baby body -->
+                <ellipse cx="0" cy="15" rx="14" ry="18" fill="#C4956A" stroke="#8B6914" stroke-width="1.2"/>
+                <!-- Baby head -->
+                <circle cx="0" cy="-5" r="11" fill="#D4A574" stroke="#8B6914" stroke-width="1.2"/>
+                <!-- Baby ears -->
+                <circle cx="-10" cy="-8" r="5" fill="#E8C49A" stroke="#8B6914" stroke-width="1"/>
+                <circle cx="10" cy="-8" r="5" fill="#E8C49A" stroke="#8B6914" stroke-width="1"/>
+                <!-- Baby eyes -->
+                <circle cx="-4" cy="-6" r="2.5" fill="#1E293B"/>
+                <circle cx="4" cy="-6" r="2.5" fill="#1E293B"/>
+                <circle cx="-3.5" cy="-6.5" r="0.8" fill="white"/>
+                <circle cx="4.5" cy="-6.5" r="0.8" fill="white"/>
+                <!-- Baby nose -->
+                <ellipse cx="0" cy="-2" rx="2.5" ry="1.5" fill="#C4956A" stroke="#8B6914" stroke-width="0.8"/>
+                <!-- Baby arms reaching around cloth mother -->
+                <path d="M-12 8 Q-22 2 -28 10" fill="none" stroke="#C4956A" stroke-width="4" stroke-linecap="round"/>
+                <path d="M12 8 Q22 2 28 10" fill="none" stroke="#C4956A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Baby tail -->
+                <path d="M8 30 Q18 35 14 45 Q10 50 16 52" fill="none" stroke="#C4956A" stroke-width="2.5" stroke-linecap="round"/>
+              </g>
+
+              <!-- Heart symbols showing comfort -->
+              <g opacity="0.7">
+                <path d="M-50 -5 C-50 -10 -44 -14 -40 -10 C-36 -14 -30 -10 -30 -5 C-30 2 -40 8 -40 8 C-40 8 -50 2 -50 -5Z" fill="#F43F5E" opacity="0.6"/>
+                <path d="M40 -15 C40 -18 43 -20 45 -18 C47 -20 50 -18 50 -15 C50 -12 45 -9 45 -9 C45 -9 40 -12 40 -15Z" fill="#F43F5E" opacity="0.4"/>
+              </g>
+
+              <!-- Label -->
+              <text x="0" y="155" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="13" fill="#64748B">Cloth Mother</text>
+              <text x="0" y="171" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="600" font-size="11" fill="#94A3B8">(Comfort)</text>
+            </g>
+
+            <!-- === CENTER: Divider === -->
+            <line x1="300" y1="60" x2="300" y2="230" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+            <text x="300" y="248" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="11" fill="#94A3B8">VS</text>
+
+            <!-- === BOTTOM: Bar Chart Comparison === -->
+            <g transform="translate(0, 270)">
+              <!-- Axis line -->
+              <line x1="100" y1="80" x2="600" y2="80" stroke="#CBD5E1" stroke-width="1.5"/>
+
+              <!-- Wire Mother bar -->
+              <rect x="140" y="55" width="150" height="25" rx="5" fill="#CBD5E1"/>
+              <!-- Fill proportional to ~1.5 hours out of 18 -->
+              <rect x="140" y="55" width="13" height="25" rx="5" fill="#94A3B8"/>
+              <text x="160" y="72" font-family="'Nunito', sans-serif" font-weight="700" font-size="11" fill="#475569">~1&ndash;2 hrs/day</text>
+              <text x="140" y="48" font-family="'Nunito', sans-serif" font-weight="600" font-size="11" fill="#94A3B8">Wire Mother</text>
+
+              <!-- Cloth Mother bar -->
+              <rect x="140" y="5" width="150" height="25" rx="5" fill="#FEF3C7"/>
+              <!-- Fill proportional to ~17.5 hours out of 18 -->
+              <rect x="140" y="5" width="146" height="25" rx="5" fill="#FFA75A"/>
+              <text x="160" y="22" font-family="'Nunito', sans-serif" font-weight="700" font-size="11" fill="#78350F">~17&ndash;18 hrs/day</text>
+              <text x="140" y="-2" font-family="'Nunito', sans-serif" font-weight="600" font-size="11" fill="#E07830">Cloth Mother</text>
+
+              <!-- Label -->
+              <text x="350" y="105" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#64748B">Time Spent with Each Surrogate (per day)</text>
+            </g>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>The implications were profound. If the need for comfort surpasses the need for food, then attachment is not a secondary drive &mdash; it is a <strong>primary biological need</strong>. This finding became one of the most influential demonstrations in the entire history of psychology, and it continues to shape how we understand parenting, childcare, and human relationships today.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION C: The Strange Situation
+         ======================================== -->
+    <section class="content-section" data-section-id="section-c">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Strange Situation</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Mary Ainsworth's breakthrough method for measuring the invisible</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>How do you measure something as intangible as the quality of an attachment bond? This was the challenge that <strong>Mary Ainsworth</strong>, one of Bowlby's most brilliant collaborators, set out to solve. Her answer was a laboratory procedure of elegant simplicity that would become one of the most replicated experimental paradigms in all of developmental psychology.</p>
+
+          <p>The <strong>Strange Situation</strong> is a carefully choreographed 21-minute procedure consisting of eight episodes. A parent and infant (typically 12&ndash;18 months old) are brought into an unfamiliar playroom. Over the course of the procedure, a stranger enters, the parent leaves, the parent returns, and these separations and reunions are repeated &mdash; each time escalating the stress on the infant.</p>
+
+          <p>The genius of the design lies in what Ainsworth chose to observe. It wasn't the infant's <em>distress</em> during separation that mattered most &mdash; it was their <strong>behavior during the reunion</strong>. How a baby responds when the parent returns reveals the internal working model of attachment that the child has constructed over months of interaction.</p>
+        </div>
+
+        <!-- Ainsworth Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #ECFDF5; color: #059669;">MA</div>
+          <div>
+            <h4>Mary Ainsworth</h4>
+            <p class="figure-years">1913 &ndash; 1999</p>
+            <p>Canadian-American developmental psychologist who created the Strange Situation procedure. Her meticulous observations in Uganda and Baltimore revealed that attachment quality &mdash; not just attachment presence &mdash; shapes development.</p>
+          </div>
+        </div>
+
+        <!-- SVG Flowchart: Strange Situation Episodes -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg" aria-label="Flowchart of the 8 episodes in the Strange Situation procedure">
+            <!-- Title -->
+            <text x="375" y="30" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="16" fill="#1E293B">The Strange Situation &mdash; 8 Episodes</text>
+
+            <!-- EPISODE 1 (Green) -->
+            <g transform="translate(30, 55)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#ECFDF5" stroke="#5CC99B" stroke-width="2"/>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#059669">Episode 1</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Parent &amp; baby</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">enter room</text>
+            </g>
+            <!-- Arrow 1->2 -->
+            <line x1="185" y1="89" x2="210" y2="89" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+            <!-- EPISODE 2 (Green) -->
+            <g transform="translate(215, 55)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#ECFDF5" stroke="#5CC99B" stroke-width="2"/>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#059669">Episode 2</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Baby explores,</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">parent watches</text>
+            </g>
+            <!-- Arrow 2->3 -->
+            <line x1="370" y1="89" x2="395" y2="89" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+            <!-- EPISODE 3 (Yellow) -->
+            <g transform="translate(400, 55)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#FEF9C3" stroke="#EAB308" stroke-width="2"/>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#A16207">Episode 3</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Stranger enters</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">the room</text>
+            </g>
+            <!-- Arrow 3->4 -->
+            <path d="M557 123 L557 150 Q557 160 547 160 L582 160" fill="none" stroke="#CBD5E1" stroke-width="2"/>
+            <line x1="557" y1="123" x2="557" y2="170" stroke="#CBD5E1" stroke-width="2"/>
+
+            <!-- EPISODE 4 (Orange) -->
+            <g transform="translate(400, 175)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#FFF7ED" stroke="#F97316" stroke-width="2"/>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#C2410C">Episode 4</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Parent leaves</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">(baby + stranger)</text>
+            </g>
+            <!-- Arrow 4->5 -->
+            <line x1="400" y1="209" x2="370" y2="209" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arrowhead-left)"/>
+
+            <!-- EPISODE 5 (Orange) -->
+            <g transform="translate(215, 175)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#FFF7ED" stroke="#F97316" stroke-width="2"/>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#C2410C">Episode 5</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Stranger offers</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">comfort</text>
+            </g>
+            <!-- Arrow 5->6 -->
+            <line x1="215" y1="209" x2="185" y2="209" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arrowhead-left)"/>
+
+            <!-- EPISODE 6 (Blue) - KEY OBSERVATION -->
+            <g transform="translate(30, 175)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2.5"/>
+              <!-- Star indicator -->
+              <g transform="translate(135, -8)">
+                <polygon points="10,0 12.5,7 20,7 14,11.5 16.5,19 10,14 3.5,19 6,11.5 0,7 7.5,7" fill="#FFA75A" stroke="#E07830" stroke-width="0.8"/>
+              </g>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#1D4ED8">Episode 6</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Parent returns,</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">stranger leaves</text>
+            </g>
+            <!-- Arrow 6->7 -->
+            <line x1="107" y1="243" x2="107" y2="290" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arrowhead-down)"/>
+
+            <!-- FIRST REUNION label -->
+            <g transform="translate(30, 260)">
+              <rect x="-5" y="0" width="165" height="22" rx="6" fill="#DBEAFE"/>
+              <text x="78" y="15" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="10" fill="#1D4ED8">FIRST REUNION</text>
+            </g>
+
+            <!-- EPISODE 7 (Red) -->
+            <g transform="translate(30, 295)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#FEF2F2" stroke="#FF6B8A" stroke-width="2"/>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#DC2626">Episode 7</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Parent leaves</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">again (baby alone)</text>
+            </g>
+            <!-- Arrow 7->8 -->
+            <line x1="185" y1="329" x2="320" y2="329" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+            <!-- EPISODE 8 (Blue) - KEY OBSERVATION -->
+            <g transform="translate(325, 295)">
+              <rect x="0" y="0" width="155" height="68" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2.5"/>
+              <!-- Star indicator -->
+              <g transform="translate(135, -8)">
+                <polygon points="10,0 12.5,7 20,7 14,11.5 16.5,19 10,14 3.5,19 6,11.5 0,7 7.5,7" fill="#FFA75A" stroke="#E07830" stroke-width="0.8"/>
+              </g>
+              <text x="12" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#1D4ED8">Episode 8</text>
+              <text x="12" y="40" font-family="'Lora', serif" font-size="11" fill="#334155">Parent returns</text>
+              <text x="12" y="55" font-family="'Lora', serif" font-size="11" fill="#334155">(final reunion)</text>
+            </g>
+
+            <!-- SECOND REUNION label -->
+            <g transform="translate(325, 375)">
+              <rect x="-5" y="0" width="165" height="22" rx="6" fill="#DBEAFE"/>
+              <text x="78" y="15" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="10" fill="#1D4ED8">SECOND REUNION</text>
+            </g>
+
+            <!-- KEY OBSERVATION POINTS callout -->
+            <g transform="translate(510, 305)">
+              <rect x="0" y="0" width="210" height="72" rx="10" fill="#FEF3C7" stroke="#FFA75A" stroke-width="1.5"/>
+              <g transform="translate(14, 18)">
+                <polygon points="8,0 10,5.5 16,5.5 11,9 13,15 8,11 3,15 5,9 0,5.5 6,5.5" fill="#FFA75A" stroke="#E07830" stroke-width="0.6"/>
+              </g>
+              <text x="38" y="22" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#92400E">KEY OBSERVATION</text>
+              <text x="38" y="36" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#92400E">POINTS</text>
+              <text x="14" y="56" font-family="'Lora', serif" font-size="10" fill="#78350F">Reunion behavior reveals</text>
+              <text x="14" y="68" font-family="'Lora', serif" font-size="10" fill="#78350F">attachment quality</text>
+            </g>
+
+            <!-- Arrow marker definitions -->
+            <defs>
+              <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+                <path d="M0,0 L8,3 L0,6" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+              </marker>
+              <marker id="arrowhead-left" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto">
+                <path d="M8,0 L0,3 L8,6" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+              </marker>
+              <marker id="arrowhead-down" markerWidth="6" markerHeight="8" refX="3" refY="7" orient="auto">
+                <path d="M0,0 L3,8 L6,0" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+              </marker>
+            </defs>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>The procedure is brilliantly designed to gradually escalate stress. Early episodes establish a baseline of exploration, while later episodes introduce the unknown (a stranger) and the feared (the parent's departure). By the time the parent returns for the second reunion, the infant's internal working model of attachment is fully activated &mdash; and their response tells us everything about the relationship they've built.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION D: Four Ways of Bonding
+         ======================================== -->
+    <section class="content-section" data-section-id="section-d">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Four Ways of Bonding</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>The attachment styles that shape how we relate to others throughout life</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>From thousands of hours of observation, Ainsworth and later researchers identified <strong>four distinct attachment styles</strong>. Each represents a different strategy that infants develop in response to the quality of care they receive. These styles can be mapped onto two dimensions: <strong>anxiety</strong> (fear of abandonment) and <strong>avoidance</strong> (discomfort with closeness).</p>
+        </div>
+
+        <!-- SVG: Attachment Styles Quadrant -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg" aria-label="Attachment styles quadrant diagram showing Secure, Anxious-Ambivalent, Avoidant, and Disorganized styles">
+            <!-- Title -->
+            <text x="400" y="30" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="17" fill="#1E293B">Attachment Styles</text>
+
+            <!-- === AXES === -->
+            <!-- Vertical axis (Anxiety) -->
+            <line x1="400" y1="60" x2="400" y2="600" stroke="#CBD5E1" stroke-width="2"/>
+            <!-- Horizontal axis (Avoidance) -->
+            <line x1="80" y1="330" x2="720" y2="330" stroke="#CBD5E1" stroke-width="2"/>
+
+            <!-- Axis Labels -->
+            <!-- Anxiety label (vertical) -->
+            <text x="400" y="52" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#64748B">HIGH ANXIETY</text>
+            <text x="400" y="620" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="12" fill="#64748B">LOW ANXIETY</text>
+            <!-- Avoidance label (horizontal) -->
+            <text x="62" y="334" text-anchor="end" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#64748B">LOW</text>
+            <text x="60" y="346" text-anchor="end" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#94A3B8">AVOIDANCE</text>
+            <text x="738" y="334" text-anchor="start" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#64748B">HIGH</text>
+            <text x="740" y="346" text-anchor="start" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#94A3B8">AVOIDANCE</text>
+
+            <!-- Axis arrows -->
+            <polygon points="400,58 395,68 405,68" fill="#CBD5E1"/>
+            <polygon points="400,602 395,592 405,592" fill="#CBD5E1"/>
+            <polygon points="722,330 712,325 712,335" fill="#CBD5E1"/>
+            <polygon points="78,330 88,325 88,335" fill="#CBD5E1"/>
+
+            <!-- ========== QUADRANT 1: SECURE (Bottom-Left) ========== -->
+            <g transform="translate(90, 340)">
+              <rect x="0" y="0" width="300" height="250" rx="14" fill="#ECFDF5" stroke="#5CC99B" stroke-width="2"/>
+
+              <!-- Title -->
+              <text x="150" y="30" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="15" fill="#059669">Secure</text>
+
+              <!-- Parent-child illustration -->
+              <g transform="translate(100, 60)">
+                <!-- Parent figure -->
+                <circle cx="0" cy="0" r="14" fill="#A7F3D0" stroke="#059669" stroke-width="1.5"/>
+                <rect x="-8" y="16" width="16" height="24" rx="6" fill="#A7F3D0" stroke="#059669" stroke-width="1.5"/>
+                <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="10" fill="#059669" font-weight="700">P</text>
+
+                <!-- Child figure (exploring but nearby) -->
+                <circle cx="60" cy="10" r="10" fill="#D1FAE5" stroke="#5CC99B" stroke-width="1.5"/>
+                <rect x="54" y="22" width="12" height="18" rx="5" fill="#D1FAE5" stroke="#5CC99B" stroke-width="1.5"/>
+                <text x="60" y="14" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="9" fill="#5CC99B" font-weight="700">C</text>
+
+                <!-- Connection line: solid, warm, gentle curve -->
+                <path d="M14 10 Q35 -5 50 12" fill="none" stroke="#5CC99B" stroke-width="2.5" stroke-linecap="round"/>
+              </g>
+
+              <!-- Percentage -->
+              <text x="150" y="125" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#059669">~60&ndash;65%</text>
+              <text x="150" y="140" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="600" font-size="10" fill="#64748B">of Western infants</text>
+
+              <!-- Characteristics -->
+              <g transform="translate(20, 155)">
+                <circle cx="6" cy="6" r="3" fill="#5CC99B"/>
+                <text x="16" y="10" font-family="'Lora', serif" font-size="11" fill="#334155">Uses parent as secure base</text>
+
+                <circle cx="6" cy="28" r="3" fill="#5CC99B"/>
+                <text x="16" y="32" font-family="'Lora', serif" font-size="11" fill="#334155">Distressed but easily comforted</text>
+
+                <circle cx="6" cy="50" r="3" fill="#5CC99B"/>
+                <text x="16" y="54" font-family="'Lora', serif" font-size="11" fill="#334155">Confident exploration</text>
+              </g>
+            </g>
+
+            <!-- ========== QUADRANT 2: ANXIOUS-AMBIVALENT (Top-Left) ========== -->
+            <g transform="translate(90, 68)">
+              <rect x="0" y="0" width="300" height="252" rx="14" fill="#FEF3C7" stroke="#FFA75A" stroke-width="2"/>
+
+              <!-- Title -->
+              <text x="150" y="30" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#E07830">Anxious-Ambivalent</text>
+
+              <!-- Parent-child illustration -->
+              <g transform="translate(100, 60)">
+                <!-- Parent figure -->
+                <circle cx="0" cy="0" r="14" fill="#FDE68A" stroke="#E07830" stroke-width="1.5"/>
+                <rect x="-8" y="16" width="16" height="24" rx="6" fill="#FDE68A" stroke="#E07830" stroke-width="1.5"/>
+                <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="10" fill="#E07830" font-weight="700">P</text>
+
+                <!-- Child figure (clinging very close) -->
+                <circle cx="20" cy="5" r="10" fill="#FEF3C7" stroke="#FFA75A" stroke-width="1.5"/>
+                <rect x="14" y="17" width="12" height="18" rx="5" fill="#FEF3C7" stroke="#FFA75A" stroke-width="1.5"/>
+                <text x="20" y="9" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="9" fill="#FFA75A" font-weight="700">C</text>
+
+                <!-- Connection line: jagged/zigzag, amber -->
+                <path d="M14 8 L18 2 L22 12 L26 4 L30 10" fill="none" stroke="#FFA75A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+
+              <!-- Percentage -->
+              <text x="150" y="125" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#E07830">~10&ndash;15%</text>
+              <text x="150" y="140" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="600" font-size="10" fill="#64748B">of Western infants</text>
+
+              <!-- Characteristics -->
+              <g transform="translate(20, 155)">
+                <circle cx="6" cy="6" r="3" fill="#FFA75A"/>
+                <text x="16" y="10" font-family="'Lora', serif" font-size="11" fill="#334155">Intense distress at separation</text>
+
+                <circle cx="6" cy="28" r="3" fill="#FFA75A"/>
+                <text x="16" y="32" font-family="'Lora', serif" font-size="11" fill="#334155">Resistant and angry at reunion</text>
+
+                <circle cx="6" cy="50" r="3" fill="#FFA75A"/>
+                <text x="16" y="54" font-family="'Lora', serif" font-size="11" fill="#334155">Difficulty being comforted</text>
+              </g>
+            </g>
+
+            <!-- ========== QUADRANT 3: AVOIDANT (Bottom-Right) ========== -->
+            <g transform="translate(410, 340)">
+              <rect x="0" y="0" width="300" height="250" rx="14" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+
+              <!-- Title -->
+              <text x="150" y="30" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="15" fill="#2563EB">Avoidant</text>
+
+              <!-- Parent-child illustration -->
+              <g transform="translate(80, 60)">
+                <!-- Parent figure -->
+                <circle cx="0" cy="0" r="14" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1.5"/>
+                <rect x="-8" y="16" width="16" height="24" rx="6" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1.5"/>
+                <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="10" fill="#2563EB" font-weight="700">P</text>
+
+                <!-- Child figure (far away, back turned) -->
+                <circle cx="90" cy="10" r="10" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+                <rect x="84" y="22" width="12" height="18" rx="5" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+                <text x="90" y="14" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="9" fill="#93C5FD" font-weight="700">C</text>
+
+                <!-- Connection line: dashed with gaps, blue -->
+                <line x1="14" y1="10" x2="80" y2="12" stroke="#93C5FD" stroke-width="2" stroke-dasharray="8 6" stroke-linecap="round"/>
+              </g>
+
+              <!-- Percentage -->
+              <text x="150" y="125" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#2563EB">~20%</text>
+              <text x="150" y="140" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="600" font-size="10" fill="#64748B">of Western infants</text>
+
+              <!-- Characteristics -->
+              <g transform="translate(20, 155)">
+                <circle cx="6" cy="6" r="3" fill="#3B82F6"/>
+                <text x="16" y="10" font-family="'Lora', serif" font-size="11" fill="#334155">Little visible distress</text>
+
+                <circle cx="6" cy="28" r="3" fill="#3B82F6"/>
+                <text x="16" y="32" font-family="'Lora', serif" font-size="11" fill="#334155">Avoids parent at reunion</text>
+
+                <circle cx="6" cy="50" r="3" fill="#3B82F6"/>
+                <text x="16" y="54" font-family="'Lora', serif" font-size="11" fill="#334155">Appears independent</text>
+              </g>
+            </g>
+
+            <!-- ========== QUADRANT 4: DISORGANIZED (Top-Right) ========== -->
+            <g transform="translate(410, 68)">
+              <rect x="0" y="0" width="300" height="252" rx="14" fill="#FEF2F2" stroke="#FF6B8A" stroke-width="2"/>
+
+              <!-- Title -->
+              <text x="150" y="30" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="15" fill="#DC2626">Disorganized</text>
+
+              <!-- Parent-child illustration -->
+              <g transform="translate(80, 60)">
+                <!-- Parent figure -->
+                <circle cx="0" cy="0" r="14" fill="#FECACA" stroke="#FF6B8A" stroke-width="1.5"/>
+                <rect x="-8" y="16" width="16" height="24" rx="6" fill="#FECACA" stroke="#FF6B8A" stroke-width="1.5"/>
+                <text x="0" y="5" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="10" fill="#DC2626" font-weight="700">P</text>
+
+                <!-- Child figure (frozen, confused) -->
+                <circle cx="55" cy="8" r="10" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+                <rect x="49" y="20" width="12" height="18" rx="5" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+                <text x="55" y="12" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="9" fill="#FCA5A5" font-weight="700">C</text>
+                <!-- Confusion indicators -->
+                <text x="55" y="-6" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="12" fill="#FF6B8A" font-weight="700">?</text>
+
+                <!-- Connection line: broken/erratic fragments, red -->
+                <line x1="14" y1="5" x2="22" y2="12" stroke="#FF6B8A" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="26" y1="2" x2="32" y2="14" stroke="#FF6B8A" stroke-width="2" stroke-linecap="round"/>
+                <line x1="36" y1="6" x2="42" y2="10" stroke="#FF6B8A" stroke-width="2.5" stroke-linecap="round"/>
+              </g>
+
+              <!-- Percentage -->
+              <text x="150" y="125" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#DC2626">~15%</text>
+              <text x="150" y="140" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="600" font-size="10" fill="#64748B">of Western infants</text>
+
+              <!-- Characteristics -->
+              <g transform="translate(20, 155)">
+                <circle cx="6" cy="6" r="3" fill="#FF6B8A"/>
+                <text x="16" y="10" font-family="'Lora', serif" font-size="11" fill="#334155">Contradictory behaviors</text>
+
+                <circle cx="6" cy="28" r="3" fill="#FF6B8A"/>
+                <text x="16" y="32" font-family="'Lora', serif" font-size="11" fill="#334155">Freezing or apprehension</text>
+
+                <circle cx="6" cy="50" r="3" fill="#FF6B8A"/>
+                <text x="16" y="54" font-family="'Lora', serif" font-size="11" fill="#334155">Associated with maltreatment</text>
+              </g>
+            </g>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>It is crucial to understand that these attachment styles are not permanent labels stamped onto children. They are <strong>adaptive strategies</strong> &mdash; each one represents the best solution a child has found for maintaining proximity to their specific caregiver. A child who learns to suppress distress around an emotionally unavailable parent is not broken; they are being strategically intelligent about relationships.</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <h3>Internal Working Models: The Blueprints of Relationships</h3>
+          <p>Bowlby proposed that through repeated interactions with caregivers, infants construct <strong>internal working models (IWMs)</strong> &mdash; cognitive schemas that function as mental blueprints for all future relationships. These models answer two fundamental questions that every human being carries, consciously or not: <em>"Am I worthy of love?"</em> and <em>"Are other people reliable?"</em></p>
+
+          <p>A securely attached child develops a working model in which the self is lovable and others are trustworthy. An avoidant child learns that the self must be self-sufficient because others are emotionally unavailable. An anxious-ambivalent child internalizes a model where the self is uncertain of its worth and others are unpredictable. These schemas do not remain confined to the nursery &mdash; they become the invisible templates through which we interpret friendships, romantic relationships, and even our relationship with ourselves throughout the lifespan.</p>
+
+          <p>The remarkable power of IWMs lies in their <strong>self-confirming nature</strong>. A child who expects rejection may behave in ways that inadvertently provoke it, thereby confirming the original model. This creates a feedback loop that can persist for decades unless disrupted by new relational experiences &mdash; a principle that lies at the heart of modern attachment-based therapy.</p>
+        </div>
+
+        <!-- Research Callout: IWM Stability Meta-Analysis -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+            </svg>
+            Research Update &mdash; Long-Term Stability of IWMs
+          </div>
+          <p>A <strong>2023 meta-analysis published in <em>Psychological Bulletin</em></strong> synthesized decades of longitudinal data on the stability of attachment patterns. The findings revealed correlations of <strong>r = .14 to .24</strong> between infant attachment classifications and adult attachment measures &mdash; spanning decades of development. While these are modest effect sizes, they demonstrate that early attachment patterns cast a remarkably long shadow. The relationship is not deterministic, but it is statistically reliable: the internal working models formed in the first years of life continue to exert a measurable influence on relationship patterns 20, 30, and even 40 years later.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION E: The Still Face
+         ======================================== -->
+    <section class="content-section" data-section-id="section-e">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Still Face</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How a blank expression revealed the social genius of infants</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>If Harlow's experiment shocked the scientific world, the <strong>Still Face Experiment</strong> unnerved it. Designed by developmental psychologist <strong>Edward Tronick</strong> in 1975, this deceptively simple study revealed that even the youngest infants are far more socially aware &mdash; and far more emotionally vulnerable &mdash; than anyone had imagined.</p>
+        </div>
+
+        <!-- WOW Callout: Still Face Experiment -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            ✨
+            Edward Tronick's Still Face Experiment (1975)
+          </div>
+          <p>When a mother suddenly adopts a <strong>completely blank, unresponsive expression</strong> during face-to-face interaction, infants as young as <strong>2&ndash;3 months</strong> go through a dramatic sequence:</p>
+          <div style="margin: 1rem 0 0.5rem; padding-left: 0.5rem;">
+            <p style="margin-bottom: 0.75rem;"><strong style="color: var(--primary-600);">1. RE-ENGAGE:</strong> They try desperately to get the mother's attention back &mdash; smiling, cooing, reaching out, pointing. They use every social tool in their tiny repertoire.</p>
+            <p style="margin-bottom: 0.75rem;"><strong style="color: var(--accent-600);">2. DISTRESS:</strong> When their efforts fail, they become visibly upset &mdash; crying, squirming, looking away repeatedly, arching their backs.</p>
+            <p style="margin-bottom: 0;"><strong style="color: var(--error);">3. WITHDRAWAL:</strong> Finally, they withdraw entirely with what observers describe as a "hopeless" expression &mdash; turning away, slumping, disengaging from the world.</p>
+          </div>
+          <p style="margin-top: 1rem;">This remains one of the most replicated findings in developmental psychology and shows that even tiny infants are <strong>ACTIVE participants in social interaction</strong> who monitor the quality of engagement. They are not passive recipients of care &mdash; they are sophisticated social partners from the very beginning of life.</p>
+        </div>
+
+        <!-- Tronick Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #EDE9FE; color: #9B5BBF;">ET</div>
+          <div>
+            <h4>Edward Tronick</h4>
+            <p class="figure-years">b. 1940</p>
+            <p>American developmental psychologist whose Still Face Experiment demonstrated that infants are active social agents who expect and monitor reciprocal emotional engagement from birth.</p>
+          </div>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>The still face experiment carries a sobering modern implication. Every time a parent becomes absorbed in their phone during face-to-face interaction with an infant, they are essentially performing a micro-version of the still face. While brief disruptions are normal and even healthy (they teach infants to cope with minor stress), chronic emotional unavailability can have lasting consequences for a child's developing attachment system.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION F: Across Cultures
+         ======================================== -->
+    <section class="content-section" data-section-id="section-f">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Across Cultures</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>What happens when attachment theory travels the world</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>One of the most important questions about attachment theory is whether it applies universally or is just a Western construct. Cross-cultural research has revealed a fascinating and nuanced answer: the <strong>biological need for attachment is universal</strong>, but the <strong>distribution of attachment styles varies significantly</strong> across cultures.</p>
+
+          <p><strong>Japanese infants</strong> show much higher rates of anxious-ambivalent attachment than Western samples. Why? Because Japanese mothers practice <em>amae</em> &mdash; an extremely close, almost constant physical proximity with their infants. These babies are rarely separated from their mothers, so the Strange Situation's separation episodes are far more distressing for them. Their heightened distress doesn't indicate pathology &mdash; it reflects a cultural norm of closeness.</p>
+
+          <p><strong>German infants</strong>, in contrast, show higher rates of avoidant attachment. German parenting traditions emphasize early independence and discourage excessive clinginess. These children learn to regulate their emotions internally, appearing more self-reliant in the Strange Situation. Again, this reflects a <strong>cultural value system</strong>, not a deficiency in parenting.</p>
+
+          <p>The lesson is powerful: attachment patterns reflect <strong>different, not deficient</strong>, childrearing practices. What looks "healthy" through one cultural lens may appear quite different through another. The Strange Situation was calibrated on American middle-class families, and we must be careful about applying its categories as universal standards.</p>
+        </div>
+
+        <!-- Myth Callout -->
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            ❌
+            Myth vs. Reality
+          </div>
+          <p><strong>MYTH: "Only Western attachment patterns are 'healthy.'"</strong></p>
+          <p style="margin-top: 0.5rem;">Cultural differences in attachment reflect different values and practices, not deficits. Japanese mothers' constant proximity creates different separation responses, not worse ones. A child who cries intensely when separated from a mother they've never been apart from is responding normally to an abnormal situation (for their culture).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION G: The Neuroscience of Attachment
+         ======================================== -->
+    <section class="content-section" data-section-id="section-g">
+      <div class="container-narrow">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Neuroscience of Attachment</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How bonding literally wires the brain</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>Modern neuroscience has confirmed what Bowlby intuited decades ago: attachment isn't just a psychological phenomenon &mdash; it is a <strong>neurobiological process</strong> that physically shapes the developing brain. The quality of early attachment relationships directly influences the architecture of brain regions critical for emotional regulation, memory, and social functioning.</p>
+
+          <p>Four brain regions are particularly involved in the attachment system:</p>
+        </div>
+
+        <!-- Brain Regions Stat Grid -->
+        <div class="stat-grid" data-animate="stagger">
+          <div class="stat-card">
+            <div class="stat-number" style="font-size: 1.25rem; color: var(--primary-600);">Amygdala</div>
+            <div class="stat-label">The brain's threat detector. Securely attached children show better-regulated amygdala responses to stress, while insecure attachment is linked to heightened amygdala reactivity.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size: 1.25rem; color: var(--secondary-600);">Hippocampus</div>
+            <div class="stat-label">Critical for memory formation. Attachment experiences are encoded here, forming the templates (internal working models) that guide future relationships.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size: 1.25rem; color: var(--accent-600);">Prefrontal Cortex</div>
+            <div class="stat-label">The seat of emotional regulation. Secure attachment promotes healthy prefrontal development, enabling children to manage emotions effectively.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size: 1.25rem; color: #FF6B8A;">Anterior Cingulate</div>
+            <div class="stat-label">Monitors social pain and distress. Activation in this region during separation mirrors the neural signature of physical pain &mdash; confirming that social bonds are biologically real.</div>
+          </div>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>In a landmark development, the <strong>2024 NAMDA framework</strong> (published in <em>Communications Psychology</em>) represents the most comprehensive attempt yet to integrate neurobiology with attachment theory. This extended framework maps specific neural circuits onto each attachment style, showing how different patterns of caregiving create distinct neurological signatures in the developing brain.</p>
+        </div>
+
+        <!-- Stat Callout: 2024 -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            🔬
+            Research Update &mdash; 2024
+          </div>
+          <p>The <strong>extended NAMDA (Neuroscience of Attachment, Motivation, Development, and Adaptation) framework</strong> was published in <em>Communications Psychology</em>, providing the field's most detailed integration of attachment theory with modern neuroscience. It maps how attachment patterns become embedded in neural circuitry through repeated caregiver-infant interactions during critical periods of brain development.</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>The neuroscience reveals an uncomfortable truth: attachment is not a luxury. It is a <strong>biological necessity</strong> that shapes the physical structure of the brain during its most rapid period of development. The brain of a securely attached child literally looks different &mdash; with stronger connections between emotional centers and regulatory regions &mdash; than the brain of a child who has experienced severe attachment disruption.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION H: Closing Quote
+         ======================================== -->
+    <section class="content-section" data-section-id="section-h">
+      <div class="container-narrow">
+        <div class="blockquote" data-animate="fade-up" style="background: linear-gradient(135deg, var(--primary-50), #FCE7F3); border-left-color: #FF6B8A;">
+          <p style="font-size: 1.25rem;">&ldquo;The propensity to make strong emotional bonds to particular individuals is a basic component of human nature.&rdquo;</p>
+          <span class="blockquote-author">&mdash; John Bowlby</span>
+        </div>
+
+        <div data-animate="fade-up" style="text-align: center; margin-top: 2rem;">
+          <p style="max-width: 600px; margin: 0 auto; color: var(--neutral-500); font-style: italic;">From Bowlby's wartime observations to Harlow's monkeys, from Ainsworth's Strange Situation to modern brain imaging &mdash; the science is clear. The invisible bonds we form in the earliest months of life create the foundation upon which all future relationships are built.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         WAVE DIVIDER: Section H -> Section I
+         ======================================== -->
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION I: The Paradox of Disorganized Attachment
+         ======================================== -->
+    <section class="content-section" data-section-id="section-i">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The <span class="text-gradient">Paradox</span> of Disorganized Attachment</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>When the source of safety is also the source of fear</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>Mary Main and Judith Solomon (1986) identified a fourth attachment pattern not fitting Ainsworth's original three: <strong>disorganized/disoriented attachment</strong>. In the Strange Situation, these infants display contradictory, bizarre behaviors &mdash; approaching the caregiver with averted gaze, freezing in place with a trance-like expression, moving then suddenly stopping mid-approach, or showing brief collapse to the floor. These are not strategic behaviors but signs of a system breakdown.</p>
+
+          <p>The mechanism proposed by Main: these infants are caught in an <strong>"impossible dilemma."</strong> The attachment system is designed to seek proximity to the caregiver when frightened. But when the caregiver IS the source of fright &mdash; through frightening, frightened, or abusive behavior &mdash; activating the attachment system drives the infant toward the source of threat. The result is a behavioral paradox: the safety system and the alarm system activate simultaneously, producing the characteristic disorganized behaviors. There is no strategy that resolves this contradiction.</p>
+
+          <p>Disorganized attachment is associated with frightened or frightening parental behavior (Main &amp; Hesse, 1990) &mdash; not necessarily abuse, but any behavior that triggers fear in the infant without the parent being available to soothe it. This includes parents who are themselves frightened (perhaps due to their own unresolved trauma) and show fear in the infant's presence, parents who tease or threaten playfully without reading the infant's fear cues, and parents who dissociate or "check out" in ways that unsettle the infant.</p>
+
+          <p>Disorganized attachment is the most clinically concerning pattern. It occurs in approximately 15% of low-risk samples but 48% or more in samples of maltreated children (van IJzendoorn, Schuengel &amp; Bakermans-Kranenburg, 1999). It is the strongest predictor of later psychopathology &mdash; associated with dissociative symptoms, aggression, and controlling relationship patterns in adolescence. Understanding disorganized attachment is central to understanding the developmental impact of trauma and maltreatment.</p>
+        </div>
+
+        <!-- Stat Grid -->
+        <div class="stat-grid" data-animate="stagger">
+          <div class="stat-card">
+            <div class="stat-number">~15%</div>
+            <div class="stat-label">Disorganized attachment in low-risk community samples</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">~48%</div>
+            <div class="stat-label">Disorganized attachment in maltreated child samples</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">1986</div>
+            <div class="stat-label">Year Main &amp; Solomon identified and defined the disorganized pattern</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">Strongest</div>
+            <div class="stat-label">Disorganized attachment is the strongest attachment predictor of later psychopathology</div>
+          </div>
+        </div>
+
+        <!-- WOW Callout -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            💡
+            The Impossible Dilemma
+          </div>
+          <p>Disorganized infants face a neurobiologically impossible situation: the person who triggers the attachment system (the caregiver) IS the source of fear. In all other attachment patterns, there is a strategy &mdash; approach for security, or maintain distance strategically. Disorganized infants have no strategy. Their behavior is not bizarre &mdash; it is the only possible response to an impossible situation. Their environment, not their minds, is disordered.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         WAVE DIVIDER: Section I -> Section J
+         ======================================== -->
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,60 C240,100 480,0 720,50 C960,100 1200,20 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION J: Attachment in Adoption & Foster Care
+         ======================================== -->
+    <section class="content-section" data-section-id="section-j">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Attachment in <span class="text-gradient">Adoption &amp; Foster Care</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>What happens to the attachment system after early deprivation &mdash; and what helps</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>The <strong>Bucharest Early Intervention Project</strong> (Nelson, Fox &amp; Zeanah, 2007+) is the most comprehensive study of early institutional deprivation ever conducted. Romanian orphans were randomly assigned to either remain in institutional care or be placed in specially recruited and supported foster families. Children placed in foster care showed significantly better cognitive, language, and social-emotional development than those who remained institutionalized. Among those placed in foster care, those placed before age 2 showed the strongest recovery.</p>
+
+          <p>Attachment outcomes were striking: <strong>49%</strong> of children placed in foster care developed secure attachment to their foster caregivers (compared to only <strong>18%</strong> of those who remained in institutions). This demonstrates that the attachment system retains remarkable plasticity &mdash; given a responsive, consistent caregiver, even children who experienced prolonged deprivation can develop organized, secure attachment relationships.</p>
+
+          <p>Reactive Attachment Disorder (RAD) and Disinhibited Social Engagement Disorder (DSED) are clinical presentations associated with early deprivation. RAD involves inhibited, withdrawn behavior &mdash; the child shows minimal social responsiveness and rarely seeks comfort when distressed. DSED (previously called "indiscriminate sociability") involves disinhibited, socially indiscriminate behavior &mdash; approaching and engaging with strangers as readily as with familiar caregivers, without the typical wariness. DSED is particularly associated with institutional care and may persist even after children are placed with responsive families.</p>
+
+          <p>International adoption research (Rutter's ERA Study &mdash; English and Romanian Adoptees) showed that children adopted from Romanian institutions before age 6 months showed essentially complete developmental recovery by age 6. Children adopted between 6&ndash;24 months showed significant but incomplete recovery. Those adopted after 24 months showed persistent deficits in cognitive development, attachment, and social functioning, even with years of responsive family care. This demonstrates both the remarkable recovery potential of the early brain and the real costs of prolonged deprivation during sensitive periods.</p>
+        </div>
+
+        <!-- Figure Cards -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #EFF6FF; color: #2563EB;">MR</div>
+          <div>
+            <h4>Michael Rutter</h4>
+            <p class="figure-years">1933 &ndash; present</p>
+            <p>British psychiatrist who led the landmark English and Romanian Adoptees (ERA) study, tracking the development of Romanian orphans adopted by British families. His work established critical period thresholds for recovery from early deprivation.</p>
+            <p class="figure-insight" style="margin-top:0.5rem; font-style:italic; color: var(--neutral-500);">"Even after severe early deprivation, the brain shows remarkable recovery when placed in a responsive environment &mdash; but the window matters."</p>
+          </div>
+        </div>
+
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #ECFDF5; color: #059669;">CZ</div>
+          <div>
+            <h4>Charles Zeanah</h4>
+            <p class="figure-years">1951 &ndash; present</p>
+            <p>Tulane University child psychiatrist who directed the Bucharest Early Intervention Project. His work on attachment in institutionalized children has transformed policy on institutional care for young children worldwide.</p>
+            <p class="figure-insight" style="margin-top:0.5rem; font-style:italic; color: var(--neutral-500);">"No child belongs in an institution. The BEIP's findings helped spur international reforms in orphanage care, establishing that family placement &mdash; even imperfect family placement &mdash; outperforms institutional care for young children's development."</p>
+          </div>
+        </div>
+
+        <!-- Research Callout -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            🔬
+            BEIP's Finding: 49% vs. 18%
+          </div>
+          <p>Children placed in BEIP foster care developed secure attachment to foster caregivers at a rate (49%) far exceeding those who remained institutionalized (18%), despite years of prior deprivation. Secure attachment rates were still below community norms (~65%), but the gap shows the attachment system's plasticity: given a responsive caregiver, even deeply deprived children's attachment systems respond.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         WAVE DIVIDER: Section J -> Section K
+         ======================================== -->
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION K: From Cradle to Couple: Adult Attachment
+         ======================================== -->
+    <section class="content-section" data-section-id="section-k">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>From Cradle to <span class="text-gradient">Couple</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How infant attachment patterns echo in adult romantic relationships</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>Cindy Hazan and Phillip Shaver (1987) proposed that romantic love in adults functions as an attachment process &mdash; the same behavioral and emotional system that bonds infants to caregivers operates in adult love relationships. They translated Ainsworth's infant attachment patterns into adult romantic patterns: <strong>Secure adults</strong> (58%, comfortable with closeness and interdependence), <strong>Anxious-Ambivalent adults</strong> (19%, preoccupied with relationships, fear abandonment, cling), and <strong>Avoidant adults</strong> (23%, uncomfortable with closeness, value self-sufficiency, suppress attachment needs). The proportions strikingly resembled infant attachment distributions.</p>
+
+          <p>Mary Main developed the <strong>Adult Attachment Interview (AAI)</strong> &mdash; a 1-hour semi-structured interview asking adults about their childhood relationships and how those relationships affected them. Crucially, Main found that predictive power came not from what adults reported about their childhoods, but from <em>how</em> they talked about them: coherence, integration of emotion and thought, and the ability to reflect on the past without being overwhelmed by it. Four patterns emerged: Secure/Autonomous (coherent, integrated), Dismissing (minimize attachment, idealize parents without evidence), Preoccupied (overwhelmed by attachment, angry or passive about past), Unresolved/Disorganized (lapses in reasoning or monitoring when discussing loss or trauma).</p>
+
+          <p>The AAI predicts infant attachment with approximately <strong>75% accuracy</strong> when administered before the birth of the first child. A mother's capacity to reflect coherently on her own attachment history &mdash; her "earned security" if she had a difficult past but has processed it &mdash; predicts whether she will provide sensitive, responsive care to her own infant. This is one of the most remarkable findings in developmental psychology: a conversation about the past predicts the future of the next generation.</p>
+
+          <p>The concept of <strong>"earned security"</strong> is particularly important. Adults who had difficult, even traumatic attachment histories but who have processed those experiences and can narrate them coherently are classified as secure/autonomous on the AAI &mdash; and they parent as well as adults who had easier histories. Security can be earned through therapy, through later secure relationships, and through sustained reflection. The past does not determine the future &mdash; but what you do with the past does.</p>
+        </div>
+
+        <!-- Adult Attachment Quadrant Diagram -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" aria-label="Adult attachment quadrant diagram with four styles mapped on anxiety and avoidance axes">
+            <!-- Title -->
+            <text x="300" y="28" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="16" fill="#1E293B">Adult Attachment Styles</text>
+
+            <!-- Axes -->
+            <line x1="300" y1="50" x2="300" y2="480" stroke="#CBD5E1" stroke-width="2"/>
+            <line x1="50" y1="265" x2="550" y2="265" stroke="#CBD5E1" stroke-width="2"/>
+
+            <!-- Axis arrow heads -->
+            <polygon points="300,48 295,58 305,58" fill="#CBD5E1"/>
+            <polygon points="300,482 295,472 305,472" fill="#CBD5E1"/>
+            <polygon points="552,265 542,260 542,270" fill="#CBD5E1"/>
+            <polygon points="48,265 58,260 58,270" fill="#CBD5E1"/>
+
+            <!-- Axis Labels -->
+            <text x="300" y="44" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#64748B">HIGH ANXIETY</text>
+            <text x="300" y="498" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#64748B">LOW ANXIETY</text>
+            <text x="44" y="261" text-anchor="end" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#64748B">LOW</text>
+            <text x="44" y="275" text-anchor="end" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#94A3B8">AVOIDANCE</text>
+            <text x="556" y="261" text-anchor="start" font-family="'Nunito', sans-serif" font-weight="800" font-size="11" fill="#64748B">HIGH</text>
+            <text x="556" y="275" text-anchor="start" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#94A3B8">AVOIDANCE</text>
+
+            <!-- Quadrant 1: Secure (bottom-left, low anxiety, low avoidance) -->
+            <rect x="60" y="275" width="230" height="195" rx="12" fill="#ECFDF5" stroke="#5CC99B" stroke-width="2"/>
+            <text x="175" y="302" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#059669">Secure</text>
+            <text x="175" y="325" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">Comfortable with intimacy</text>
+            <text x="175" y="343" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">and interdependence</text>
+            <text x="175" y="367" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#059669">~58% of adults</text>
+            <text x="175" y="388" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Positive model of self</text>
+            <text x="175" y="404" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Positive model of others</text>
+            <text x="175" y="425" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#059669">AAI: Secure/Autonomous</text>
+            <text x="175" y="443" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Coherent, integrated narrative</text>
+            <text x="175" y="461" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">about childhood experiences</text>
+
+            <!-- Quadrant 2: Preoccupied (top-left, high anxiety, low avoidance) -->
+            <rect x="60" y="60" width="230" height="195" rx="12" fill="#FEF3C7" stroke="#FFA75A" stroke-width="2"/>
+            <text x="175" y="87" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#E07830">Preoccupied</text>
+            <text x="175" y="110" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">Preoccupied with relationships,</text>
+            <text x="175" y="128" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">fears abandonment, clings</text>
+            <text x="175" y="152" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#E07830">~19% of adults</text>
+            <text x="175" y="173" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Negative model of self</text>
+            <text x="175" y="189" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Positive model of others</text>
+            <text x="175" y="210" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#E07830">AAI: Preoccupied</text>
+            <text x="175" y="228" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Overwhelmed by past;</text>
+            <text x="175" y="246" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">angry or passive about it</text>
+
+            <!-- Quadrant 3: Dismissing (bottom-right, low anxiety, high avoidance) -->
+            <rect x="310" y="275" width="230" height="195" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+            <text x="425" y="302" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="14" fill="#2563EB">Dismissing</text>
+            <text x="425" y="325" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">Values self-sufficiency,</text>
+            <text x="425" y="343" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">suppresses attachment needs</text>
+            <text x="425" y="367" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#2563EB">~23% of adults</text>
+            <text x="425" y="388" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Positive model of self</text>
+            <text x="425" y="404" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Negative model of others</text>
+            <text x="425" y="425" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#2563EB">AAI: Dismissing</text>
+            <text x="425" y="443" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Minimizes attachment; idealizes</text>
+            <text x="425" y="461" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">parents without evidence</text>
+
+            <!-- Quadrant 4: Fearful-Avoidant (top-right, high anxiety, high avoidance) -->
+            <rect x="310" y="60" width="230" height="195" rx="12" fill="#FEF2F2" stroke="#FF6B8A" stroke-width="2"/>
+            <text x="425" y="87" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="13" fill="#DC2626">Fearful-Avoidant</text>
+            <text x="425" y="103" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="11" fill="#DC2626">(Disorganized)</text>
+            <text x="425" y="126" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">Wants closeness but</text>
+            <text x="425" y="144" text-anchor="middle" font-family="'Lora', serif" font-size="11" fill="#334155">fears it; distrusts others</text>
+            <text x="425" y="168" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Negative model of self</text>
+            <text x="425" y="184" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Negative model of others</text>
+            <text x="425" y="205" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="700" font-size="10" fill="#DC2626">AAI: Unresolved/Disorganized</text>
+            <text x="425" y="223" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">Lapses in reasoning when</text>
+            <text x="425" y="241" text-anchor="middle" font-family="'Lora', serif" font-size="10" fill="#64748B">discussing loss or trauma</text>
+          </svg>
+          <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <!-- WOW Callout -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            💡
+            Predicting the Future Before Birth
+          </div>
+          <p>Mary Main's Adult Attachment Interview, administered to pregnant women before their first child is born, predicts how securely attached that child will be at age 1 with approximately <strong>75% accuracy</strong>. A conversation about the past predicts the future of the next generation &mdash; a stunning demonstration of how attachment patterns transmit across generations, and how therapeutic intervention can interrupt that transmission.</p>
+        </div>
+
+        <!-- Hazan & Shaver Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #FEF3C7; color: #E07830;">H&amp;S</div>
+          <div>
+            <h4>Hazan &amp; Shaver</h4>
+            <p>Cindy Hazan and Phillip Shaver first proposed that adult romantic love is an attachment process, translating Bowlby and Ainsworth's infant framework to adult relationships. Their 1987 paper in the <em>Journal of Personality and Social Psychology</em> launched the field of adult attachment research.</p>
+            <p class="figure-insight" style="margin-top:0.5rem; font-style:italic; color: var(--neutral-500);">"Romantic love is not a fundamentally different phenomenon from infant attachment. It recruits the same emotional system &mdash; with the same individual differences that trace back to early caregiving experiences."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         WAVE DIVIDER: Section K -> Section L
+         ======================================== -->
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,60 C240,100 480,0 720,50 C960,100 1200,20 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION L: Breaking the Chain: Intergenerational Transmission
+         ======================================== -->
+    <section class="content-section" data-section-id="section-l">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2><span class="text-gradient">Breaking the Chain</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How attachment patterns transmit across generations &mdash; and how they can be interrupted</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>Attachment patterns transmit across generations with approximately <strong>75% fidelity</strong> (van IJzendoorn, 1995). Secure parents tend to raise secure children; insecure parents tend (not inevitably) to raise insecure children. The mechanism is not purely behavioral &mdash; it operates through the parent's internal working model of attachment (their expectations about relationships, their characteristic ways of managing emotion) which shapes how they respond to their infant's attachment signals.</p>
+
+          <p>The <strong>"transmission gap"</strong> &mdash; the portion of intergenerational transmission not fully explained by observed sensitive responsiveness &mdash; has been partially filled by the concept of <strong>mentalization</strong> (Peter Fonagy). Mentalizing, or "reflective functioning," is the capacity to understand oneself and others as having minds &mdash; beliefs, desires, feelings that drive behavior. Parents who can mentalize about their infant's experience ("he's not being defiant &mdash; he's scared and overwhelmed") respond more sensitively because they perceive the infant's actual needs rather than projecting their own reactions.</p>
+
+          <p>Interventions targeting the transmission gap include: <strong>Circle of Security (COS, Powell et al.)</strong>, which teaches parents to recognize and respond to their child's attachment needs using a circular model; <strong>VIPP-SD (Video-feedback Intervention to Promote Positive Parenting)</strong>, which uses video feedback of parent-child interactions to increase parental sensitivity; and <strong>Child-Parent Psychotherapy (CPP, Lieberman)</strong>, a trauma-informed intervention for children 0&ndash;5 who have experienced domestic violence or other adversity. All three have evidence-based support for improving attachment security.</p>
+
+          <p>The transmission of security can be interrupted. Fonagy's research shows that parents with difficult childhood histories who score high in reflective functioning on the AAI have children with secure attachment &mdash; comparable to parents who had easy histories. Therapy that increases parents' capacity to mentalize about their own childhood experiences and their children's mental states can break the chain. Secure attachment in adulthood, regardless of how it was achieved, is transmissible to the next generation.</p>
+        </div>
+
+        <!-- Stat Grid -->
+        <div class="stat-grid" data-animate="stagger">
+          <div class="stat-card">
+            <div class="stat-number">75%</div>
+            <div class="stat-label">Fidelity of intergenerational attachment transmission (van IJzendoorn, 1995)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">25%</div>
+            <div class="stat-label">Parents with insecure AAI classification who raise securely attached children &mdash; the power of earned security</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">50&ndash;70%</div>
+            <div class="stat-label">Improvement in sensitive responsiveness from evidence-based attachment interventions</div>
+          </div>
+        </div>
+
+        <!-- Try Callout -->
+        <div class="callout callout-try" data-animate="fade-up">
+          <div class="callout-label">
+            🎯
+            The Circle of Security Question
+          </div>
+          <p>Powell et al.'s Circle of Security intervention teaches parents to ask: <em>"What does my child need right now &mdash; to feel safe going out to explore, or to feel welcomed when coming back in?"</em> This simple question reframes challenging child behavior from "defiance" to "attachment need" &mdash; and helps parents respond to what's really happening rather than what appears to be happening on the surface.</p>
+        </div>
+
+        <!-- Fonagy Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #EDE9FE; color: #9B5BBF;">PF</div>
+          <div>
+            <h4>Peter Fonagy</h4>
+            <p class="figure-years">1952 &ndash; present</p>
+            <p>Budapest-born British psychoanalyst whose research on mentalization (reflective functioning) has transformed understanding of how attachment transmits across generations and how therapy can break cycles of insecurity.</p>
+            <p class="figure-insight" style="margin-top:0.5rem; font-style:italic; color: var(--neutral-500);">"The most protective thing a parent can have is the capacity to think about what is in their child's mind. Mentalizing &mdash; holding the child as a thinking, feeling being &mdash; is the active ingredient in sensitive caregiving."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         WAVE DIVIDER: Section L -> Section M
+         ======================================== -->
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION M: Healing Broken Bonds
+         ======================================== -->
+    <section class="content-section" data-section-id="section-m">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2><span class="text-gradient">Healing</span> Broken Bonds</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Evidence-based interventions that change attachment trajectories &mdash; and the science of "earned security"</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>Counter to what might be expected, brief, focused attachment interventions often outperform longer, broader ones. Bakermans-Kranenburg's meta-analysis (2003) of 70 attachment intervention studies found that interventions shorter than 6 months with a behavioral focus (on parental sensitivity) were more effective than longer, relationship-focused therapy. This <strong>"less is more"</strong> finding has practical implications: targeting a specific mechanism (responsive sensitivity) in a focused window produces better outcomes than open-ended exploration of attachment history.</p>
+
+          <p>Mary Dozier's <strong>Attachment and Biobehavioral Catch-up (ABC)</strong> intervention was developed specifically for foster children. In just 10 sessions, trained coaches work with foster parents to: nurture the child even when they don't seek it (foster children often signal "I don't need you" when they most need connection), follow the child's lead in play, and avoid frightening behaviors. RCTs show that ABC produces significant improvements in cortisol regulation (a physiological marker of stress system normalization) and attachment security in foster children &mdash; changes maintained at 3-year follow-up.</p>
+
+          <p>Donald Winnicott's concept of <strong>"good enough parenting"</strong> is clinically important. Perfect parenting is neither possible nor desirable. What children need is not a parent who is always attuned and responsive, but a parent who is attuned most of the time and who repairs breaks when they occur. The repair &mdash; the parent's acknowledgment of the rupture and return to connection &mdash; is as important as the initial attunement. Children learn from rupture-and-repair cycles that relationships survive conflict, that negative states are temporary, and that the caregiver can be trusted.</p>
+
+          <p>"<strong>Earned security</strong>" is perhaps the most important concept in applied attachment theory. Adults who had insecure, even traumatic childhood attachment histories but who have processed those experiences through therapy, reflection, or later secure relationships can achieve secure/autonomous AAI classifications &mdash; and parent as well as those who had secure histories. Security is not fixed at 18 months. The brain and the relational system retain plasticity. What we do with our histories matters more than the histories themselves.</p>
+        </div>
+
+        <!-- Research Callout -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            🔬
+            Brief Over Long
+          </div>
+          <p>Bakermans-Kranenburg's meta-analysis of 70 attachment intervention studies found that shorter, focused interventions targeting parental sensitivity outperformed longer, exploratory therapy. The most effective interventions (effect size d=0.42) were under 6 months long and behaviorally focused. This "less is more" finding challenges assumptions about therapy and points to specific, trainable mechanisms &mdash; sensitivity and responsiveness &mdash; as the active ingredients in attachment change.</p>
+        </div>
+
+        <!-- Myth Callout -->
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            ⚡
+            Myth vs. Reality
+          </div>
+          <p><strong>MYTH: "If you had an insecure childhood, you're destined to pass it on."</strong></p>
+          <p style="margin-top: 0.5rem;"><strong>REALITY:</strong> The transmission of insecure attachment can be interrupted. Therapy that increases reflective functioning, later secure relationships, and deliberate work on understanding one's own history all contribute to "earned security." Approximately <strong>25%</strong> of parents with insecure AAI classifications raise securely attached children &mdash; demonstrating that the chain can always be broken.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         WAVE DIVIDER: Section M -> Quiz
+         ======================================== -->
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,60 C240,100 480,0 720,50 C960,100 1200,20 1440,60 L1440,100 L0,100 Z" fill="#ffffff"/>
+    </svg>
+
+    <!-- ========================================
+         QUIZ SECTION
+         ======================================== -->
+    <section class="content-section" style="background: var(--neutral-50);">
+      <div class="container-narrow">
+        <div class="section-header text-center" data-animate="fade-up">
+          <h2>🎉 Test Your Knowledge</h2>
+          <p>See how much you've learned about attachment theory</p>
+        </div>
+
+        <div id="quiz-container" data-module="module5"></div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         MODULE NAVIGATION
+         ======================================== -->
+    <section style="background: white;">
+      <div class="container-narrow">
+        <div class="module-nav">
+          <!-- Previous Module -->
+          <a href="module4.html" class="module-nav-link" data-transition>
+            <span class="nav-direction">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display: inline; vertical-align: middle; margin-right: 4px;">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Previous Module
+            </span>
+            <span class="nav-title">Module 4: The Language Explosion</span>
+          </a>
+
+          <!-- Next Module -->
+          <a href="module6.html" class="module-nav-link is-next" data-transition>
+            <span class="nav-direction">
+              Next Module
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display: inline; vertical-align: middle; margin-left: 4px;">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </span>
+            <span class="nav-title">Module 6: Feeling It All</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <p class="mb-2">Built with 💜 curiosity and science ✨</p>
+        <p class="mb-3">
+          <a href="#">Explore the research</a>
+        </p>
+        <p class="text-neutral-500 text-xs">&copy; 2026 Growing Minds. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- ========================================
+       SCRIPTS
+       ======================================== -->
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/Draggable.min.js"></script>
+
+  <!-- App JS -->
+  <script src="js/progress.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/diagrams.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

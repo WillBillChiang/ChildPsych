@@ -1,0 +1,292 @@
+/* ========================================
+   ANIMATIONS & KEYFRAMES
+   ======================================== */
+
+/* Scroll reveal base states */
+[data-animate] {
+  opacity: 0;
+}
+
+[data-animate="fade-up"] {
+  transform: translateY(40px);
+}
+
+[data-animate="fade-in"] {
+  transform: none;
+}
+
+[data-animate="slide-left"] {
+  transform: translateX(-60px);
+}
+
+[data-animate="slide-right"] {
+  transform: translateX(60px);
+}
+
+[data-animate="scale-in"] {
+  transform: scale(0.85);
+}
+
+[data-animate].is-visible {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.3s var(--ease-out), transform 0.3s var(--ease-out);
+}
+
+/* Stagger children */
+[data-animate="stagger"] > * {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+[data-animate="stagger"].is-visible > * {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.25s var(--ease-out), transform 0.25s var(--ease-out);
+}
+
+/* ========================================
+   DECORATIVE ANIMATIONS
+   ======================================== */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(-12px) rotate(1.5deg); }
+  66% { transform: translateY(-6px) rotate(-1deg); }
+}
+
+@keyframes float-reverse {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  33% { transform: translateY(8px) rotate(-1deg); }
+  66% { transform: translateY(4px) rotate(1.5deg); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(155, 91, 191, 0); }
+  50% { box-shadow: 0 0 20px 4px rgba(155, 91, 191, 0.15); }
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes dash-flow {
+  to { stroke-dashoffset: -20; }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes quiz-segment-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+/* === CUTE ANIMATIONS === */
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(-3deg); }
+  40% { transform: rotate(3deg); }
+  60% { transform: rotate(-2deg); }
+  80% { transform: rotate(2deg); }
+}
+
+@keyframes bounce-in {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.08); }
+  70% { transform: scale(0.95); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes jelly {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.05, 0.95); }
+  50% { transform: scale(0.95, 1.05); }
+  70% { transform: scale(1.02, 0.98); }
+  100% { transform: scale(1); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1) rotate(180deg); }
+}
+
+@keyframes heart-float {
+  0% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-60px) scale(0.6); }
+}
+
+@keyframes star-twinkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes pop-in {
+  0% { transform: scale(0); opacity: 0; }
+  70% { transform: scale(1.15); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes confetti-fall {
+  0% { transform: translateY(-10px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+@keyframes float-with-wiggle {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-8px) rotate(2deg); }
+  50% { transform: translateY(-4px) rotate(-1deg); }
+  75% { transform: translateY(-10px) rotate(1deg); }
+}
+
+/* Floating decorative elements */
+.deco-float {
+  animation: float 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.deco-float:nth-child(2) { animation: float-reverse 3.5s ease-in-out infinite; animation-delay: -0.5s; }
+.deco-float:nth-child(3) { animation: float 4s ease-in-out infinite; animation-delay: -1.5s; }
+.deco-float:nth-child(4) { animation: float-reverse 4.5s ease-in-out infinite; animation-delay: -1s; }
+.deco-float:nth-child(5) { animation: float 5s ease-in-out infinite; animation-delay: -2s; }
+.deco-float:nth-child(6) { animation: float-reverse 5.5s ease-in-out infinite; animation-delay: -1s; }
+.deco-float:nth-child(7) { animation: float 6s ease-in-out infinite; animation-delay: -2.5s; }
+.deco-float:nth-child(8) { animation: float-reverse 4.5s ease-in-out infinite; animation-delay: -1.5s; }
+
+.breathing-glow {
+  animation: pulse-glow 1.5s ease-in-out infinite;
+}
+
+/* Page transition wrapper */
+.page-wrapper {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.175s var(--ease-out), transform 0.175s var(--ease-out);
+}
+
+.page-wrapper.is-exiting {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+/* ========================================
+   SVG SPECIFIC ANIMATIONS
+   ======================================== */
+
+.svg-draw-path {
+  stroke-dasharray: var(--path-length, 1000);
+  stroke-dashoffset: var(--path-length, 1000);
+  transition: stroke-dashoffset 1s var(--ease-out);
+}
+
+.svg-draw-path.is-drawn {
+  stroke-dashoffset: 0;
+}
+
+.svg-glow {
+  filter: drop-shadow(0 0 8px rgba(155, 91, 191, 0.3));
+}
+
+.svg-glow-teal {
+  filter: drop-shadow(0 0 8px rgba(62, 181, 137, 0.3));
+}
+
+.svg-glow-amber {
+  filter: drop-shadow(0 0 8px rgba(255, 144, 64, 0.3));
+}
+
+/* Brain region transitions */
+.brain-region {
+  transition: fill 0.2s var(--ease-out), opacity 0.2s var(--ease-out), transform 0.15s var(--ease-out);
+  cursor: pointer;
+  transform-origin: center;
+}
+
+.brain-region:hover {
+  filter: drop-shadow(0 0 12px rgba(155, 91, 191, 0.4));
+}
+
+/* ========================================
+   SKELETON LOADING
+   ======================================== */
+
+.skeleton {
+  background: linear-gradient(90deg, var(--neutral-100) 25%, var(--neutral-200) 50%, var(--neutral-100) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 0.75s ease-in-out infinite;
+  border-radius: var(--radius-md);
+}
+
+/* ========================================
+   COUNTER ANIMATION SUPPORT
+   ======================================== */
+
+.stat-counter {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ========================================
+   CUTE ANIMATION UTILITIES
+   ======================================== */
+
+/* Cute animation utilities */
+.animate-wiggle { animation: wiggle 0.25s var(--ease-bounce); }
+.animate-bounce-in { animation: bounce-in 0.3s var(--ease-bounce); }
+.animate-jelly { animation: jelly 0.2s ease; }
+.animate-pop-in { animation: pop-in 0.2s var(--ease-bounce); }
+.animate-sparkle { animation: sparkle 0.75s ease-in-out infinite; }
+.animate-star-twinkle { animation: star-twinkle 1s ease-in-out infinite; }
+.animate-float-wiggle { animation: float-with-wiggle 2.5s ease-in-out infinite; }
+
+.hover-wiggle:hover { animation: wiggle 0.25s var(--ease-bounce); }
+.hover-bounce:hover { animation: bounce-in 0.2s var(--ease-bounce); }
+.hover-jelly:hover { animation: jelly 0.2s ease; }
+
+/* ========================================
+   MOBILE: REDUCE DECORATIVE OVERHEAD
+   ======================================== */
+@media (max-width: 768px) {
+  .deco-float {
+    display: none !important;
+  }
+}
+
+/* ========================================
+   REDUCED MOTION: DISABLE CUTE ANIMATIONS
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  .animate-wiggle,
+  .animate-bounce-in,
+  .animate-jelly,
+  .animate-pop-in,
+  .animate-sparkle,
+  .animate-star-twinkle,
+  .animate-float-wiggle,
+  .hover-wiggle:hover,
+  .hover-bounce:hover,
+  .hover-jelly:hover {
+    animation: none !important;
+  }
+}

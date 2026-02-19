@@ -1,0 +1,1909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 7: Reading Minds | Growing Minds</title>
+    <meta name="description" content="How children develop the ability to understand others' thoughts, beliefs, and intentions.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    <style type="text/tailwindcss">
+        @theme { --font-heading: 'Nunito', system-ui, sans-serif; --font-body: 'Quicksand', 'Nunito', system-ui, sans-serif; }
+    </style>
+</head>
+<body data-module-id="module7">
+
+<div aria-hidden="true" style="position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;">
+  <svg class="animate-star-twinkle" style="position:absolute;top:15%;left:5%;width:16px;height:16px;opacity:0.22;" viewBox="0 0 24 24" fill="#FFA3BA"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-star-twinkle" style="position:absolute;top:45%;right:4%;width:12px;height:12px;opacity:0.18;animation-delay:0.4s;" viewBox="0 0 24 24" fill="#D4A6EB"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-float-wiggle" style="position:absolute;bottom:20%;left:6%;width:14px;height:14px;opacity:0.15;" viewBox="0 0 24 24" fill="#FF85A3"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"/></svg>
+</div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- ========================================
+       NAVIGATION
+       ======================================== -->
+  <nav class="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" data-transition>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:32px;height:32px"><path d="M16 4C10 4 5 9 5 15c0 4 2 7 5 9v4l4-2 4 2v-4c3-2 5-5 5-9 0-6-5-11-11-11z"/><path d="M12 14c0-1 1-2 2-2s2 1 2 2"/><circle cx="11" cy="12" r="1"/><circle cx="21" cy="12" r="1"/></svg>
+        <span>Growing Minds</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module6.html" data-transition>Previous</a></li>
+        <li><a href="module7.html" class="is-active">Module 7</a></li>
+        <li><a href="module8.html" data-transition>Next</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay" aria-hidden="true">
+    <div class="mobile-nav-panel">
+      <button class="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="4" x2="16" y2="16"/>
+          <line x1="16" y1="4" x2="4" y2="16"/>
+        </svg>
+      </button>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module6.html" data-transition>Module 6: Feeling It All</a></li>
+        <li><a href="module7.html" class="is-active">Module 7: Reading Minds</a></li>
+        <li><a href="module8.html" data-transition>Module 8: The Brain Under Construction</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ========================================
+       PAGE WRAPPER
+       ======================================== -->
+  <div class="page-wrapper">
+
+    <!-- ========================================
+         MODULE HERO SECTION
+         ======================================== -->
+    <section class="module-hero">
+      <div class="module-hero-bg"></div>
+
+      <div class="module-hero-deco" aria-hidden="true">
+        <svg class="deco-float" style="position:absolute;top:8%;left:5%;width:130px;height:120px;opacity:0.07;" viewBox="0 0 100 90" fill="none">
+          <ellipse cx="55" cy="35" rx="35" ry="25" stroke="#9B5BBF" stroke-width="2.5"/>
+          <circle cx="30" cy="65" r="6" stroke="#9B5BBF" stroke-width="2"/>
+          <circle cx="20" cy="78" r="3.5" stroke="#9B5BBF" stroke-width="1.5"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;top:15%;right:8%;width:140px;height:80px;opacity:0.06;" viewBox="0 0 120 60" fill="none">
+          <path d="M10 30 Q60 0 110 30 Q60 60 10 30Z" stroke="#9B5BBF" stroke-width="2.5"/>
+          <circle cx="60" cy="30" r="12" stroke="#9B5BBF" stroke-width="2"/>
+          <circle cx="60" cy="30" r="5" fill="#9B5BBF" opacity="0.3"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:12%;left:12%;width:100px;height:110px;opacity:0.06;" viewBox="0 0 80 90" fill="none">
+          <path d="M25 80 L25 65 Q10 55 10 40 Q10 15 40 10 Q70 15 70 40 Q70 55 55 65 L55 80 Z" stroke="#9B5BBF" stroke-width="2"/>
+          <circle cx="40" cy="38" r="10" stroke="#9B5BBF" stroke-width="1.5"/>
+          <circle cx="40" cy="38" r="4" stroke="#9B5BBF" stroke-width="1"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:22%;right:15%;width:60px;height:80px;opacity:0.05;" viewBox="0 0 50 70" fill="none">
+          <path d="M15 20 Q15 8 25 8 Q35 8 35 18 Q35 28 25 32 L25 42" stroke="#9B5BBF" stroke-width="3" stroke-linecap="round" fill="none"/>
+          <circle cx="25" cy="52" r="3" fill="#9B5BBF"/>
+        </svg>
+      </div>
+
+      <div class="module-hero-content container">
+        <div class="module-number-badge">
+          <svg width="18" height="16" viewBox="0 0 18 16" fill="none" aria-hidden="true">
+            <path d="M2 8 Q9 1 16 8 Q9 15 2 8Z" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="1.2"/>
+            <circle cx="9" cy="8" r="1" fill="currentColor"/>
+          </svg>
+          Module 7 &middot; Intermediate
+        </div>
+        <h1>Reading <span class="text-gradient">Minds</span></h1>
+        <p class="module-hero-subtitle">Social Development and Theory of Mind</p>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION A: The Social Brain Awakens
+         ======================================== -->
+    <section class="content-section" data-section-id="section-a">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The Social Brain <span class="text-gradient">Awakens</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>From the very first moments of life, humans are wired for social connection</p>
+        </div>
+
+        <p>
+          Long before a baby can speak, walk, or even hold up their own head, their brain is already performing one of the most sophisticated tasks in all of nature: reading other people. The social brain doesn't wait for language or formal instruction -- it begins its work from the very first hours of life, driven by an ancient biological imperative to connect with others.
+        </p>
+
+        <p>
+          What unfolds in the first year of life is nothing short of remarkable. Newborns arrive with a built-in preference for faces over any other visual stimulus. Within hours of birth, they preferentially track face-like patterns over scrambled versions. They are drawn to eyes, to contrast, to the geometry of the human face -- as if evolution wired a "face detector" directly into their visual cortex.
+        </p>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:2rem 0;">
+          <div class="stat-card">
+            <div class="stat-number" style="color:var(--primary-600);font-size:var(--text-2xl);">Birth</div>
+            <div class="stat-label">Face preference</div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-top:0.5rem;margin-bottom:0;">Newborns prefer face-like stimuli over scrambled patterns from the very first hours of life</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color:var(--secondary-600);font-size:var(--text-2xl);">3-6 mo</div>
+            <div class="stat-label">Social smiling</div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-top:0.5rem;margin-bottom:0;">True social smiles emerge -- genuine, responsive smiles directed at caregivers and familiar faces</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color:var(--accent-600);font-size:var(--text-2xl);">9-12 mo</div>
+            <div class="stat-label">Joint attention</div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-top:0.5rem;margin-bottom:0;">Babies follow another person's gaze or pointing -- a critical milestone showing they understand others have a focus of attention</p>
+          </div>
+        </div>
+
+        <!-- Social Brain Development Timeline (Line Chart) -->
+        <div class="chart-figure" data-animate="fade-up" style="margin:2.5rem 0;">
+          <h3 style="font-family:var(--font-heading);font-size:var(--text-lg);font-weight:700;color:var(--neutral-700);text-align:center;margin-bottom:0.25rem;">Social Brain Capabilities: Birth to 18 Months</h3>
+          <div data-chart data-chart-type="line" data-chart-data='[{"label":"Birth","value":10},{"label":"3 mo","value":25},{"label":"6 mo","value":40},{"label":"9 mo","value":60},{"label":"12 mo","value":80},{"label":"18 mo","value":95}]' data-chart-options='{"lineColor":"#9B5BBF","smooth":true}'></div>
+          <p style="font-size:var(--text-sm);color:var(--neutral-500);text-align:center;margin-top:0.5rem;margin-bottom:0;">From face preference at birth to understanding others' intentions by 18 months</p>
+        </div>
+
+        <p>
+          By 3 to 6 months, <strong>social smiling</strong> emerges -- not the reflexive smiles of the newborn period, but genuine, responsive smiles directed at caregivers. These smiles are one of nature's most powerful social tools: they captivate adults, strengthen bonds, and create the feedback loops that fuel further development.
+        </p>
+
+        <p>
+          Between 9 and 12 months, something truly profound happens: <strong>joint attention</strong>. The infant begins to follow where someone else is looking or pointing. This seemingly simple act -- "Oh, you're looking at THAT" -- requires the infant to understand that another person has a focus of attention, and that it might be worth checking out. Joint attention is one of the strongest early predictors of language development and later social competence.
+        </p>
+
+        <p>
+          Around this same time, babies develop <strong>social referencing</strong>: in ambiguous or uncertain situations, they look to their caregiver's face for emotional cues. Place a baby at the edge of a "visual cliff" (a glass surface over an apparent drop), and they will look to their mother. If she shows fear, they won't cross. If she smiles encouragingly, they proceed. The baby is literally using another person's emotional state as a guide for their own behavior -- a stunning feat of social information processing.
+        </p>
+
+        <!-- Visual Cliff / Social Referencing Illustration -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem 0;">
+          <svg viewBox="0 0 760 370" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Social Referencing: Two panels showing a baby on a visual cliff responding to caregiver emotions">
+            <defs>
+              <linearGradient id="cliff-glass" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.7"/>
+                <stop offset="100%" stop-color="#BAE6FD" stop-opacity="0.4"/>
+              </linearGradient>
+              <pattern id="cliff-checker" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect width="10" height="10" fill="#FDE68A" opacity="0.5"/>
+                <rect x="10" y="10" width="10" height="10" fill="#FDE68A" opacity="0.5"/>
+              </pattern>
+              <filter id="cliff-shadow">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+              </filter>
+            </defs>
+
+            <!-- Title -->
+            <text x="380" y="28" text-anchor="middle" fill="#4C1D95" font-family="Nunito, sans-serif" font-size="16" font-weight="800">Social Referencing: Babies use others' emotions as a guide</text>
+
+            <!-- ===== LEFT PANEL: Happy caregiver → baby crosses ===== -->
+            <g>
+              <!-- Panel background -->
+              <rect x="10" y="45" width="360" height="280" rx="14" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+              <rect x="10" y="45" width="360" height="32" rx="14" fill="#DCFCE7"/>
+              <text x="190" y="67" text-anchor="middle" fill="#166534" font-family="Nunito, sans-serif" font-size="13" font-weight="800">Caregiver smiles encouragingly</text>
+
+              <!-- Table surface (solid side) -->
+              <rect x="30" y="200" width="130" height="12" rx="2" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1"/>
+              <!-- Checkerboard pattern beneath solid surface -->
+              <rect x="30" y="212" width="130" height="50" fill="url(#cliff-checker)" opacity="0.3"/>
+
+              <!-- Visual cliff / glass section (transparent with depth illusion) -->
+              <rect x="160" y="200" width="130" height="12" rx="2" fill="url(#cliff-glass)" stroke="#7DD3FC" stroke-width="1" stroke-dasharray="4 2"/>
+              <!-- Depth illusion -- checkerboard far below -->
+              <rect x="160" y="240" width="130" height="30" fill="url(#cliff-checker)" opacity="0.2"/>
+              <!-- Depth lines -->
+              <line x1="165" y1="212" x2="170" y2="240" stroke="#CBD5E1" stroke-width="0.8" opacity="0.5"/>
+              <line x1="225" y1="212" x2="225" y2="240" stroke="#CBD5E1" stroke-width="0.8" opacity="0.5"/>
+              <line x1="285" y1="212" x2="280" y2="240" stroke="#CBD5E1" stroke-width="0.8" opacity="0.5"/>
+
+              <!-- Drop-off label -->
+              <text x="225" y="258" text-anchor="middle" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="9" font-weight="600">visual drop-off</text>
+
+              <!-- Baby on solid side -->
+              <g transform="translate(120, 155)" filter="url(#cliff-shadow)">
+                <!-- Baby body -->
+                <ellipse cx="0" cy="20" rx="16" ry="13" fill="#D4A6EB"/>
+                <!-- Baby head -->
+                <circle cx="0" cy="2" r="14" fill="#FFA75A"/>
+                <!-- Eyes looking right toward caregiver -->
+                <circle cx="3" cy="-1" r="2.5" fill="#1E293B"/>
+                <circle cx="10" cy="-1" r="2.5" fill="#1E293B"/>
+                <!-- Smile -->
+                <path d="M2 7 Q6 11 10 7" stroke="#1E293B" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+              </g>
+
+              <!-- Caregiver on far side -->
+              <g transform="translate(310, 130)" filter="url(#cliff-shadow)">
+                <!-- Body -->
+                <rect x="-14" y="25" width="28" height="35" rx="8" fill="#5CC99B"/>
+                <!-- Head -->
+                <circle cx="0" cy="10" r="18" fill="#FFA75A"/>
+                <!-- Happy eyes -->
+                <path d="M-7 7 Q-5 4 -3 7" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M3 7 Q5 4 7 7" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <!-- Big encouraging smile -->
+                <path d="M-8 16 Q0 24 8 16" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <!-- Arms open / beckoning -->
+                <line x1="-14" y1="35" x2="-28" y2="22" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="14" y1="35" x2="28" y2="22" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Legs -->
+                <line x1="-6" y1="60" x2="-8" y2="75" stroke="#FFA75A" stroke-width="3.5" stroke-linecap="round"/>
+                <line x1="6" y1="60" x2="8" y2="75" stroke="#FFA75A" stroke-width="3.5" stroke-linecap="round"/>
+              </g>
+
+              <!-- Green arrow showing baby crosses -->
+              <path d="M140 185 Q190 165 250 185" stroke="#22C55E" stroke-width="3" fill="none" marker-end="url(#arrow-cliff-green)"/>
+              <defs>
+                <marker id="arrow-cliff-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" fill="#22C55E"/>
+                </marker>
+              </defs>
+
+              <!-- Result label -->
+              <rect x="130" y="275" width="120" height="30" rx="15" fill="#DCFCE7" stroke="#22C55E" stroke-width="1.5"/>
+              <text x="190" y="295" text-anchor="middle" fill="#166534" font-family="Nunito, sans-serif" font-size="12" font-weight="800">Baby crosses!</text>
+            </g>
+
+            <!-- ===== RIGHT PANEL: Fearful caregiver → baby stops ===== -->
+            <g>
+              <!-- Panel background -->
+              <rect x="390" y="45" width="360" height="280" rx="14" fill="#FEF2F2" stroke="#FECACA" stroke-width="1.5"/>
+              <rect x="390" y="45" width="360" height="32" rx="14" fill="#FEE2E2"/>
+              <text x="570" y="67" text-anchor="middle" fill="#991B1B" font-family="Nunito, sans-serif" font-size="13" font-weight="800">Caregiver shows fear</text>
+
+              <!-- Table surface (solid side) -->
+              <rect x="410" y="200" width="130" height="12" rx="2" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1"/>
+              <rect x="410" y="212" width="130" height="50" fill="url(#cliff-checker)" opacity="0.3"/>
+
+              <!-- Visual cliff / glass section -->
+              <rect x="540" y="200" width="130" height="12" rx="2" fill="url(#cliff-glass)" stroke="#7DD3FC" stroke-width="1" stroke-dasharray="4 2"/>
+              <rect x="540" y="240" width="130" height="30" fill="url(#cliff-checker)" opacity="0.2"/>
+              <line x1="545" y1="212" x2="550" y2="240" stroke="#CBD5E1" stroke-width="0.8" opacity="0.5"/>
+              <line x1="605" y1="212" x2="605" y2="240" stroke="#CBD5E1" stroke-width="0.8" opacity="0.5"/>
+              <line x1="665" y1="212" x2="660" y2="240" stroke="#CBD5E1" stroke-width="0.8" opacity="0.5"/>
+
+              <!-- Drop-off label -->
+              <text x="605" y="258" text-anchor="middle" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="9" font-weight="600">visual drop-off</text>
+
+              <!-- Baby on solid side (hesitant) -->
+              <g transform="translate(500, 155)" filter="url(#cliff-shadow)">
+                <ellipse cx="0" cy="20" rx="16" ry="13" fill="#D4A6EB"/>
+                <circle cx="0" cy="2" r="14" fill="#FFA75A"/>
+                <!-- Wide worried eyes -->
+                <circle cx="3" cy="-2" r="3" fill="white" stroke="#1E293B" stroke-width="1.2"/>
+                <circle cx="3" cy="-2" r="1.5" fill="#1E293B"/>
+                <circle cx="10" cy="-2" r="3" fill="white" stroke="#1E293B" stroke-width="1.2"/>
+                <circle cx="10" cy="-2" r="1.5" fill="#1E293B"/>
+                <!-- Worried mouth -->
+                <path d="M3 8 Q6.5 5 10 8" stroke="#1E293B" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+              </g>
+
+              <!-- Caregiver on far side (fearful) -->
+              <g transform="translate(690, 130)" filter="url(#cliff-shadow)">
+                <rect x="-14" y="25" width="28" height="35" rx="8" fill="#F87171"/>
+                <circle cx="0" cy="10" r="18" fill="#FFA75A"/>
+                <!-- Fearful wide eyes -->
+                <circle cx="-6" cy="6" r="3.5" fill="white" stroke="#1E293B" stroke-width="1.5"/>
+                <circle cx="-6" cy="6" r="2" fill="#1E293B"/>
+                <circle cx="6" cy="6" r="3.5" fill="white" stroke="#1E293B" stroke-width="1.5"/>
+                <circle cx="6" cy="6" r="2" fill="#1E293B"/>
+                <!-- Fearful eyebrows -->
+                <line x1="-10" y1="-2" x2="-4" y2="0" stroke="#1E293B" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="10" y1="-2" x2="4" y2="0" stroke="#1E293B" stroke-width="1.5" stroke-linecap="round"/>
+                <!-- Open fearful mouth -->
+                <ellipse cx="0" cy="18" rx="5" ry="4" fill="#1E293B"/>
+                <!-- Hands up in alarm -->
+                <line x1="-14" y1="32" x2="-30" y2="16" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="14" y1="32" x2="30" y2="16" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Open palms -->
+                <circle cx="-30" cy="14" r="5" fill="#FFA75A" stroke="#E07830" stroke-width="0.8"/>
+                <circle cx="30" cy="14" r="5" fill="#FFA75A" stroke="#E07830" stroke-width="0.8"/>
+                <!-- Legs -->
+                <line x1="-6" y1="60" x2="-8" y2="75" stroke="#FFA75A" stroke-width="3.5" stroke-linecap="round"/>
+                <line x1="6" y1="60" x2="8" y2="75" stroke="#FFA75A" stroke-width="3.5" stroke-linecap="round"/>
+              </g>
+
+              <!-- Red X showing baby stops -->
+              <g transform="translate(545, 172)">
+                <circle cx="0" cy="0" r="14" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+                <line x1="-7" y1="-7" x2="7" y2="7" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+                <line x1="7" y1="-7" x2="-7" y2="7" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+              </g>
+
+              <!-- Result label -->
+              <rect x="510" y="275" width="120" height="30" rx="15" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5"/>
+              <text x="570" y="295" text-anchor="middle" fill="#991B1B" font-family="Nunito, sans-serif" font-size="12" font-weight="800">Baby stops!</text>
+            </g>
+
+            <!-- Bottom label -->
+            <text x="380" y="355" text-anchor="middle" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" font-style="italic">Babies as young as 9 months use caregivers' emotional expressions to guide behavior in uncertain situations</text>
+          </svg>
+          <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <!-- Callout: Neonatal Imitation Debate -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">🔬</span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 1l2.5 5 5.5.8-4 3.9.9 5.3L9 13.5 4.1 16l.9-5.3-4-3.9 5.5-.8L9 1z" fill="var(--accent-400)"/>
+            </svg>
+            Neonatal Imitation Debate
+          </div>
+          <p>
+            For decades, Meltzoff's finding that newborns imitate facial expressions -- tongue protrusion, mouth opening -- was considered one of the most groundbreaking discoveries in developmental psychology. It suggested an innate capacity to map the seen behavior of another onto the infant's own body. However, large-scale replications have <strong>failed to confirm it</strong>. A 2016 study by Oostenbroek and colleagues tested over 100 infants across multiple time points and found no evidence of neonatal imitation for any of the gestures tested. This is now one of the most actively debated findings in the field, reminding us that even "classic" results must survive the crucible of replication.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION B: The Sally-Anne Test
+         ======================================== -->
+    <section class="content-section" data-section-id="section-b">
+      <div class="container" style="max-width:900px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Sally-Anne <span class="text-gradient">Test</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Understanding false beliefs -- the hallmark of Theory of Mind</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            In 1985, Simon Baron-Cohen, Alan Leslie, and Uta Frith designed one of the most famous experiments in all of developmental psychology. It tests something deceptively simple: can a child understand that another person can hold a <strong>false belief</strong> -- a belief that the child themselves knows to be wrong?
+          </p>
+        </div>
+
+        <!-- Sally-Anne Comic Strip SVG -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Sally-Anne False Belief Test illustrated in four panels">
+            <defs>
+              <linearGradient id="sa-sky1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#EDE9FE"/>
+                <stop offset="100%" stop-color="#F5F3FF"/>
+              </linearGradient>
+              <linearGradient id="sa-sky2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#DBEAFE"/>
+                <stop offset="100%" stop-color="#EFF6FF"/>
+              </linearGradient>
+              <linearGradient id="sa-sky3" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#FEF3C7"/>
+                <stop offset="100%" stop-color="#FFFBEB"/>
+              </linearGradient>
+              <linearGradient id="sa-sky4" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#CCFBF1"/>
+                <stop offset="100%" stop-color="#F0FDFA"/>
+              </linearGradient>
+              <linearGradient id="basket-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#D2691E"/>
+                <stop offset="100%" stop-color="#8B4513"/>
+              </linearGradient>
+              <linearGradient id="box-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#6366F1"/>
+                <stop offset="100%" stop-color="#4338CA"/>
+              </linearGradient>
+              <filter id="sa-shadow">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+              </filter>
+            </defs>
+
+            <!-- ===== PANEL 1: Sally places marble in basket ===== -->
+            <g>
+              <!-- Panel background -->
+              <rect x="5" y="5" width="188" height="320" rx="12" fill="url(#sa-sky1)" stroke="#DDD6FE" stroke-width="1.5"/>
+              <!-- Panel number -->
+              <circle cx="22" cy="22" r="12" fill="#9B5BBF"/>
+              <text x="22" y="27" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="12" font-weight="800">1</text>
+              <!-- Floor -->
+              <rect x="5" y="260" width="188" height="65" rx="0" fill="#F5E6FF" opacity="0.6"/>
+
+              <!-- Sally (left) - girl with ponytail -->
+              <g transform="translate(55, 120)">
+                <!-- Body -->
+                <rect x="-12" y="30" width="24" height="40" rx="8" fill="#EC4899"/>
+                <!-- Arms reaching toward basket -->
+                <line x1="-12" y1="42" x2="-28" y2="58" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="12" y1="42" x2="28" y2="58" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Head -->
+                <circle cx="0" cy="15" r="18" fill="#FFA75A"/>
+                <!-- Ponytail -->
+                <path d="M14 8 C22 2, 28 8, 24 18" stroke="#E07830" stroke-width="5" fill="none" stroke-linecap="round"/>
+                <!-- Eyes -->
+                <circle cx="-6" cy="12" r="2.5" fill="#1E293B"/>
+                <circle cx="6" cy="12" r="2.5" fill="#1E293B"/>
+                <!-- Happy mouth -->
+                <path d="M-5 21 Q0 27 5 21" stroke="#1E293B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <!-- Legs -->
+                <line x1="-6" y1="70" x2="-8" y2="95" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="6" y1="70" x2="8" y2="95" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Shoes -->
+                <ellipse cx="-10" cy="97" rx="6" ry="3" fill="#9B5BBF"/>
+                <ellipse cx="10" cy="97" rx="6" ry="3" fill="#9B5BBF"/>
+              </g>
+
+              <!-- Basket -->
+              <g transform="translate(50, 240)">
+                <path d="M-20 0 L-25 -30 L25 -30 L20 0 Z" fill="url(#basket-grad)" stroke="#6B3410" stroke-width="1"/>
+                <!-- Basket weave lines -->
+                <line x1="-23" y1="-20" x2="23" y2="-20" stroke="#A0522D" stroke-width="0.8"/>
+                <line x1="-21" y1="-10" x2="21" y2="-10" stroke="#A0522D" stroke-width="0.8"/>
+                <!-- Marble in basket -->
+                <circle cx="0" cy="-18" r="7" fill="#3B82F6" stroke="#2563EB" stroke-width="1"/>
+                <circle cx="-2" cy="-20" r="2" fill="white" opacity="0.5"/>
+              </g>
+
+              <!-- Anne (right, watching) -->
+              <g transform="translate(145, 135)">
+                <!-- Body -->
+                <rect x="-12" y="30" width="24" height="35" rx="8" fill="#3EB589"/>
+                <!-- Arms at sides -->
+                <line x1="-12" y1="38" x2="-20" y2="55" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="12" y1="38" x2="20" y2="55" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Head -->
+                <circle cx="0" cy="15" r="16" fill="#FFA75A"/>
+                <!-- Bow -->
+                <path d="M-8 0 L0 5 L8 0 L0 -3 Z" fill="#FF6B8A" transform="translate(0, -2)"/>
+                <!-- Eyes -->
+                <circle cx="-5" cy="12" r="2.5" fill="#1E293B"/>
+                <circle cx="5" cy="12" r="2.5" fill="#1E293B"/>
+                <!-- Neutral mouth -->
+                <path d="M-4 20 Q0 23 4 20" stroke="#1E293B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <!-- Legs -->
+                <line x1="-5" y1="65" x2="-6" y2="85" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="5" y1="65" x2="6" y2="85" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <ellipse cx="-8" cy="87" rx="6" ry="3" fill="#2FA07A"/>
+                <ellipse cx="8" cy="87" rx="6" ry="3" fill="#2FA07A"/>
+              </g>
+
+              <!-- Box (empty) -->
+              <g transform="translate(145, 240)">
+                <rect x="-18" y="-28" width="36" height="28" rx="3" fill="url(#box-grad)" stroke="#3730A3" stroke-width="1"/>
+                <!-- Box lid line -->
+                <line x1="-18" y1="-23" x2="18" y2="-23" stroke="#6366F1" stroke-width="1"/>
+              </g>
+
+              <!-- Caption -->
+              <text x="99" y="345" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700">Sally puts her marble</text>
+              <text x="99" y="359" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700">in the basket</text>
+            </g>
+
+            <!-- ===== PANEL 2: Sally leaves ===== -->
+            <g>
+              <rect x="203" y="5" width="188" height="320" rx="12" fill="url(#sa-sky2)" stroke="#BFDBFE" stroke-width="1.5"/>
+              <circle cx="220" cy="22" r="12" fill="#3B82F6"/>
+              <text x="220" y="27" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="12" font-weight="800">2</text>
+              <!-- Floor -->
+              <rect x="203" y="260" width="188" height="65" rx="0" fill="#DBEAFE" opacity="0.4"/>
+
+              <!-- Door frame (right side) -->
+              <rect x="355" y="80" width="30" height="170" rx="3" fill="#D4A574" stroke="#A0522D" stroke-width="1"/>
+              <circle cx="360" cy="165" r="3" fill="#E07830"/>
+
+              <!-- Sally leaving (walking toward door, waving) -->
+              <g transform="translate(330, 120)">
+                <!-- Body -->
+                <rect x="-12" y="30" width="24" height="40" rx="8" fill="#EC4899"/>
+                <!-- Waving arm -->
+                <line x1="-12" y1="38" x2="-30" y2="18" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Hand wave lines -->
+                <line x1="-32" y1="12" x2="-38" y2="8" stroke="#FFA75A" stroke-width="2" stroke-linecap="round"/>
+                <line x1="-34" y1="16" x2="-40" y2="14" stroke="#FFA75A" stroke-width="2" stroke-linecap="round"/>
+                <!-- Other arm -->
+                <line x1="12" y1="42" x2="18" y2="58" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Head -->
+                <circle cx="0" cy="15" r="18" fill="#FFA75A"/>
+                <!-- Ponytail -->
+                <path d="M14 8 C22 2, 28 8, 24 18" stroke="#E07830" stroke-width="5" fill="none" stroke-linecap="round"/>
+                <!-- Happy eyes (closed, waving goodbye) -->
+                <path d="M-8 12 Q-6 9 -4 12" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M4 12 Q6 9 8 12" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <!-- Smile -->
+                <path d="M-5 21 Q0 27 5 21" stroke="#1E293B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <!-- Legs (walking) -->
+                <line x1="-6" y1="70" x2="-14" y2="95" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="6" y1="70" x2="14" y2="95" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <ellipse cx="-16" cy="97" rx="6" ry="3" fill="#9B5BBF"/>
+                <ellipse cx="16" cy="97" rx="6" ry="3" fill="#9B5BBF"/>
+              </g>
+
+              <!-- Basket with marble (still there) -->
+              <g transform="translate(248, 240)">
+                <path d="M-20 0 L-25 -30 L25 -30 L20 0 Z" fill="url(#basket-grad)" stroke="#6B3410" stroke-width="1"/>
+                <line x1="-23" y1="-20" x2="23" y2="-20" stroke="#A0522D" stroke-width="0.8"/>
+                <line x1="-21" y1="-10" x2="21" y2="-10" stroke="#A0522D" stroke-width="0.8"/>
+                <circle cx="0" cy="-18" r="7" fill="#3B82F6" stroke="#2563EB" stroke-width="1"/>
+                <circle cx="-2" cy="-20" r="2" fill="white" opacity="0.5"/>
+              </g>
+
+              <!-- Box (still empty) -->
+              <g transform="translate(340, 240)">
+                <rect x="-18" y="-28" width="36" height="28" rx="3" fill="url(#box-grad)" stroke="#3730A3" stroke-width="1"/>
+                <line x1="-18" y1="-23" x2="18" y2="-23" stroke="#6366F1" stroke-width="1"/>
+              </g>
+
+              <!-- Caption -->
+              <text x="297" y="345" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700">Sally goes outside</text>
+              <text x="297" y="359" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700">to play</text>
+            </g>
+
+            <!-- ===== PANEL 3: Anne moves marble ===== -->
+            <g>
+              <rect x="401" y="5" width="188" height="320" rx="12" fill="url(#sa-sky3)" stroke="#FDE68A" stroke-width="1.5"/>
+              <circle cx="418" cy="22" r="12" fill="#FFA75A"/>
+              <text x="418" y="27" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="12" font-weight="800">3</text>
+              <!-- Floor -->
+              <rect x="401" y="260" width="188" height="65" rx="0" fill="#FEF3C7" opacity="0.5"/>
+
+              <!-- Anne (reaching into basket) -->
+              <g transform="translate(470, 120)">
+                <!-- Body -->
+                <rect x="-12" y="30" width="24" height="35" rx="8" fill="#3EB589"/>
+                <!-- Arm reaching to basket (left) -->
+                <line x1="-12" y1="38" x2="-40" y2="78" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Arm reaching to box (right) -->
+                <line x1="12" y1="38" x2="38" y2="78" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Head -->
+                <circle cx="0" cy="15" r="16" fill="#FFA75A"/>
+                <!-- Bow -->
+                <path d="M-8 0 L0 5 L8 0 L0 -3 Z" fill="#FF6B8A" transform="translate(0, -2)"/>
+                <!-- Sneaky eyes -->
+                <circle cx="-5" cy="12" r="2.5" fill="#1E293B"/>
+                <circle cx="5" cy="12" r="2.5" fill="#1E293B"/>
+                <!-- Sneaky smile -->
+                <path d="M-5 20 Q0 25 5 20" stroke="#1E293B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <!-- Legs -->
+                <line x1="-5" y1="65" x2="-6" y2="85" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="5" y1="65" x2="6" y2="85" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <ellipse cx="-8" cy="87" rx="6" ry="3" fill="#2FA07A"/>
+                <ellipse cx="8" cy="87" rx="6" ry="3" fill="#2FA07A"/>
+              </g>
+
+              <!-- Basket (now empty) -->
+              <g transform="translate(435, 240)">
+                <path d="M-20 0 L-25 -30 L25 -30 L20 0 Z" fill="url(#basket-grad)" stroke="#6B3410" stroke-width="1"/>
+                <line x1="-23" y1="-20" x2="23" y2="-20" stroke="#A0522D" stroke-width="0.8"/>
+                <line x1="-21" y1="-10" x2="21" y2="-10" stroke="#A0522D" stroke-width="0.8"/>
+              </g>
+
+              <!-- Movement arrow (curved) from basket to box -->
+              <path d="M445 200 Q480 170 520 200" stroke="#FF6B8A" stroke-width="2.5" fill="none" stroke-dasharray="6 3" marker-end="url(#arrow-red)"/>
+              <defs>
+                <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" fill="#FF6B8A"/>
+                </marker>
+              </defs>
+
+              <!-- Marble in transit (near box) -->
+              <circle cx="518" cy="215" r="7" fill="#3B82F6" stroke="#2563EB" stroke-width="1"/>
+              <circle cx="516" cy="213" r="2" fill="white" opacity="0.5"/>
+
+              <!-- Box (marble arriving) -->
+              <g transform="translate(530, 240)">
+                <rect x="-18" y="-28" width="36" height="28" rx="3" fill="url(#box-grad)" stroke="#3730A3" stroke-width="1"/>
+                <line x1="-18" y1="-23" x2="18" y2="-23" stroke="#6366F1" stroke-width="1"/>
+              </g>
+
+              <!-- Caption -->
+              <text x="495" y="345" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700">Anne moves the marble</text>
+              <text x="495" y="359" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700">to the box</text>
+            </g>
+
+            <!-- ===== PANEL 4: Sally returns ===== -->
+            <g>
+              <rect x="599" y="5" width="196" height="320" rx="12" fill="url(#sa-sky4)" stroke="#99F6E4" stroke-width="1.5"/>
+              <circle cx="616" cy="22" r="12" fill="#5CC99B"/>
+              <text x="616" y="27" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="12" font-weight="800">4</text>
+              <!-- Floor -->
+              <rect x="599" y="260" width="196" height="65" rx="0" fill="#CCFBF1" opacity="0.4"/>
+
+              <!-- Door frame (left) -->
+              <rect x="605" y="80" width="30" height="170" rx="3" fill="#D4A574" stroke="#A0522D" stroke-width="1"/>
+              <circle cx="630" cy="165" r="3" fill="#E07830"/>
+
+              <!-- Sally returning -->
+              <g transform="translate(660, 120)">
+                <!-- Body -->
+                <rect x="-12" y="30" width="24" height="40" rx="8" fill="#EC4899"/>
+                <!-- Arms at sides, confused -->
+                <line x1="-12" y1="42" x2="-22" y2="55" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="12" y1="42" x2="22" y2="55" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <!-- Head -->
+                <circle cx="0" cy="15" r="18" fill="#FFA75A"/>
+                <!-- Ponytail -->
+                <path d="M-14 8 C-22 2, -28 8, -24 18" stroke="#E07830" stroke-width="5" fill="none" stroke-linecap="round"/>
+                <!-- Confused eyes (wide) -->
+                <circle cx="-6" cy="12" r="3" fill="white" stroke="#1E293B" stroke-width="1.5"/>
+                <circle cx="-6" cy="12" r="1.5" fill="#1E293B"/>
+                <circle cx="6" cy="12" r="3" fill="white" stroke="#1E293B" stroke-width="1.5"/>
+                <circle cx="6" cy="12" r="1.5" fill="#1E293B"/>
+                <!-- Confused mouth -->
+                <path d="M-4 22 L4 20" stroke="#1E293B" stroke-width="1.5" stroke-linecap="round"/>
+                <!-- Legs -->
+                <line x1="-6" y1="70" x2="-8" y2="95" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <line x1="6" y1="70" x2="8" y2="95" stroke="#FFA75A" stroke-width="4" stroke-linecap="round"/>
+                <ellipse cx="-10" cy="97" rx="6" ry="3" fill="#9B5BBF"/>
+                <ellipse cx="10" cy="97" rx="6" ry="3" fill="#9B5BBF"/>
+              </g>
+
+              <!-- Question mark above Sally -->
+              <g transform="translate(660, 70)">
+                <text x="0" y="0" text-anchor="middle" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="32" font-weight="800">?</text>
+              </g>
+
+              <!-- Basket (empty) -->
+              <g transform="translate(690, 240)">
+                <path d="M-20 0 L-25 -30 L25 -30 L20 0 Z" fill="url(#basket-grad)" stroke="#6B3410" stroke-width="1"/>
+                <line x1="-23" y1="-20" x2="23" y2="-20" stroke="#A0522D" stroke-width="0.8"/>
+                <line x1="-21" y1="-10" x2="21" y2="-10" stroke="#A0522D" stroke-width="0.8"/>
+              </g>
+
+              <!-- Box (has marble) -->
+              <g transform="translate(760, 240)">
+                <rect x="-18" y="-28" width="36" height="28" rx="3" fill="url(#box-grad)" stroke="#3730A3" stroke-width="1"/>
+                <line x1="-18" y1="-23" x2="18" y2="-23" stroke="#6366F1" stroke-width="1"/>
+                <circle cx="0" cy="-12" r="6" fill="#3B82F6" stroke="#2563EB" stroke-width="0.8"/>
+                <circle cx="-2" cy="-14" r="1.5" fill="white" opacity="0.5"/>
+              </g>
+
+              <!-- Caption -->
+              <text x="697" y="340" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700">Sally comes back.</text>
+              <text x="697" y="354" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="10.5" font-weight="800" fill="#9B5BBF">Where will she LOOK</text>
+              <text x="697" y="367" text-anchor="middle" fill="#475569" font-family="Nunito, sans-serif" font-size="10.5" font-weight="800" fill="#9B5BBF">for her marble?</text>
+            </g>
+
+            <!-- ===== ANSWER BOXES ===== -->
+            <!-- Correct answer: The Basket -->
+            <g transform="translate(200, 390)">
+              <rect x="0" y="0" width="180" height="48" rx="10" fill="#ECFDF5" stroke="#5CC99B" stroke-width="2"/>
+              <text x="90" y="20" text-anchor="middle" fill="#059669" font-family="Nunito, sans-serif" font-size="12" font-weight="800">The BASKET</text>
+              <text x="90" y="36" text-anchor="middle" fill="#64748B" font-family="Lora, serif" font-size="10">(where she left it)</text>
+              <!-- Checkmark -->
+              <circle cx="168" cy="12" r="8" fill="#5CC99B"/>
+              <path d="M163 12 L166 15 L173 9" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+
+            <!-- Wrong answer: The Box -->
+            <g transform="translate(420, 390)">
+              <rect x="0" y="0" width="180" height="48" rx="10" fill="#FFFBEB" stroke="#FFA75A" stroke-width="2"/>
+              <text x="90" y="20" text-anchor="middle" fill="#E07830" font-family="Nunito, sans-serif" font-size="12" font-weight="800">The BOX</text>
+              <text x="90" y="36" text-anchor="middle" fill="#64748B" font-family="Lora, serif" font-size="10">(where it actually is)</text>
+            </g>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <!-- Explanatory note below -->
+        <div style="background:linear-gradient(135deg, var(--primary-50), var(--secondary-50));border-radius:var(--radius-lg);padding:1.25rem 1.5rem;margin-top:1rem;border-left:4px solid var(--primary-400);" data-animate="fade-up">
+          <p style="font-size:var(--text-sm);color:var(--neutral-700);margin-bottom:0;">
+            <strong style="color:var(--primary-600);font-family:var(--font-heading);">The key insight:</strong> Children under approximately age 4 typically say "the box" -- because <em>they</em> know the marble is in the box, and they cannot yet separate their own knowledge from Sally's. They fail to represent Sally's <strong>false belief</strong>. By age 4-5, most children correctly answer "the basket" -- they understand that Sally still <em>believes</em> the marble is where she left it, even though they themselves know it has been moved. This marks the emergence of <strong>Theory of Mind</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION C: Theory of Mind Development Staircase
+         ======================================== -->
+    <section class="content-section" data-section-id="section-c">
+      <div class="container" style="max-width:900px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Theory of Mind <span class="text-gradient">Staircase</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>A step-by-step progression from understanding desires to reading hidden emotions</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            Theory of Mind doesn't arrive all at once. Researchers have identified a remarkably consistent developmental sequence -- a staircase of increasingly sophisticated social understanding. Each step builds on the one before, and while the ages can vary across cultures, the <em>order</em> is remarkably universal.
+          </p>
+        </div>
+
+        <!-- ToM Staircase SVG -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Theory of Mind development staircase showing five stages from age 2 to age 6">
+            <defs>
+              <filter id="stair-shadow">
+                <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+              </filter>
+              <filter id="stair-glow">
+                <feDropShadow dx="0" dy="2" stdDeviation="8" flood-opacity="0.2" flood-color="#8B5CF6"/>
+              </filter>
+              <linearGradient id="stair-arrow" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#D4A6EB"/>
+                <stop offset="100%" stop-color="#9B5BBF"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Background decorative elements -->
+            <circle cx="650" cy="60" r="40" fill="#F5F3FF" opacity="0.6"/>
+            <circle cx="60" cy="440" r="30" fill="#EDE9FE" opacity="0.5"/>
+
+            <!-- ===== STEP 1: Diverse Desires (age ~2) ===== -->
+            <g filter="url(#stair-shadow)">
+              <rect x="30" y="390" width="560" height="65" rx="12" fill="#DDD6FE"/>
+              <!-- Age badge -->
+              <rect x="45" y="400" width="60" height="24" rx="12" fill="#9B5BBF"/>
+              <text x="75" y="416" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="11" font-weight="800">Age ~2</text>
+              <!-- Icon: two different food items -->
+              <g transform="translate(130, 405)">
+                <!-- Apple -->
+                <circle cx="0" cy="10" r="10" fill="#FF6B8A"/>
+                <line x1="0" y1="0" x2="2" y2="-4" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+                <!-- Cookie -->
+                <circle cx="28" cy="10" r="10" fill="#E07830"/>
+                <circle cx="24" cy="8" r="2" fill="#92400E"/>
+                <circle cx="31" cy="12" r="2" fill="#92400E"/>
+              </g>
+              <!-- Text -->
+              <text x="175" y="415" fill="#4C1D95" font-family="Nunito, sans-serif" font-size="15" font-weight="800">Diverse Desires</text>
+              <text x="175" y="436" fill="#6B21A8" font-family="Lora, serif" font-size="12">Understanding that different people want different things</text>
+              <!-- Step number -->
+              <text x="565" y="430" text-anchor="middle" fill="#A78BFA" font-family="Nunito, sans-serif" font-size="28" font-weight="800" opacity="0.4">1</text>
+            </g>
+
+            <!-- Arrow between steps 1 and 2 -->
+            <path d="M85 385 L85 370" stroke="url(#stair-arrow)" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow-purple)"/>
+            <defs>
+              <marker id="arrow-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#9B5BBF"/>
+              </marker>
+            </defs>
+
+            <!-- ===== STEP 2: Diverse Beliefs (age ~3) ===== -->
+            <g filter="url(#stair-shadow)">
+              <rect x="60" y="305" width="540" height="65" rx="12" fill="#D4A6EB"/>
+              <rect x="75" y="315" width="60" height="24" rx="12" fill="#7E47A3"/>
+              <text x="105" y="331" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="11" font-weight="800">Age ~3</text>
+              <!-- Icon: two thought bubbles -->
+              <g transform="translate(158, 318)">
+                <!-- Thought bubble 1 -->
+                <ellipse cx="0" cy="8" rx="14" ry="10" fill="white" stroke="#7E47A3" stroke-width="1.5"/>
+                <text x="0" y="12" text-anchor="middle" fill="#7E47A3" font-size="10">A</text>
+                <!-- Thought bubble 2 -->
+                <ellipse cx="36" cy="8" rx="14" ry="10" fill="white" stroke="#7E47A3" stroke-width="1.5"/>
+                <text x="36" y="12" text-anchor="middle" fill="#7E47A3" font-size="10">B</text>
+                <!-- Not equal sign -->
+                <text x="18" y="13" text-anchor="middle" fill="#7E47A3" font-size="14" font-weight="800">&ne;</text>
+              </g>
+              <text x="215" y="330" fill="#3B0764" font-family="Nunito, sans-serif" font-size="15" font-weight="800">Diverse Beliefs</text>
+              <text x="215" y="351" fill="#581C87" font-family="Lora, serif" font-size="12">People can have different beliefs about the same situation</text>
+              <text x="575" y="345" text-anchor="middle" fill="#8B5CF6" font-family="Nunito, sans-serif" font-size="28" font-weight="800" opacity="0.4">2</text>
+            </g>
+
+            <!-- Arrow between steps 2 and 3 -->
+            <path d="M115 300 L115 285" stroke="url(#stair-arrow)" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow-purple)"/>
+
+            <!-- ===== STEP 3: Knowledge Access (age ~3-4) ===== -->
+            <g filter="url(#stair-shadow)">
+              <rect x="90" y="220" width="520" height="65" rx="12" fill="#A78BFA"/>
+              <rect x="105" y="230" width="68" height="24" rx="12" fill="#633882"/>
+              <text x="139" y="246" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="11" font-weight="800">Age ~3-4</text>
+              <!-- Icon: eye looking at object -->
+              <g transform="translate(196, 233)">
+                <path d="M0 10 Q12 0 24 10 Q12 20 0 10 Z" fill="white" stroke="#633882" stroke-width="1.5"/>
+                <circle cx="12" cy="10" r="4" fill="#633882"/>
+                <!-- Arrow to object -->
+                <line x1="28" y1="10" x2="40" y2="10" stroke="#633882" stroke-width="1.5" stroke-dasharray="3 2"/>
+                <rect x="42" y="4" width="12" height="12" rx="2" fill="#633882" opacity="0.3" stroke="#633882" stroke-width="1"/>
+              </g>
+              <text x="265" y="245" fill="#1E1B4B" font-family="Nunito, sans-serif" font-size="15" font-weight="800">Knowledge Access</text>
+              <text x="265" y="266" fill="#312E81" font-family="Lora, serif" font-size="12">Understanding that seeing leads to knowing</text>
+              <text x="585" y="260" text-anchor="middle" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="28" font-weight="800" opacity="0.4">3</text>
+            </g>
+
+            <!-- Arrow between steps 3 and 4 -->
+            <path d="M145 215 L145 195" stroke="url(#stair-arrow)" stroke-width="2.5" stroke-dasharray="4 3" marker-end="url(#arrow-purple)"/>
+
+            <!-- ===== STEP 4: FALSE BELIEF (age ~4-5) — THE BIG ONE ===== -->
+            <g filter="url(#stair-glow)">
+              <rect x="115" y="120" width="505" height="78" rx="14" fill="#8B5CF6"/>
+              <!-- Highlight border -->
+              <rect x="115" y="120" width="505" height="78" rx="14" fill="none" stroke="#D4A6EB" stroke-width="2" stroke-dasharray="0"/>
+              <!-- Star burst decoration -->
+              <g transform="translate(130, 130)">
+                <polygon points="10,0 12,7 20,7 14,11 16,18 10,14 4,18 6,11 0,7 8,7" fill="#FDE68A" opacity="0.9"/>
+              </g>
+              <rect x="153" y="132" width="72" height="24" rx="12" fill="#4C1D95"/>
+              <text x="189" y="148" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="11" font-weight="800">Age ~4-5</text>
+              <!-- Icon: thought bubble with X -->
+              <g transform="translate(248, 135)">
+                <ellipse cx="10" cy="10" rx="14" ry="12" fill="white" stroke="#4C1D95" stroke-width="1.5"/>
+                <line x1="4" y1="4" x2="16" y2="16" stroke="#FF6B8A" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="16" y1="4" x2="4" y2="16" stroke="#FF6B8A" stroke-width="2.5" stroke-linecap="round"/>
+              </g>
+              <text x="280" y="150" fill="white" font-family="Nunito, sans-serif" font-size="17" font-weight="800">False Belief</text>
+              <!-- "THE BIG ONE" badge -->
+              <rect x="420" y="136" width="90" height="22" rx="11" fill="#FDE68A"/>
+              <text x="465" y="151" text-anchor="middle" fill="#92400E" font-family="Nunito, sans-serif" font-size="10" font-weight="800">THE BIG ONE</text>
+              <text x="280" y="175" fill="#E9D5FF" font-family="Lora, serif" font-size="12.5">People can hold beliefs that are WRONG</text>
+              <text x="595" y="168" text-anchor="middle" fill="#D4A6EB" font-family="Nunito, sans-serif" font-size="32" font-weight="800" opacity="0.4">4</text>
+            </g>
+
+            <!-- Arrow between steps 4 and 5 -->
+            <path d="M175 115 L175 100" stroke="url(#stair-arrow)" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow-purple)"/>
+
+            <!-- ===== STEP 5: Hidden Emotion (age ~5-6) ===== -->
+            <g filter="url(#stair-shadow)">
+              <rect x="145" y="35" width="480" height="65" rx="12" fill="#9B5BBF"/>
+              <rect x="160" y="45" width="68" height="24" rx="12" fill="#4C1D95"/>
+              <text x="194" y="61" text-anchor="middle" fill="white" font-family="Nunito, sans-serif" font-size="11" font-weight="800">Age ~5-6</text>
+              <!-- Icon: mask with smile and frown -->
+              <g transform="translate(250, 46)">
+                <!-- Happy mask -->
+                <circle cx="0" cy="12" r="12" fill="white" stroke="#4C1D95" stroke-width="1.5"/>
+                <circle cx="-4" cy="9" r="1.5" fill="#4C1D95"/>
+                <circle cx="4" cy="9" r="1.5" fill="#4C1D95"/>
+                <path d="M-4 15 Q0 19 4 15" stroke="#4C1D95" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <!-- Sad mask (slightly overlapping) -->
+                <circle cx="20" cy="12" r="12" fill="white" stroke="#4C1D95" stroke-width="1.5" opacity="0.85"/>
+                <circle cx="16" cy="9" r="1.5" fill="#4C1D95"/>
+                <circle cx="24" cy="9" r="1.5" fill="#4C1D95"/>
+                <path d="M16 17 Q20 13 24 17" stroke="#4C1D95" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              </g>
+              <text x="300" y="60" fill="white" font-family="Nunito, sans-serif" font-size="15" font-weight="800">Hidden Emotion</text>
+              <text x="300" y="80" fill="#DDD6FE" font-family="Lora, serif" font-size="12">People can feel one thing but show another</text>
+              <text x="600" y="75" text-anchor="middle" fill="#A78BFA" font-family="Nunito, sans-serif" font-size="28" font-weight="800" opacity="0.4">5</text>
+            </g>
+
+            <!-- Small child figure climbing the stairs -->
+            <g transform="translate(30, 340)">
+              <!-- Head -->
+              <circle cx="15" cy="0" r="12" fill="#FFA75A"/>
+              <!-- Body -->
+              <rect x="8" y="12" width="14" height="20" rx="5" fill="#818CF8"/>
+              <!-- Legs (climbing pose) -->
+              <line x1="11" y1="32" x2="6" y2="45" stroke="#FFA75A" stroke-width="3" stroke-linecap="round"/>
+              <line x1="19" y1="32" x2="26" y2="42" stroke="#FFA75A" stroke-width="3" stroke-linecap="round"/>
+              <!-- Arms (reaching up) -->
+              <line x1="8" y1="16" x2="0" y2="8" stroke="#FFA75A" stroke-width="3" stroke-linecap="round"/>
+              <line x1="22" y1="16" x2="30" y2="6" stroke="#FFA75A" stroke-width="3" stroke-linecap="round"/>
+              <!-- Happy eyes -->
+              <circle cx="11" cy="-2" r="1.5" fill="#1E293B"/>
+              <circle cx="19" cy="-2" r="1.5" fill="#1E293B"/>
+              <!-- Smile -->
+              <path d="M11 5 Q15 9 19 5" stroke="#1E293B" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+            </g>
+
+            <!-- Climbing path arrow -->
+            <path d="M50 380 C40 350, 55 330, 70 310 C85 290, 95 270, 110 250 C125 230, 135 210, 150 190 C165 170, 170 150, 180 130 C190 110, 170 90, 175 70" stroke="#D4A6EB" stroke-width="1.5" fill="none" stroke-dasharray="5 4" opacity="0.5"/>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION D: Baby Morality — The Yale Baby Lab
+         ======================================== -->
+    <section class="content-section" data-section-id="section-d">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Baby <span class="text-gradient">Morality</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>The Yale Baby Lab and the surprising origins of social evaluation</p>
+        </div>
+
+        <p>
+          Perhaps the most astonishing finding in social development research comes from Karen Wynn's laboratory at Yale University. For decades, moral reasoning was thought to be a late-developing capacity -- something that required language, instruction, and years of social experience. Wynn's research shattered that assumption entirely.
+        </p>
+
+        <!-- Callout: Babies Have Moral Preferences -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">✨</span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            Babies Have Moral Preferences
+          </div>
+          <p>
+            Karen Wynn's research at Yale showed that infants as young as 6 <strong>months</strong> prefer a "helper" puppet (one that helped another puppet open a box) over a "hinderer" puppet (one that slammed it shut). By 10 months, infants even expect the <em>helped</em> puppet to prefer the helper! This suggests a rudimentary capacity for social evaluation is present far earlier than anyone expected -- long before language, long before explicit moral instruction, and long before the child can articulate any concept of "right" and "wrong."
+          </p>
+        </div>
+
+        <!-- Puppet Experiment SVG -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yale Baby Lab puppet experiment showing helper, main character, and hinderer puppets">
+            <defs>
+              <filter id="puppet-shadow">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+              </filter>
+              <linearGradient id="stage-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#F8FAFC"/>
+                <stop offset="100%" stop-color="#F1F5F9"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Stage background -->
+            <rect x="20" y="15" width="560" height="180" rx="16" fill="url(#stage-grad)" stroke="#E2E8F0" stroke-width="1.5"/>
+            <!-- Curtain top -->
+            <rect x="20" y="15" width="560" height="12" rx="6" fill="#9B5BBF" opacity="0.15"/>
+
+            <!-- ===== HELPER PUPPET (Green, left) ===== -->
+            <g transform="translate(120, 60)" filter="url(#puppet-shadow)">
+              <!-- Body -->
+              <rect x="-28" y="30" width="56" height="55" rx="14" fill="#5CC99B"/>
+              <!-- Head -->
+              <circle cx="0" cy="12" r="25" fill="#34D399"/>
+              <!-- Happy eyes -->
+              <circle cx="-9" cy="6" r="4" fill="white"/>
+              <circle cx="-9" cy="6" r="2" fill="#1E293B"/>
+              <circle cx="9" cy="6" r="4" fill="white"/>
+              <circle cx="9" cy="6" r="2" fill="#1E293B"/>
+              <!-- Big happy smile -->
+              <path d="M-10 18 Q0 28 10 18" stroke="#065F46" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <!-- Arms up (helping gesture) -->
+              <line x1="-28" y1="45" x2="-48" y2="25" stroke="#5CC99B" stroke-width="8" stroke-linecap="round"/>
+              <line x1="28" y1="45" x2="48" y2="25" stroke="#5CC99B" stroke-width="8" stroke-linecap="round"/>
+              <!-- Hands -->
+              <circle cx="-48" cy="25" r="6" fill="#34D399"/>
+              <circle cx="48" cy="25" r="6" fill="#34D399"/>
+            </g>
+            <!-- Helper label -->
+            <rect x="72" y="157" width="96" height="28" rx="14" fill="#ECFDF5" stroke="#5CC99B" stroke-width="1.5"/>
+            <text x="120" y="176" text-anchor="middle" fill="#059669" font-family="Nunito, sans-serif" font-size="12" font-weight="800">Helper</text>
+
+            <!-- ===== MAIN CHARACTER PUPPET (Yellow, center) ===== -->
+            <g transform="translate(300, 60)" filter="url(#puppet-shadow)">
+              <!-- Body -->
+              <rect x="-28" y="30" width="56" height="55" rx="14" fill="#FFA75A"/>
+              <!-- Head -->
+              <circle cx="0" cy="12" r="25" fill="#FFA75A"/>
+              <!-- Neutral eyes -->
+              <circle cx="-9" cy="6" r="4" fill="white"/>
+              <circle cx="-9" cy="6" r="2" fill="#1E293B"/>
+              <circle cx="9" cy="6" r="4" fill="white"/>
+              <circle cx="9" cy="6" r="2" fill="#1E293B"/>
+              <!-- Neutral mouth -->
+              <line x1="-8" y1="20" x2="8" y2="20" stroke="#92400E" stroke-width="2.5" stroke-linecap="round"/>
+              <!-- Arms at sides -->
+              <line x1="-28" y1="50" x2="-40" y2="65" stroke="#FFA75A" stroke-width="8" stroke-linecap="round"/>
+              <line x1="28" y1="50" x2="40" y2="65" stroke="#FFA75A" stroke-width="8" stroke-linecap="round"/>
+              <circle cx="-40" cy="65" r="6" fill="#FFA75A"/>
+              <circle cx="40" cy="65" r="6" fill="#FFA75A"/>
+            </g>
+            <!-- Main character label -->
+            <rect x="240" y="157" width="120" height="28" rx="14" fill="#FFFBEB" stroke="#FFA75A" stroke-width="1.5"/>
+            <text x="300" y="176" text-anchor="middle" fill="#E07830" font-family="Nunito, sans-serif" font-size="12" font-weight="800">Main Character</text>
+
+            <!-- ===== HINDERER PUPPET (Red, right) ===== -->
+            <g transform="translate(480, 60)" filter="url(#puppet-shadow)">
+              <!-- Body -->
+              <rect x="-28" y="30" width="56" height="55" rx="14" fill="#FF6B8A"/>
+              <!-- Head -->
+              <circle cx="0" cy="12" r="25" fill="#F87171"/>
+              <!-- Angry eyes -->
+              <circle cx="-9" cy="6" r="4" fill="white"/>
+              <circle cx="-9" cy="6" r="2" fill="#1E293B"/>
+              <circle cx="9" cy="6" r="4" fill="white"/>
+              <circle cx="9" cy="6" r="2" fill="#1E293B"/>
+              <!-- Angry eyebrows -->
+              <line x1="-14" y1="-4" x2="-5" y2="-1" stroke="#7F1D1D" stroke-width="2.5" stroke-linecap="round"/>
+              <line x1="14" y1="-4" x2="5" y2="-1" stroke="#7F1D1D" stroke-width="2.5" stroke-linecap="round"/>
+              <!-- Frown -->
+              <path d="M-8 22 Q0 16 8 22" stroke="#7F1D1D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <!-- Arms blocking (crossed) -->
+              <line x1="-28" y1="42" x2="-45" y2="55" stroke="#FF6B8A" stroke-width="8" stroke-linecap="round"/>
+              <line x1="28" y1="42" x2="45" y2="55" stroke="#FF6B8A" stroke-width="8" stroke-linecap="round"/>
+              <line x1="-45" y1="55" x2="-20" y2="68" stroke="#FF6B8A" stroke-width="8" stroke-linecap="round"/>
+              <line x1="45" y1="55" x2="20" y2="68" stroke="#FF6B8A" stroke-width="8" stroke-linecap="round"/>
+            </g>
+            <!-- Hinderer label -->
+            <rect x="432" y="157" width="96" height="28" rx="14" fill="#FEF2F2" stroke="#FF6B8A" stroke-width="1.5"/>
+            <text x="480" y="176" text-anchor="middle" fill="#DC2626" font-family="Nunito, sans-serif" font-size="12" font-weight="800">Hinderer</text>
+
+            <!-- ===== BABY FIGURE (bottom center) ===== -->
+            <g transform="translate(300, 230)">
+              <!-- Baby body -->
+              <ellipse cx="0" cy="20" rx="22" ry="18" fill="#D4A6EB"/>
+              <!-- Baby head -->
+              <circle cx="0" cy="-2" r="18" fill="#FFA75A"/>
+              <!-- Big curious eyes -->
+              <circle cx="-7" cy="-6" r="4" fill="white"/>
+              <circle cx="-7" cy="-6" r="2.5" fill="#1E293B"/>
+              <circle cx="7" cy="-6" r="4" fill="white"/>
+              <circle cx="7" cy="-6" r="2.5" fill="#1E293B"/>
+              <!-- Eye highlights -->
+              <circle cx="-6" cy="-7" r="1" fill="white"/>
+              <circle cx="8" cy="-7" r="1" fill="white"/>
+              <!-- Little surprised mouth -->
+              <circle cx="0" cy="6" r="3" fill="#1E293B"/>
+              <circle cx="0" cy="5.5" r="2" fill="#7F1D1D"/>
+              <!-- Baby label -->
+              <text x="0" y="50" text-anchor="middle" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="700">Baby</text>
+            </g>
+
+            <!-- Arrow from baby to helper -->
+            <path d="M270 238 C220 225, 170 210, 140 195" stroke="#5CC99B" stroke-width="2.5" fill="none" stroke-linecap="round" marker-end="url(#arrow-green)"/>
+            <defs>
+              <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#5CC99B"/>
+              </marker>
+            </defs>
+
+            <!-- Result label -->
+            <g transform="translate(100, 220)">
+              <rect x="0" y="0" width="155" height="40" rx="10" fill="#ECFDF5" stroke="#5CC99B" stroke-width="1.5"/>
+              <text x="77" y="17" text-anchor="middle" fill="#059669" font-family="Nunito, sans-serif" font-size="11" font-weight="800">75% of infants chose</text>
+              <text x="77" y="32" text-anchor="middle" fill="#059669" font-family="Nunito, sans-serif" font-size="11" font-weight="800">the helper!</text>
+            </g>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION E: The Other-Race Effect
+         ======================================== -->
+    <section class="content-section" data-section-id="section-e">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The Other-Race <span class="text-gradient">Effect</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How face recognition narrows -- and why experience matters</p>
+        </div>
+
+        <p>
+          One of the most striking examples of perceptual narrowing in infancy doesn't involve language at all -- it involves <em>faces</em>. Just as infants lose the ability to distinguish non-native speech sounds (as we explored in Module 4), they also undergo a parallel narrowing in their face perception abilities. And the timeline is remarkably similar.
+        </p>
+
+        <!-- Callout: Face Recognition Narrows -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">✨</span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            Face Recognition Narrows by 9 Months
+          </div>
+          <p>
+            At 3 months, infants recognize faces from <strong>all</strong> racial groups equally well. By 6 months, preferences for own-race faces begin emerging. By 9 months, recognition ability is significantly restricted to own-race faces. This parallels the language perceptual narrowing from Module 4! But here is the hopeful finding: just <strong>2-3 weeks</strong> of daily exposure to other-race faces can prevent or reverse this bias. It is experience-driven, not innate prejudice. The infant brain tunes itself to the faces it encounters most frequently -- a perfectly sensible strategy that becomes limiting only in the context of a diverse world.
+          </p>
+        </div>
+
+        <!-- Timeline stat cards -->
+        <div class="stat-grid grid grid-cols-1 sm:grid-cols-3" data-animate="stagger" style="margin:2rem 0;">
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-3xl);color:var(--secondary-600);">3 mo</div>
+            <div class="stat-label">Universal recognition</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">All faces recognized equally well</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-3xl);color:var(--accent-600);">6 mo</div>
+            <div class="stat-label">Preferences emerge</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">Own-race face preference begins</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-3xl);color:var(--primary-600);">9 mo</div>
+            <div class="stat-label">Narrowed recognition</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">Tuned to most-seen faces</p>
+          </div>
+        </div>
+
+        <!-- ★ VISUAL 4: Face Processing Narrowing Grouped Bars ★ -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:600px;">
+          <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing face processing narrowing: at 3 months babies discriminate all faces equally, but by 9 months they are much better at recognizing own-race faces">
+            <!-- Title -->
+            <text x="300" y="30" fill="#1E293B" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Face Discrimination by Age</text>
+
+            <!-- Y-axis label -->
+            <text x="18" y="185" fill="#64748B" font-family="Quicksand, sans-serif" font-size="11" font-weight="600" text-anchor="middle" transform="rotate(-90 18 185)">Discrimination Accuracy (%)</text>
+
+            <!-- Grid lines and Y-axis ticks -->
+            <line x1="80" y1="60" x2="560" y2="60" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="4 3"/>
+            <text x="72" y="64" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="10" text-anchor="end">100%</text>
+
+            <line x1="80" y1="108" x2="560" y2="108" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="4 3"/>
+            <text x="72" y="112" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="10" text-anchor="end">80%</text>
+
+            <line x1="80" y1="156" x2="560" y2="156" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="4 3"/>
+            <text x="72" y="160" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="10" text-anchor="end">60%</text>
+
+            <line x1="80" y1="204" x2="560" y2="204" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="4 3"/>
+            <text x="72" y="208" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="10" text-anchor="end">40%</text>
+
+            <line x1="80" y1="252" x2="560" y2="252" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="4 3"/>
+            <text x="72" y="256" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="10" text-anchor="end">20%</text>
+
+            <!-- X-axis baseline -->
+            <line x1="80" y1="300" x2="560" y2="300" stroke="#CBD5E1" stroke-width="1.5"/>
+            <!-- Y-axis line -->
+            <line x1="80" y1="60" x2="80" y2="300" stroke="#CBD5E1" stroke-width="1.5"/>
+
+            <!-- Group 1: 3 Months — own-race 85%, other-race 83% -->
+            <!-- Center of group at x=180 -->
+            <rect x="140" y="96" width="45" height="204" rx="4" fill="#9B5BBF" opacity="0.85"/>
+            <text x="162" y="88" fill="#9B5BBF" font-family="Quicksand, sans-serif" font-size="10" font-weight="700" text-anchor="middle">85%</text>
+            <rect x="195" y="101" width="45" height="199" rx="4" fill="#14B8A6" opacity="0.85"/>
+            <text x="217" y="93" fill="#14B8A6" font-family="Quicksand, sans-serif" font-size="10" font-weight="700" text-anchor="middle">83%</text>
+            <text x="190" y="320" fill="#475569" font-family="Nunito, sans-serif" font-size="13" font-weight="700" text-anchor="middle">3 months</text>
+
+            <!-- Group 2: 6 Months — own-race 87%, other-race 68% -->
+            <!-- Center of group at x=340 -->
+            <rect x="300" y="91" width="45" height="209" rx="4" fill="#9B5BBF" opacity="0.85"/>
+            <text x="322" y="83" fill="#9B5BBF" font-family="Quicksand, sans-serif" font-size="10" font-weight="700" text-anchor="middle">87%</text>
+            <rect x="355" y="137" width="45" height="163" rx="4" fill="#14B8A6" opacity="0.85"/>
+            <text x="377" y="129" fill="#14B8A6" font-family="Quicksand, sans-serif" font-size="10" font-weight="700" text-anchor="middle">68%</text>
+            <text x="350" y="320" fill="#475569" font-family="Nunito, sans-serif" font-size="13" font-weight="700" text-anchor="middle">6 months</text>
+
+            <!-- Group 3: 9 Months — own-race 90%, other-race 50% -->
+            <!-- Center of group at x=500 -->
+            <rect x="460" y="84" width="45" height="216" rx="4" fill="#9B5BBF" opacity="0.85"/>
+            <text x="482" y="76" fill="#9B5BBF" font-family="Quicksand, sans-serif" font-size="10" font-weight="700" text-anchor="middle">90%</text>
+            <rect x="515" y="180" width="45" height="120" rx="4" fill="#14B8A6" opacity="0.85"/>
+            <text x="537" y="172" fill="#14B8A6" font-family="Quicksand, sans-serif" font-size="10" font-weight="700" text-anchor="middle">50%</text>
+            <text x="510" y="320" fill="#475569" font-family="Nunito, sans-serif" font-size="13" font-weight="700" text-anchor="middle">9 months</text>
+
+            <!-- Legend -->
+            <rect x="190" y="340" width="14" height="10" rx="2" fill="#9B5BBF" opacity="0.85"/>
+            <text x="210" y="349" fill="#475569" font-family="Quicksand, sans-serif" font-size="11" font-weight="600">Own-race faces</text>
+            <rect x="320" y="340" width="14" height="10" rx="2" fill="#14B8A6" opacity="0.85"/>
+            <text x="340" y="349" fill="#475569" font-family="Quicksand, sans-serif" font-size="11" font-weight="600">Other-race faces</text>
+          </svg>
+          <p style="font-size:var(--text-sm);color:var(--neutral-500);text-align:center;margin-top:0.75rem;margin-bottom:0;">At 3 months, infants discriminate all faces equally. By 9 months, own-race recognition stays high while other-race recognition drops significantly.</p>
+        </div>
+
+        <p>
+          This research carries profound implications for our understanding of racial bias. The other-race effect is not evidence of inborn prejudice. It is evidence of a learning system that, like so many systems in the developing brain, uses a "use it or lose it" strategy. The brain specializes for the faces it sees most often. In a racially homogeneous environment, this means narrowing. In a diverse environment -- or with deliberate exposure -- the window stays open. <strong>Experience shapes perception.</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION F: Cross-Cultural Minds
+         ======================================== -->
+    <section class="content-section" data-section-id="section-f">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Cross-Cultural <span class="text-gradient">Minds</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Theory of Mind develops universally -- but culture shapes the path</p>
+        </div>
+
+        <p>
+          Is Theory of Mind a universal human achievement, or a product of specific cultural practices? The answer, as is so often the case in developmental psychology, is: <em>both</em>. A 2024 meta-analysis synthesizing data from dozens of countries found that the core sequence of ToM development is remarkably consistent across cultures. Children everywhere progress through the same broad stages. But the order within that sequence? That depends on where you grow up.
+        </p>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:1fr 1fr;margin:2rem 0;">
+          <!-- Individualistic cultures card -->
+          <div class="stat-card" style="text-align:left;padding:1.5rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:var(--primary-50);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="8" r="4" stroke="var(--primary-500)" stroke-width="2" fill="none"/>
+                  <path d="M5 20c0-4 3-7 7-7s7 3 7 7" stroke="var(--primary-500)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">Individualistic Cultures</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0.75rem;">
+              In Western countries like the US, Canada, and Australia, children tend to understand <strong>"diverse beliefs"</strong> <em>before</em> "knowledge access." The cultural emphasis on individual perspectives, personal opinions, and the right to disagree helps children recognize early that different people can believe different things about the same situation.
+            </p>
+            <div style="display:inline-flex;align-items:center;gap:0.375rem;padding:0.25rem 0.75rem;background:var(--primary-50);border-radius:var(--radius-full);font-family:var(--font-heading);font-size:var(--text-xs);font-weight:700;color:var(--primary-600);">
+              Beliefs first, then knowledge
+            </div>
+          </div>
+
+          <!-- Collectivist cultures card -->
+          <div class="stat-card" style="text-align:left;padding:1.5rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:var(--secondary-50);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="8" cy="8" r="3" stroke="var(--secondary-600)" stroke-width="1.5" fill="none"/>
+                  <circle cx="16" cy="8" r="3" stroke="var(--secondary-600)" stroke-width="1.5" fill="none"/>
+                  <circle cx="12" cy="15" r="3" stroke="var(--secondary-600)" stroke-width="1.5" fill="none"/>
+                  <path d="M10 10l-1 3M14 10l1 3" stroke="var(--secondary-400)" stroke-width="1" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">Collectivist Cultures</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0.75rem;">
+              In East Asian countries like China, Japan, and Korea, children tend to understand <strong>"knowledge access"</strong> <em>before</em> "diverse beliefs." The cultural emphasis on respecting elders, deferring to those who know more, and the importance of shared knowledge means children learn early that <em>seeing leads to knowing</em> -- and that knowledge is something to be respected.
+            </p>
+            <div style="display:inline-flex;align-items:center;gap:0.375rem;padding:0.25rem 0.75rem;background:var(--secondary-50);border-radius:var(--radius-full);font-family:var(--font-heading);font-size:var(--text-xs);font-weight:700;color:var(--secondary-700);">
+              Knowledge first, then beliefs
+            </div>
+          </div>
+        </div>
+
+        <!-- ★ VISUAL 3: Theory of Mind Cultural Pathways ★ -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:700px;">
+          <svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two cultural pathways to Theory of Mind: individualistic cultures progress through desires then beliefs, while collectivist cultures progress through knowledge access first">
+            <!-- Title -->
+            <text x="350" y="28" fill="#1E293B" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Two Cultural Pathways to Theory of Mind</text>
+
+            <!-- Fork origin node -->
+            <rect x="225" y="44" width="250" height="36" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+            <text x="350" y="67" fill="#475569" font-family="Nunito, sans-serif" font-size="13" font-weight="700" text-anchor="middle">All Children Begin Here</text>
+
+            <!-- Forking arrows from center down to each column -->
+            <path d="M300 80 L175 110" stroke="#CBD5E1" stroke-width="2" fill="none" marker-end="url(#arrowGray)"/>
+            <path d="M400 80 L525 110" stroke="#CBD5E1" stroke-width="2" fill="none" marker-end="url(#arrowGray)"/>
+
+            <!-- Arrow markers -->
+            <defs>
+              <marker id="arrowPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0L10 5L0 10z" fill="#9B5BBF"/>
+              </marker>
+              <marker id="arrowTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0L10 5L0 10z" fill="#0D9488"/>
+              </marker>
+              <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0L10 5L0 10z" fill="#CBD5E1"/>
+              </marker>
+              <marker id="arrowGold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0L10 5L0 10z" fill="#D97706"/>
+              </marker>
+            </defs>
+
+            <!-- ====== LEFT COLUMN: Individualistic ====== -->
+            <!-- Column header -->
+            <rect x="50" y="110" width="250" height="32" rx="16" fill="#F3E8FF" stroke="#9B5BBF" stroke-width="1.5"/>
+            <text x="175" y="131" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Individualistic (US, UK, Australia)</text>
+
+            <!-- Step 1 -->
+            <line x1="175" y1="142" x2="175" y2="158" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#arrowPurple)"/>
+            <rect x="60" y="160" width="230" height="36" rx="8" fill="#FAF5FF" stroke="#C4B5FD" stroke-width="1.2"/>
+            <circle cx="82" cy="178" r="10" fill="#9B5BBF" opacity="0.15"/>
+            <text x="82" y="182" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">1</text>
+            <text x="100" y="183" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Diverse Desires</text>
+
+            <!-- Step 2 -->
+            <line x1="175" y1="196" x2="175" y2="212" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#arrowPurple)"/>
+            <rect x="60" y="214" width="230" height="36" rx="8" fill="#FAF5FF" stroke="#C4B5FD" stroke-width="1.2"/>
+            <circle cx="82" cy="232" r="10" fill="#9B5BBF" opacity="0.15"/>
+            <text x="82" y="236" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">2</text>
+            <text x="100" y="237" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Diverse Beliefs</text>
+
+            <!-- Step 3 -->
+            <line x1="175" y1="250" x2="175" y2="266" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#arrowPurple)"/>
+            <rect x="60" y="268" width="230" height="36" rx="8" fill="#FAF5FF" stroke="#C4B5FD" stroke-width="1.2"/>
+            <circle cx="82" cy="286" r="10" fill="#9B5BBF" opacity="0.15"/>
+            <text x="82" y="290" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">3</text>
+            <text x="100" y="291" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Knowledge Access</text>
+
+            <!-- Step 4 -->
+            <line x1="175" y1="304" x2="175" y2="320" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#arrowPurple)"/>
+            <rect x="60" y="322" width="230" height="36" rx="8" fill="#FAF5FF" stroke="#C4B5FD" stroke-width="1.2"/>
+            <circle cx="82" cy="340" r="10" fill="#9B5BBF" opacity="0.15"/>
+            <text x="82" y="344" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">4</text>
+            <text x="100" y="345" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">False Belief</text>
+
+            <!-- Step 5 -->
+            <line x1="175" y1="358" x2="175" y2="374" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#arrowPurple)"/>
+            <rect x="60" y="376" width="230" height="36" rx="8" fill="#FAF5FF" stroke="#C4B5FD" stroke-width="1.2"/>
+            <circle cx="82" cy="394" r="10" fill="#9B5BBF" opacity="0.15"/>
+            <text x="82" y="398" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">5</text>
+            <text x="100" y="399" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Hidden Emotion</text>
+
+            <!-- ====== RIGHT COLUMN: Collectivist ====== -->
+            <!-- Column header -->
+            <rect x="400" y="110" width="250" height="32" rx="16" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5"/>
+            <text x="525" y="131" fill="#0F766E" font-family="Nunito, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Collectivist (China, Japan, Iran)</text>
+
+            <!-- Step 1 -->
+            <line x1="525" y1="142" x2="525" y2="158" stroke="#0D9488" stroke-width="1.5" marker-end="url(#arrowTeal)"/>
+            <rect x="410" y="160" width="230" height="36" rx="8" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1.2"/>
+            <circle cx="432" cy="178" r="10" fill="#14B8A6" opacity="0.15"/>
+            <text x="432" y="182" fill="#0F766E" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">1</text>
+            <text x="450" y="183" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Knowledge Access</text>
+
+            <!-- Step 2 -->
+            <line x1="525" y1="196" x2="525" y2="212" stroke="#0D9488" stroke-width="1.5" marker-end="url(#arrowTeal)"/>
+            <rect x="410" y="214" width="230" height="36" rx="8" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1.2"/>
+            <circle cx="432" cy="232" r="10" fill="#14B8A6" opacity="0.15"/>
+            <text x="432" y="236" fill="#0F766E" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">2</text>
+            <text x="450" y="237" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Diverse Beliefs</text>
+
+            <!-- Step 3 -->
+            <line x1="525" y1="250" x2="525" y2="266" stroke="#0D9488" stroke-width="1.5" marker-end="url(#arrowTeal)"/>
+            <rect x="410" y="268" width="230" height="36" rx="8" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1.2"/>
+            <circle cx="432" cy="286" r="10" fill="#14B8A6" opacity="0.15"/>
+            <text x="432" y="290" fill="#0F766E" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">3</text>
+            <text x="450" y="291" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Diverse Desires</text>
+
+            <!-- Step 4 -->
+            <line x1="525" y1="304" x2="525" y2="320" stroke="#0D9488" stroke-width="1.5" marker-end="url(#arrowTeal)"/>
+            <rect x="410" y="322" width="230" height="36" rx="8" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1.2"/>
+            <circle cx="432" cy="340" r="10" fill="#14B8A6" opacity="0.15"/>
+            <text x="432" y="344" fill="#0F766E" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">4</text>
+            <text x="450" y="345" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">False Belief</text>
+
+            <!-- Step 5 -->
+            <line x1="525" y1="358" x2="525" y2="374" stroke="#0D9488" stroke-width="1.5" marker-end="url(#arrowTeal)"/>
+            <rect x="410" y="376" width="230" height="36" rx="8" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1.2"/>
+            <circle cx="432" cy="394" r="10" fill="#14B8A6" opacity="0.15"/>
+            <text x="432" y="398" fill="#0F766E" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">5</text>
+            <text x="450" y="399" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-weight="600">Hidden Emotion</text>
+
+            <!-- ====== CONVERGENCE ARROWS ====== -->
+            <line x1="175" y1="412" x2="280" y2="440" stroke="#D97706" stroke-width="2" marker-end="url(#arrowGold)"/>
+            <line x1="525" y1="412" x2="420" y2="440" stroke="#D97706" stroke-width="2" marker-end="url(#arrowGold)"/>
+
+            <!-- Convergence node -->
+            <rect x="225" y="442" width="250" height="32" rx="16" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+            <text x="350" y="463" fill="#92400E" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Full Theory of Mind</text>
+          </svg>
+          <p style="font-size:var(--text-sm);color:var(--neutral-500);text-align:center;margin-top:0.75rem;margin-bottom:0;">Both pathways arrive at the same destination -- the order of early steps differs by cultural emphasis, but the endpoint is universal.</p>
+        </div>
+
+        <p>
+          This finding is a powerful reminder that <strong>development is always a conversation between biology and culture</strong>. The cognitive hardware for Theory of Mind appears to be universal -- every neurotypical child develops it. But the specific sequence in which sub-skills emerge is sculpted by the values, practices, and social structures of the world the child inhabits. There is no single "correct" developmental path; there are many paths to the same destination.
+        </p>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION G: Autism Spectrum and Theory of Mind
+         ======================================== -->
+    <section class="content-section" data-section-id="section-g">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Autism and <span class="text-gradient">Theory of Mind</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>A complex relationship that has reshaped understanding of both</p>
+        </div>
+
+        <p>
+          Simon Baron-Cohen, Alan Leslie &amp; Uta Frith (1985) proposed the "mindblindness" hypothesis: that autism spectrum disorder involves a specific deficit in theory of mind -- the ability to attribute mental states to others. In their pioneering study, approximately 80% of autistic children (versus 14% of typically developing children and 14% of children with Down syndrome) failed the Sally-Anne false belief task. They argued that autistic individuals have difficulty with the cognitive capacity to understand that others have beliefs, desires, and intentions different from their own.
+        </p>
+
+        <p>
+          However, the mindblindness hypothesis has been substantially revised. First, some autistic adults pass first-order false belief tasks when given enough time or different testing formats -- suggesting performance may reflect processing speed or test anxiety rather than absent capacity. Second, and more importantly, Damian Milton (2012) proposed the <strong>Double Empathy Problem</strong>: the social difficulties of autistic people may reflect a mismatch between autistic and neurotypical communication styles, rather than a unilateral deficit in autistic people. Neurotypical people also frequently misread autistic people's emotions and intentions -- the empathy failure is bidirectional.
+        </p>
+
+        <p>
+          Emily Crompton et al. (2020) directly tested the Double Empathy Problem. In dyadic interactions, autistic-autistic pairs communicated and cooperated as successfully as neurotypical-neurotypical pairs. The breakdown occurred specifically in autistic-neurotypical mixed pairs -- from both sides. This suggests that social difficulties in autism may reflect a cross-neurotype communication difference, not a global empathy deficit. Autistic people in autistic communities report feeling deeply understood and socially successful.
+        </p>
+
+        <p>
+          Laura Hull's research on camouflaging and masking has revealed another layer: many autistic people -- particularly women -- learn to perform neurotypical social behaviors through intensive observation and practice, concealing autistic traits at significant cognitive and emotional cost. This masking obscures autistic identity and delays diagnosis, particularly in girls, who are 3-4 times less likely to be diagnosed than boys at the same level of autistic traits.
+        </p>
+
+        <!-- Callout: Double Empathy Problem -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">💡</span>
+            The Double Empathy Problem
+          </div>
+          <p>
+            When Crompton et al. (2020) studied autistic-autistic vs. autistic-neurotypical vs. neurotypical-neurotypical social interactions, autistic pairs were just as socially successful as neurotypical pairs. The communication breakdown was in mixed pairs -- from both sides. This transforms the question from "why do autistic people struggle socially?" to "how do different neurotypes communicate across neurological difference?"
+          </p>
+        </div>
+
+        <!-- Callout: Empathy Myth -->
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">⚡</span>
+            MYTH vs. REALITY
+          </div>
+          <p>
+            <strong>MYTH: "Autistic people lack empathy."</strong> <strong>REALITY:</strong> Research distinguishes between cognitive empathy (understanding others' mental states) and affective empathy (feeling what others feel). Many autistic people report high affective empathy -- being intensely moved by others' emotions -- but may struggle with cognitive empathy (inferring mental states). Some autistic people report the opposite profile from what was traditionally assumed: feeling too much, not too little. The relationship between autism and empathy is far more nuanced than early "mindblindness" theory suggested.
+          </p>
+        </div>
+
+        <!-- Baron-Cohen Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #EDE9FE; color: #7C3AED;">SB</div>
+          <div>
+            <h4>Simon Baron-Cohen</h4>
+            <p class="figure-years">1958 &ndash; present</p>
+            <p>Cambridge psychologist who pioneered the mindblindness hypothesis of autism and developed assessments including the Sally-Anne task and the "Reading the Mind in the Eyes" test. His more recent work focuses on the "extreme male brain" theory and autism as a form of neurodiversity.</p>
+            <div class="figure-insight">Autism may involve a different cognitive style -- more systematic, less intuitive about mental states -- rather than a simple deficit.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION H: The Development of Deception
+         ======================================== -->
+    <section class="content-section" data-section-id="section-h">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The <span class="text-gradient">Cognitive Achievement</span> of Lying</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Why lying is a developmental milestone, not just a character flaw</p>
+        </div>
+
+        <p>
+          Lying is cognitively demanding. To successfully lie, a child must: (1) Know the truth, (2) Understand that others don't know the truth, (3) Generate a false belief in the listener's mind, (4) Monitor whether the lie is believed, and (5) Maintain the false story under questioning. Each of these steps requires theory of mind. Lying is not just morally complex -- it is one of the most cognitively sophisticated things a young child does.
+        </p>
+
+        <p>
+          Kang Lee's research using the "temptation resistance paradigm" documents the developmental trajectory. An experimenter leaves a child alone in a room with an enticing object (a toy hidden under a cloth) and tells them not to peek. About 30% of 3-year-olds peek and then lie about it. By age 4, about 80% peek and lie. By age 7, almost all children peek and lie -- and are much better at maintaining consistent lies under follow-up questions. The ability to lie skillfully tracks precisely with theory of mind and executive function development.
+        </p>
+
+        <p>
+          The parenting implications are striking. Lee's research found that children of authoritarian parents who used harsh punishment for lying became <strong>better liars</strong> -- they had more motivation to perfect the skill. Children of parents who emphasized the value of honesty (not punishment avoidance) showed more truth-telling. This suggests that the approach to children's lies matters: emphasizing trust-building and the relational value of honesty is more effective than punishment.
+        </p>
+
+        <p>
+          There is a moral dimension worth acknowledging: as children's lying becomes more sophisticated, so does their understanding of why honesty matters. By age 7-8, children understand that deception violates trust and harms relationships, not just that it breaks a rule. This moral understanding deepens through adolescence, when questions of authentic identity and the ethics of social presentation become central developmental tasks.
+        </p>
+
+        <!-- Anatomy of a Lie SVG Flowchart -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anatomy of a lie: four connected steps from knowing the truth to monitoring and maintaining the false story">
+            <defs>
+              <marker id="lie-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0L10 5L0 10z" fill="#9B5BBF"/>
+              </marker>
+            </defs>
+            <!-- Title -->
+            <text x="350" y="22" fill="#1E293B" font-family="Nunito, sans-serif" font-size="14" font-weight="800" text-anchor="middle">Anatomy of a Lie — Four Theory of Mind Steps</text>
+            <!-- Node 1 -->
+            <rect x="20" y="40" width="140" height="70" rx="10" fill="#F3E8FF" stroke="#9B5BBF" stroke-width="1.5"/>
+            <text x="90" y="68" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">1. Know Truth</text>
+            <text x="90" y="84" fill="#6B7280" font-family="Nunito, sans-serif" font-size="10" text-anchor="middle">Factual memory</text>
+            <text x="90" y="100" fill="#6B7280" font-family="Nunito, sans-serif" font-size="10" text-anchor="middle">representation</text>
+            <!-- Arrow 1→2 -->
+            <line x1="160" y1="75" x2="178" y2="75" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#lie-arrow)"/>
+            <!-- Node 2 -->
+            <rect x="180" y="40" width="160" height="70" rx="10" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.5"/>
+            <text x="260" y="64" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">2. Understand Other</text>
+            <text x="260" y="80" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">Doesn't Know</text>
+            <text x="260" y="98" fill="#6B7280" font-family="Nunito, sans-serif" font-size="10" text-anchor="middle">False-belief reasoning</text>
+            <!-- Arrow 2→3 -->
+            <line x1="340" y1="75" x2="358" y2="75" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#lie-arrow)"/>
+            <!-- Node 3 -->
+            <rect x="360" y="40" width="160" height="70" rx="10" fill="#FAF5FF" stroke="#9B5BBF" stroke-width="1.5"/>
+            <text x="440" y="64" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">3. Generate False</text>
+            <text x="440" y="80" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">Belief in Listener</text>
+            <text x="440" y="98" fill="#6B7280" font-family="Nunito, sans-serif" font-size="10" text-anchor="middle">Intentional deception</text>
+            <!-- Arrow 3→4 -->
+            <line x1="520" y1="75" x2="538" y2="75" stroke="#9B5BBF" stroke-width="1.5" marker-end="url(#lie-arrow)"/>
+            <!-- Node 4 -->
+            <rect x="540" y="40" width="145" height="70" rx="10" fill="#F3E8FF" stroke="#9B5BBF" stroke-width="1.5"/>
+            <text x="612" y="64" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">4. Monitor &amp;</text>
+            <text x="612" y="80" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="11" font-weight="800" text-anchor="middle">Maintain Story</text>
+            <text x="612" y="98" fill="#6B7280" font-family="Nunito, sans-serif" font-size="10" text-anchor="middle">Executive function</text>
+            <!-- Bottom label -->
+            <text x="350" y="148" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="10" font-weight="600" font-style="italic" text-anchor="middle">Each step requires Theory of Mind — making lying a cognitive achievement</text>
+          </svg>
+          <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <!-- Callout: 90% of Children Lie by Age 4 -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">🔬</span>
+            90% of Children Lie by Age 4
+          </div>
+          <p>
+            Kang Lee's research across thousands of children shows that lying is universal, developmentally predictable, and tracks with cognitive development. Children who lie earlier and more successfully show faster ToM development and better executive function. Rather than being a character flaw, lying is cognitive evidence of a rapidly developing mind.
+          </p>
+        </div>
+
+        <!-- Kang Lee Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #FFF7ED; color: #D97706;">KL</div>
+          <div>
+            <h4>Kang Lee</h4>
+            <p class="figure-years">1959 &ndash; present</p>
+            <p>Developmental psychologist at the University of Toronto whose research on children's lying has transformed understanding of social cognition. His temptation resistance paradigm has been used with children across cultures, revealing universal patterns in the development of deception.</p>
+            <div class="figure-insight">The ability to lie is a sign of normal social-cognitive development. What matters is the moral reasoning that develops alongside it.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION I: Metacognition: Thinking About Thinking
+         ======================================== -->
+    <section class="content-section" data-section-id="section-i">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Thinking About <span class="text-gradient">Thinking</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How children learn to monitor, evaluate, and direct their own minds</p>
+        </div>
+
+        <p>
+          Metacognition -- the ability to think about and monitor one's own thinking -- is one of the strongest predictors of academic success, more robust than IQ in many studies. John Flavell, who coined the term, distinguished three types: (1) <strong>Metacognitive knowledge</strong> (knowing about memory, attention, learning strategies), (2) <strong>Metacognitive monitoring</strong> (tracking whether you understand something), and (3) <strong>Metacognitive control</strong> (adjusting your approach when something isn't working).
+        </p>
+
+        <p>
+          Young children are notoriously poor metacognitive monitors. Preschoolers reliably overestimate their own memory capacity -- predicting they can remember 10 items when they can remember 4. This isn't ego -- it reflects a genuine inability to accurately introspect on cognitive processes. This changes substantially between ages 6-10, when children develop more accurate self-assessments and begin using deliberate learning strategies (rehearsal, organization, elaboration).
+        </p>
+
+        <p>
+          Adolescence brings more sophisticated metacognition, but also new distortions. Teenagers' metacognitive monitoring improves for academic tasks but shows specific biases in social cognition -- they overestimate how much others are thinking about them (the "imaginary audience" of David Elkind's adolescent egocentrism), and overestimate the uniqueness of their own experiences ("personal fable"). These adolescent metacognitive distortions may be adaptive (increasing social vigilance during a critical socialization period) even while occasionally maladaptive.
+        </p>
+
+        <p>
+          Metacognition is teachable. Research by John Dunlosky and colleagues identifies effective learning strategies most students don't use: distributed practice (spacing study sessions), interleaved practice (mixing problem types), retrieval practice (testing yourself), elaborative interrogation (asking "why" does this work). The gap between what students believe helps them learn and what actually does is substantial -- and addressing it through explicit metacognitive training improves outcomes.
+        </p>
+
+        <!-- Stat grid: metacognition milestones -->
+        <div class="stat-grid grid grid-cols-1 sm:grid-cols-3" data-animate="stagger" style="margin:2rem 0;">
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-2xl);color:var(--primary-600);">Age 3-4</div>
+            <div class="stat-label">Memory overestimation</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">Children reliably OVERESTIMATE their memory capacity, predicting far more than they can recall</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-2xl);color:var(--secondary-600);">Age 6-7</div>
+            <div class="stat-label">Accurate self-assessment</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">More accurate self-assessment; first deliberate study strategies begin to emerge</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-2xl);color:var(--accent-600);">Age 8-10+</div>
+            <div class="stat-label">Adult-level monitoring</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">Metacognitive monitoring approaches adult levels across multiple domains</p>
+          </div>
+        </div>
+
+        <!-- Callout: Memory Overestimation -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">💡</span>
+            The Memory Overestimation Problem
+          </div>
+          <p>
+            When asked how many of 10 items they can remember, 4-year-olds typically say 8-10. When actually tested, they remember 4-5 -- the same number as adults -- but adults accurately predict their performance. The child's confidence is not stubbornness; it reflects a genuine inability to introspect accurately on cognitive processes. This is why young children don't benefit much from being told to "try harder" -- they genuinely believe they already are.
+          </p>
+        </div>
+
+        <!-- Flavell Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #ECFDF5; color: #059669;">JF</div>
+          <div>
+            <h4>John Flavell</h4>
+            <p class="figure-years">1928 &ndash; present</p>
+            <p>Stanford developmental psychologist who coined the term "metacognition" and pioneered its study in children. His research established that knowing about one's own thinking is a distinct, developmentally acquired capacity with profound implications for learning.</p>
+            <div class="figure-insight">The ability to think about thinking is not a given -- it is a developmental achievement that can be nurtured or neglected.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION J: The Mentalizing Brain
+         ======================================== -->
+    <section class="content-section" data-section-id="section-j">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The <span class="text-gradient">Mentalizing Brain</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>The neural architecture of understanding other minds</p>
+        </div>
+
+        <p>
+          Understanding other minds recruits a consistent network of brain regions called the "social brain" or "mentalizing network." Rebecca Saxe's foundational research (using fMRI) identified the right temporoparietal junction (rTPJ) as a region that activates selectively when thinking about other people's mental states -- beliefs, desires, intentions. When Saxe used transcranial magnetic stimulation (TMS) to temporarily disrupt the rTPJ, participants made significantly more errors on moral judgment tasks that required considering another person's intentions. The rTPJ is causal, not just correlational.
+        </p>
+
+        <p>
+          The full mentalizing network includes the medial prefrontal cortex (mPFC, processing self vs. other), the posterior superior temporal sulcus (pSTS, processing biological motion and intentional actions), and the temporal poles (TP, integrating social and emotional information). These regions show increasing specialization and efficiency across childhood and adolescence. In young children, mentalizing tasks show diffuse activation across many brain regions; by adolescence, activation is more focused on the adult mentalizing network -- reflecting more efficient social brain processing.
+        </p>
+
+        <p>
+          Sarah-Jayne Blakemore's research on the adolescent social brain shows that mentalizing regions continue developing well into the mid-20s. Adolescents' mPFC shows exaggerated activation during self-referential processing and social evaluation -- reflecting heightened self-consciousness. Blakemore proposes that this late mPFC development explains why adolescents are so acutely aware of what others think of them: the neural machinery for self-monitoring is still calibrating.
+        </p>
+
+        <p>
+          The "broken mirror" hypothesis -- that autism involves disrupted mirror neuron systems -- initially attracted enormous attention but has not been well-supported by subsequent research. Mirror neurons (neurons that fire both when an action is performed and when it is observed, discovered by Giacomo Rizzolatti in macaques) were proposed as the neural basis of imitation, empathy, and theory of mind. But human mirror neuron research has been inconsistent, and no specific mirror neuron deficit has been established in autism. The mentalizing network, not mirror neurons, is currently the best-supported neural substrate of social cognition.
+        </p>
+
+        <!-- Brain diagram SVG -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Side view of brain highlighting four mentalizing network regions: rTPJ, mPFC, pSTS, and temporal poles">
+            <defs>
+              <filter id="brain-glow">
+                <feDropShadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.15"/>
+              </filter>
+            </defs>
+            <!-- Title -->
+            <text x="350" y="22" fill="#1E293B" font-family="Nunito, sans-serif" font-size="14" font-weight="800" text-anchor="middle">The Mentalizing Network — Four Key Regions</text>
+            <!-- Brain outline (side view) -->
+            <ellipse cx="300" cy="160" rx="210" ry="115" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2" filter="url(#brain-glow)"/>
+            <!-- Frontal lobe suggestion -->
+            <path d="M100 130 Q90 100 110 80 Q140 55 180 60 Q210 62 220 80" fill="none" stroke="#E2E8F0" stroke-width="1.5"/>
+            <!-- Brainstem suggestion -->
+            <path d="M490 200 Q510 220 505 255 Q500 270 490 275 Q480 278 475 265 Q470 250 480 230" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+
+            <!-- mPFC region (purple) -->
+            <ellipse cx="145" cy="95" rx="38" ry="28" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" opacity="0.9"/>
+            <text x="145" y="91" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="10" font-weight="800" text-anchor="middle">mPFC</text>
+            <text x="145" y="104" fill="#6D28D9" font-family="Nunito, sans-serif" font-size="9" text-anchor="middle">Self-other</text>
+
+            <!-- rTPJ region (blue) -->
+            <ellipse cx="440" cy="110" rx="40" ry="28" fill="#DBEAFE" stroke="#2563EB" stroke-width="2" opacity="0.9"/>
+            <text x="440" y="106" fill="#1D4ED8" font-family="Nunito, sans-serif" font-size="10" font-weight="800" text-anchor="middle">rTPJ</text>
+            <text x="440" y="119" fill="#1E40AF" font-family="Nunito, sans-serif" font-size="9" text-anchor="middle">Others' beliefs</text>
+
+            <!-- pSTS region (teal) -->
+            <ellipse cx="400" cy="170" rx="38" ry="24" fill="#CCFBF1" stroke="#0D9488" stroke-width="2" opacity="0.9"/>
+            <text x="400" y="166" fill="#0F766E" font-family="Nunito, sans-serif" font-size="10" font-weight="800" text-anchor="middle">pSTS</text>
+            <text x="400" y="179" fill="#0F766E" font-family="Nunito, sans-serif" font-size="9" text-anchor="middle">Actions &amp; intent</text>
+
+            <!-- Temporal poles region (amber) -->
+            <ellipse cx="165" cy="175" rx="36" ry="24" fill="#FEF3C7" stroke="#D97706" stroke-width="2" opacity="0.9"/>
+            <text x="165" y="171" fill="#B45309" font-family="Nunito, sans-serif" font-size="10" font-weight="800" text-anchor="middle">Temp. Poles</text>
+            <text x="165" y="184" fill="#92400E" font-family="Nunito, sans-serif" font-size="9" text-anchor="middle">Social memory</text>
+
+            <!-- Legend -->
+            <rect x="520" y="50" width="160" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+            <text x="600" y="68" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Region Functions</text>
+            <circle cx="536" cy="86" r="6" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.5"/>
+            <text x="548" y="90" fill="#475569" font-family="Nunito, sans-serif" font-size="10">mPFC: Self vs. other</text>
+            <circle cx="536" cy="106" r="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+            <text x="548" y="110" fill="#475569" font-family="Nunito, sans-serif" font-size="10">rTPJ: Belief states</text>
+            <circle cx="536" cy="126" r="6" fill="#CCFBF1" stroke="#0D9488" stroke-width="1.5"/>
+            <text x="548" y="130" fill="#475569" font-family="Nunito, sans-serif" font-size="10">pSTS: Intentions</text>
+            <circle cx="536" cy="146" r="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+            <text x="548" y="150" fill="#475569" font-family="Nunito, sans-serif" font-size="10">TP: Social memory</text>
+
+            <text x="350" y="290" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="10" font-style="italic" text-anchor="middle">Regions show increasing specialization across childhood and adolescence</text>
+          </svg>
+          <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <!-- Callout: TMS Disrupts Moral Judgment -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">🔬</span>
+            TMS Disrupts Moral Judgment
+          </div>
+          <p>
+            When Rebecca Saxe's team used TMS to temporarily disrupt activity in the right temporoparietal junction, participants made different moral judgments -- they weighted accidental vs. intentional harm less appropriately. This demonstrated that the rTPJ is causally involved in moral reasoning, not just correlated with it. The mentalizing network is not just for understanding minds -- it is the foundation of moral judgment.
+          </p>
+        </div>
+
+        <!-- Rebecca Saxe Figure Card -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background: #DBEAFE; color: #2563EB;">RS</div>
+          <div>
+            <h4>Rebecca Saxe</h4>
+            <p class="figure-years">1975 &ndash; present</p>
+            <p>MIT neuroscientist who identified the temporoparietal junction as the brain's "theory of mind" region. Her work using fMRI and TMS has revealed the causal neural basis of understanding other minds and moral reasoning.</p>
+            <div class="figure-insight">The brain has specific dedicated architecture for thinking about what other people think. This specialization is unique to humans and develops over the first decade of life.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION K: Theory of Mind, Aggression & Bullying
+         ======================================== -->
+    <section class="content-section" data-section-id="section-k">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The Social Intelligence of <span class="text-gradient">Bullying</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Why understanding other minds does not always produce kindness</p>
+        </div>
+
+        <p>
+          The intuitive assumption is that more empathy and theory of mind equals less aggression. Research reveals a more complex picture. Developmental psychologists distinguish between two types of aggression: <strong>Reactive aggression</strong> (impulsive, in response to perceived threat, often linked to poor emotional regulation and theory of mind) and <strong>Proactive aggression</strong> (instrumental, calculating, planned -- linked to good theory of mind). Understanding that hitting someone will hurt them, and choosing to do so anyway to achieve a goal, requires sophisticated social cognition.
+        </p>
+
+        <p>
+          Sutton, Smith &amp; Swettenham's (1999) study of 193 children identified that the "ringleader" bullies in their sample showed significantly higher theory of mind scores than either their followers, bystanders, or victims. The bullies were not socially incompetent -- they were socially sophisticated, using their understanding of others' mental states to identify vulnerabilities, manipulate social hierarchies, and maintain dominance. Andrew Sutton coined the term "Machiavellian intelligence" for this pattern.
+        </p>
+
+        <p>
+          This finding has significant implications for anti-bullying programs. Interventions that focus on teaching bullies empathy or social skills may miss the mark -- the ringleaders often have these skills already. More effective interventions target bystanders (the audience), since bully behavior is highly sensitive to social reward. When bystanders stop laughing, stop watching, and actively defend the target, bully behavior loses its social payoff and declines.
+        </p>
+
+        <p>
+          The KiVa program (Finland, developed by Christina Salmivalli) is the most evidence-based anti-bullying program. Rather than focusing on the bully-victim dyad, KiVa trains bystanders to defend targets, uses teacher-bystander discussions, and implements individual work with bully and victim. Meta-analyses of KiVa across dozens of countries show 30-50% reductions in bullying -- significantly better than programs focused on the bully alone.
+        </p>
+
+        <!-- Stat grid: aggression types and KiVa -->
+        <div class="stat-grid grid grid-cols-1 sm:grid-cols-3" data-animate="stagger" style="margin:2rem 0;">
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-xl);color:var(--accent-600);">Reactive</div>
+            <div class="stat-label">Poor ToM, poor EF</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">Impulsive aggression linked to poor emotional regulation and weak theory of mind</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-xl);color:var(--primary-600);">Proactive</div>
+            <div class="stat-label">Good ToM, calculating</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">Instrumental aggression linked to strong theory of mind used manipulatively</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:var(--text-2xl);color:var(--secondary-600);">30-50%</div>
+            <div class="stat-label">KiVa reduction</div>
+            <p style="font-size:var(--text-xs);color:var(--neutral-400);margin-top:0.5rem;margin-bottom:0;">KiVa bystander-focused program reduces bullying 30-50% across cultures</p>
+          </div>
+        </div>
+
+        <!-- Callout: Bully Empathy Myth -->
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">⚡</span>
+            MYTH vs. REALITY
+          </div>
+          <p>
+            <strong>MYTH: "Bullies are socially incompetent and lack empathy."</strong> <strong>REALITY:</strong> Ringleader bullies typically show ABOVE-AVERAGE theory of mind -- they understand others' mental states precisely enough to exploit vulnerabilities. Their problem is not understanding feelings but choosing to use that understanding harmfully. This means empathy-focused interventions miss the mark. More effective: targeting bystanders and removing the social reward for bully behavior.
+          </p>
+        </div>
+
+        <!-- Callout: KiVa Program -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <span aria-hidden="true">🔬</span>
+            The KiVa Program
+          </div>
+          <p>
+            Finland's KiVa anti-bullying intervention, developed by Christina Salmivalli, targets bystanders rather than the bully-victim dyad. Trained bystanders learn to defend targets rather than passively watch or laugh. Meta-analyses across 30+ countries show 30-50% reductions in bullying. KiVa is one of the best evidence-based school interventions in child psychology, demonstrating that changing social norms works better than changing individual behavior.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION G: Quote
+         ======================================== -->
+    <section class="content-section" style="padding:3rem 0 4rem;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="blockquote" style="padding:2.5rem 2rem 2.5rem 2.5rem;border-left-width:4px;">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" style="margin-bottom:1rem;opacity:0.2;" aria-hidden="true">
+            <path d="M10 25c-3.3 0-6-2.7-6-6 0-5.5 4-10 9-11l1 2c-3.5 1-5.5 3.5-6 6.5.5-.3 1.3-.5 2-.5 2.8 0 5 2.2 5 5s-2.2 5-5 5zm17 0c-3.3 0-6-2.7-6-6 0-5.5 4-10 9-11l1 2c-3.5 1-5.5 3.5-6 6.5.5-.3 1.3-.5 2-.5 2.8 0 5 2.2 5 5s-2.2 5-5 5z" fill="var(--primary-400)"/>
+          </svg>
+          <p style="font-size:clamp(1.1rem, 2vw, var(--text-xl));line-height:1.7;margin-bottom:1rem;">
+            To understand another person, you must first understand that they have a mind of their own.
+          </p>
+          <span class="blockquote-author">-- Developmental Psychology Principle</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         QUIZ SECTION
+         ======================================== -->
+    <section class="content-section" id="quiz-section" style="background:white;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header" style="text-align:center;">
+          <h2>🎉 Test Your <span class="text-gradient">Knowledge</span></h2>
+          <p style="margin-left:auto;margin-right:auto;">5 questions to check your understanding of this module</p>
+        </div>
+
+        <div id="quiz-container" data-module="module7"></div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         MODULE NAVIGATION (prev/next)
+         ======================================== -->
+    <section class="content-section" style="padding:0 0 2rem;">
+      <div class="container-narrow">
+        <div class="module-nav">
+          <a href="module6.html" class="module-nav-link is-prev" data-transition>
+            <span class="nav-direction">&larr; Previous Module</span>
+            <span class="nav-title">Module 6: Feeling It All</span>
+          </a>
+
+          <a href="module8.html" class="module-nav-link is-next" data-transition>
+            <span class="nav-direction">Next Module &rarr;</span>
+            <span class="nav-title">Module 8: The Brain Under Construction</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <p style="margin-bottom:0.5rem;">
+          <a href="index.html" style="color:var(--primary-300);font-weight:700;">Growing Minds</a> &mdash; A Free Child Psychology Course
+        </p>
+        <p style="margin-bottom:0;font-size:var(--text-xs);color:var(--neutral-500);">
+          &copy; 2026 Growing Minds &middot; Built with 💜 curiosity and science ✨
+        </p>
+      </div>
+    </footer>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- ========================================
+       SCRIPTS
+       ======================================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/Draggable.min.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/diagrams.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

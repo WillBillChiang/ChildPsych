@@ -1,0 +1,263 @@
+/* ========================================
+   CHILD PSYCHOLOGY COURSE — DESIGN TOKENS
+   ======================================== */
+
+:root {
+  /* Primary — Soft Lavender */
+  --primary-50:  #FDF5FF;
+  --primary-100: #F5E6FF;
+  --primary-200: #E8CCF5;
+  --primary-300: #D4A6EB;
+  --primary-400: #C08ADE;
+  --primary-500: #A96BCF;
+  --primary-600: #9B5BBF;
+  --primary-700: #7E47A3;
+  --primary-800: #633882;
+  --primary-900: #4A2960;
+
+  /* Secondary — Soft Mint */
+  --secondary-50:  #F0FDF6;
+  --secondary-100: #D5F5E3;
+  --secondary-200: #A8E6C8;
+  --secondary-300: #7DD8AD;
+  --secondary-400: #5CC99B;
+  --secondary-500: #3EB589;
+  --secondary-600: #2FA07A;
+  --secondary-700: #258268;
+
+  /* Accent — Soft Peach */
+  --accent-50:  #FFF8F0;
+  --accent-100: #FFECDB;
+  --accent-200: #FFD5B0;
+  --accent-300: #FFBE85;
+  --accent-400: #FFA75A;
+  --accent-500: #FF9040;
+  --accent-600: #E07830;
+
+  /* Semantic (softened) */
+  --success: #5CC99B;
+  --success-light: #A8E6C8;
+  --success-bg: #F0FDF6;
+  --error: #FF6B8A;
+  --error-light: #FFC2D1;
+  --error-bg: #FFF5F7;
+  --warning: #FFA75A;
+  --info: #66B3FF;
+
+  /* Neutrals — Warm */
+  --neutral-50:  #FDFBF9;
+  --neutral-100: #F7F3EF;
+  --neutral-200: #EBE5DE;
+  --neutral-300: #D5CCC2;
+  --neutral-400: #A89E94;
+  --neutral-500: #7A7168;
+  --neutral-600: #5A524A;
+  --neutral-700: #3D3732;
+  --neutral-800: #262220;
+  --neutral-900: #141210;
+
+  /* Module accent colors (pastel) */
+  --module-1:  #B088D4;
+  --module-2:  #7EB8E8;
+  --module-3:  #5CC99B;
+  --module-4:  #8B8FE0;
+  --module-5:  #FF85A3;
+  --module-6:  #FFBE85;
+  --module-7:  #B088D4;
+  --module-8:  #66B3FF;
+  --module-9:  #7DD8AD;
+  --module-10: #C08ADE;
+
+  /* Typography */
+  --font-heading: 'Nunito', system-ui, -apple-system, sans-serif;
+  --font-body: 'Quicksand', 'Nunito', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Type Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+
+  /* Shadows (softer, lavender-tinted) */
+  --shadow-sm: 0 1px 3px rgba(160, 140, 160, 0.08);
+  --shadow-md: 0 4px 8px -1px rgba(160, 140, 160, 0.1), 0 2px 4px -2px rgba(160, 140, 160, 0.06);
+  --shadow-lg: 0 12px 20px -4px rgba(160, 140, 160, 0.12), 0 4px 8px -4px rgba(160, 140, 160, 0.06);
+  --shadow-xl: 0 24px 32px -6px rgba(160, 140, 160, 0.14), 0 8px 12px -6px rgba(160, 140, 160, 0.06);
+
+  /* Border Radius (rounder) */
+  --radius-sm:   0.625rem;
+  --radius-md:   1rem;
+  --radius-lg:   1.25rem;
+  --radius-xl:   1.75rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-cute: cubic-bezier(0.25, 0.1, 0.25, 1.4);
+
+  /* Cute accent colors — Pink */
+  --pink-50:  #FFF5F7;
+  --pink-100: #FFE0E8;
+  --pink-200: #FFC2D1;
+  --pink-300: #FFA3BA;
+  --pink-400: #FF85A3;
+  --pink-500: #FF6B8A;
+  --pink-600: #E85577;
+
+  /* Cute accent colors — Sky Blue */
+  --sky-50:  #F0F8FF;
+  --sky-100: #DBEEFF;
+  --sky-200: #B8DBFF;
+  --sky-300: #8FC7FF;
+  --sky-400: #66B3FF;
+  --sky-500: #4DA3FF;
+
+  /* Glass effects */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --shadow-colored-primary: 0 8px 24px -4px rgba(155, 91, 191, 0.12);
+  --shadow-colored-secondary: 0 8px 24px -4px rgba(62, 181, 137, 0.12);
+  --shadow-colored-accent: 0 8px 24px -4px rgba(255, 144, 64, 0.12);
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--neutral-700);
+  background: linear-gradient(180deg, var(--neutral-50) 0%, #FDF5FF 50%, var(--neutral-50) 100%);
+  background-attachment: fixed;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--neutral-800);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 { font-size: clamp(2rem, 5vw, var(--text-5xl)); font-weight: 800; }
+h2 { font-size: clamp(1.5rem, 4vw, var(--text-4xl)); }
+h3 { font-size: clamp(1.25rem, 3vw, var(--text-3xl)); }
+h4 { font-size: var(--text-2xl); font-weight: 600; }
+h5 { font-size: var(--text-xl); font-weight: 600; }
+
+p {
+  margin-bottom: 1rem;
+  max-width: 72ch;
+}
+
+a {
+  color: var(--primary-600);
+  text-decoration: none;
+  transition: color 0.2s var(--ease-out);
+}
+
+a:hover {
+  color: var(--primary-700);
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--pink-200);
+  color: var(--pink-600);
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--primary-600);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-narrow {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section-padding {
+  padding: clamp(2.5rem, 7vw, 5rem) 0;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary-500), var(--pink-400), var(--secondary-400));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.font-heading { font-family: var(--font-heading); }
+.font-body { font-family: var(--font-body); }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .btn-primary::after {
+    display: none;
+  }
+  .progress-bar-fill::after {
+    animation: none;
+  }
+  .quiz-progress-segment.is-current {
+    animation: none;
+  }
+}

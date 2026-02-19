@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 6: Feeling It All | Growing Minds</title>
+  <meta name="description" content="Explore emotional development from birth through childhood. Learn about basic and self-conscious emotions, co-regulation, temperament, emotion coaching, and the science of emotional regulation.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-module-id="module6">
+
+<div aria-hidden="true" style="position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;">
+  <svg class="animate-star-twinkle" style="position:absolute;top:15%;left:5%;width:16px;height:16px;opacity:0.22;" viewBox="0 0 24 24" fill="#FFA3BA"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-star-twinkle" style="position:absolute;top:45%;right:4%;width:12px;height:12px;opacity:0.18;animation-delay:0.4s;" viewBox="0 0 24 24" fill="#D4A6EB"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-float-wiggle" style="position:absolute;bottom:20%;left:6%;width:14px;height:14px;opacity:0.15;" viewBox="0 0 24 24" fill="#FF85A3"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"/></svg>
+</div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- ========================================
+       NAVIGATION
+       ======================================== -->
+  <nav class="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" data-transition>
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+          <path d="M16 3C10.5 3 6 7.5 6 13c0 3.5 1.8 6.6 4.5 8.4V26a1 1 0 001 1h9a1 1 0 001-1v-4.6C24.2 19.6 26 16.5 26 13c0-5.5-4.5-10-10-10z" fill="url(#brain-grad)" opacity="0.15"/>
+          <path d="M16 3C10.5 3 6 7.5 6 13c0 3.5 1.8 6.6 4.5 8.4V26a1 1 0 001 1h9a1 1 0 001-1v-4.6C24.2 19.6 26 16.5 26 13c0-5.5-4.5-10-10-10z" stroke="url(#brain-grad)" stroke-width="1.5" fill="none"/>
+          <path d="M12 28h8M13 30h6" stroke="var(--primary-400)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M16 8v4M13 10h6" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="12" cy="15" r="1.5" fill="var(--secondary-400)"/>
+          <circle cx="20" cy="15" r="1.5" fill="var(--secondary-400)"/>
+          <path d="M12 15c0 2.5 1.8 4 4 4s4-1.5 4-4" stroke="var(--primary-400)" stroke-width="1" fill="none" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="brain-grad" x1="6" y1="3" x2="26" y2="30" gradientUnits="userSpaceOnUse">
+              <stop stop-color="var(--primary-500)"/>
+              <stop offset="1" stop-color="var(--secondary-400)"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        Growing Minds
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module5.html" data-transition>Module 5</a></li>
+        <li><a href="module6.html" class="is-active">Module 6</a></li>
+        <li><a href="module7.html" data-transition>Module 7</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+      </ul>
+
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay" aria-hidden="true">
+    <div class="mobile-nav-panel">
+      <button class="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="4" x2="16" y2="16"/>
+          <line x1="16" y1="4" x2="4" y2="16"/>
+        </svg>
+      </button>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module5.html" data-transition>Module 5: The Invisible Bond</a></li>
+        <li><a href="module6.html" class="is-active">Module 6: Feeling It All</a></li>
+        <li><a href="module7.html" data-transition>Module 7: Reading Minds</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ========================================
+       PAGE WRAPPER (for page transitions)
+       ======================================== -->
+  <div class="page-wrapper">
+
+    <!-- ========================================
+         MODULE HERO SECTION
+         ======================================== -->
+    <section class="module-hero">
+      <div class="module-hero-bg"></div>
+
+      <div class="module-hero-deco" aria-hidden="true">
+        <svg class="deco-float" style="position:absolute;top:8%;left:6%;width:110px;height:110px;opacity:0.07;" viewBox="0 0 80 80" fill="none">
+          <circle cx="40" cy="40" r="30" stroke="#E07830" stroke-width="2.5"/>
+          <circle cx="30" cy="33" r="3" fill="#E07830"/><circle cx="50" cy="33" r="3" fill="#E07830"/>
+          <path d="M28 48 Q40 58 52 48" stroke="#E07830" stroke-width="2" stroke-linecap="round" fill="none"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;top:12%;right:5%;width:180px;height:80px;opacity:0.06;" viewBox="0 0 160 60" fill="none">
+          <path d="M5 30 Q25 5 45 30 Q65 55 85 30 Q105 5 125 30 Q145 55 160 30" stroke="#E07830" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:15%;left:15%;width:80px;height:80px;opacity:0.05;" viewBox="0 0 60 60" fill="none">
+          <circle cx="30" cy="30" r="22" stroke="#E07830" stroke-width="2"/>
+          <circle cx="22" cy="25" r="2" fill="#E07830"/><circle cx="38" cy="25" r="2" fill="#E07830"/>
+          <path d="M22 40 Q30 34 38 40" stroke="#E07830" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:20%;right:18%;width:70px;height:70px;opacity:0.06;" viewBox="0 0 60 55" fill="none">
+          <path d="M30 50 C12 35 2 25 2 16 C2 8 8 2 16 2 C22 2 27 6 30 10 C33 6 38 2 44 2 C52 2 58 8 58 16 C58 25 48 35 30 50Z" stroke="#E07830" stroke-width="2"/>
+        </svg>
+      </div>
+
+      <div class="module-hero-content container">
+        <div class="module-number-badge">
+          <svg width="18" height="16" viewBox="0 0 18 16" fill="none" aria-hidden="true">
+            <circle cx="9" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="6.5" cy="6.5" r="1" fill="currentColor"/><circle cx="11.5" cy="6.5" r="1" fill="currentColor"/>
+            <path d="M6 10.5c1 1.5 4 1.5 6 0" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+          Module 6 &middot; Intermediate
+        </div>
+        <h1>Feeling It <span class="text-gradient">All</span></h1>
+        <p class="module-hero-subtitle">Emotional Development and the Art of Regulation</p>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION A: The Emotion Timeline
+         ======================================== -->
+    <section class="content-section" data-section-id="section-a">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The Emotion <span class="text-gradient">Timeline</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>When feelings first appear -- and why some take longer than others</p>
+        </div>
+
+        <p>
+          Babies are not born as blank emotional slates. From the very first moments of life, infants express a core set of <strong>basic emotions</strong> -- interest, joy, anger, sadness, fear, and disgust. These are thought to be universal, biologically wired responses that emerge early because they serve critical survival functions. A cry of distress summons a caregiver. A smile of joy strengthens the bond. Fear triggers a protective response.
+        </p>
+
+        <p>
+          But there is a second wave of emotions that arrives much later, between <strong>18 and 24 months</strong>. These are the <em>self-conscious emotions</em>: guilt, shame, pride, and embarrassment. Why the delay? Because these emotions require something the newborn brain simply does not have yet -- a sense of <strong>self</strong>. You cannot feel embarrassed until you understand that other people are watching you. You cannot feel pride until you recognize that <em>you</em> accomplished something. The emergence of self-conscious emotions is closely tied to the development of self-awareness, which researchers can measure through the classic <strong>mirror recognition test</strong> at around 18 months.
+        </p>
+      </div>
+
+      <!-- Emotion Timeline SVG Diagram -->
+      <div class="container" style="max-width:900px;margin:0 auto;padding:0 1.5rem;">
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 750 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline showing when different emotions emerge in child development, from birth through age 5">
+            <defs>
+              <linearGradient id="timeline-grad" x1="0" y1="450" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#DBEAFE"/>
+                <stop offset="40%" stop-color="#E0E7FF"/>
+                <stop offset="70%" stop-color="#EDE9FE"/>
+                <stop offset="100%" stop-color="#FFFBEB"/>
+              </linearGradient>
+              <filter id="glow-blue">
+                <feGaussianBlur stdDeviation="2" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <filter id="glow-purple">
+                <feGaussianBlur stdDeviation="2" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <filter id="glow-amber">
+                <feGaussianBlur stdDeviation="2" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="750" height="450" rx="12" fill="url(#timeline-grad)" opacity="0.3"/>
+
+            <!-- Vertical timeline axis -->
+            <line x1="60" y1="40" x2="60" y2="420" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4 4"/>
+
+            <!-- Age labels on the left -->
+            <text x="48" y="400" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="end">Birth</text>
+            <text x="48" y="330" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="end">4-6 mo</text>
+            <text x="48" y="270" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="end">8-10 mo</text>
+            <text x="48" y="185" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="end">18-24 mo</text>
+            <text x="48" y="75" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="end">3-5 yrs</text>
+
+            <!-- Horizontal tick marks -->
+            <line x1="52" y1="395" x2="68" y2="395" stroke="#94A3B8" stroke-width="2"/>
+            <line x1="52" y1="325" x2="68" y2="325" stroke="#94A3B8" stroke-width="2"/>
+            <line x1="52" y1="265" x2="68" y2="265" stroke="#94A3B8" stroke-width="2"/>
+            <line x1="52" y1="180" x2="68" y2="180" stroke="#94A3B8" stroke-width="2"/>
+            <line x1="52" y1="70" x2="68" y2="70" stroke="#94A3B8" stroke-width="2"/>
+
+            <!-- ===== BIRTH ROW: Basic Emotions ===== -->
+            <!-- Joy face -->
+            <g filter="url(#glow-blue)">
+              <circle cx="150" cy="395" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <circle cx="141" cy="389" r="3" fill="#2563EB"/>
+              <circle cx="159" cy="389" r="3" fill="#2563EB"/>
+              <path d="M140 400 Q150 410 160 400" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </g>
+            <text x="150" y="434" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Joy</text>
+
+            <!-- Distress/Crying face -->
+            <g filter="url(#glow-blue)">
+              <circle cx="280" cy="395" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <circle cx="271" cy="389" r="3" fill="#2563EB"/>
+              <circle cx="289" cy="389" r="3" fill="#2563EB"/>
+              <path d="M270 404 Q280 396 290 404" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <!-- Tear drops -->
+              <ellipse cx="273" cy="396" rx="1.5" ry="2.5" fill="#60A5FA"/>
+              <ellipse cx="291" cy="396" rx="1.5" ry="2.5" fill="#60A5FA"/>
+            </g>
+            <text x="280" y="434" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Distress</text>
+
+            <!-- Interest face (wide eyes) -->
+            <g filter="url(#glow-blue)">
+              <circle cx="410" cy="395" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <circle cx="401" cy="390" r="4.5" fill="#2563EB"/>
+              <circle cx="419" cy="390" r="4.5" fill="#2563EB"/>
+              <circle cx="402.5" cy="389" r="1.5" fill="white"/>
+              <circle cx="420.5" cy="389" r="1.5" fill="white"/>
+              <ellipse cx="410" cy="403" rx="4" ry="2.5" fill="#2563EB" opacity="0.6"/>
+            </g>
+            <text x="410" y="434" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Interest</text>
+
+            <!-- ===== 4-6 MONTHS ROW ===== -->
+            <!-- Angry face -->
+            <g filter="url(#glow-blue)">
+              <circle cx="150" cy="325" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <line x1="138" y1="315" x2="145" y2="319" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+              <line x1="162" y1="315" x2="155" y2="319" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="143" cy="323" r="2.5" fill="#2563EB"/>
+              <circle cx="157" cy="323" r="2.5" fill="#2563EB"/>
+              <path d="M141 335 Q150 329 159 335" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </g>
+            <text x="150" y="364" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Anger</text>
+
+            <!-- Sad face -->
+            <g filter="url(#glow-blue)">
+              <circle cx="280" cy="325" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <circle cx="271" cy="319" r="2.5" fill="#2563EB"/>
+              <circle cx="289" cy="319" r="2.5" fill="#2563EB"/>
+              <path d="M270 338 Q280 330 290 338" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </g>
+            <text x="280" y="364" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Sadness</text>
+
+            <!-- Surprise face -->
+            <g filter="url(#glow-blue)">
+              <circle cx="410" cy="325" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <circle cx="401" cy="319" r="4" fill="#2563EB"/>
+              <circle cx="419" cy="319" r="4" fill="#2563EB"/>
+              <circle cx="402" cy="318" r="1.5" fill="white"/>
+              <circle cx="420" cy="318" r="1.5" fill="white"/>
+              <ellipse cx="410" cy="336" rx="5" ry="6" fill="none" stroke="#2563EB" stroke-width="2"/>
+            </g>
+            <text x="410" y="364" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Surprise</text>
+
+            <!-- Disgust face -->
+            <g filter="url(#glow-blue)">
+              <circle cx="540" cy="325" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <line x1="530" y1="316" x2="537" y2="320" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="550" y1="316" x2="543" y2="320" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="534" cy="322" r="2" fill="#2563EB"/>
+              <circle cx="546" cy="322" r="2" fill="#2563EB"/>
+              <path d="M533 335 Q540 331 547 335" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <!-- tongue out -->
+              <ellipse cx="540" cy="338" rx="3" ry="2" fill="#93C5FD"/>
+            </g>
+            <text x="540" y="364" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Disgust</text>
+
+            <!-- ===== 8-10 MONTHS: FEAR ===== -->
+            <!-- Fear face -->
+            <g filter="url(#glow-blue)">
+              <circle cx="150" cy="265" r="28" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+              <circle cx="141" cy="258" r="4" fill="#2563EB"/>
+              <circle cx="159" cy="258" r="4" fill="#2563EB"/>
+              <circle cx="142" cy="257" r="1.5" fill="white"/>
+              <circle cx="160" cy="257" r="1.5" fill="white"/>
+              <ellipse cx="150" cy="275" rx="6" ry="4" fill="none" stroke="#2563EB" stroke-width="2"/>
+            </g>
+            <text x="150" y="303" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Fear</text>
+            <text x="260" y="268" fill="#64748B" font-family="Quicksand, sans-serif" font-size="10.5" font-style="italic">(stranger anxiety begins)</text>
+
+            <!-- ===== 18-24 MONTHS: SELF-CONSCIOUS EMOTIONS ===== -->
+            <!-- Divider label -->
+            <rect x="80" y="162" width="600" height="1" fill="#A78BFA" opacity="0.3"/>
+            <rect x="120" y="152" width="340" height="20" rx="10" fill="#EDE9FE"/>
+            <text x="290" y="166" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="10" font-weight="800" text-anchor="middle" letter-spacing="1">SELF-CONSCIOUS EMOTIONS EMERGE</text>
+
+            <!-- Pride face -->
+            <g filter="url(#glow-purple)">
+              <circle cx="150" cy="200" r="26" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+              <circle cx="142" cy="194" r="2.5" fill="#9B5BBF"/>
+              <circle cx="158" cy="194" r="2.5" fill="#9B5BBF"/>
+              <path d="M140 206 Q150 214 160 206" stroke="#9B5BBF" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <!-- Star above head -->
+              <polygon points="150,170 152,176 158,176 153,180 155,186 150,182 145,186 147,180 142,176 148,176" fill="#A78BFA" opacity="0.6"/>
+            </g>
+            <text x="150" y="236" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Pride</text>
+
+            <!-- Shame face -->
+            <g filter="url(#glow-purple)">
+              <circle cx="290" cy="200" r="26" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+              <!-- Eyes looking down -->
+              <line x1="280" y1="195" x2="286" y2="198" stroke="#9B5BBF" stroke-width="2" stroke-linecap="round"/>
+              <line x1="300" y1="195" x2="294" y2="198" stroke="#9B5BBF" stroke-width="2" stroke-linecap="round"/>
+              <path d="M282 210 Q290 206 298 210" stroke="#9B5BBF" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </g>
+            <text x="290" y="236" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Shame</text>
+
+            <!-- Guilt face -->
+            <g filter="url(#glow-purple)">
+              <circle cx="430" cy="200" r="26" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+              <circle cx="422" cy="194" r="2.5" fill="#9B5BBF"/>
+              <circle cx="438" cy="194" r="2.5" fill="#9B5BBF"/>
+              <!-- Wavy mouth -->
+              <path d="M422 208 Q427 205 430 208 Q433 211 438 208" stroke="#9B5BBF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <!-- Hand on face -->
+              <ellipse cx="418" cy="204" rx="4" ry="6" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1" opacity="0.7"/>
+            </g>
+            <text x="430" y="236" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Guilt</text>
+
+            <!-- Embarrassment face -->
+            <g filter="url(#glow-purple)">
+              <circle cx="570" cy="200" r="26" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+              <circle cx="562" cy="194" r="2.5" fill="#9B5BBF"/>
+              <circle cx="578" cy="194" r="2.5" fill="#9B5BBF"/>
+              <!-- Blush cheeks -->
+              <ellipse cx="556" cy="202" rx="5" ry="3" fill="#DDD6FE" opacity="0.8"/>
+              <ellipse cx="584" cy="202" rx="5" ry="3" fill="#DDD6FE" opacity="0.8"/>
+              <!-- Small nervous smile -->
+              <path d="M564 210 Q570 213 576 210" stroke="#9B5BBF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            </g>
+            <text x="570" y="236" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Embarrassment</text>
+
+            <!-- ===== 3-5 YEARS: UNDERSTANDING OTHERS' EMOTIONS ===== -->
+            <rect x="80" y="52" width="600" height="1" fill="#FFA75A" opacity="0.3"/>
+            <rect x="130" y="42" width="330" height="20" rx="10" fill="#FEF3C7"/>
+            <text x="295" y="56" fill="#E07830" font-family="Nunito, sans-serif" font-size="10" font-weight="800" text-anchor="middle" letter-spacing="1">UNDERSTANDING OTHERS' EMOTIONS</text>
+
+            <!-- Empathy faces cluster -->
+            <g filter="url(#glow-amber)">
+              <!-- First face -->
+              <circle cx="520" cy="75" r="22" fill="#FEF3C7" stroke="#FFA75A" stroke-width="1.5"/>
+              <circle cx="514" cy="70" r="2" fill="#E07830"/>
+              <circle cx="526" cy="70" r="2" fill="#E07830"/>
+              <path d="M513 79 Q520 85 527 79" stroke="#E07830" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <!-- Second face (overlapping, sad friend) -->
+              <circle cx="560" cy="75" r="22" fill="#FEF3C7" stroke="#FFA75A" stroke-width="1.5"/>
+              <circle cx="554" cy="70" r="2" fill="#E07830"/>
+              <circle cx="566" cy="70" r="2" fill="#E07830"/>
+              <path d="M553 82 Q560 77 567 82" stroke="#E07830" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <!-- Heart between them -->
+              <path d="M540 68 C540 64 535 60 531 64 C531 64 540 74 540 74 C540 74 549 64 549 64 C545 60 540 64 540 68z" fill="#FFA75A" opacity="0.6"/>
+            </g>
+            <text x="540" y="108" fill="#E07830" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Empathy &amp; Perspective-Taking</text>
+
+            <!-- Legend -->
+            <rect x="570" y="390" width="170" height="55" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+            <circle cx="585" cy="405" r="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1"/>
+            <text x="596" y="409" fill="#475569" font-family="Nunito, sans-serif" font-size="9" font-weight="600">Basic emotions</text>
+            <circle cx="585" cy="420" r="5" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1"/>
+            <text x="596" y="424" fill="#475569" font-family="Nunito, sans-serif" font-size="9" font-weight="600">Self-conscious</text>
+            <circle cx="585" cy="435" r="5" fill="#FEF3C7" stroke="#FFA75A" stroke-width="1"/>
+            <text x="596" y="439" fill="#475569" font-family="Nunito, sans-serif" font-size="9" font-weight="600">Understanding others</text>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION B: Co-Regulation
+         ======================================== -->
+    <section class="content-section" data-section-id="section-b">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Co-Regulation: You Are the <span class="text-gradient">Thermostat</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Why babies need YOU to feel okay</p>
+        </div>
+
+        <p>
+          Here is a truth that is both humbling and profound: in infancy, the caregiver <strong>IS</strong> the regulatory system. Newborns have virtually no capacity to manage their own emotional states. When they feel distress, they cannot talk themselves down, take a deep breath, or think positive thoughts. They are entirely dependent on an external brain -- yours -- to bring them back to equilibrium.
+        </p>
+
+        <p>
+          This is why the concept of <strong>"serve and return"</strong> interactions is so foundational. When a baby coos (the serve) and a parent smiles back and responds warmly (the return), they are not just having a cute moment. They are building the neural architecture of self-regulation -- literally wiring the circuits that the child will eventually use to manage emotions independently. Every responsive interaction strengthens these pathways. Every dismissed signal weakens them.
+        </p>
+
+        <!-- ★ VISUAL 1: Serve-and-Return Diagram ★ -->
+        <div class="diagram-container" data-animate="scale-in" style="margin:2.5rem auto;max-width:700px;">
+          <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Serve and return interaction: baby sends signals to caregiver who responds, strengthening neural connections">
+            <defs>
+              <linearGradient id="sar-bg" x1="0" y1="0" x2="700" y2="340" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#EDE9FE" stop-opacity="0.3"/>
+                <stop offset="100%" stop-color="#CCFBF1" stop-opacity="0.3"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="700" height="340" rx="16" fill="url(#sar-bg)"/>
+
+            <!-- Title -->
+            <text x="350" y="35" fill="#1E293B" font-family="Nunito, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Serve &amp; Return Interaction</text>
+
+            <!-- Baby icon (left) -->
+            <g transform="translate(140,150)">
+              <!-- Body swaddle -->
+              <ellipse cx="0" cy="42" rx="32" ry="22" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1.5"/>
+              <!-- Head -->
+              <circle cx="0" cy="0" r="35" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5"/>
+              <!-- Eyes -->
+              <circle cx="-12" cy="-5" r="4" fill="#1E293B"/>
+              <circle cx="12" cy="-5" r="4" fill="#1E293B"/>
+              <circle cx="-10" cy="-6" r="1.5" fill="white"/>
+              <circle cx="14" cy="-6" r="1.5" fill="white"/>
+              <!-- Mouth (open, cooing) -->
+              <ellipse cx="0" cy="12" rx="6" ry="5" fill="#FCA5A5" stroke="#F87171" stroke-width="0.8"/>
+              <!-- Small tuft of hair -->
+              <path d="M-8,-33 Q0,-42 8,-33" stroke="#D4A06A" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </g>
+            <text x="140" y="230" fill="#1E293B" font-family="Nunito, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Baby</text>
+
+            <!-- Caregiver icon (right) -->
+            <g transform="translate(560,150)">
+              <!-- Body -->
+              <ellipse cx="0" cy="48" rx="36" ry="18" fill="#EDE9FE" stroke="#C4B5FD" stroke-width="1.5"/>
+              <!-- Head -->
+              <circle cx="0" cy="0" r="38" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5"/>
+              <!-- Hair -->
+              <path d="M-38,0 Q-38,-30 -20,-38 Q0,-44 20,-38 Q38,-30 38,0" fill="#8B5E3C" opacity="0.3"/>
+              <!-- Eyes -->
+              <circle cx="-13" cy="-5" r="4" fill="#1E293B"/>
+              <circle cx="13" cy="-5" r="4" fill="#1E293B"/>
+              <circle cx="-11" cy="-6" r="1.5" fill="white"/>
+              <circle cx="15" cy="-6" r="1.5" fill="white"/>
+              <!-- Warm smile -->
+              <path d="M-14,12 Q0,24 14,12" stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </g>
+            <text x="560" y="230" fill="#1E293B" font-family="Nunito, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Caregiver</text>
+
+            <!-- Curved arrow: Baby → Caregiver (SERVE) -->
+            <path d="M195,130 Q350,50 515,130" fill="none" stroke="#9B5BBF" stroke-width="2.5" stroke-linecap="round" marker-end="url(#sar-arrow-purple)"/>
+            <rect x="270" y="65" width="160" height="22" rx="11" fill="white" stroke="#9B5BBF" stroke-width="1"/>
+            <text x="350" y="80" fill="#9B5BBF" font-family="Quicksand, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Serve (coo, babble, cry)</text>
+
+            <!-- Curved arrow: Caregiver → Baby (RETURN) -->
+            <path d="M515,175 Q350,255 195,175" fill="none" stroke="#3EB589" stroke-width="2.5" stroke-linecap="round" marker-end="url(#sar-arrow-teal)"/>
+            <rect x="255" y="227" width="190" height="22" rx="11" fill="white" stroke="#3EB589" stroke-width="1"/>
+            <text x="350" y="242" fill="#2FA07A" font-family="Quicksand, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Return (smile, talk, comfort)</text>
+
+            <!-- Brain icon + text at bottom -->
+            <g transform="translate(350,295)">
+              <!-- Small brain -->
+              <path d="M-12,-8 Q-14,-16 -6,-16 Q-2,-20 4,-16 Q12,-16 10,-8 Q14,-4 10,2 Q10,8 4,8 Q0,10 -6,8 Q-12,8 -12,2 Q-16,-4 -12,-8Z" fill="#DDD6FE" stroke="#8B5CF6" stroke-width="1.2"/>
+              <!-- Sparkle dots -->
+              <circle cx="-20" cy="0" r="2" fill="#FDE68A"/>
+              <circle cx="18" cy="-2" r="1.5" fill="#FDE68A"/>
+              <circle cx="-16" cy="-10" r="1.5" fill="#A78BFA"/>
+              <circle cx="20" cy="8" r="1.5" fill="#A78BFA"/>
+            </g>
+            <text x="350" y="320" fill="#6D28D9" font-family="Nunito, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Neural connections strengthened</text>
+
+            <!-- Arrow markers -->
+            <defs>
+              <marker id="sar-arrow-purple" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+                <path d="M1 1 L8 4 L1 7" stroke="#9B5BBF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </marker>
+              <marker id="sar-arrow-teal" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+                <path d="M1 1 L8 4 L1 7" stroke="#3EB589" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </marker>
+            </defs>
+          </svg>
+        </div>
+
+        <!-- ★ VISUAL 2: HPA Axis Stress Response ★ -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:700px;">
+          <svg viewBox="0 0 700 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HPA Axis stress response diagram showing how responsive caregiving leads to healthy stress systems while chronic neglect leads to toxic stress">
+            <defs>
+              <linearGradient id="hpa-bg" x1="0" y1="0" x2="700" y2="620" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#EDE9FE" stop-opacity="0.3"/>
+                <stop offset="100%" stop-color="#FEF3C7" stop-opacity="0.3"/>
+              </linearGradient>
+              <linearGradient id="hpa-healthy" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#D1FAE5"/>
+                <stop offset="100%" stop-color="#A7F3D0"/>
+              </linearGradient>
+              <linearGradient id="hpa-toxic" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#FEE2E2"/>
+                <stop offset="100%" stop-color="#FECACA"/>
+              </linearGradient>
+              <marker id="hpa-arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+                <path d="M1 1L8 4L1 7" stroke="#8B5CF6" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </marker>
+              <marker id="hpa-arrow-green" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+                <path d="M1 1L8 4L1 7" stroke="#059669" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </marker>
+              <marker id="hpa-arrow-red" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+                <path d="M1 1L8 4L1 7" stroke="#DC2626" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </marker>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="700" height="620" rx="16" fill="url(#hpa-bg)"/>
+
+            <!-- Title -->
+            <text x="350" y="35" fill="#1E293B" font-family="Nunito, sans-serif" font-size="18" font-weight="800" text-anchor="middle">The HPA Axis: Stress Response Cascade</text>
+            <text x="350" y="55" fill="#64748B" font-family="Quicksand, sans-serif" font-size="11" font-weight="600" text-anchor="middle">How caregiving quality shapes the stress system</text>
+
+            <!-- ===== STEP 1: Hypothalamus ===== -->
+            <g transform="translate(350, 105)">
+              <!-- Brain-shaped icon -->
+              <ellipse cx="0" cy="0" rx="55" ry="35" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+              <path d="M-20,-15 Q-25,-25 -10,-25 Q0,-30 10,-25 Q25,-25 20,-15" fill="#DDD6FE" stroke="#8B5CF6" stroke-width="1.2" stroke-linecap="round"/>
+              <circle cx="-10" cy="-2" r="8" fill="#C4B5FD" opacity="0.5"/>
+              <circle cx="10" cy="-2" r="8" fill="#C4B5FD" opacity="0.5"/>
+              <text x="0" y="5" fill="#6D28D9" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Hypothalamus</text>
+              <text x="0" y="20" fill="#8B5CF6" font-family="Quicksand, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Detects threat signal</text>
+            </g>
+
+            <!-- Arrow 1: Hypothalamus → Pituitary -->
+            <line x1="350" y1="145" x2="350" y2="175" stroke="#8B5CF6" stroke-width="2.5" marker-end="url(#hpa-arrow)"/>
+            <text x="380" y="163" fill="#8B5CF6" font-family="Quicksand, sans-serif" font-size="9" font-weight="600" font-style="italic">releases CRH</text>
+
+            <!-- ===== STEP 2: Pituitary Gland ===== -->
+            <g transform="translate(350, 210)">
+              <ellipse cx="0" cy="0" rx="50" ry="30" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+              <!-- Small gland icon -->
+              <circle cx="-18" cy="-5" r="6" fill="#93C5FD" opacity="0.6"/>
+              <circle cx="18" cy="-5" r="6" fill="#93C5FD" opacity="0.6"/>
+              <text x="0" y="3" fill="#1E40AF" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Pituitary</text>
+              <text x="0" y="17" fill="#3B82F6" font-family="Quicksand, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Master gland responds</text>
+            </g>
+
+            <!-- Arrow 2: Pituitary → Adrenal -->
+            <line x1="350" y1="245" x2="350" y2="275" stroke="#8B5CF6" stroke-width="2.5" marker-end="url(#hpa-arrow)"/>
+            <text x="380" y="263" fill="#8B5CF6" font-family="Quicksand, sans-serif" font-size="9" font-weight="600" font-style="italic">releases ACTH</text>
+
+            <!-- ===== STEP 3: Adrenal Glands ===== -->
+            <g transform="translate(350, 310)">
+              <!-- Kidney-like shapes for adrenal glands -->
+              <ellipse cx="-20" cy="0" rx="18" ry="25" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" transform="rotate(-10 -20 0)"/>
+              <ellipse cx="20" cy="0" rx="18" ry="25" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" transform="rotate(10 20 0)"/>
+              <!-- Small adrenal caps on top -->
+              <ellipse cx="-20" cy="-18" rx="14" ry="8" fill="#FDE68A" stroke="#F59E0B" stroke-width="1.2"/>
+              <ellipse cx="20" cy="-18" rx="14" ry="8" fill="#FDE68A" stroke="#F59E0B" stroke-width="1.2"/>
+              <text x="0" y="5" fill="#92400E" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Adrenal Glands</text>
+              <text x="0" y="19" fill="#B45309" font-family="Quicksand, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Atop each kidney</text>
+            </g>
+
+            <!-- Arrow 3: Adrenal → Cortisol -->
+            <line x1="350" y1="340" x2="350" y2="370" stroke="#8B5CF6" stroke-width="2.5" marker-end="url(#hpa-arrow)"/>
+
+            <!-- ===== STEP 4: Cortisol Release ===== -->
+            <g transform="translate(350, 400)">
+              <rect x="-65" y="-22" width="130" height="44" rx="22" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+              <!-- Small molecule dots -->
+              <circle cx="-40" cy="-5" r="3" fill="#FCD34D" opacity="0.7"/>
+              <circle cx="-30" cy="8" r="2.5" fill="#FCD34D" opacity="0.7"/>
+              <circle cx="30" cy="-8" r="2.5" fill="#FCD34D" opacity="0.7"/>
+              <circle cx="40" cy="5" r="3" fill="#FCD34D" opacity="0.7"/>
+              <text x="0" y="5" fill="#92400E" font-family="Nunito, sans-serif" font-size="14" font-weight="800" text-anchor="middle">Cortisol Released</text>
+            </g>
+
+            <!-- ===== BRANCHING POINT ===== -->
+            <!-- Left branch arrow (healthy) -->
+            <path d="M285,400 Q230,400 200,440" fill="none" stroke="#059669" stroke-width="2.5" marker-end="url(#hpa-arrow-green)"/>
+            <!-- Right branch arrow (toxic) -->
+            <path d="M415,400 Q470,400 500,440" fill="none" stroke="#DC2626" stroke-width="2.5" marker-end="url(#hpa-arrow-red)"/>
+
+            <!-- ===== LEFT PATHWAY: Responsive Caregiving ===== -->
+            <g transform="translate(170, 490)">
+              <rect x="-130" y="-45" width="260" height="90" rx="16" fill="url(#hpa-healthy)" stroke="#059669" stroke-width="2"/>
+              <!-- Caregiver + child icon -->
+              <circle cx="-85" cy="-10" r="16" fill="#D1FAE5" stroke="#059669" stroke-width="1.2"/>
+              <circle cx="-85" cy="-16" r="7" fill="#A7F3D0" stroke="#059669" stroke-width="1"/>
+              <ellipse cx="-85" cy="-2" rx="10" ry="6" fill="#A7F3D0" stroke="#059669" stroke-width="0.8"/>
+              <circle cx="-70" cy="-5" r="8" fill="#ECFDF5" stroke="#059669" stroke-width="0.8"/>
+              <!-- Heart between them -->
+              <path d="M-77,-15 C-78,-18 -81,-18 -81,-15 C-81,-12 -77,-9 -77,-9 C-77,-9 -73,-12 -73,-15 C-73,-18 -76,-18 -77,-15Z" fill="#F87171" opacity="0.6"/>
+              <text x="10" y="-18" fill="#047857" font-family="Nunito, sans-serif" font-size="12" font-weight="800" text-anchor="middle">Responsive Caregiving</text>
+              <text x="10" y="-2" fill="#059669" font-family="Quicksand, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Cortisol returns to baseline</text>
+              <text x="10" y="14" fill="#059669" font-family="Quicksand, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Stress system well-calibrated</text>
+              <!-- Down arrow to outcome -->
+              <line x1="0" y1="48" x2="0" y2="68" stroke="#059669" stroke-width="2" marker-end="url(#hpa-arrow-green)"/>
+            </g>
+
+            <!-- Healthy outcome -->
+            <g transform="translate(170, 585)">
+              <rect x="-95" y="-18" width="190" height="36" rx="18" fill="#059669" opacity="0.9"/>
+              <text x="0" y="5" fill="white" font-family="Nunito, sans-serif" font-size="12" font-weight="800" text-anchor="middle">Healthy Stress System</text>
+            </g>
+
+            <!-- ===== RIGHT PATHWAY: Chronic Neglect ===== -->
+            <g transform="translate(530, 490)">
+              <rect x="-130" y="-45" width="260" height="90" rx="16" fill="url(#hpa-toxic)" stroke="#DC2626" stroke-width="2"/>
+              <!-- Alone child icon -->
+              <circle cx="-85" cy="-10" r="16" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.2"/>
+              <circle cx="-85" cy="-16" r="7" fill="#FECACA" stroke="#DC2626" stroke-width="1"/>
+              <ellipse cx="-85" cy="-2" rx="10" ry="6" fill="#FECACA" stroke="#DC2626" stroke-width="0.8"/>
+              <!-- Broken connection lines -->
+              <line x1="-68" y1="-12" x2="-60" y2="-12" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="3 2"/>
+              <line x1="-68" y1="-6" x2="-60" y2="-6" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="3 2"/>
+              <text x="10" y="-18" fill="#991B1B" font-family="Nunito, sans-serif" font-size="12" font-weight="800" text-anchor="middle">Chronic Neglect</text>
+              <text x="10" y="-2" fill="#DC2626" font-family="Quicksand, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Cortisol stays elevated</text>
+              <text x="10" y="14" fill="#DC2626" font-family="Quicksand, sans-serif" font-size="10" font-weight="600" text-anchor="middle">System becomes hyper-reactive</text>
+              <!-- Down arrow to outcome -->
+              <line x1="0" y1="48" x2="0" y2="68" stroke="#DC2626" stroke-width="2" marker-end="url(#hpa-arrow-red)"/>
+            </g>
+
+            <!-- Toxic outcome -->
+            <g transform="translate(530, 585)">
+              <rect x="-95" y="-18" width="190" height="36" rx="18" fill="#DC2626" opacity="0.9"/>
+              <text x="0" y="5" fill="white" font-family="Nunito, sans-serif" font-size="12" font-weight="800" text-anchor="middle">Toxic Stress</text>
+            </g>
+          </svg>
+        </div>
+
+        <p>
+          Think of the caregiver as a <strong>thermostat</strong> rather than a thermometer. A thermometer just reads the temperature -- it passively reflects whatever is happening. A thermostat <em>sets</em> the temperature. It actively regulates the environment. In the same way, caregivers do not merely react to a baby's emotional state -- they actively calibrate it. When a baby is overwhelmed, the caregiver's calm voice, soothing touch, and steady presence literally lower the baby's cortisol levels and slow their heart rate. The baby cannot do this alone. Not yet.
+        </p>
+
+        <!-- ★ VISUAL 3: Thermostat vs Thermometer ★ -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:700px;">
+          <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparison: a thermometer only reads the child's state, while a thermostat actively regulates it">
+            <defs>
+              <linearGradient id="tvt-bg" x1="0" y1="0" x2="700" y2="350" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#F1F5F9" stop-opacity="0.5"/>
+                <stop offset="100%" stop-color="#EDE9FE" stop-opacity="0.5"/>
+              </linearGradient>
+              <linearGradient id="therm-mercury" x1="0" y1="260" x2="0" y2="120" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#EF4444"/>
+                <stop offset="100%" stop-color="#FCA5A5"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="700" height="350" rx="16" fill="url(#tvt-bg)"/>
+
+            <!-- Title -->
+            <text x="350" y="35" fill="#1E293B" font-family="Nunito, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Two Ways to Respond to a Child's Emotions</text>
+
+            <!-- Divider line -->
+            <line x1="350" y1="55" x2="350" y2="330" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="6 4"/>
+            <text x="350" y="345" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="10" font-weight="600" text-anchor="middle">vs.</text>
+
+            <!-- ===== LEFT PANEL: Thermometer ===== -->
+            <g transform="translate(175,55)">
+              <!-- Thermometer body -->
+              <rect x="-8" y="40" width="16" height="140" rx="8" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.5"/>
+              <!-- Mercury -->
+              <rect x="-4" y="90" width="8" height="90" rx="4" fill="url(#therm-mercury)"/>
+              <!-- Bulb at bottom -->
+              <circle cx="0" cy="185" r="16" fill="#EF4444" stroke="#94A3B8" stroke-width="1.5"/>
+              <!-- Temperature marks -->
+              <line x1="12" y1="60" x2="22" y2="60" stroke="#94A3B8" stroke-width="1"/>
+              <line x1="12" y1="85" x2="22" y2="85" stroke="#94A3B8" stroke-width="1"/>
+              <line x1="12" y1="110" x2="22" y2="110" stroke="#94A3B8" stroke-width="1"/>
+              <line x1="12" y1="135" x2="22" y2="135" stroke="#94A3B8" stroke-width="1"/>
+              <line x1="12" y1="160" x2="22" y2="160" stroke="#94A3B8" stroke-width="1"/>
+              <!-- Top cap -->
+              <circle cx="0" cy="40" r="6" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.5"/>
+            </g>
+
+            <!-- Thermometer labels -->
+            <text x="175" y="282" fill="#64748B" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Thermometer</text>
+            <text x="175" y="302" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Just reflects the child's state</text>
+            <!-- Passive icon indicator -->
+            <rect x="112" y="308" width="126" height="22" rx="11" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <text x="175" y="323" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Passive &middot; Reactive</text>
+
+            <!-- ===== RIGHT PANEL: Thermostat ===== -->
+            <g transform="translate(525,130)">
+              <!-- Outer ring -->
+              <circle cx="0" cy="0" r="68" fill="none" stroke="#C4B5FD" stroke-width="3"/>
+              <!-- Inner filled circle -->
+              <circle cx="0" cy="0" r="55" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+              <!-- Dial face -->
+              <circle cx="0" cy="0" r="42" fill="white" stroke="#DDD6FE" stroke-width="1.5"/>
+              <!-- Temperature display -->
+              <text x="0" y="6" fill="#9B5BBF" font-family="Nunito, sans-serif" font-size="22" font-weight="800" text-anchor="middle">72&deg;</text>
+              <text x="0" y="20" fill="#A78BFA" font-family="Quicksand, sans-serif" font-size="9" font-weight="600" text-anchor="middle">SET POINT</text>
+              <!-- Dial marks around the ring -->
+              <line x1="0" y1="-62" x2="0" y2="-56" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+              <line x1="31" y1="-54" x2="28" y2="-48" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="54" y1="-31" x2="48" y2="-28" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="62" y1="0" x2="56" y2="0" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+              <line x1="54" y1="31" x2="48" y2="28" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="31" y1="54" x2="28" y2="48" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="0" y1="62" x2="0" y2="56" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+              <line x1="-31" y1="54" x2="-28" y2="48" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="-54" y1="31" x2="-48" y2="28" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="-62" y1="0" x2="-56" y2="0" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+              <line x1="-54" y1="-31" x2="-48" y2="-28" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="-31" y1="-54" x2="-28" y2="-48" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/>
+              <!-- Adjustment knob indicator -->
+              <circle cx="38" cy="-38" r="8" fill="#9B5BBF" stroke="white" stroke-width="2"/>
+              <path d="M35,-41 L38,-35 L41,-41" fill="white"/>
+            </g>
+
+            <!-- Thermostat labels -->
+            <text x="525" y="282" fill="#6D28D9" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Thermostat</text>
+            <text x="525" y="302" fill="#8B5CF6" font-family="Quicksand, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Actively regulates the child's state</text>
+            <!-- Active icon indicator -->
+            <rect x="462" y="308" width="126" height="22" rx="11" fill="#EDE9FE" stroke="#C4B5FD" stroke-width="1"/>
+            <text x="525" y="323" fill="#9B5BBF" font-family="Quicksand, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Active &middot; Regulatory</text>
+          </svg>
+        </div>
+
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            ✨
+            Stress Systems Are Calibrated by Caregivers
+          </div>
+          <p>
+            During the first year, the <strong>HPA axis</strong> (the body's primary stress response system) is being physically <strong>CALIBRATED</strong> by caregiving quality. Responsive caregiving = well-regulated stress system. Chronic neglect = hyperactive or blunted stress response that can persist into adulthood. This is not a metaphor. Early relationships literally <em>build</em> the brain's stress architecture. The quality of care a child receives does not just affect how they feel in the moment -- it shapes the biological machinery of how they will respond to stress for the rest of their lives.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION C: The Emotional Volcano
+         ======================================== -->
+    <section class="content-section" data-section-id="section-c">
+      <div class="container" style="max-width:950px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Emotional <span class="text-gradient">Volcano</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Understanding escalation -- and what tools work at each stage</p>
+        </div>
+
+        <p data-animate="fade-up" style="max-width:800px;">
+          Emotional escalation is not a light switch -- it is more like a volcano. Children (and adults) move through recognizable zones of increasing intensity. The key insight is that <strong>different regulation strategies work at different levels</strong>. A deep breathing exercise is perfect for mild frustration but useless during a full meltdown. Knowing which tools match which zone is the foundation of effective emotion coaching.
+        </p>
+
+        <div class="diagram-container" data-animate="scale-in" style="padding:1.5rem;">
+          <svg viewBox="0 0 800 550" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Emotional volcano model showing escalation zones from calm to meltdown, with regulation tools mapped to each zone">
+            <defs>
+              <linearGradient id="magma-grad" x1="200" y1="500" x2="200" y2="50" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#DBEAFE"/>
+                <stop offset="30%" stop-color="#FEF3C7"/>
+                <stop offset="60%" stop-color="#FDBA74"/>
+                <stop offset="85%" stop-color="#FCA5A5"/>
+                <stop offset="100%" stop-color="#FF6B8A"/>
+              </linearGradient>
+              <linearGradient id="volcano-outer" x1="200" y1="500" x2="200" y2="50" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#78716C"/>
+                <stop offset="50%" stop-color="#A8A29E"/>
+                <stop offset="100%" stop-color="#D6D3D1"/>
+              </linearGradient>
+              <radialGradient id="glow-top" cx="200" cy="70" r="80" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FF6B8A" stop-opacity="0.4"/>
+                <stop offset="100%" stop-color="#FF6B8A" stop-opacity="0"/>
+              </radialGradient>
+              <filter id="eruption-glow">
+                <feGaussianBlur stdDeviation="3" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <clipPath id="volcano-clip">
+                <path d="M50 500 L160 130 L175 75 L185 55 L200 45 L215 55 L225 75 L240 130 L350 500 Z"/>
+              </clipPath>
+            </defs>
+
+            <!-- ===== LEFT SIDE: THE VOLCANO ===== -->
+
+            <!-- Volcano outer shape -->
+            <path d="M50 510 L155 145 L170 90 L182 65 L200 50 L218 65 L230 90 L245 145 L350 510 Z"
+                  fill="url(#volcano-outer)" stroke="#78716C" stroke-width="1.5" opacity="0.3"/>
+
+            <!-- Magma fill inside volcano -->
+            <g clip-path="url(#volcano-clip)">
+              <!-- Zone backgrounds inside the volcano -->
+              <!-- Calm zone -->
+              <rect x="50" y="400" width="300" height="110" fill="#DBEAFE"/>
+              <!-- Frustrated zone -->
+              <rect x="50" y="300" width="300" height="100" fill="#FEF3C7"/>
+              <!-- Angry zone -->
+              <rect x="50" y="200" width="300" height="100" fill="#FDBA74"/>
+              <!-- Overwhelmed zone -->
+              <rect x="50" y="120" width="300" height="80" fill="#FCA5A5"/>
+              <!-- Meltdown zone -->
+              <rect x="50" y="40" width="300" height="80" fill="#FF6B8A" opacity="0.8"/>
+
+              <!-- Magma column rising through center -->
+              <rect x="178" y="50" width="44" height="460" fill="url(#magma-grad)" opacity="0.5" rx="4"/>
+            </g>
+
+            <!-- Volcano outline (on top) -->
+            <path d="M50 510 L155 145 L170 90 L182 65 L200 50 L218 65 L230 90 L245 145 L350 510 Z"
+                  fill="none" stroke="#78716C" stroke-width="2"/>
+
+            <!-- Glow at the top -->
+            <ellipse cx="200" cy="55" rx="50" ry="30" fill="url(#glow-top)"/>
+
+            <!-- Eruption particles -->
+            <g filter="url(#eruption-glow)" opacity="0.8">
+              <circle cx="190" cy="30" r="4" fill="#FF6B8A"/>
+              <circle cx="210" cy="22" r="3" fill="#F87171"/>
+              <circle cx="198" cy="15" r="3.5" fill="#FCA5A5"/>
+              <circle cx="183" cy="18" r="2.5" fill="#FFA75A"/>
+              <circle cx="215" cy="12" r="2" fill="#F87171"/>
+              <circle cx="195" cy="8" r="2.5" fill="#FCA5A5"/>
+              <circle cx="205" cy="5" r="2" fill="#FDBA74"/>
+              <circle cx="188" cy="38" r="3" fill="#FF6B8A" opacity="0.6"/>
+              <circle cx="212" cy="35" r="2.5" fill="#F87171" opacity="0.6"/>
+            </g>
+
+            <!-- Zone labels INSIDE volcano -->
+            <text x="200" y="465" fill="#1E40AF" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">CALM</text>
+            <text x="200" y="365" fill="#92400E" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">FRUSTRATED</text>
+            <text x="200" y="260" fill="#9A3412" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">ANGRY</text>
+            <text x="200" y="168" fill="#991B1B" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">OVERWHELMED</text>
+            <text x="200" y="85" fill="white" font-family="Nunito, sans-serif" font-size="12" font-weight="800" text-anchor="middle">MELTDOWN</text>
+
+            <!-- Zone divider lines -->
+            <line x1="80" y1="400" x2="320" y2="400" stroke="#64748B" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+            <line x1="105" y1="300" x2="295" y2="300" stroke="#64748B" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+            <line x1="130" y1="200" x2="270" y2="200" stroke="#64748B" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+            <line x1="150" y1="120" x2="250" y2="120" stroke="#64748B" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+
+            <!-- ===== RIGHT SIDE: REGULATION TOOLKIT ===== -->
+
+            <!-- Title -->
+            <text x="590" y="35" fill="#1E293B" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Regulation Toolkit</text>
+            <line x1="490" y1="44" x2="690" y2="44" stroke="#E2E8F0" stroke-width="1"/>
+
+            <!-- Tool 1: Deep Breathing -->
+            <rect x="470" y="65" width="240" height="55" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+            <text x="498" y="92" fill="#1E293B" font-family="sans-serif" font-size="20">&#x1FAC1;</text>
+            <text x="520" y="87" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700">Deep Breathing</text>
+            <text x="520" y="104" fill="#64748B" font-family="Quicksand, sans-serif" font-size="10.5" font-style="italic">Slow inhale, slow exhale</text>
+            <!-- Connector line to Frustrated zone -->
+            <line x1="470" y1="92" x2="320" y2="340" stroke="#93C5FD" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.6"/>
+            <circle cx="320" cy="340" r="4" fill="#93C5FD"/>
+
+            <!-- Tool 2: Counting to 10 -->
+            <rect x="470" y="132" width="240" height="55" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+            <text x="498" y="160" fill="#1E293B" font-family="sans-serif" font-size="20">&#x1F522;</text>
+            <text x="520" y="155" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700">Counting to 10</text>
+            <text x="520" y="172" fill="#64748B" font-family="Quicksand, sans-serif" font-size="10.5" font-style="italic">Pause and reset the brain</text>
+            <!-- Connector line to Frustrated zone -->
+            <line x1="470" y1="160" x2="310" y2="360" stroke="#93C5FD" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.6"/>
+            <circle cx="310" cy="360" r="4" fill="#93C5FD"/>
+
+            <!-- Tool 3: Finding a Safe Space -->
+            <rect x="470" y="199" width="240" height="55" rx="12" fill="#FEF9C3" stroke="#FDE68A" stroke-width="1.5"/>
+            <text x="498" y="227" fill="#1E293B" font-family="sans-serif" font-size="20">&#x1F3E0;</text>
+            <text x="520" y="222" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700">Finding a Safe Space</text>
+            <text x="520" y="239" fill="#64748B" font-family="Quicksand, sans-serif" font-size="10.5" font-style="italic">Remove from the trigger</text>
+            <!-- Connector line to Angry zone -->
+            <line x1="470" y1="227" x2="265" y2="260" stroke="#FDE68A" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.6"/>
+            <circle cx="265" cy="260" r="4" fill="#FDE68A"/>
+
+            <!-- Tool 4: Talking About Feelings -->
+            <rect x="470" y="266" width="240" height="55" rx="12" fill="#FEF9C3" stroke="#FDE68A" stroke-width="1.5"/>
+            <text x="498" y="294" fill="#1E293B" font-family="sans-serif" font-size="20">&#x1F4AC;</text>
+            <text x="520" y="289" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700">Talking About Feelings</text>
+            <text x="520" y="306" fill="#64748B" font-family="Quicksand, sans-serif" font-size="10.5" font-style="italic">Name it to tame it</text>
+            <!-- Connector line to Angry zone -->
+            <line x1="470" y1="294" x2="275" y2="240" stroke="#FDE68A" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.6"/>
+            <circle cx="275" cy="240" r="4" fill="#FDE68A"/>
+
+            <!-- Tool 5: Physical Activity -->
+            <rect x="470" y="333" width="240" height="55" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5"/>
+            <text x="498" y="361" fill="#1E293B" font-family="sans-serif" font-size="20">&#x1F3C3;</text>
+            <text x="520" y="356" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700">Physical Activity</text>
+            <text x="520" y="373" fill="#64748B" font-family="Quicksand, sans-serif" font-size="10.5" font-style="italic">Move the energy OUT</text>
+            <!-- Connector line to Overwhelmed zone -->
+            <line x1="470" y1="361" x2="250" y2="160" stroke="#FDBA74" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.6"/>
+            <circle cx="250" cy="160" r="4" fill="#FDBA74"/>
+
+            <!-- Tool 6: Asking an Adult for Help -->
+            <rect x="470" y="400" width="240" height="55" rx="12" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+            <text x="498" y="428" fill="#1E293B" font-family="sans-serif" font-size="20">&#x1F91D;</text>
+            <text x="520" y="423" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700">Asking an Adult for Help</text>
+            <text x="520" y="440" fill="#64748B" font-family="Quicksand, sans-serif" font-size="10.5" font-style="italic">Co-regulation when needed</text>
+            <!-- Connector line to Meltdown zone -->
+            <line x1="470" y1="428" x2="240" y2="80" stroke="#FCA5A5" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.6"/>
+            <circle cx="240" cy="80" r="4" fill="#FCA5A5"/>
+
+            <!-- Arrow indicating escalation direction -->
+            <text x="370" y="290" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle" transform="rotate(-90, 370, 290)">ESCALATION</text>
+            <path d="M378 340 L378 240" stroke="#94A3B8" stroke-width="1.5" fill="none" marker-end="url(#arrow-up)"/>
+            <defs>
+              <marker id="arrow-up" markerWidth="8" markerHeight="8" refX="4" refY="8" orient="auto">
+                <path d="M1 8 L4 2 L7 8" stroke="#94A3B8" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              </marker>
+            </defs>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION D: Temperament -- Born Different
+         ======================================== -->
+    <section class="content-section" data-section-id="section-d">
+      <div class="container" style="max-width:900px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Temperament: Born <span class="text-gradient">Different</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Why some babies are naturally easygoing and others come out protesting</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            In the 1950s, psychiatrists Alexander Thomas and Stella Chess began a groundbreaking study that would follow 133 children from infancy into adulthood. They wanted to answer a question that every parent already intuited: are children born with different emotional personalities? The answer was a resounding yes. Thomas and Chess identified distinct <strong>temperament types</strong> -- consistent patterns of emotional reactivity and self-regulation that are visible from the earliest weeks of life.
+          </p>
+        </div>
+
+        <!-- Temperament Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8" data-animate="stagger">
+
+          <!-- Easy Temperament -->
+          <div class="stat-card" style="text-align:left;padding:1.75rem;border-left:4px solid #5CC99B;">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+              <div style="display:flex;align-items:center;gap:0.75rem;">
+                <div style="width:48px;height:48px;border-radius:var(--radius-full);background:#D1FAE5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="#A7F3D0" stroke="#5CC99B" stroke-width="1.5"/>
+                    <circle cx="9" cy="10" r="1.5" fill="#047857"/>
+                    <circle cx="15" cy="10" r="1.5" fill="#047857"/>
+                    <path d="M8 14.5 Q12 18 16 14.5" stroke="#047857" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size:var(--text-lg);margin-bottom:0;color:#047857;">Easy</h4>
+                  <span style="font-family:var(--font-heading);font-size:var(--text-xs);font-weight:700;color:#5CC99B;">~40% of children</span>
+                </div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;font-size:var(--text-sm);color:var(--neutral-600);">
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#5CC99B;font-weight:700;flex-shrink:0;">+</span> Regular biological rhythms (sleep, feeding)
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#5CC99B;font-weight:700;flex-shrink:0;">+</span> Generally positive mood
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#5CC99B;font-weight:700;flex-shrink:0;">+</span> Adapts quickly to new situations
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#5CC99B;font-weight:700;flex-shrink:0;">+</span> Moderate intensity of reactions
+              </li>
+            </ul>
+          </div>
+
+          <!-- Difficult Temperament -->
+          <div class="stat-card" style="text-align:left;padding:1.75rem;border-left:4px solid #FF6B8A;">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+              <div style="display:flex;align-items:center;gap:0.75rem;">
+                <div style="width:48px;height:48px;border-radius:var(--radius-full);background:#FEE2E2;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="#FECACA" stroke="#FF6B8A" stroke-width="1.5"/>
+                    <line x1="7" y1="8" x2="10" y2="10" stroke="#991B1B" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="17" y1="8" x2="14" y2="10" stroke="#991B1B" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="9" cy="11" r="1.5" fill="#991B1B"/>
+                    <circle cx="15" cy="11" r="1.5" fill="#991B1B"/>
+                    <path d="M9 16 Q12 13 15 16" stroke="#991B1B" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size:var(--text-lg);margin-bottom:0;color:#991B1B;">Difficult</h4>
+                  <span style="font-family:var(--font-heading);font-size:var(--text-xs);font-weight:700;color:#FF6B8A;">~10% of children</span>
+                </div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;font-size:var(--text-sm);color:var(--neutral-600);">
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FF6B8A;font-weight:700;flex-shrink:0;">!</span> Irregular biological rhythms
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FF6B8A;font-weight:700;flex-shrink:0;">!</span> Intense emotional reactions
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FF6B8A;font-weight:700;flex-shrink:0;">!</span> Slow to adapt to change
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FF6B8A;font-weight:700;flex-shrink:0;">!</span> Frequently negative mood
+              </li>
+            </ul>
+          </div>
+
+          <!-- Slow-to-Warm-Up Temperament -->
+          <div class="stat-card" style="text-align:left;padding:1.75rem;border-left:4px solid #FFA75A;">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+              <div style="display:flex;align-items:center;gap:0.75rem;">
+                <div style="width:48px;height:48px;border-radius:var(--radius-full);background:#FEF3C7;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="#FDE68A" stroke="#FFA75A" stroke-width="1.5"/>
+                    <circle cx="9" cy="10" r="1.5" fill="#92400E"/>
+                    <circle cx="15" cy="10" r="1.5" fill="#92400E"/>
+                    <line x1="9" y1="15" x2="15" y2="15" stroke="#92400E" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size:var(--text-lg);margin-bottom:0;color:#92400E;">Slow-to-Warm-Up</h4>
+                  <span style="font-family:var(--font-heading);font-size:var(--text-xs);font-weight:700;color:#FFA75A;">~15% of children</span>
+                </div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;font-size:var(--text-sm);color:var(--neutral-600);">
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FFA75A;font-weight:700;flex-shrink:0;">~</span> Low intensity reactions
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FFA75A;font-weight:700;flex-shrink:0;">~</span> Initially withdrawing from novelty
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FFA75A;font-weight:700;flex-shrink:0;">~</span> Gradually adapts with gentle exposure
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#FFA75A;font-weight:700;flex-shrink:0;">~</span> Mildly negative first response</li>
+            </ul>
+          </div>
+
+          <!-- Mixed Temperament -->
+          <div class="stat-card" style="text-align:left;padding:1.75rem;border-left:4px solid #8B5CF6;">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;">
+              <div style="display:flex;align-items:center;gap:0.75rem;">
+                <div style="width:48px;height:48px;border-radius:var(--radius-full);background:#EDE9FE;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" fill="#DDD6FE" stroke="#8B5CF6" stroke-width="1.5"/>
+                    <circle cx="9" cy="10" r="1.5" fill="#633882"/>
+                    <circle cx="15" cy="10" r="1.5" fill="#633882"/>
+                    <path d="M9 15 Q12 16.5 15 15" stroke="#633882" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 style="font-size:var(--text-lg);margin-bottom:0;color:#633882;">Mixed</h4>
+                  <span style="font-family:var(--font-heading);font-size:var(--text-xs);font-weight:700;color:#8B5CF6;">~35% of children</span>
+                </div>
+              </div>
+            </div>
+            <ul style="list-style:none;padding:0;margin:0;font-size:var(--text-sm);color:var(--neutral-600);">
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#8B5CF6;font-weight:700;flex-shrink:0;">*</span> Combination of traits from other types
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#8B5CF6;font-weight:700;flex-shrink:0;">*</span> Context-dependent responses
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#8B5CF6;font-weight:700;flex-shrink:0;">*</span> Does not fit neatly into one category
+              </li>
+              <li style="padding:0.25rem 0;display:flex;align-items:flex-start;gap:0.5rem;">
+                <span style="color:#8B5CF6;font-weight:700;flex-shrink:0;">*</span> The most common profile
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ★ VISUAL 4: Temperament Distribution Donut Chart ★ -->
+        <div class="chart-figure" data-animate="fade-up">
+          <p class="chart-figure-title">Thomas & Chess Temperament Distribution</p>
+          <div data-chart data-chart-type="donut" data-chart-data='[{"label":"Easy","value":40},{"label":"Difficult","value":10},{"label":"Slow-to-Warm","value":15},{"label":"Mixed","value":35}]'></div>
+          <p class="chart-figure-caption">Based on the New York Longitudinal Study (1956). Most children don't fit neatly into one category.</p>
+        </div>
+
+        <!-- Goodness of Fit -->
+        <div data-animate="fade-up" style="margin-top:2.5rem;">
+          <h3 style="font-size:var(--text-2xl);margin-bottom:1rem;">Goodness of Fit: The MATCH Matters</h3>
+          <p>
+            Thomas and Chess's most enduring contribution was not the temperament categories themselves -- it was the concept of <strong>"goodness of fit."</strong> This is the idea that there is no such thing as a "good" or "bad" temperament in isolation. What matters is how well the child's temperament <em>matches</em> the demands and expectations of their environment.
+          </p>
+          <p>
+            A child with a "difficult" temperament who is raised by patient, structured, and supportive caregivers can thrive -- often developing remarkable resilience and emotional depth. That same child, placed in a rigid, punitive, or chaotic environment, may struggle profoundly. Conversely, an "easy" child in a neglectful or unpredictable environment can develop significant problems despite their naturally adaptable nature. The child is not the problem. The <em>mismatch</em> is the problem.
+          </p>
+        </div>
+
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            ❌
+            Myth Buster
+          </div>
+          <p>
+            <strong>"A 'difficult' temperament means a difficult child."</strong><br>
+            Thomas and Chess emphasized <em>goodness of fit</em>. A child with high intensity who gets patient, structured support can thrive -- and often develops into a passionate, driven adult. The same child in a rigid, punitive environment may struggle. It is not the temperament that determines the outcome. It is the <strong>MATCH</strong> between the child's nature and the world around them. Labeling a child as "difficult" says more about the environment than it does about the child.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION E: Emotion Coaching vs. Dismissing
+         ======================================== -->
+    <section class="content-section" data-section-id="section-e">
+      <div class="container" style="max-width:900px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Emotion Coaching vs. <span class="text-gradient">Dismissing</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Two fundamentally different responses to a child's distress</p>
+        </div>
+
+        <p data-animate="fade-up">
+          When a child is upset, adults face a choice -- often unconscious -- about how to respond. Psychologist <strong>John Gottman</strong> identified two broad approaches to children's emotions, and the research on their different outcomes is striking.
+        </p>
+
+        <!-- Two-column comparison -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8" data-animate="stagger">
+
+          <!-- Emotion Coaching -->
+          <div class="stat-card" style="text-align:left;padding:2rem;border-top:4px solid #5CC99B;position:relative;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.25rem;">
+              <div style="width:44px;height:44px;border-radius:var(--radius-full);background:#D1FAE5;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+                  <path d="M11 2L13.5 7.5L19.5 8.2L15 12.4L16.2 18.3L11 15.5L5.8 18.3L7 12.4L2.5 8.2L8.5 7.5L11 2Z" fill="#5CC99B" opacity="0.2" stroke="#5CC99B" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <h4 style="font-size:var(--text-lg);margin-bottom:0;color:#047857;">Emotion Coaching</h4>
+                <span style="font-family:var(--font-heading);font-size:var(--text-xs);font-weight:600;color:var(--neutral-400);">Gottman's recommended approach</span>
+              </div>
+            </div>
+
+            <div style="font-size:var(--text-sm);color:var(--neutral-600);margin-bottom:1rem;">
+              <p style="margin-bottom:0.75rem;"><strong style="color:#047857;">Step 1:</strong> Recognize the emotion</p>
+              <p style="margin-bottom:0.75rem;"><strong style="color:#047857;">Step 2:</strong> Label it for the child</p>
+              <p style="margin-bottom:0.75rem;"><strong style="color:#047857;">Step 3:</strong> Validate the feeling</p>
+              <p style="margin-bottom:1rem;"><strong style="color:#047857;">Step 4:</strong> Help problem-solve</p>
+            </div>
+
+            <div style="background:#F0FDF4;border-radius:var(--radius-md);padding:1rem;border-left:3px solid #5CC99B;">
+              <p style="font-size:var(--text-sm);color:var(--neutral-700);margin-bottom:0;font-style:italic;line-height:1.6;">
+                "I can see you're really frustrated that your tower fell down. It's okay to feel angry. Would you like to try building it again, or should we do something else for a bit?"
+              </p>
+            </div>
+          </div>
+
+          <!-- Emotion Dismissing -->
+          <div class="stat-card" style="text-align:left;padding:2rem;border-top:4px solid #94A3B8;position:relative;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.25rem;">
+              <div style="width:44px;height:44px;border-radius:var(--radius-full);background:var(--neutral-100);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+                  <circle cx="11" cy="11" r="9" fill="var(--neutral-200)" stroke="var(--neutral-400)" stroke-width="1.5"/>
+                  <line x1="7" y1="7" x2="15" y2="15" stroke="var(--neutral-400)" stroke-width="1.5" stroke-linecap="round"/>
+                  <line x1="15" y1="7" x2="7" y2="15" stroke="var(--neutral-400)" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <h4 style="font-size:var(--text-lg);margin-bottom:0;color:var(--neutral-600);">Emotion Dismissing</h4>
+                <span style="font-family:var(--font-heading);font-size:var(--text-xs);font-weight:600;color:var(--neutral-400);">Common but counterproductive</span>
+              </div>
+            </div>
+
+            <div style="font-size:var(--text-sm);color:var(--neutral-600);margin-bottom:1rem;">
+              <p style="margin-bottom:0.75rem;"><strong style="color:var(--neutral-500);">Minimize:</strong> "It's not a big deal"</p>
+              <p style="margin-bottom:0.75rem;"><strong style="color:var(--neutral-500);">Distract:</strong> "Look, a shiny thing!"</p>
+              <p style="margin-bottom:0.75rem;"><strong style="color:var(--neutral-500);">Punish:</strong> "Stop crying or go to your room"</p>
+              <p style="margin-bottom:1rem;"><strong style="color:var(--neutral-500);">Ignore:</strong> Walk away from the distress</p>
+            </div>
+
+            <div style="background:var(--neutral-50);border-radius:var(--radius-md);padding:1rem;border-left:3px solid var(--neutral-300);">
+              <p style="font-size:var(--text-sm);color:var(--neutral-700);margin-bottom:0;font-style:italic;line-height:1.6;">
+                "Stop crying, it's just blocks. You're fine. Big kids don't cry about things like that."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research outcomes -->
+        <div data-animate="fade-up" style="margin-top:2rem;">
+          <p>
+            The research is clear and consistent: children who grow up with <strong>emotion coaching</strong> parents develop better emotional regulation skills, form stronger peer relationships, achieve higher academic outcomes, and show fewer behavioral problems. They learn that emotions are not dangerous -- they are information. They are signals to be understood, not threats to be eliminated.
+          </p>
+          <p>
+            Emotion dismissing does not necessarily come from bad intentions. Many parents dismiss emotions because that is how <em>their</em> emotions were handled. Breaking this cycle starts with recognizing that a child's tears are not a problem to be solved -- they are a communication to be heard.
+          </p>
+        </div>
+
+        <!-- ★ VISUAL 5: Emotion Coaching Outcomes Bar Chart ★ -->
+        <div class="chart-figure" data-animate="fade-up">
+          <p class="chart-figure-title">Emotion Coaching vs. Dismissing: Outcomes by Age 10</p>
+          <div data-chart data-chart-type="bar" data-chart-data='[{"label":"Self-Regulation","value":82},{"label":"Peer Relations","value":75},{"label":"Academic Focus","value":71},{"label":"Behavior Problems (fewer)","value":68}]' data-chart-options='{"barColor":"#059669"}'></div>
+          <p class="chart-figure-caption">Children of emotion-coaching parents score significantly higher across all measured outcomes (Gottman et al., 1996).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION F: The Digital Pacifier Problem
+         ======================================== -->
+    <section class="content-section" data-section-id="section-f">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The Digital <span class="text-gradient">Pacifier</span> Problem</h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>When technology replaces the hard work of emotional learning</p>
+        </div>
+
+        <p>
+          It has become one of the most common scenes in modern parenting: a toddler starts to melt down in a restaurant, a waiting room, or a grocery store, and the caregiver reaches for a phone or tablet. The screen works like magic -- the crying stops almost instantly. But researchers are beginning to raise serious concerns about what happens when screens routinely replace the messy, difficult, essential process of learning to manage emotions.
+        </p>
+
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            🔬
+            2024 Study Alert
+          </div>
+          <p>
+            A 2024 longitudinal study in <em>Frontiers in Child and Adolescent Psychiatry</em> found that parents who frequently use digital devices to regulate children's negative emotions (handing a phone to stop a tantrum) may <strong>HINDER</strong> the development of self-regulatory skills. Children need to <strong>PRACTICE</strong> managing distressing emotions with human support. Every time a screen short-circuits that process, the child loses an opportunity to build the neural pathways of emotional regulation. The quick fix today becomes the missing skill tomorrow.
+          </p>
+        </div>
+
+        <!-- ★ VISUAL 6: Digital Pacifier Flowchart ★ -->
+        <div class="process-flow" data-animate="fade-up">
+          <div class="process-flow-step" style="--step-color:#EF4444;">
+            <div class="process-flow-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+            <div class="process-flow-step-label">Child Distressed</div>
+            <div class="process-flow-step-desc">Crying, tantrum, bored</div>
+          </div>
+          <div class="process-flow-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          <div class="process-flow-step" style="--step-color:#3B82F6;">
+            <div class="process-flow-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18.01"/></svg></div>
+            <div class="process-flow-step-label">Given Phone</div>
+            <div class="process-flow-step-desc">Instant distraction</div>
+          </div>
+          <div class="process-flow-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          <div class="process-flow-step process-flow-step--decision" style="--step-color:#F59E0B;">
+            <div class="process-flow-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v2m0 4h.01M5 19h14a2 2 0 001.84-2.77L13.84 4.36a2 2 0 00-3.68 0L3.16 16.23A2 2 0 005 19z"/></svg></div>
+            <div class="process-flow-step-label">Immediate Calm</div>
+            <div class="process-flow-step-desc">But no regulation practice</div>
+          </div>
+          <div class="process-flow-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          <div class="process-flow-step process-flow-step--negative">
+            <div class="process-flow-step-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"/></svg></div>
+            <div class="process-flow-step-label">Weaker Self-Regulation</div>
+            <div class="process-flow-step-desc">Less practice = less skill</div>
+          </div>
+        </div>
+
+        <p>
+          This does not mean screens are inherently evil or that every moment of screen-based soothing is damaging. Context matters. But when digital soothing becomes the <em>primary</em> strategy for managing a child's negative emotions -- when it replaces rather than supplements human co-regulation -- the child misses out on the very experiences that build emotional competence.
+        </p>
+
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            ✨
+            Can't Poker-Face Until Age 6
+          </div>
+          <p>
+            Children under 6 are remarkably bad at hiding their emotions. The ability to strategically display emotions -- what psychologists call <strong>emotional display rules</strong> -- develops gradually from ages 6-10. This means that what adults sometimes interpret as "defiance" or "overreacting" may simply be an <strong>INABILITY</strong> to mask genuine feelings. A 4-year-old who looks furious <em>is</em> furious. They are not choosing to be dramatic. They literally cannot do otherwise. Their prefrontal cortex -- the brain region responsible for emotional masking -- has not yet matured enough to override the raw signal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION G: Quote
+         ======================================== -->
+    <section class="content-section" style="padding:3rem 0 4rem;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="blockquote" style="padding:2.5rem 2rem 2.5rem 2.5rem;border-left-width:4px;">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" style="margin-bottom:1rem;opacity:0.2;" aria-hidden="true">
+            <path d="M10 25c-3.3 0-6-2.7-6-6 0-5.5 4-10 9-11l1 2c-3.5 1-5.5 3.5-6 6.5.5-.3 1.3-.5 2-.5 2.8 0 5 2.2 5 5s-2.2 5-5 5zm17 0c-3.3 0-6-2.7-6-6 0-5.5 4-10 9-11l1 2c-3.5 1-5.5 3.5-6 6.5.5-.3 1.3-.5 2-.5 2.8 0 5 2.2 5 5s-2.2 5-5 5z" fill="var(--primary-400)"/>
+          </svg>
+          <p style="font-size:clamp(1.1rem, 2vw, var(--text-xl));line-height:1.7;margin-bottom:1rem;">
+            Children's emotional development is built into the architecture of their brains.
+          </p>
+          <span class="blockquote-author">-- Harvard Center on the Developing Child</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION G: Emotional Contagion
+         ======================================== -->
+    <section class="content-section" data-section-id="section-g">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Feelings Are <span class="text-gradient">Catching</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How emotional contagion shapes development from the first hours of life</p>
+        </div>
+
+        <p>
+          Martin Simner (1971) documented that newborns less than 36 hours old cry more intensely in response to another newborn's cry than to a tone-matching recording of their own cry, white noise, or a chimpanzee's cry. This primitive emotional contagion — the involuntary matching of another's emotional state — is present before any social learning could have occurred, suggesting it is biologically wired.
+        </p>
+
+        <p>
+          The perception-action model of empathy (Preston &amp; de Waal, 2002) proposes that perceiving an emotional state in another automatically activates the neural representations of that state in the observer. Watching someone stub their toe produces mild activation of your own pain circuits. Watching someone smile tends to produce micro-contractions of your own smile muscles. This automatic resonance is the foundation on which all higher forms of empathy are built.
+        </p>
+
+        <p>
+          Martin Hoffman's empathy development model traces a developmental arc: (1) Reactive crying (newborns, no self-other distinction), (2) Egocentric empathy (~1 year, aware someone is distressed but assumes their own preferences will comfort the other), (3) Quasi-egocentric empathy (~2–3 years, recognizes distress but still self-focused in response), (4) True empathy (~3–6 years, can take the other's perspective and respond to their actual needs rather than own preferences), (5) Empathy for abstract others and groups (adolescence). This progression maps onto theory of mind development explored in Module 7.
+        </p>
+
+        <p>
+          The classroom and family implications are profound. Emotional states are contagious — teachers and parents who manage their own emotional regulation are modeling emotion regulation for children through automatic resonance. This is one reason emotionally dysregulated caregivers (due to their own trauma, stress, or mental health difficulties) can inadvertently transmit dysregulation to children even without overtly negative parenting behavior.
+        </p>
+
+        <!-- SVG: Empathy Development Staircase -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" aria-label="Staircase diagram showing 5 stages of empathy development from reactive crying at the bottom to abstract empathy at the top">
+            <rect width="680" height="360" rx="12" fill="#FAFBFC"/>
+            <text x="340" y="30" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="16" fill="#1E293B">Hoffman's Empathy Development Model</text>
+
+            <!-- Step 1 (bottom) -->
+            <rect x="30" y="295" width="620" height="50" rx="8" fill="#FEE2E2" stroke="#FF6B8A" stroke-width="1.5"/>
+            <text x="50" y="315" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#991B1B">Stage 1: Reactive Crying</text>
+            <text x="50" y="333" font-family="'Nunito', sans-serif" font-size="11" fill="#7F1D1D">Newborns — No self-other distinction; cry when others cry</text>
+
+            <!-- Step 2 -->
+            <rect x="30" y="235" width="500" height="50" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+            <text x="50" y="255" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#92400E">Stage 2: Egocentric Empathy</text>
+            <text x="50" y="273" font-family="'Nunito', sans-serif" font-size="11" fill="#78350F">~1 year — Aware of others' distress; offers own comfort objects</text>
+
+            <!-- Step 3 -->
+            <rect x="30" y="175" width="400" height="50" rx="8" fill="#D1FAE5" stroke="#5CC99B" stroke-width="1.5"/>
+            <text x="50" y="195" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#047857">Stage 3: Quasi-Egocentric Empathy</text>
+            <text x="50" y="213" font-family="'Nunito', sans-serif" font-size="11" fill="#065F46">~2–3 years — Recognizes distress; responses still self-focused</text>
+
+            <!-- Step 4 -->
+            <rect x="30" y="115" width="300" height="50" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+            <text x="50" y="135" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#1D4ED8">Stage 4: True Empathy</text>
+            <text x="50" y="153" font-family="'Nunito', sans-serif" font-size="11" fill="#1E3A8A">~3–6 years — Perspective-taking; responds to others' actual needs</text>
+
+            <!-- Step 5 (top) -->
+            <rect x="30" y="55" width="200" height="50" rx="8" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+            <text x="50" y="75" font-family="'Nunito', sans-serif" font-weight="700" font-size="12" fill="#6D28D9">Stage 5: Abstract Empathy</text>
+            <text x="50" y="93" font-family="'Nunito', sans-serif" font-size="11" fill="#4C1D95">Adolescence — Empathy for groups and abstract others</text>
+
+            <!-- Upward arrow -->
+            <line x1="650" y1="310" x2="650" y2="70" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="5,3"/>
+            <polygon points="650,60 645,75 655,75" fill="#94A3B8"/>
+            <text x="665" y="190" font-family="'Nunito', sans-serif" font-size="10" fill="#64748B" transform="rotate(90,665,190)">Development</text>
+          </svg>
+        </div>
+
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            💡
+            More Sensitive Than Their Own
+          </div>
+          <p>
+            Newborn babies cry significantly MORE in response to another newborn's cry than to a recording of their own cry. This primitive emotional contagion — present before any social learning could occur — suggests that sensitivity to others' emotional states is a biological inheritance, not an achievement. We are born wired to feel with each other.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION H: When Emotions Overwhelm
+         ======================================== -->
+    <section class="content-section" data-section-id="section-h" style="background:var(--neutral-50);">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>When Emotions <span class="text-gradient">Overwhelm</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Childhood anxiety, depression, and when typical emotional development diverges</p>
+        </div>
+
+        <p>
+          Between 7–10% of children have clinically significant anxiety disorders — the most common childhood mental health condition. Anxiety is distinct from healthy developmental fear: typical toddlers fear strangers and separation; typical preschoolers fear the dark; typical school-age children fear failure and embarrassment. Clinical anxiety is fear that is disproportionate, persistent, and interfering — preventing the child from engaging in age-appropriate activities.
+        </p>
+
+        <p>
+          Childhood depression affects approximately 2–3% of children and 8–10% of adolescents. Crucially, childhood depression does not always look like adult depression. Rather than sad affect, children may present with irritability, anger, physical complaints (stomachaches, headaches), academic decline, withdrawal from previously enjoyed activities, and sleep changes. Adults who assume "children are too young to be depressed" miss this presentation.
+        </p>
+
+        <p>
+          Joan Luby's landmark research demonstrated that depression can be diagnosed as early as age 3. Luby showed that preschool-age children who met criteria for depression (adapted to developmental stage) showed abnormal cortisol stress responses, reduced hippocampal volume by school age, and persistent emotional difficulties — demonstrating that depression in young children has real neurobiological correlates and is not just "moodiness."
+        </p>
+
+        <p>
+          Both anxiety and depression in children are highly treatable. Cognitive-Behavioral Therapy adapted for children has the strongest evidence base for both conditions. Parent involvement is critical — because children's emotional regulation co-regulates with caregivers, parents who learn to manage their own anxious responses (not over-reassuring, modeling approach vs avoidance) are important treatment co-agents. Early intervention matters: untreated childhood anxiety and depression are among the strongest predictors of adult mental health difficulties.
+        </p>
+
+        <!-- Stat grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8" data-animate="stagger">
+          <div class="stat-card" style="text-align:center;padding:1.75rem;">
+            <div style="font-size:2.5rem;font-weight:800;font-family:var(--font-heading);color:var(--primary-500);line-height:1;">7–10%</div>
+            <div style="margin-top:0.5rem;font-size:var(--text-sm);color:var(--neutral-600);">Children with clinical anxiety disorders</div>
+          </div>
+          <div class="stat-card" style="text-align:center;padding:1.75rem;">
+            <div style="font-size:2.5rem;font-weight:800;font-family:var(--font-heading);color:#FF6B8A;line-height:1;">2–3%</div>
+            <div style="margin-top:0.5rem;font-size:var(--text-sm);color:var(--neutral-600);">Children with clinical depression (10% by adolescence)</div>
+          </div>
+          <div class="stat-card" style="text-align:center;padding:1.75rem;">
+            <div style="font-size:2.5rem;font-weight:800;font-family:var(--font-heading);color:#F59E0B;line-height:1;">Age 3</div>
+            <div style="margin-top:0.5rem;font-size:var(--text-sm);color:var(--neutral-600);">Earliest documented clinical depression in children (Luby et al.)</div>
+          </div>
+          <div class="stat-card" style="text-align:center;padding:1.75rem;">
+            <div style="font-size:2.5rem;font-weight:800;font-family:var(--font-heading);color:#8B5CF6;line-height:1;">~50%</div>
+            <div style="margin-top:0.5rem;font-size:var(--text-sm);color:var(--neutral-600);">Adult mental health conditions that first emerged in childhood</div>
+          </div>
+        </div>
+
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            ⚡
+            Myth Buster
+          </div>
+          <p>
+            <strong>"Children are too young to be depressed."</strong><br>
+            Depression can be reliably diagnosed in children as young as 3 years old (Luby et al.). Childhood depression often presents differently than adult depression — with irritability, physical complaints, and anger rather than sadness — causing it to be missed. Untreated childhood depression is one of the strongest predictors of adult depression.
+          </p>
+        </div>
+
+        <!-- Figure Card: Joan Luby -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background:#FEF3C7;color:#D97706;">JL</div>
+          <div>
+            <h4>Joan Luby</h4>
+            <p class="figure-years">1960s &ndash; present</p>
+            <p>Washington University psychiatrist who demonstrated that clinical depression can be diagnosed in children as young as 3 years old, fundamentally changing our understanding of when emotional disorders emerge.</p>
+            <div class="figure-insight">Young children's brains are actively vulnerable to depression — and early intervention can change developmental trajectories.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c360 20 720-20 1080-10s360 20 360-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION I: Trauma and the Dysregulated Brain
+         ======================================== -->
+    <section class="content-section" data-section-id="section-i">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Trauma and the <span class="text-gradient">Dysregulated Brain</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How adverse childhood experiences alter brain development — and what helps</p>
+        </div>
+
+        <p>
+          The ACE Study (Felitti &amp; Anda, 1998+), surveying 17,000 Kaiser Permanente patients, established a dose-response relationship between childhood adversity and adult physical and mental health: more ACEs = worse outcomes for heart disease, cancer, depression, suicide attempts, and early death. This transformed how medicine understands adult illness — many "lifestyle diseases" have childhood roots. ACEs include abuse (physical, emotional, sexual), neglect, and household dysfunction (domestic violence, substance abuse, mental illness, incarceration).
+        </p>
+
+        <p>
+          The neurobiological impact of trauma involves three key changes: (1) <strong>Hyper-reactive amygdala</strong> — the brain's alarm system becomes chronically activated, responding to non-threatening stimuli as dangerous; (2) <strong>Underdeveloped prefrontal cortex</strong> — stress hormones impair PFC growth, reducing capacity for emotional regulation, impulse control, and planning; (3) <strong>HPA axis dysregulation</strong> — the cortisol stress response becomes either hyper-reactive (hypervigilant) or blunted (shut down). Bruce Perry's research shows that traumatized children's brains are literally shaped differently by chronic stress.
+        </p>
+
+        <p>
+          Dan Siegel's "window of tolerance" concept is clinically useful: there is an optimal arousal zone within which children can feel, learn, and connect. Traumatized children have a narrowed window — they shift quickly into hyperarousal (fight/flight/freeze, meltdowns, aggression) or hypoarousal (shutdown, dissociation, numbness). Effective trauma-informed care expands this window through co-regulation, safety, and predictability.
+        </p>
+
+        <p>
+          Recovery is possible. Trauma-Focused Cognitive Behavioral Therapy (TF-CBT) has the strongest evidence base for childhood trauma (&gt;100 RCTs). Trust-Based Relational Intervention (TBRI, Karyn Purvis) focuses on empowering, connecting, and correcting. The common thread: healing happens through safe, responsive relationships — the same ingredient that caused vulnerability is the ingredient that enables recovery.
+        </p>
+
+        <!-- SVG: Window of Tolerance -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" aria-label="Diagram showing the window of tolerance with hyperarousal zone above and hypoarousal zone below the optimal zone">
+            <rect width="680" height="300" rx="12" fill="#FAFBFC"/>
+            <text x="340" y="28" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="16" fill="#1E293B">The Window of Tolerance</text>
+
+            <!-- Hyperarousal zone (top) -->
+            <rect x="40" y="42" width="600" height="70" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5"/>
+            <text x="340" y="68" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="13" fill="#991B1B">HYPERAROUSAL</text>
+            <text x="340" y="86" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="11" fill="#7F1D1D">panic · rage · fight/flight · terror · overwhelm</text>
+            <text x="340" y="103" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="10" fill="#9CA3AF" font-style="italic">Trauma narrows this window — triggering faster</text>
+
+            <!-- Window of Tolerance (middle) -->
+            <rect x="40" y="122" width="600" height="60" rx="8" fill="#D1FAE5" stroke="#5CC99B" stroke-width="2"/>
+            <text x="340" y="148" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="13" fill="#047857">Window of Tolerance</text>
+            <text x="340" y="167" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="11" fill="#065F46">Feel · Think · Connect · Learn · Grow</text>
+
+            <!-- Hypoarousal zone (bottom) -->
+            <rect x="40" y="192" width="600" height="70" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+            <text x="340" y="218" text-anchor="middle" font-family="'Nunito', sans-serif" font-weight="800" font-size="13" fill="#1D4ED8">HYPOAROUSAL</text>
+            <text x="340" y="236" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="11" fill="#1E3A8A">shutdown · numbness · freeze · dissociation · collapse</text>
+            <text x="340" y="253" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="10" fill="#9CA3AF" font-style="italic">Healing widens the window — more space to feel safely</text>
+
+            <!-- Legend arrows -->
+            <g transform="translate(580, 130)">
+              <line x1="0" y1="40" x2="0" y2="10" stroke="#5CC99B" stroke-width="2"/>
+              <polygon points="0,5 -4,15 4,15" fill="#5CC99B"/>
+              <line x1="0" y1="40" x2="0" y2="70" stroke="#5CC99B" stroke-width="2"/>
+              <polygon points="0,75 -4,65 4,65" fill="#5CC99B"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            🔬
+            The ACE Study's Dose-Response
+          </div>
+          <p>
+            Among Kaiser patients with ACE scores of 4 or higher (vs. 0): <strong>2x</strong> more likely to smoke, <strong>7x</strong> more likely to be an alcoholic, <strong>4–12x</strong> more likely to attempt suicide, and a <strong>20-year reduction</strong> in life expectancy. The ACE study is one of the most consequential epidemiological studies in the history of medicine — it revealed that what happens in childhood shows up in the body decades later.
+          </p>
+        </div>
+
+        <!-- Figure Card: Bruce Perry -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background:#FCE7F3;color:#FF6B8A;">BP</div>
+          <div>
+            <h4>Bruce Perry</h4>
+            <p class="figure-years">1955 &ndash; present</p>
+            <p>Psychiatrist and neuroscientist who studied how childhood trauma literally reshapes developing brains. His work with traumatized children in systems of care transformed trauma-informed practice in schools, hospitals, and child welfare.</p>
+            <div class="figure-insight">You can't teach a child who doesn't feel safe. The brain exposed to chronic threat is organized around survival, not learning.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION J: Mindfulness and the Emotional Brain
+         ======================================== -->
+    <section class="content-section" data-section-id="section-j" style="background:var(--neutral-50);">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Mindfulness and the <span class="text-gradient">Emotional Brain</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>What the science says about teaching children to pause, notice, and respond</p>
+        </div>
+
+        <p>
+          Mindfulness — the practice of intentional, non-judgmental attention to present-moment experience — has accumulated a substantial evidence base for adults. Research on children and adolescents is growing rapidly. A critical caveat: adult mindfulness practices (40-minute sitting meditations) are developmentally inappropriate for children. Effective mindfulness for children is brief (2–5 minutes), embodied (uses movement and sensory anchors), concrete (breath, body sensations, the five senses), and embedded in relationships (practiced with a trusted adult).
+        </p>
+
+        <p>
+          Kimberly Schonert-Reichl's MindUP program RCT (2015) is the strongest evidence to date. Elementary school children who participated in the 12-lesson MindUP curriculum showed significantly increased cortisol regulation (lower stress response), improved executive function, greater empathy and perspective-taking, reduced aggression, and improved academic engagement compared to controls. Brain imaging showed changes in PFC-amygdala connectivity — the neural circuit underlying emotion regulation.
+        </p>
+
+        <p>
+          The mechanism appears to involve strengthening the connection between the prefrontal cortex and the amygdala. Regular mindfulness practice increases PFC grey matter and improves the PFC's capacity to modulate amygdala reactivity — literally building the neural "brakes" on emotional reactions. For children whose PFC is still under development, mindfulness may support that development directly.
+        </p>
+
+        <p>
+          Practical techniques appropriate for different ages: <strong>Preschool</strong> — belly breathing, watching a glitter jar settle, body scan with stuffed animals; <strong>School age</strong> — 5-4-3-2-1 sensory grounding, mindful movement, emotion check-ins; <strong>Adolescence</strong> — mindful breathing apps, journaling, body scan meditation. The key is regular, brief practice embedded in predictable routines — not occasional long sessions.
+        </p>
+
+        <div class="callout callout-try" data-animate="fade-up">
+          <div class="callout-label">🎯 Try This</div>
+          <p>
+            <strong>The Glitter Jar</strong> — A simple mindfulness tool: fill a jar with water, glitter glue, and glitter. When shaken, the glitter swirls chaotically (like a mind full of strong emotions). When you breathe slowly and hold the jar still, the glitter gradually settles. Ask children: "How is your glitter today — swirling or settled?" This metaphor gives children a concrete language for emotional state and a physical experience of self-regulation.
+          </p>
+        </div>
+
+        <!-- Stat grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8" data-animate="stagger">
+          <div class="stat-card" style="text-align:center;padding:1.75rem;">
+            <div style="font-size:2.25rem;font-weight:800;font-family:var(--font-heading);color:var(--primary-500);line-height:1;">2–5 min</div>
+            <div style="margin-top:0.5rem;font-size:var(--text-sm);color:var(--neutral-600);">Effective mindfulness practice duration for young children</div>
+          </div>
+          <div class="stat-card" style="text-align:center;padding:1.75rem;">
+            <div style="font-size:2.25rem;font-weight:800;font-family:var(--font-heading);color:#5CC99B;line-height:1;">MindUP</div>
+            <div style="margin-top:0.5rem;font-size:var(--text-sm);color:var(--neutral-600);">Evidence-based school program showing improved EF, empathy, and stress regulation</div>
+          </div>
+          <div class="stat-card" style="text-align:center;padding:1.75rem;">
+            <div style="font-size:2.25rem;font-weight:800;font-family:var(--font-heading);color:#8B5CF6;line-height:1;">12 weeks</div>
+            <div style="margin-top:0.5rem;font-size:var(--text-sm);color:var(--neutral-600);">Duration of MindUP showing measurable brain and behavior changes</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c360 20 720-20 1080-10s360 20 360-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION K: Culture and Emotional Development
+         ======================================== -->
+    <section class="content-section" data-section-id="section-k">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Culture and <span class="text-gradient">Emotional Life</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How societies shape which emotions children feel, display, and understand</p>
+        </div>
+
+        <p>
+          Emotions are not purely biological — they are also profoundly cultural. Every society has display rules: norms governing which emotions are appropriate to express, in what contexts, and in what form. Children learn these rules through socialization — they are taught, explicitly and implicitly, that some emotions are acceptable while others must be suppressed or transformed. Japanese children are socialized to suppress negative emotions in public settings. American children are encouraged to express positive emotions exuberantly. Neither rule is "natural" — both are cultural.
+        </p>
+
+        <p>
+          Collectivist cultures (emphasizing group harmony and interdependence) socialize children toward emotional restraint, other-oriented emotions (shame, sympathy), and preference for positive affect in social settings. Individualist cultures (emphasizing personal expression and autonomy) socialize children toward emotional expression, self-oriented emotions (pride, personal happiness), and authentic expression even when negative. These are not deficits or assets — they are different adaptive solutions to different cultural contexts.
+        </p>
+
+        <p>
+          Emotion vocabulary shapes emotional experience. Lisa Feldman Barrett's constructed emotion theory (2017) proposes that emotions are not discrete biological programs that "happen to" us — they are brain predictions, constructed from past experience and linguistic concepts. Children who have a richer emotion vocabulary (more granular emotional concepts like "irritated" vs. "angry" vs. "frustrated") show better emotional regulation, because they can make finer-grained predictions and responses. Parents who use "emotion coaching" (naming, validating, and problem-solving around emotions) build this vocabulary.
+        </p>
+
+        <p>
+          Cross-cultural research reveals both universals and variations in emotional development. Paul Ekman's six basic emotions (happiness, sadness, fear, anger, disgust, surprise) show cross-cultural recognition in facial expressions. But the contexts that trigger these emotions, the display rules governing their expression, and the meaning attributed to them vary substantially. A child's "emotional problems" must always be evaluated in cultural context — what appears dysregulated in one context may be perfectly adaptive in another.
+        </p>
+
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            🔬
+            Lisa Feldman Barrett's Constructed Emotion Theory
+          </div>
+          <p>
+            In <em>How Emotions Are Made</em> (2017), Barrett argues that emotions are not hardwired biological programs but brain predictions constructed from past experience and cultural concepts. When we feel "anger," the brain is predicting what best explains current body sensations based on emotional memories. Emotion concepts — the words we have for feelings — literally shape the emotions we experience. Teaching children a richer emotional vocabulary may change their emotional experience, not just their ability to label it.
+          </p>
+        </div>
+
+        <!-- Figure Card: Lisa Feldman Barrett -->
+        <div class="figure-card" data-animate="fade-up">
+          <div class="figure-avatar" style="background:#EDE9FE;color:#8B5CF6;">LB</div>
+          <div>
+            <h4>Lisa Feldman Barrett</h4>
+            <p class="figure-years">1963 &ndash; present</p>
+            <p>Psychologist whose constructed emotion theory challenges the traditional view that emotions are universal biological programs. Her research shows that emotional experience is shaped by language, culture, and learned concepts.</p>
+            <div class="figure-insight">Emotion words are not just labels for pre-formed feelings. They help construct the feelings themselves.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         QUIZ SECTION
+         ======================================== -->
+    <section class="content-section" id="quiz-section" style="background:white;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header" style="text-align:center;">
+          <h2>🎉 Test Your <span class="text-gradient">Knowledge</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p style="margin-left:auto;margin-right:auto;">5 questions to check your understanding of this module</p>
+        </div>
+
+        <div id="quiz-container" data-module="module6"></div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         MODULE NAVIGATION (prev/next)
+         ======================================== -->
+    <section class="content-section" style="padding:0 0 2rem;">
+      <div class="container-narrow">
+        <div class="module-nav">
+
+          <a href="module5.html" class="module-nav-link" data-transition>
+            <span class="nav-direction">&larr; Previous Module</span>
+            <span class="nav-title">Module 5: The Invisible Bond</span>
+          </a>
+
+          <a href="module7.html" class="module-nav-link is-next" data-transition>
+            <span class="nav-direction">Next Module &rarr;</span>
+            <span class="nav-title">Module 7: Reading Minds</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <p style="margin-bottom:0.5rem;">
+          <a href="index.html" style="color:var(--primary-300);font-weight:700;">Growing Minds</a> &mdash; A Free Child Psychology Course
+        </p>
+        <p style="margin-bottom:0;font-size:var(--text-xs);color:var(--neutral-500);">
+          Built with 💜 curiosity and science ✨
+        </p>
+      </div>
+    </footer>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- ========================================
+       SCRIPTS
+       ======================================== -->
+  <!-- GSAP 3.12 + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- App scripts -->
+  <script src="js/progress.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

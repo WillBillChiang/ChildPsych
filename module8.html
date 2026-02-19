@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 8: The Brain Under Construction | Growing Minds</title>
+  <meta name="description" content="Explore the neuroscience of child development — from synaptogenesis and pruning to myelination and the adolescent brain's dual-systems model.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-module-id="module8">
+
+<div aria-hidden="true" style="position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;">
+  <svg class="animate-star-twinkle" style="position:absolute;top:15%;left:5%;width:16px;height:16px;opacity:0.22;" viewBox="0 0 24 24" fill="#FFA3BA"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-star-twinkle" style="position:absolute;top:45%;right:4%;width:12px;height:12px;opacity:0.18;animation-delay:0.4s;" viewBox="0 0 24 24" fill="#D4A6EB"><path d="M12 2l2.4 7.2H22l-6 4.8 2.4 7.2L12 16.4 5.6 21.2 8 14 2 9.2h7.6z"/></svg>
+  <svg class="animate-float-wiggle" style="position:absolute;bottom:20%;left:6%;width:14px;height:14px;opacity:0.15;" viewBox="0 0 24 24" fill="#FF85A3"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"/></svg>
+</div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- ========================================
+       NAVIGATION
+       ======================================== -->
+  <nav class="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" data-transition>
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+          <path d="M16 3C10.5 3 6 7.5 6 13c0 3.5 1.8 6.6 4.5 8.4V26a1 1 0 001 1h9a1 1 0 001-1v-4.6C24.2 19.6 26 16.5 26 13c0-5.5-4.5-10-10-10z" fill="url(#brain-grad-nav)" opacity="0.15"/>
+          <path d="M16 3C10.5 3 6 7.5 6 13c0 3.5 1.8 6.6 4.5 8.4V26a1 1 0 001 1h9a1 1 0 001-1v-4.6C24.2 19.6 26 16.5 26 13c0-5.5-4.5-10-10-10z" stroke="url(#brain-grad-nav)" stroke-width="1.5" fill="none"/>
+          <path d="M12 28h8M13 30h6" stroke="var(--primary-400)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M16 8v4M13 10h6" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="12" cy="15" r="1.5" fill="var(--secondary-400)"/>
+          <circle cx="20" cy="15" r="1.5" fill="var(--secondary-400)"/>
+          <path d="M12 15c0 2.5 1.8 4 4 4s4-1.5 4-4" stroke="var(--primary-400)" stroke-width="1" fill="none" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="brain-grad-nav" x1="6" y1="3" x2="26" y2="30" gradientUnits="userSpaceOnUse">
+              <stop stop-color="var(--primary-500)"/>
+              <stop offset="1" stop-color="var(--secondary-400)"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        Growing Minds
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module7.html" data-transition>Module 7</a></li>
+        <li><a href="module8.html" class="is-active">Module 8</a></li>
+        <li><a href="module9.html" data-transition>Module 9</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+      </ul>
+
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay" aria-hidden="true">
+    <div class="mobile-nav-panel">
+      <button class="mobile-nav-close" aria-label="Close menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="4" x2="16" y2="16"/>
+          <line x1="16" y1="4" x2="4" y2="16"/>
+        </svg>
+      </button>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" data-transition>Home</a></li>
+        <li><a href="module7.html" data-transition>Module 7: Reading Minds</a></li>
+        <li><a href="module8.html" class="is-active">Module 8: The Brain Under Construction</a></li>
+        <li><a href="module9.html" data-transition>Module 9: Serious Fun</a></li>
+        <li><a href="#quiz-section">Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ========================================
+       PAGE WRAPPER
+       ======================================== -->
+  <div class="page-wrapper">
+
+    <!-- ========================================
+         MODULE HERO SECTION
+         ======================================== -->
+    <section class="module-hero">
+      <div class="module-hero-bg"></div>
+
+      <div class="module-hero-deco" aria-hidden="true">
+        <svg class="deco-float" style="position:absolute;top:8%;left:4%;width:160px;height:140px;opacity:0.07;" viewBox="0 0 120 100" fill="none">
+          <path d="M60 10 Q30 10 20 25 Q10 40 15 55 Q10 65 18 75 Q25 85 40 88 Q50 92 60 88 Q70 92 80 88 Q95 85 102 75 Q110 65 105 55 Q110 40 100 25 Q90 10 60 10Z" stroke="#66B3FF" stroke-width="2.5"/>
+          <path d="M60 10 Q60 50 60 88" stroke="#66B3FF" stroke-width="1.5" opacity="0.5"/>
+          <path d="M35 30 Q48 45 35 60" stroke="#66B3FF" stroke-width="1" opacity="0.4"/>
+          <path d="M85 30 Q72 45 85 60" stroke="#66B3FF" stroke-width="1" opacity="0.4"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;top:12%;right:6%;width:140px;height:140px;opacity:0.06;" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="12" stroke="#66B3FF" stroke-width="2"/>
+          <path d="M38 45 L20 30 M22 32 L15 22 M22 32 L10 35" stroke="#66B3FF" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M45 38 L35 18 M37 20 L28 10 M37 20 L42 8" stroke="#66B3FF" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M55 38 L65 18 M63 20 L70 10" stroke="#66B3FF" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M62 50 L95 50" stroke="#66B3FF" stroke-width="2" stroke-linecap="round"/>
+          <path d="M50 62 L50 90" stroke="#66B3FF" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="95" cy="50" r="3" stroke="#66B3FF" stroke-width="1.5"/>
+          <circle cx="50" cy="90" r="3" stroke="#66B3FF" stroke-width="1.5"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:12%;left:10%;width:120px;height:100px;opacity:0.05;" viewBox="0 0 100 80" fill="none">
+          <circle cx="20" cy="20" r="5" stroke="#66B3FF" stroke-width="1.5"/><circle cx="50" cy="10" r="5" stroke="#66B3FF" stroke-width="1.5"/>
+          <circle cx="80" cy="20" r="5" stroke="#66B3FF" stroke-width="1.5"/><circle cx="35" cy="45" r="5" stroke="#66B3FF" stroke-width="1.5"/>
+          <circle cx="65" cy="45" r="5" stroke="#66B3FF" stroke-width="1.5"/><circle cx="50" cy="70" r="5" stroke="#66B3FF" stroke-width="1.5"/>
+          <line x1="20" y1="20" x2="35" y2="45" stroke="#66B3FF" stroke-width="1"/><line x1="50" y1="10" x2="35" y2="45" stroke="#66B3FF" stroke-width="1"/>
+          <line x1="50" y1="10" x2="65" y2="45" stroke="#66B3FF" stroke-width="1"/><line x1="80" y1="20" x2="65" y2="45" stroke="#66B3FF" stroke-width="1"/>
+          <line x1="35" y1="45" x2="50" y2="70" stroke="#66B3FF" stroke-width="1"/><line x1="65" y1="45" x2="50" y2="70" stroke="#66B3FF" stroke-width="1"/>
+        </svg>
+        <svg class="deco-float" style="position:absolute;bottom:20%;right:15%;width:60px;height:90px;opacity:0.05;" viewBox="0 0 40 70" fill="none">
+          <path d="M25 5 L10 35 L22 35 L15 65 L35 28 L23 28 Z" stroke="#66B3FF" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <div class="module-hero-content container">
+        <div class="module-number-badge">
+          <svg width="18" height="16" viewBox="0 0 18 16" fill="none" aria-hidden="true">
+            <path d="M9 14c-3 0-5-1-6-3S1 7 2 5s2-3 4-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M9 14c3 0 5-1 6-3s2-4 1-6-2-3-4-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="9" y1="2" x2="9" y2="14" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+          </svg>
+          Module 8 &middot; Intermediate
+        </div>
+        <h1>The Brain Under <span class="text-gradient">Construction</span></h1>
+        <p class="module-hero-subtitle">The Neuroscience of Child Development</p>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION A: The Most Extraordinary Construction Project
+         ======================================== -->
+    <section class="content-section" data-section-id="section-a">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The Most Extraordinary <span class="text-gradient">Construction Project</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Your brain wasn't born ready -- it was built by experience</p>
+        </div>
+
+        <!-- Stat Cards -->
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr));">
+          <div class="stat-card">
+            <div class="stat-number stat-counter" data-count-to="250000" style="color:var(--primary-600);">0</div>
+            <div class="stat-label">Neurons created per MINUTE at peak prenatal development</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number stat-counter" style="color:var(--secondary-600);" data-count-to="700">0</div>
+            <div class="stat-label">New synaptic connections formed per SECOND in early childhood</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number stat-counter" style="color:var(--accent-600);" data-count-to="50" data-count-suffix="%">0%</div>
+            <div class="stat-label">Synapses pruned by adolescence</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number stat-counter" style="color:#2563EB;" data-count-to="25">0</div>
+            <div class="stat-label">Age when prefrontal cortex fully matures</div>
+          </div>
+        </div>
+
+        <p>
+          The human brain is not born ready. It arrives in the world with a rough blueprint -- a basic architecture of neurons and regions -- but the intricate wiring that makes us who we are is constructed through years of experience, interaction, and environment. No other organ in the body undergoes such dramatic, prolonged development after birth.
+        </p>
+
+        <p>
+          From the prenatal explosion of neuron creation to the slow, deliberate myelination of the prefrontal cortex that continues well into the mid-twenties, the brain's development is a decades-long construction project. And unlike building a house, where the blueprint is followed precisely, the brain's final form is shaped profoundly by the experiences it encounters along the way. Every conversation, every touch, every moment of play or stress physically reshapes the developing brain.
+        </p>
+
+        <p>
+          This module explores the neuroscience behind this extraordinary process -- from the creation and connection of neurons to the pruning that makes the brain efficient, and the myelination that makes it fast. Understanding how the brain is built helps us understand why early experiences matter so much, why teenagers behave the way they do, and how we can best support healthy development at every stage.
+        </p>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION B: Brain Development Timeline
+         ======================================== -->
+    <section class="content-section" data-section-id="section-b">
+      <div class="container" style="max-width:960px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Brain Development <span class="text-gradient">Timeline</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Four overlapping waves of neural development from conception to adulthood</p>
+        </div>
+
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brain development timeline showing overlapping waves of neurogenesis, synaptogenesis, synaptic pruning, and myelination from prenatal to age 25">
+            <defs>
+              <linearGradient id="neurogenesis-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#9B5BBF" stop-opacity="0.7"/>
+                <stop offset="100%" stop-color="#9B5BBF" stop-opacity="0.1"/>
+              </linearGradient>
+              <linearGradient id="synaptogenesis-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#3EB589" stop-opacity="0.7"/>
+                <stop offset="100%" stop-color="#3EB589" stop-opacity="0.1"/>
+              </linearGradient>
+              <linearGradient id="pruning-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#FFA75A" stop-opacity="0.7"/>
+                <stop offset="100%" stop-color="#FFA75A" stop-opacity="0.1"/>
+              </linearGradient>
+              <linearGradient id="myelination-grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#2563EB" stop-opacity="0.7"/>
+                <stop offset="100%" stop-color="#2563EB" stop-opacity="0.1"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="900" height="500" fill="white" rx="12"/>
+
+            <!-- Chart area: x=100..860, y=60..400 -->
+            <!-- Grid lines (horizontal) -->
+            <line x1="100" y1="145" x2="860" y2="145" stroke="#E2E8F0" stroke-width="0.5" stroke-dasharray="4 4"/>
+            <line x1="100" y1="230" x2="860" y2="230" stroke="#E2E8F0" stroke-width="0.5" stroke-dasharray="4 4"/>
+            <line x1="100" y1="315" x2="860" y2="315" stroke="#E2E8F0" stroke-width="0.5" stroke-dasharray="4 4"/>
+
+            <!-- Y-Axis labels -->
+            <text x="90" y="65" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="end">High</text>
+            <text x="90" y="235" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="end">Medium</text>
+            <text x="90" y="405" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="end">Low</text>
+
+            <!-- Y-Axis line -->
+            <line x1="100" y1="55" x2="100" y2="410" stroke="#CBD5E1" stroke-width="1.5"/>
+            <!-- X-Axis line -->
+            <line x1="100" y1="400" x2="860" y2="400" stroke="#CBD5E1" stroke-width="1.5"/>
+
+            <!-- X-Axis labels: Prenatal=100, Birth=195, 1yr=243, 2yr=290, 5yr=385, 10yr=480, 15yr=575, 20yr=670, 25yr=765 -->
+            <text x="100" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Prenatal</text>
+            <text x="195" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Birth</text>
+            <text x="243" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">1yr</text>
+            <text x="290" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">2yr</text>
+            <text x="385" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">5yr</text>
+            <text x="480" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">10yr</text>
+            <text x="575" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">15yr</text>
+            <text x="670" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">20yr</text>
+            <text x="765" y="425" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="600" text-anchor="middle">25yr</text>
+
+            <!-- Tick marks -->
+            <line x1="100" y1="400" x2="100" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="195" y1="400" x2="195" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="243" y1="400" x2="243" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="290" y1="400" x2="290" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="385" y1="400" x2="385" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="480" y1="400" x2="480" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="575" y1="400" x2="575" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="670" y1="400" x2="670" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="765" y1="400" x2="765" y2="407" stroke="#CBD5E1" stroke-width="1.5"/>
+
+            <!-- Wave 1: Neurogenesis (purple) — peaks prenatally around 150 (mid-prenatal), drops to baseline at birth -->
+            <path d="M100,400 C110,400 120,380 135,200 C145,80 155,70 160,70 C165,70 175,80 185,200 C192,340 195,395 210,398 L210,400 Z" fill="url(#neurogenesis-grad)" opacity="0.6"/>
+            <path d="M100,400 C110,400 120,380 135,200 C145,80 155,70 160,70 C165,70 175,80 185,200 C192,340 195,395 210,398" fill="none" stroke="#9B5BBF" stroke-width="2.5" opacity="0.9"/>
+
+            <!-- Wave 2: Synaptogenesis (teal) — begins before birth, peaks age 2-3, stays moderately high through childhood, decreases -->
+            <path d="M160,400 C170,395 180,370 195,300 C210,230 230,130 265,80 C290,60 310,65 330,80 C360,110 385,150 430,180 C480,215 530,240 575,270 C620,295 660,330 700,360 C730,380 750,395 760,398 L760,400 Z" fill="url(#synaptogenesis-grad)" opacity="0.6"/>
+            <path d="M160,400 C170,395 180,370 195,300 C210,230 230,130 265,80 C290,60 310,65 330,80 C360,110 385,150 430,180 C480,215 530,240 575,270 C620,295 660,330 700,360 C730,380 750,395 760,398" fill="none" stroke="#3EB589" stroke-width="2.5" opacity="0.9"/>
+
+            <!-- Wave 3: Synaptic Pruning (amber) — begins age ~2, ramps up, peaks during adolescence, tapers off -->
+            <path d="M280,400 C290,398 310,380 340,330 C370,280 400,240 430,200 C460,165 500,130 540,100 C570,80 590,75 600,78 C620,85 640,110 660,150 C680,190 700,250 730,310 C750,355 765,390 775,398 L775,400 Z" fill="url(#pruning-grad)" opacity="0.6"/>
+            <path d="M280,400 C290,398 310,380 340,330 C370,280 400,240 430,200 C460,165 500,130 540,100 C570,80 590,75 600,78 C620,85 640,110 660,150 C680,190 700,250 730,310 C750,355 765,390 775,398" fill="none" stroke="#FFA75A" stroke-width="2.5" opacity="0.9"/>
+
+            <!-- Wave 4: Myelination (blue) — begins before birth, slow ramp, moderate through childhood, continues to 25 -->
+            <path d="M175,400 C185,395 195,380 210,340 C225,300 245,270 270,240 C300,210 330,190 370,175 C410,160 450,155 490,155 C530,155 560,158 600,170 C635,180 660,195 690,220 C715,240 735,265 755,290 C770,310 780,330 790,345 C800,360 810,375 820,385 C830,393 840,397 850,399 L850,400 Z" fill="url(#myelination-grad)" opacity="0.6"/>
+            <path d="M175,400 C185,395 195,380 210,340 C225,300 245,270 270,240 C300,210 330,190 370,175 C410,160 450,155 490,155 C530,155 560,158 600,170 C635,180 660,195 690,220 C715,240 735,265 755,290 C770,310 780,330 790,345 C800,360 810,375 820,385 C830,393 840,397 850,399" fill="none" stroke="#2563EB" stroke-width="2.5" opacity="0.9"/>
+
+            <!-- Legend (top right) -->
+            <rect x="610" y="10" width="280" height="105" rx="8" fill="white" fill-opacity="0.92" stroke="#E2E8F0" stroke-width="1"/>
+            <!-- Neurogenesis -->
+            <rect x="625" y="22" width="24" height="12" rx="3" fill="#9B5BBF" opacity="0.7"/>
+            <text x="657" y="32" fill="#334155" font-family="Nunito, sans-serif" font-size="11" font-weight="600">Neurogenesis</text>
+            <!-- Synaptogenesis -->
+            <rect x="625" y="44" width="24" height="12" rx="3" fill="#3EB589" opacity="0.7"/>
+            <text x="657" y="54" fill="#334155" font-family="Nunito, sans-serif" font-size="11" font-weight="600">Synaptogenesis</text>
+            <!-- Synaptic Pruning -->
+            <rect x="625" y="66" width="24" height="12" rx="3" fill="#FFA75A" opacity="0.7"/>
+            <text x="657" y="76" fill="#334155" font-family="Nunito, sans-serif" font-size="11" font-weight="600">Synaptic Pruning</text>
+            <!-- Myelination -->
+            <rect x="625" y="88" width="24" height="12" rx="3" fill="#2563EB" opacity="0.7"/>
+            <text x="657" y="98" fill="#334155" font-family="Nunito, sans-serif" font-size="11" font-weight="600">Myelination</text>
+
+            <!-- Milestone annotations -->
+            <!-- Peak synapse production (age 2-3) -->
+            <line x1="290" y1="75" x2="290" y2="55" stroke="#3EB589" stroke-width="1" stroke-dasharray="3 2"/>
+            <rect x="195" y="440" width="190" height="22" rx="6" fill="#F0FDFA" stroke="#3EB589" stroke-width="0.8"/>
+            <text x="290" y="455" fill="#2FA07A" font-family="Nunito, sans-serif" font-size="9.5" font-weight="700" text-anchor="middle">Peak synapse production (age 2-3)</text>
+
+            <!-- Pruning accelerates (adolescence) -->
+            <rect x="510" y="440" width="195" height="22" rx="6" fill="#FFFBEB" stroke="#FFA75A" stroke-width="0.8"/>
+            <text x="607" y="455" fill="#E07830" font-family="Nunito, sans-serif" font-size="9.5" font-weight="700" text-anchor="middle">Pruning accelerates (adolescence)</text>
+
+            <!-- Prefrontal cortex myelination -->
+            <rect x="632" y="462" width="255" height="22" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="0.8"/>
+            <text x="759" y="477" fill="#2563EB" font-family="Nunito, sans-serif" font-size="9.5" font-weight="700" text-anchor="middle">Prefrontal cortex myelination completes (~25)</text>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION C: Synaptogenesis — Building the Network
+         ======================================== -->
+    <section class="content-section" data-section-id="section-c">
+      <div class="container" style="max-width:900px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>Synaptogenesis &mdash; Building the <span class="text-gradient">Network</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>700 to 1,000 new connections every second in the infant brain</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            From birth through early childhood, the brain embarks on an astonishing building spree. Neurons reach out to each other, forming connections called synapses at a breathtaking rate -- 700 to 1,000 new connections every single second. This process, called synaptogenesis, is one of the most extraordinary feats of biological construction in the natural world.
+          </p>
+
+          <p>
+            The result is a brain of almost unfathomable density. By the time a child reaches age two or three, their brain contains roughly twice as many synaptic connections as an adult brain. This is not a deficiency in the adult brain -- it is a feature of the developing one. The young brain overproduces connections wildly, creating a vast network of possibilities. Which connections survive and which are eliminated depends on one thing above all else: experience.
+          </p>
+        </div>
+
+        <!-- Callout: 2x synapses -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ✨ Mind-Blowing Fact
+          </div>
+          <p>
+            A two-year-old's brain has approximately <strong>TWICE</strong> as many synapses as an adult brain. It's the most richly connected it will ever be. This massive overproduction is not wasteful -- it's the raw material from which a refined, efficient brain will be sculpted by experience.
+          </p>
+        </div>
+
+        <!-- Garden Metaphor SVG -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three-panel garden metaphor showing brain development stages: sparse at birth, wildly dense at age 2-3, and pruned and efficient by age 10+">
+            <defs>
+              <filter id="panel-shadow">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.06"/>
+              </filter>
+            </defs>
+
+            <!-- Panel 1: Birth — Sparse Garden -->
+            <rect x="10" y="10" width="195" height="280" rx="14" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1.5" filter="url(#panel-shadow)"/>
+            <text x="107" y="38" fill="#7E47A3" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Birth: Sparse Garden</text>
+
+            <!-- Sparse neurons and thin connections -->
+            <circle cx="65" cy="100" r="8" fill="#D4A6EB" stroke="#9B5BBF" stroke-width="1.5"/>
+            <circle cx="140" cy="85" r="7" fill="#D4A6EB" stroke="#9B5BBF" stroke-width="1.5"/>
+            <circle cx="100" cy="150" r="9" fill="#D4A6EB" stroke="#9B5BBF" stroke-width="1.5"/>
+            <circle cx="155" cy="160" r="6" fill="#D4A6EB" stroke="#9B5BBF" stroke-width="1.5"/>
+            <circle cx="55" cy="195" r="7" fill="#D4A6EB" stroke="#9B5BBF" stroke-width="1.5"/>
+            <circle cx="130" cy="220" r="8" fill="#D4A6EB" stroke="#9B5BBF" stroke-width="1.5"/>
+
+            <!-- Thin connections -->
+            <line x1="73" y1="100" x2="133" y2="85" stroke="#A78BFA" stroke-width="1" opacity="0.5"/>
+            <line x1="65" y1="108" x2="100" y2="141" stroke="#A78BFA" stroke-width="1" opacity="0.5"/>
+            <line x1="109" y1="150" x2="149" y2="160" stroke="#A78BFA" stroke-width="1" opacity="0.5"/>
+            <line x1="100" y1="159" x2="130" y2="212" stroke="#A78BFA" stroke-width="1" opacity="0.5"/>
+            <line x1="55" y1="202" x2="122" y2="220" stroke="#A78BFA" stroke-width="1" opacity="0.5"/>
+            <line x1="140" y1="92" x2="155" y2="154" stroke="#A78BFA" stroke-width="1" opacity="0.5"/>
+
+            <!-- Label -->
+            <rect x="32" y="252" width="150" height="24" rx="12" fill="#EDE9FE"/>
+            <text x="107" y="268" fill="#7E47A3" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Basic connections</text>
+
+            <!-- Arrow between Panel 1 and Panel 2 -->
+            <path d="M215 150 L235 150" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow1)"/>
+            <defs>
+              <marker id="arrow1" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+                <path d="M0,0 L8,3 L0,6" fill="#94A3B8"/>
+              </marker>
+            </defs>
+            <text x="225" y="172" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8" font-style="italic" text-anchor="middle">Experience</text>
+            <text x="225" y="182" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8" font-style="italic" text-anchor="middle">shapes which</text>
+            <text x="225" y="192" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8" font-style="italic" text-anchor="middle">survive</text>
+
+            <!-- Panel 2: Age 2-3 — Wild Overgrowth -->
+            <rect x="248" y="10" width="195" height="280" rx="14" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1.5" filter="url(#panel-shadow)"/>
+            <text x="345" y="38" fill="#0F766E" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Age 2-3: Wild Overgrowth</text>
+
+            <!-- Dense tangled neurons -->
+            <circle cx="285" cy="80" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="315" cy="68" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="350" cy="75" r="7" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="390" cy="70" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="410" cy="88" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="270" cy="110" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="305" cy="115" r="7" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="340" cy="108" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="375" cy="115" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="410" cy="120" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="280" cy="150" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="320" cy="145" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="360" cy="150" r="7" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="395" cy="148" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="420" cy="155" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="270" cy="185" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="310" cy="180" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="345" cy="190" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="380" cy="182" r="7" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="415" cy="190" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="290" cy="220" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="330" cy="215" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="365" cy="225" r="6" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+            <circle cx="400" cy="218" r="5" fill="#99F6E4" stroke="#3EB589" stroke-width="1.5"/>
+
+            <!-- Dense connections (tangled) -->
+            <line x1="285" y1="80" x2="315" y2="68" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="315" y1="68" x2="350" y2="75" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="350" y1="75" x2="390" y2="70" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="390" y1="70" x2="410" y2="88" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="285" y1="80" x2="270" y2="110" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="285" y1="80" x2="305" y2="115" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="315" y1="68" x2="305" y2="115" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="315" y1="68" x2="340" y2="108" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="350" y1="75" x2="340" y2="108" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="350" y1="75" x2="375" y2="115" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="390" y1="70" x2="375" y2="115" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="390" y1="70" x2="410" y2="120" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="410" y1="88" x2="410" y2="120" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="270" y1="110" x2="280" y2="150" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="305" y1="115" x2="280" y2="150" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="305" y1="115" x2="320" y2="145" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="340" y1="108" x2="320" y2="145" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="340" y1="108" x2="360" y2="150" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="375" y1="115" x2="360" y2="150" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="375" y1="115" x2="395" y2="148" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="410" y1="120" x2="395" y2="148" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="410" y1="120" x2="420" y2="155" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="280" y1="150" x2="270" y2="185" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="320" y1="145" x2="310" y2="180" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="360" y1="150" x2="345" y2="190" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="395" y1="148" x2="380" y2="182" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="420" y1="155" x2="415" y2="190" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="270" y1="185" x2="290" y2="220" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="310" y1="180" x2="290" y2="220" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="310" y1="180" x2="330" y2="215" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="345" y1="190" x2="330" y2="215" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="345" y1="190" x2="365" y2="225" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="380" y1="182" x2="365" y2="225" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="380" y1="182" x2="400" y2="218" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <line x1="415" y1="190" x2="400" y2="218" stroke="#5EEAD4" stroke-width="0.8" opacity="0.5"/>
+            <!-- Cross connections for extra density -->
+            <line x1="270" y1="110" x2="340" y2="108" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+            <line x1="305" y1="115" x2="375" y2="115" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+            <line x1="280" y1="150" x2="395" y2="148" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+            <line x1="320" y1="145" x2="420" y2="155" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+            <line x1="270" y1="185" x2="380" y2="182" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+            <line x1="290" y1="220" x2="400" y2="218" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+            <line x1="285" y1="80" x2="340" y2="108" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+            <line x1="350" y1="75" x2="410" y2="120" stroke="#5EEAD4" stroke-width="0.6" opacity="0.3"/>
+
+            <!-- Label -->
+            <rect x="280" y="252" width="130" height="24" rx="12" fill="#CCFBF1"/>
+            <text x="345" y="268" fill="#0F766E" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Peak density - 2x adult</text>
+
+            <!-- Arrow between Panel 2 and Panel 3 -->
+            <path d="M453 150 L473 150" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow1)"/>
+            <text x="463" y="172" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8" font-style="italic" text-anchor="middle">Experience</text>
+            <text x="463" y="182" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8" font-style="italic" text-anchor="middle">shapes which</text>
+            <text x="463" y="192" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8" font-style="italic" text-anchor="middle">survive</text>
+
+            <!-- Panel 3: Age 10+ — Pruned & Efficient -->
+            <rect x="486" y="10" width="205" height="280" rx="14" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5" filter="url(#panel-shadow)"/>
+            <text x="588" y="38" fill="#1D4ED8" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Age 10+: Pruned &amp; Efficient</text>
+
+            <!-- Fewer but thicker, organized connections -->
+            <circle cx="530" cy="90" r="9" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="590" cy="80" r="10" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="650" cy="95" r="9" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="515" cy="145" r="10" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="575" cy="140" r="11" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="645" cy="150" r="10" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="540" cy="200" r="9" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="610" cy="195" r="10" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="665" cy="210" r="8" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+
+            <!-- Thick organized connections -->
+            <line x1="530" y1="99" x2="515" y2="135" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="530" y1="90" x2="575" y2="129" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="590" y1="90" x2="575" y2="129" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="590" y1="80" x2="645" y2="140" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="650" y1="104" x2="645" y2="140" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="515" y1="155" x2="540" y2="191" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="575" y1="151" x2="540" y2="191" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="575" y1="151" x2="610" y2="185" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="645" y1="160" x2="610" y2="185" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+            <line x1="645" y1="160" x2="665" y2="202" stroke="#60A5FA" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+
+            <!-- Label -->
+            <rect x="518" y="252" width="140" height="24" rx="12" fill="#DBEAFE"/>
+            <text x="588" y="268" fill="#1D4ED8" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Optimized network</text>
+
+            <!-- Bottom caption -->
+            <text x="350" y="325" fill="#475569" font-family="Quicksand, sans-serif" font-size="12" font-style="italic" text-anchor="middle">From sparse beginnings, through wild overproduction, to refined efficiency</text>
+            <text x="350" y="342" fill="#64748B" font-family="Quicksand, sans-serif" font-size="11" text-anchor="middle">-- the brain builds itself through experience</text>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION D: Synaptic Pruning — Use It or Lose It
+         ======================================== -->
+    <section class="content-section" data-section-id="section-d">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Synaptic Pruning &mdash; <span class="text-gradient">Use It or Lose It</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How the brain becomes more efficient by eliminating what it doesn't need</p>
+        </div>
+
+        <p>
+          If synaptogenesis is the brain's building spree, synaptic pruning is its renovation. Beginning around age two and accelerating through adolescence, the brain systematically eliminates approximately 50% of its synaptic connections. This is not damage, not loss, not decline. It is <em>optimization</em>.
+        </p>
+
+        <p>
+          The principle is straightforward: connections that are frequently used are strengthened and preserved. Connections that are rarely activated are pruned away. Think of it as a network engineer analyzing traffic patterns and shutting down underused routes to make the busy ones faster. Every time a child practices a skill, engages in conversation, or explores their environment, they are voting for certain neural pathways to survive. Every experience says to the brain: "Keep this connection. I need it."
+        </p>
+
+        <p>
+          This is why early enrichment matters -- not because children need to be drilled with flashcards, but because the brain is literally waiting for the environment to tell it which connections are worth keeping. A child raised with rich language input will preserve and strengthen language circuits. A child raised with music will maintain auditory and motor pathways for musical production. The brain adapts itself to the specific world it inhabits.
+        </p>
+
+        <p>
+          The process also explains why it becomes harder to learn certain skills later in life. Once pruning has eliminated the unused pathways, rebuilding them requires more effort than maintaining them would have. The windows of opportunity don't slam shut, but they do narrow.
+        </p>
+
+        <!-- Callout: Pruning as Sculpting -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ✨ Pruning as Sculpting
+          </div>
+          <p>
+            Think of a sculptor starting with a massive block of marble. The masterpiece isn't created by <strong>ADDING</strong> material but by <strong>REMOVING</strong> everything that isn't the statue. Similarly, the brain becomes more specialized by removing unused connections. Michelangelo famously said he simply freed the angel from the marble -- the developing brain works the same way, carving a unique mind from a block of infinite neural possibilities.
+          </p>
+        </div>
+
+        <!-- ★ VISUAL 2: Marble Sculpture Metaphor ★ -->
+        <div class="diagram-container" data-animate="scale-in" style="margin:2.5rem auto;max-width:650px;">
+          <svg viewBox="0 0 650 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marble sculpture metaphor for synaptic pruning: experience sculpts the brain from rough material to refined form">
+            <defs>
+              <linearGradient id="marble-rough" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#94A3B8"/>
+                <stop offset="100%" stop-color="#64748B"/>
+              </linearGradient>
+              <linearGradient id="marble-mid" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#93C5FD"/>
+                <stop offset="100%" stop-color="#818CF8"/>
+              </linearGradient>
+              <linearGradient id="marble-fine" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#A78BFA"/>
+                <stop offset="100%" stop-color="#9B5BBF"/>
+              </linearGradient>
+              <filter id="sculpt-shadow">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+              </filter>
+            </defs>
+
+            <!-- Title -->
+            <text x="325" y="30" fill="#1E293B" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Brain Development as Sculpture</text>
+
+            <!-- Stage 1: Rough block -->
+            <g filter="url(#sculpt-shadow)">
+              <path d="M50,200 L55,85 L75,70 L120,65 L155,72 L170,90 L175,200 Z" fill="url(#marble-rough)" opacity="0.85"/>
+              <path d="M55,85 L60,100 L65,88 L80,95 L95,80 L110,92 L120,78 L135,90 L150,82 L155,72" fill="none" stroke="#475569" stroke-width="1" opacity="0.4"/>
+              <path d="M50,200 L58,180 L52,155 L60,130 L55,110 L55,85" fill="none" stroke="#475569" stroke-width="1" opacity="0.3"/>
+              <path d="M175,200 L168,175 L172,145 L165,120 L170,100 L170,90" fill="none" stroke="#475569" stroke-width="1" opacity="0.3"/>
+            </g>
+            <text x="112" y="225" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Birth</text>
+            <text x="112" y="240" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Maximum Synapses</text>
+
+            <!-- Arrow 1 -->
+            <line x1="190" y1="140" x2="228" y2="140" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+            <polygon points="228,134 242,140 228,146" fill="#94A3B8"/>
+            <text x="216" y="162" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9" font-style="italic" text-anchor="middle">Experience</text>
+
+            <!-- Stage 2: Rough carving (semi-formed human shape) -->
+            <g filter="url(#sculpt-shadow)">
+              <path d="M280,200 L282,170 L270,145 L275,120 L285,105 L295,85 L305,75 L318,70 L330,75 L340,85 L348,105 L355,120 L360,145 L348,170 L350,200 Z" fill="url(#marble-mid)" opacity="0.8"/>
+              <!-- Rough edges suggesting carving in progress -->
+              <path d="M282,170 L278,160 L285,150 L270,145" fill="none" stroke="#6366F1" stroke-width="1" opacity="0.3"/>
+              <path d="M348,170 L354,158 L345,148 L360,145" fill="none" stroke="#6366F1" stroke-width="1" opacity="0.3"/>
+              <!-- Hint of head shape -->
+              <ellipse cx="315" cy="82" rx="18" ry="14" fill="none" stroke="#6366F1" stroke-width="1" opacity="0.3"/>
+              <!-- Rough shoulder suggestion -->
+              <path d="M290,108 L275,120" fill="none" stroke="#6366F1" stroke-width="1.5" opacity="0.25"/>
+              <path d="M340,108 L355,120" fill="none" stroke="#6366F1" stroke-width="1.5" opacity="0.25"/>
+            </g>
+            <text x="315" y="225" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Childhood</text>
+            <text x="315" y="240" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Experience Shapes</text>
+
+            <!-- Arrow 2 -->
+            <line x1="375" y1="140" x2="413" y2="140" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+            <polygon points="413,134 427,140 413,146" fill="#94A3B8"/>
+            <text x="401" y="162" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9" font-style="italic" text-anchor="middle">Refinement</text>
+
+            <!-- Stage 3: Refined sculpture (elegant human form) -->
+            <g filter="url(#sculpt-shadow)">
+              <!-- Elegant figure silhouette -->
+              <path d="M500,200 L498,175 L490,155 L488,135 L492,118 L498,105 L506,92 L514,82 L520,76 L526,74 L532,76 L538,82 L546,92 L552,105 L558,118 L562,135 L560,155 L552,175 L550,200 Z" fill="url(#marble-fine)" opacity="0.85"/>
+              <!-- Defined head -->
+              <ellipse cx="529" cy="80" rx="14" ry="11" fill="none" stroke="#7C3AED" stroke-width="1.5" opacity="0.5"/>
+              <!-- Defined shoulders -->
+              <path d="M508,100 L492,118" stroke="#7C3AED" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+              <path d="M550,100 L562,118" stroke="#7C3AED" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+              <!-- Body contours -->
+              <path d="M498,175 L492,155 L490,140 L492,118" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.3"/>
+              <path d="M552,175 L558,155 L560,140 L558,118" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.3"/>
+              <!-- Subtle glow effect -->
+              <ellipse cx="529" cy="135" rx="30" ry="50" fill="#A78BFA" opacity="0.08"/>
+            </g>
+            <text x="529" y="225" fill="#475569" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Adolescence</text>
+            <text x="529" y="240" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Refined Circuits</text>
+
+            <!-- Bottom text -->
+            <text x="325" y="270" fill="#7C3AED" font-family="Quicksand, sans-serif" font-size="12" font-weight="600" font-style="italic" text-anchor="middle">Pruning is not loss -- it is refinement</text>
+          </svg>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION E: Myelination — Insulating the Wires
+         ======================================== -->
+    <section class="content-section" data-section-id="section-e">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Myelination &mdash; <span class="text-gradient">Insulating the Wires</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>The fatty coating that makes neural signals lightning-fast</p>
+        </div>
+
+        <p>
+          While synaptogenesis builds the connections and pruning refines them, a third process makes the entire system fast: <strong>myelination</strong>. Myelin is a fatty white substance that wraps around nerve fibers like insulation around an electrical wire. Without myelin, neural signals travel slowly and inefficiently, like a phone call with terrible static. With myelin, signals travel up to 100 times faster and with far greater precision.
+        </p>
+
+        <!-- ★ VISUAL 3: Myelination Speed Comparison ★ -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:650px;">
+          <svg viewBox="0 0 650 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Myelination comparison: unmyelinated signals travel at 2 m/s while myelinated signals travel at 100+ m/s">
+            <defs>
+              <linearGradient id="axon-bare" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#CBD5E1"/>
+                <stop offset="100%" stop-color="#94A3B8"/>
+              </linearGradient>
+              <linearGradient id="axon-myelin" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#66B3FF"/>
+                <stop offset="100%" stop-color="#2563EB"/>
+              </linearGradient>
+              <linearGradient id="myelin-sheath" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#FFFBEB"/>
+                <stop offset="100%" stop-color="#FEF3C7"/>
+              </linearGradient>
+              <filter id="signal-glow-slow">
+                <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#94A3B8" flood-opacity="0.4"/>
+              </filter>
+              <filter id="signal-glow-fast">
+                <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#2563EB" flood-opacity="0.5"/>
+              </filter>
+            </defs>
+
+            <!-- Title -->
+            <text x="325" y="25" fill="#1E293B" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">Myelination: The Brain's Insulation</text>
+
+            <!-- === TOP ROW: Unmyelinated Neuron === -->
+            <text x="45" y="60" fill="#64748B" font-family="Nunito, sans-serif" font-size="11" font-weight="700">Unmyelinated</text>
+
+            <!-- Cell body -->
+            <circle cx="100" cy="90" r="16" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+            <circle cx="100" cy="90" r="6" fill="#94A3B8" opacity="0.5"/>
+            <!-- Dendrites -->
+            <line x1="84" y1="80" x2="70" y2="68" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="88" y1="75" x2="80" y2="62" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="95" y1="74" x2="92" y2="60" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+
+            <!-- Bare axon (long thin line) -->
+            <line x1="116" y1="90" x2="500" y2="90" stroke="url(#axon-bare)" stroke-width="4" stroke-linecap="round"/>
+
+            <!-- Slow signal dots traveling along axon -->
+            <circle cx="160" cy="90" r="5" fill="#94A3B8" filter="url(#signal-glow-slow)" opacity="0.7">
+              <animate attributeName="cx" values="130;500" dur="6s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.7;0.7;0" dur="6s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="130" cy="90" r="4" fill="#94A3B8" filter="url(#signal-glow-slow)" opacity="0.5">
+              <animate attributeName="cx" values="130;500" dur="6s" begin="2s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.5;0.5;0" dur="6s" begin="2s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="130" cy="90" r="3.5" fill="#94A3B8" filter="url(#signal-glow-slow)" opacity="0.4">
+              <animate attributeName="cx" values="130;500" dur="6s" begin="4s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.4;0.4;0" dur="6s" begin="4s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- Axon terminal -->
+            <circle cx="510" cy="84" r="5" fill="#CBD5E1" stroke="#94A3B8" stroke-width="1.5"/>
+            <circle cx="510" cy="90" r="5" fill="#CBD5E1" stroke="#94A3B8" stroke-width="1.5"/>
+            <circle cx="510" cy="96" r="5" fill="#CBD5E1" stroke="#94A3B8" stroke-width="1.5"/>
+
+            <!-- Speed label -->
+            <rect x="540" y="76" width="95" height="28" rx="14" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+            <text x="587" y="95" fill="#64748B" font-family="Nunito, sans-serif" font-size="12" font-weight="800" text-anchor="middle">2 m/s</text>
+
+            <!-- Divider -->
+            <line x1="45" y1="125" x2="620" y2="125" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+
+            <!-- === BOTTOM ROW: Myelinated Neuron === -->
+            <text x="45" y="150" fill="#2563EB" font-family="Nunito, sans-serif" font-size="11" font-weight="700">Myelinated</text>
+
+            <!-- Cell body -->
+            <circle cx="100" cy="180" r="16" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+            <circle cx="100" cy="180" r="6" fill="#2563EB" opacity="0.5"/>
+            <!-- Dendrites -->
+            <line x1="84" y1="170" x2="70" y2="158" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="88" y1="165" x2="80" y2="152" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="95" y1="164" x2="92" y2="150" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+
+            <!-- Axon with myelin sheaths -->
+            <line x1="116" y1="180" x2="500" y2="180" stroke="url(#axon-myelin)" stroke-width="4" stroke-linecap="round"/>
+
+            <!-- Myelin sheaths (white/cream segments) -->
+            <rect x="130" y="168" width="35" height="24" rx="12" fill="url(#myelin-sheath)" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+            <rect x="180" y="168" width="35" height="24" rx="12" fill="url(#myelin-sheath)" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+            <rect x="230" y="168" width="35" height="24" rx="12" fill="url(#myelin-sheath)" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+            <rect x="280" y="168" width="35" height="24" rx="12" fill="url(#myelin-sheath)" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+            <rect x="330" y="168" width="35" height="24" rx="12" fill="url(#myelin-sheath)" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+            <rect x="380" y="168" width="35" height="24" rx="12" fill="url(#myelin-sheath)" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+            <rect x="430" y="168" width="35" height="24" rx="12" fill="url(#myelin-sheath)" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+
+            <!-- Nodes of Ranvier labels (gaps between sheaths) -->
+            <text x="172" y="198" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="6" text-anchor="middle">node</text>
+            <text x="222" y="198" fill="#94A3B8" font-family="Quicksand, sans-serif" font-size="6" text-anchor="middle">node</text>
+
+            <!-- Fast signal streaks traveling along axon -->
+            <line x1="130" y1="180" x2="155" y2="180" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" filter="url(#signal-glow-fast)" opacity="0.9">
+              <animate attributeName="x1" values="130;500" dur="1.2s" repeatCount="indefinite"/>
+              <animate attributeName="x2" values="155;525" dur="1.2s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.9;0.9;0" dur="1.2s" repeatCount="indefinite"/>
+            </line>
+            <line x1="130" y1="180" x2="148" y2="180" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" filter="url(#signal-glow-fast)" opacity="0.6">
+              <animate attributeName="x1" values="130;500" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
+              <animate attributeName="x2" values="148;518" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.6;0.6;0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
+            </line>
+            <line x1="130" y1="180" x2="145" y2="180" stroke="#BFDBFE" stroke-width="2" stroke-linecap="round" filter="url(#signal-glow-fast)" opacity="0.4">
+              <animate attributeName="x1" values="130;500" dur="1.2s" begin="0.8s" repeatCount="indefinite"/>
+              <animate attributeName="x2" values="145;515" dur="1.2s" begin="0.8s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.4;0.4;0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/>
+            </line>
+
+            <!-- Axon terminal -->
+            <circle cx="510" cy="174" r="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+            <circle cx="510" cy="180" r="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+            <circle cx="510" cy="186" r="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+
+            <!-- Speed label -->
+            <rect x="540" y="166" width="95" height="28" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+            <text x="587" y="185" fill="#2563EB" font-family="Nunito, sans-serif" font-size="12" font-weight="800" text-anchor="middle">100+ m/s</text>
+
+            <!-- 50x faster callout -->
+            <rect x="255" y="218" width="140" height="28" rx="14" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+            <text x="325" y="237" fill="#D97706" font-family="Nunito, sans-serif" font-size="14" font-weight="800" text-anchor="middle">50x faster!</text>
+          </svg>
+        </div>
+
+        <p>
+          Myelination doesn't happen all at once. It follows a remarkably predictable developmental sequence, starting with the brain regions needed earliest and finishing with those needed last:
+        </p>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr));">
+          <div class="stat-card" style="text-align:left;padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:var(--secondary-50);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="12" r="4" fill="var(--secondary-400)" opacity="0.3"/>
+                  <circle cx="12" cy="12" r="2" fill="var(--secondary-600)"/>
+                  <path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="var(--secondary-400)" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">Sensory &amp; Motor Areas</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;">
+              <strong style="color:var(--secondary-600);">FIRST to myelinate</strong> -- Vision, hearing, touch, and movement. Completed largely within the first year of life. This is why infants rapidly improve their ability to see, hear, and coordinate movement.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:var(--primary-50);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 20h16M8 16l-2 4M16 16l2 4M7 8h10M6 12h12" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M9 4h6v4H9z" stroke="var(--primary-400)" stroke-width="1.5" fill="var(--primary-100)"/>
+                </svg>
+              </div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">Language Areas</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;">
+              <strong style="color:var(--primary-600);">Ongoing through age 13</strong> -- Broca's area (speech production) and Wernicke's area (comprehension) continue myelinating through childhood and early adolescence, which is why language skills keep refining for years.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:#EFF6FF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 3C7.5 3 4 6.5 4 11c0 2.8 1.4 5.2 3.5 6.7V21h9v-3.3c2.1-1.5 3.5-3.9 3.5-6.7 0-4.5-3.5-8-8-8z" stroke="#2563EB" stroke-width="1.5" fill="none"/>
+                  <path d="M4 11h3M17 11h3" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round"/>
+                  <path d="M8 7l2 2M16 7l-2 2" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">Prefrontal Cortex</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;">
+              <strong style="color:#2563EB;">LAST to complete -- until ~age 25</strong> -- The seat of planning, impulse control, reasoning, and judgment. Its late myelination has profound implications for understanding adolescent behavior and decision-making.
+            </p>
+          </div>
+        </div>
+
+        <!-- Callout: Prefrontal Cortex -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            ✨ Critical Insight
+          </div>
+          <p>
+            <strong>The Prefrontal Cortex Is Not Fully Mature Until Age 25.</strong> The last brain region to complete myelination is responsible for planning, impulse control, reasoning, and judgment. This has <strong>PROFOUND</strong> implications for understanding adolescent behavior and for legal, educational, and parenting policy. When a teenager makes a reckless decision, it is not because they are stupid or defiant -- it is because the hardware for good judgment is literally still under construction.
+          </p>
+        </div>
+
+        <!-- ★ VISUAL 4: Myelination Sequence Timeline ★ -->
+        <div class="visual-timeline" data-animate="fade-up">
+          <div class="visual-timeline-track">
+            <div class="visual-timeline-item">
+              <div class="visual-timeline-node" style="border-color:#3B82F6;"></div>
+              <div class="visual-timeline-year">Birth</div>
+              <div class="visual-timeline-label">Brainstem</div>
+              <div class="visual-timeline-desc">Breathing, heartbeat, reflexes</div>
+            </div>
+            <div class="visual-timeline-item">
+              <div class="visual-timeline-node" style="border-color:#8B5CF6;"></div>
+              <div class="visual-timeline-year">0-2 years</div>
+              <div class="visual-timeline-label">Sensory &amp; Motor</div>
+              <div class="visual-timeline-desc">Vision, hearing, movement</div>
+            </div>
+            <div class="visual-timeline-item">
+              <div class="visual-timeline-node" style="border-color:#EC4899;"></div>
+              <div class="visual-timeline-year">2-6 years</div>
+              <div class="visual-timeline-label">Language Areas</div>
+              <div class="visual-timeline-desc">Broca's &amp; Wernicke's areas</div>
+            </div>
+            <div class="visual-timeline-item">
+              <div class="visual-timeline-node" style="border-color:#F59E0B;"></div>
+              <div class="visual-timeline-year">6-12 years</div>
+              <div class="visual-timeline-label">Association Areas</div>
+              <div class="visual-timeline-desc">Integration, reasoning</div>
+            </div>
+            <div class="visual-timeline-item">
+              <div class="visual-timeline-node" style="border-color:#EF4444;"></div>
+              <div class="visual-timeline-year">12-25+ years</div>
+              <div class="visual-timeline-label">Prefrontal Cortex</div>
+              <div class="visual-timeline-desc">Planning, impulse control, judgment</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION F: The Adolescent Brain
+         ======================================== -->
+    <section class="content-section" data-section-id="section-f">
+      <div class="container" style="max-width:900px;margin:0 auto;padding:0 1.5rem;">
+        <div class="section-header" data-animate="fade-up">
+          <h2>The Adolescent Brain &mdash; <span class="text-gradient">Gas Pedal Without Brakes</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Why teenagers can be brilliant and reckless at the same time</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            The single most important insight from adolescent neuroscience is this: the teenage brain is not a broken adult brain. It is a brain in transition, and the timing of that transition creates a fundamental mismatch between two systems -- one that drives emotion and reward-seeking, and one that applies the brakes through planning and impulse control.
+          </p>
+        </div>
+
+        <!-- Dual-Systems Brain SVG -->
+        <div class="diagram-container" data-animate="scale-in">
+          <svg viewBox="0 0 750 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dual-systems model of the adolescent brain showing the fully developed limbic system (gas pedal) versus the still-developing prefrontal cortex (brakes)">
+            <defs>
+              <linearGradient id="brain-bg-grad" x1="0" y1="0" x2="750" y2="450" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FAF5FF"/>
+                <stop offset="100%" stop-color="#EFF6FF"/>
+              </linearGradient>
+              <linearGradient id="limbic-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#F97316" stop-opacity="0.9"/>
+                <stop offset="100%" stop-color="#FF6B8A" stop-opacity="0.7"/>
+              </linearGradient>
+              <linearGradient id="pfc-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.5"/>
+                <stop offset="100%" stop-color="#2563EB" stop-opacity="0.3"/>
+              </linearGradient>
+              <filter id="brain-glow">
+                <feDropShadow dx="0" dy="3" stdDeviation="6" flood-opacity="0.08"/>
+              </filter>
+              <filter id="limbic-glow">
+                <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#F97316" flood-opacity="0.3"/>
+              </filter>
+              <filter id="pfc-glow">
+                <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#3B82F6" flood-opacity="0.2"/>
+              </filter>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="750" height="450" fill="url(#brain-bg-grad)" rx="12"/>
+
+            <!-- Title -->
+            <text x="375" y="35" fill="#1E293B" font-family="Nunito, sans-serif" font-size="16" font-weight="800" text-anchor="middle">THE DUAL-SYSTEMS MODEL</text>
+
+            <!-- Brain silhouette (side view, facing left) -->
+            <g transform="translate(175, 45)" filter="url(#brain-glow)">
+              <!-- Brain outline -->
+              <path d="M200,160 C200,72 165,25 120,15 C90,8 55,15 35,40 C15,65 5,100 8,135 C10,155 18,170 30,180 C20,185 12,195 10,210 C6,235 15,255 35,265 C50,272 70,270 85,262 L90,280 C92,290 100,295 110,295 L170,295 C180,295 188,290 190,280 L192,270 C210,255 218,235 215,210 C213,195 205,185 195,178 C210,165 215,145 212,120 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="2"/>
+
+              <!-- Brain fold details (sulci) -->
+              <path d="M60,60 C80,55 100,65 120,50" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M45,85 C70,80 95,90 125,75" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M35,110 C65,105 90,115 130,100" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M30,140 C55,135 80,145 115,130" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M50,165 C75,160 100,170 130,155" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M60,190 C80,185 100,195 125,185" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M70,215 C90,210 110,218 140,210" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+              <path d="M150,80 C165,95 175,115 180,140" stroke="#D1D5DB" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+              <!-- LIMBIC SYSTEM (center/lower, fully developed) — solid -->
+              <ellipse cx="115" cy="175" rx="50" ry="35" fill="url(#limbic-grad)" filter="url(#limbic-glow)" opacity="0.85"/>
+              <ellipse cx="115" cy="175" rx="50" ry="35" fill="none" stroke="#FF6B8A" stroke-width="2.5"/>
+
+              <!-- PREFRONTAL CORTEX (front/top, still developing) — dashed -->
+              <path d="M25,60 C15,80 8,110 10,135 C12,155 20,170 32,180 C20,100 30,65 50,45 C60,35 75,30 90,28 C70,35 45,50 35,75 Z" fill="url(#pfc-grad)" filter="url(#pfc-glow)" opacity="0.7"/>
+              <path d="M25,60 C15,80 8,110 10,135 C12,155 20,170 32,180" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="8 5" opacity="0.8"/>
+              <path d="M32,180 C20,100 30,65 50,45 C60,35 75,30 90,28" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="8 5" opacity="0.8"/>
+            </g>
+
+            <!-- "Strong signals" arrow from limbic -->
+            <line x1="335" y1="225" x2="420" y2="225" stroke="#FF6B8A" stroke-width="5" opacity="0.8" stroke-linecap="round"/>
+            <polygon points="420,218 438,225 420,232" fill="#FF6B8A" opacity="0.8"/>
+            <text x="380" y="212" fill="#FF6B8A" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Strong signals</text>
+
+            <!-- "Weak control" arrow from PFC -->
+            <line x1="230" y1="115" x2="420" y2="115" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="8 5" opacity="0.6" stroke-linecap="round"/>
+            <polygon points="420,110 432,115 420,120" fill="#2563EB" opacity="0.6"/>
+            <text x="330" y="102" fill="#2563EB" font-family="Nunito, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Weak control</text>
+
+            <!-- Labels on the right side -->
+            <!-- Limbic System Label -->
+            <rect x="445" y="185" width="290" height="85" rx="12" fill="white" stroke="#FCA5A5" stroke-width="1.5" filter="url(#brain-glow)"/>
+            <rect x="445" y="185" width="6" height="85" rx="3" fill="#FF6B8A"/>
+            <text x="465" y="208" fill="#DC2626" font-family="Nunito, sans-serif" font-size="14" font-weight="800">GAS PEDAL</text>
+            <text x="465" y="226" fill="#475569" font-family="Quicksand, sans-serif" font-size="11">Emotions, Rewards, Thrills</text>
+            <rect x="465" y="237" width="250" height="22" rx="11" fill="#FEF2F2"/>
+            <text x="590" y="252" fill="#DC2626" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">FULLY DEVELOPED by ~15</text>
+
+            <!-- Prefrontal Cortex Label -->
+            <rect x="445" y="75" width="290" height="85" rx="12" fill="white" stroke="#93C5FD" stroke-width="1.5" stroke-dasharray="6 4" filter="url(#brain-glow)"/>
+            <rect x="445" y="75" width="6" height="85" rx="3" fill="#2563EB" opacity="0.6"/>
+            <text x="465" y="98" fill="#2563EB" font-family="Nunito, sans-serif" font-size="14" font-weight="800">BRAKES</text>
+            <text x="465" y="116" fill="#475569" font-family="Quicksand, sans-serif" font-size="11">Planning, Impulse Control, Judgment</text>
+            <rect x="465" y="127" width="250" height="22" rx="11" fill="#EFF6FF"/>
+            <text x="590" y="142" fill="#2563EB" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">STILL DEVELOPING until ~25</text>
+
+            <!-- Bottom explanation -->
+            <rect x="75" y="370" width="600" height="55" rx="14" fill="white" stroke="#E2E8F0" stroke-width="1" filter="url(#brain-glow)"/>
+            <text x="375" y="393" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700" text-anchor="middle">The mismatch explains why teenagers can be</text>
+            <text x="375" y="413" fill="#1E293B" font-family="Nunito, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+              <tspan fill="#2563EB">intelligent</tspan> AND <tspan fill="#FF6B8A">reckless</tspan> at the same time
+            </text>
+          </svg>
+            <p class="diagram-scroll-hint text-xs text-neutral-400 font-heading mt-2">Swipe to explore full diagram</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            This "dual-systems model" explains much of what parents and teachers observe in teenagers. The limbic system -- the brain's emotional and reward center -- is fully mature by mid-adolescence. It drives the search for excitement, social approval, and intense experiences. But the prefrontal cortex -- the brain's CEO, responsible for weighing consequences and applying the brakes -- won't finish developing for another decade.
+          </p>
+          <p>
+            The result is a brain with a fully functional gas pedal and brakes that are still being installed. Teenagers aren't choosing to be reckless; their biology creates a genuine imbalance between the drive for reward and the capacity for restraint. This doesn't excuse harmful behavior, but it does reframe it. The appropriate response is not punishment alone but scaffolding -- providing external structure while the internal structure is still under construction.
+          </p>
+        </div>
+
+        <!-- Peer Influence Neuroscience Expansion -->
+        <div data-animate="fade-up">
+          <h3 style="margin-top:2.5rem;">The Neuroscience of Peer Influence</h3>
+          <p>
+            The dual-systems model becomes especially dramatic in social contexts. Laurence Steinberg's groundbreaking research (2008) demonstrated that the mere <em>presence</em> of peers fundamentally alters adolescent brain function in ways it does not for adults. When teenagers know their friends are watching, the ventral striatum -- a key reward-processing region -- lights up with significantly greater activation, amplifying the appeal of risky choices.
+          </p>
+
+          <p>
+            Jason Chein and colleagues (2011) extended these findings using a driving simulation task. The results were striking: when peers were watching, adolescents took <strong>twice as many risks</strong> as when they drove alone. Adults, by contrast, showed <strong>zero change</strong> in risk-taking regardless of who was watching. Brain imaging revealed that the presence of peers selectively activated the reward circuitry of the adolescent brain while leaving the prefrontal control regions unaffected -- essentially turning up the volume on the gas pedal without touching the brakes.
+          </p>
+        </div>
+
+        <!-- Peer influence stat cards -->
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:2rem;">
+          <div class="stat-card">
+            <div class="stat-number" style="color:var(--error);font-size:2.5rem;font-weight:800;">2x</div>
+            <div class="stat-label">More risks taken by teens when peers are watching (Chein et al., 2011)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="color:var(--success);font-size:2.5rem;font-weight:800;">0%</div>
+            <div class="stat-label">Change in adult risk-taking with peers present -- their brains are not similarly affected</div>
+          </div>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            This research has profound implications for policy and parenting. Graduated driver licensing programs, which restrict the number of peer passengers for new teen drivers, are directly supported by this neuroscience. The teenage brain is not defective -- it is exquisitely sensitive to social context, wired to learn from and be influenced by the peer group. Understanding this helps adults design environments that channel peer influence constructively rather than simply forbidding social interaction.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION G: Adverse Childhood Experiences (ACEs)
+         ======================================== -->
+    <section class="content-section" data-section-id="section-g">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Adverse Childhood <span class="text-gradient">Experiences</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How toxic stress reshapes the developing brain -- and what protects against it</p>
+        </div>
+
+        <p>
+          Not all stress is created equal. Neuroscience has revealed that the type, duration, and context of stress experienced in childhood can have dramatically different effects on brain architecture. Researchers distinguish between three categories:
+        </p>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(210px,1fr));">
+          <div class="stat-card" style="text-align:left;padding:1.75rem;border-top:4px solid var(--success);">
+            <h4 style="font-size:var(--text-base);margin-bottom:0.5rem;color:var(--success);">Positive Stress</h4>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;">
+              Brief, mild stress with adult support. A child's first day at school or a vaccination. The stress response activates briefly and returns to baseline. This is <strong>healthy and growth-promoting</strong> -- it builds resilience.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;padding:1.75rem;border-top:4px solid var(--warning);">
+            <h4 style="font-size:var(--text-base);margin-bottom:0.5rem;color:var(--warning);">Tolerable Stress</h4>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;">
+              More severe but time-limited, with adequate adult support. The death of a family member, a serious illness, or a natural disaster. <strong>Buffered by responsive relationships</strong>, the brain's stress system recovers without lasting damage.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;padding:1.75rem;border-top:4px solid var(--error);">
+            <h4 style="font-size:var(--text-base);margin-bottom:0.5rem;color:var(--error);">Toxic Stress</h4>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;">
+              Prolonged, severe, and unrelenting -- without adequate adult support. Chronic abuse, neglect, household violence, or caregiver substance abuse. The stress response is activated constantly, flooding the brain with cortisol and <strong>physically altering brain architecture</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            The landmark ACE (Adverse Childhood Experiences) study, originally conducted by Felitti and Anda in 1998, demonstrated that the number of adverse experiences in childhood -- including abuse, neglect, and household dysfunction -- predicted a startling range of negative health outcomes decades later: heart disease, depression, addiction, early death. The mechanism, we now understand, is partly neural: toxic stress physically reshapes the developing brain, particularly the stress-response systems and the prefrontal cortex.
+          </p>
+
+        </div>
+
+        <!-- ★ VISUAL 5: ACEs Dose-Response Bar Chart ★ -->
+        <div class="chart-figure" data-animate="fade-up">
+          <p class="chart-figure-title">ACEs Dose-Response: More Adversity = More Risk</p>
+          <div data-chart data-chart-type="bar" data-chart-data='[{"label":"0 ACEs","value":12},{"label":"1 ACE","value":22},{"label":"2 ACEs","value":35},{"label":"3 ACEs","value":48},{"label":"4+ ACEs","value":64}]' data-chart-options='{"barColor":"#EF4444"}'></div>
+          <p class="chart-figure-caption">Percentage experiencing significant health/behavioral outcomes. Each additional ACE increases risk substantially (Felitti et al., 1998).</p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            But the research also carries a profoundly hopeful message. The single most powerful protective factor against the damaging effects of toxic stress is not a program, a curriculum, or a therapy. It is a relationship.
+          </p>
+        </div>
+
+        <!-- Resilience callout -->
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            The Power of One Relationship
+          </div>
+          <p>
+            The single most common finding in resilience research: at least <strong>ONE</strong> stable, committed relationship with a supportive adult. Not a perfect parent. Not a professional therapist. Just one reliable, caring person who shows up consistently. This single relationship can buffer a child's brain against the worst effects of adversity. It is both the simplest and most powerful intervention science has ever identified.
+          </p>
+        </div>
+
+        <!-- Gender Differences in Brain Development Expansion -->
+        <div data-animate="fade-up">
+          <h3 style="margin-top:2.5rem;">Gender Differences in Brain Development</h3>
+          <p>
+            An important dimension of brain vulnerability involves sex-based differences in developmental timing. Longitudinal neuroimaging studies by Lenroot and colleagues (2007) and Jay Giedd's landmark NIMH project (2012) revealed that the prefrontal cortex reaches peak thickness approximately <strong>1 to 2 years earlier</strong> in females than in males. This means that the brain region responsible for impulse control, planning, and emotional regulation comes online sooner in girls, on average, than in boys.
+          </p>
+
+          <p>
+            This developmental difference has measurable behavioral consequences. Boys, whose prefrontal cortex matures later, show higher rates of <strong>externalizing problems</strong> -- aggression, hyperactivity, and risk-taking behavior -- during childhood and adolescence. Girls, meanwhile, show higher rates of <strong>internalizing problems</strong> -- anxiety, depression, and rumination -- partly because their more mature prefrontal cortex may predispose them to overthinking and emotional self-focus. Neither pattern is inherently better or worse; they represent different vulnerabilities tied to different developmental timelines.
+          </p>
+        </div>
+
+        <!-- Myth Buster: Boys' vs Girls' Brains -->
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--error)" stroke-width="1.5" fill="none"/>
+              <path d="M6 6l6 6M12 6l-6 6" stroke="var(--error)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            Myth Buster
+          </div>
+          <p>
+            <strong>"Boys have boy brains and girls have girl brains."</strong><br>
+            Daphna Joel's groundbreaking 2015 study examined over 1,400 brain scans and found that virtually <strong>no one</strong> has an entirely "male" or "female" brain. Instead, every brain is a unique <em>mosaic</em> of features, some more common in males, some more common in females, and most shared across sexes. Average group differences in timing exist, but they are far smaller than the variation <em>within</em> each sex. Using brain differences to justify rigid gender stereotypes in education or parenting is not supported by the neuroscience.
+          </p>
+        </div>
+
+        <div data-animate="fade-up">
+          <p>
+            The practical takeaway is nuanced: developmental timing differences are real and can inform how we support children, but they are averages across populations, not blueprints for individuals. Every child's brain develops on its own unique schedule, shaped by the interplay of genetics, hormones, experience, and environment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION H: Screen Time and the Developing Brain
+         ======================================== -->
+    <section class="content-section" data-section-id="section-h">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Screen Time and the <span class="text-gradient">Developing Brain</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>What longitudinal neuroscience reveals about screens, brains, and what protects children</p>
+        </div>
+
+        <p>
+          In a world where screens are ubiquitous from infancy, parents and educators urgently need answers grounded in evidence, not fear. The emerging neuroscience is nuanced -- neither dismissive of concerns nor supportive of moral panic. It reveals a more complicated and ultimately hopeful picture.
+        </p>
+
+        <!-- Research callout: 2025 Breakthrough Study -->
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 1l2.5 5 5.5.8-4 3.9.9 5.3L9 13.5 4.1 16l.9-5.3-4-3.9 5.5-.8L9 1z" fill="var(--accent-400)"/>
+            </svg>
+            🔬 2025 Breakthrough Study
+          </div>
+          <p>
+            Groundbreaking longitudinal research following children for over a decade linked high screen exposure before age 2 to significant changes in brain development:
+          </p>
+          <ul style="margin:0.75rem 0 0.75rem 1.5rem;color:var(--neutral-700);font-size:var(--text-base);line-height:1.8;">
+            <li><strong>Accelerated brain maturation</strong> (premature specialization) -- the brain pruned too early, potentially narrowing the range of skills it optimized for</li>
+            <li><strong>Slower decision-making at age 8</strong> -- children showed measurable delays in executive function tasks</li>
+            <li><strong>Increased anxiety at age 13</strong> -- the early neural changes appeared to compound over time</li>
+          </ul>
+          <p style="margin-top:0.75rem;">
+            <strong>BUT:</strong> Parent-child reading at age 3 could <strong>COUNTERACT</strong> some of these brain changes. The researchers found that interactive, responsive human engagement -- reading together, talking, playing -- provided a powerful protective effect. The take-away is not "screens are poison" but rather: <strong>human interaction protects</strong>. The developing brain needs responsive, back-and-forth engagement with caring humans. Screens that replace this engagement are problematic; screens that supplement it are far less concerning.
+          </p>
+        </div>
+
+        <!-- ★ VISUAL 6: Screen Time Brain Effects ★ -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:600px;">
+          <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparison showing brain development trajectory with limited vs excessive screen time">
+            <defs>
+              <linearGradient id="graph-bg" x1="0" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#FAFAFA"/>
+                <stop offset="100%" stop-color="#F5F5F5"/>
+              </linearGradient>
+              <linearGradient id="balanced-line" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#22C55E"/>
+                <stop offset="100%" stop-color="#16A34A"/>
+              </linearGradient>
+              <linearGradient id="heavy-line" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#F97316"/>
+                <stop offset="100%" stop-color="#EA580C"/>
+              </linearGradient>
+              <filter id="line-glow-green">
+                <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#22C55E" flood-opacity="0.3"/>
+              </filter>
+              <filter id="line-glow-orange">
+                <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#F97316" flood-opacity="0.3"/>
+              </filter>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="600" height="300" fill="url(#graph-bg)" rx="12"/>
+
+            <!-- Title -->
+            <text x="300" y="25" fill="#1E293B" font-family="Nunito, sans-serif" font-size="15" font-weight="800" text-anchor="middle">Screen Time and Brain Maturation</text>
+
+            <!-- Chart area: x=80..540, y=45..235 -->
+            <!-- Y-Axis -->
+            <line x1="80" y1="45" x2="80" y2="235" stroke="#CBD5E1" stroke-width="1.5"/>
+            <text x="40" y="50" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">100%</text>
+            <text x="40" y="97" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">75%</text>
+            <text x="40" y="145" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">50%</text>
+            <text x="40" y="192" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">25%</text>
+            <text x="40" y="240" fill="#94A3B8" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">0%</text>
+
+            <!-- Y-Axis label -->
+            <text x="15" y="145" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="700" text-anchor="middle" transform="rotate(-90, 15, 145)">Brain Maturation</text>
+
+            <!-- Horizontal grid lines -->
+            <line x1="80" y1="93" x2="540" y2="93" stroke="#E2E8F0" stroke-width="0.5" stroke-dasharray="4 4"/>
+            <line x1="80" y1="140" x2="540" y2="140" stroke="#E2E8F0" stroke-width="0.5" stroke-dasharray="4 4"/>
+            <line x1="80" y1="188" x2="540" y2="188" stroke="#E2E8F0" stroke-width="0.5" stroke-dasharray="4 4"/>
+
+            <!-- X-Axis -->
+            <line x1="80" y1="235" x2="540" y2="235" stroke="#CBD5E1" stroke-width="1.5"/>
+            <!-- X-Axis labels (Age) -->
+            <text x="80" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">2</text>
+            <text x="137" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">4</text>
+            <text x="195" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">6</text>
+            <text x="252" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">8</text>
+            <text x="310" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">10</text>
+            <text x="367" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">12</text>
+            <text x="425" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">14</text>
+            <text x="482" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">16</text>
+            <text x="540" y="252" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">18</text>
+            <text x="310" y="268" fill="#64748B" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Age (years)</text>
+
+            <!-- Tick marks -->
+            <line x1="80" y1="235" x2="80" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="137" y1="235" x2="137" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="195" y1="235" x2="195" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="252" y1="235" x2="252" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="310" y1="235" x2="310" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="367" y1="235" x2="367" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="425" y1="235" x2="425" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="482" y1="235" x2="482" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+            <line x1="540" y1="235" x2="540" y2="240" stroke="#CBD5E1" stroke-width="1"/>
+
+            <!-- Shaded area between curves to highlight gap -->
+            <path d="M80,225 C120,215 160,195 200,178 C240,160 280,140 320,118 C360,97 400,80 440,68 C480,58 520,52 540,50 L540,65 C520,68 480,78 440,92 C400,108 360,125 320,145 C280,163 240,180 200,195 C160,208 120,220 80,228 Z" fill="#22C55E" opacity="0.06"/>
+
+            <!-- Line 1: Balanced activities (green, solid) - steady upward curve -->
+            <path d="M80,225 C120,215 160,195 200,178 C240,160 280,140 320,118 C360,97 400,80 440,68 C480,58 520,52 540,50" fill="none" stroke="url(#balanced-line)" stroke-width="3" stroke-linecap="round" filter="url(#line-glow-green)"/>
+
+            <!-- Line 2: Heavy screen use (orange, dashed) - slower trajectory -->
+            <path d="M80,228 C120,222 160,210 200,198 C240,185 280,170 320,155 C360,140 400,128 440,115 C480,105 520,95 540,88" fill="none" stroke="url(#heavy-line)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 5" filter="url(#line-glow-orange)"/>
+
+            <!-- Annotation: gap highlight at age 10 -->
+            <line x1="310" y1="118" x2="310" y2="155" stroke="#EF4444" stroke-width="1" stroke-dasharray="3 2" opacity="0.6"/>
+            <text x="340" y="140" fill="#EF4444" font-family="Quicksand, sans-serif" font-size="8" font-weight="600" font-style="italic">Gap widens</text>
+
+            <!-- Annotation: cortical thinning -->
+            <rect x="380" y="120" width="110" height="18" rx="9" fill="#FEF2F2" stroke="#FECACA" stroke-width="0.8"/>
+            <text x="435" y="133" fill="#DC2626" font-family="Quicksand, sans-serif" font-size="7.5" font-weight="600" text-anchor="middle">Cortical thinning risk</text>
+
+            <!-- Annotation: reduced white matter -->
+            <rect x="420" y="145" width="115" height="18" rx="9" fill="#FFF7ED" stroke="#FED7AA" stroke-width="0.8"/>
+            <text x="477" y="158" fill="#EA580C" font-family="Quicksand, sans-serif" font-size="7.5" font-weight="600" text-anchor="middle">Reduced white matter</text>
+
+            <!-- Legend -->
+            <rect x="120" y="275" width="360" height="22" rx="11" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+            <!-- Green legend -->
+            <line x1="140" y1="286" x2="165" y2="286" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round"/>
+            <text x="170" y="290" fill="#16A34A" font-family="Quicksand, sans-serif" font-size="9" font-weight="600">Balanced activities</text>
+            <!-- Orange legend -->
+            <line x1="305" y1="286" x2="330" y2="286" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 4"/>
+            <text x="335" y="290" fill="#EA580C" font-family="Quicksand, sans-serif" font-size="9" font-weight="600">Heavy screen use (4+ hrs/day)</text>
+          </svg>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION I: Quote
+         ======================================== -->
+    <section class="content-section" style="padding:3rem 0 4rem;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="blockquote" style="padding:2.5rem 2rem 2.5rem 2.5rem;border-left-width:4px;">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" style="margin-bottom:1rem;opacity:0.2;" aria-hidden="true">
+            <path d="M10 25c-3.3 0-6-2.7-6-6 0-5.5 4-10 9-11l1 2c-3.5 1-5.5 3.5-6 6.5.5-.3 1.3-.5 2-.5 2.8 0 5 2.2 5 5s-2.2 5-5 5zm17 0c-3.3 0-6-2.7-6-6 0-5.5 4-10 9-11l1 2c-3.5 1-5.5 3.5-6 6.5.5-.3 1.3-.5 2-.5 2.8 0 5 2.2 5 5s-2.2 5-5 5z" fill="var(--primary-400)"/>
+          </svg>
+          <p style="font-size:clamp(1.1rem, 2vw, var(--text-xl));line-height:1.7;margin-bottom:1rem;">
+            The brain is not a vessel to be filled but a fire to be kindled.
+          </p>
+          <span class="blockquote-author">-- Plutarch (adapted)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         SECTION I: Neuroplasticity
+         ======================================== -->
+    <section class="content-section" data-section-id="section-i">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Neuroplasticity: The Brain That <span class="text-gradient">Rewires Itself</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>The most hopeful finding in developmental neuroscience</p>
+        </div>
+
+        <p>
+          Donald Hebb's foundational principle (1949) captured it elegantly: "Neurons that fire together wire together." The brain is never truly "finished." Neuroplasticity — the brain's lifelong ability to reorganize itself by forming new neural connections — means practice changes the brain structurally. Repeated activation of a neural circuit physically strengthens it through increased myelination, synaptic density, and dendritic branching. Every skill rehearsed, every lesson learned, every experience absorbed leaves a physical trace in the architecture of the brain.
+        </p>
+
+        <p>
+          William Greenough (1987) made a crucial distinction that clarifies why both early experience and lifelong learning matter. <strong>Experience-expectant plasticity</strong> describes the brain's built-in expectation of certain inputs during critical windows — light, language, touch — and its allocation of resources to receive them. The brain essentially reserves neural real estate for information it "expects" based on evolutionary history. <strong>Experience-dependent plasticity</strong>, by contrast, describes the brain's responsiveness to unique individual experiences throughout life. Experience-expectant plasticity explains why deprivation during sensitive periods is so harmful. Experience-dependent plasticity explains why learning and recovery remain possible throughout life — even into old age.
+        </p>
+
+        <p>
+          Eleanor Maguire's landmark London taxi driver study (2000) provided the most compelling evidence that experience physically reshapes adult brains. Drivers who completed "The Knowledge" — memorizing 25,000+ London streets — had measurably enlarged hippocampi compared to bus drivers who followed fixed routes. The enlargement was directly proportional to years of taxi driving and reversible upon retirement. The brain literally grew in response to sustained navigation demands. In children, the effects are even more dramatic: musical training before age 7 produces a larger corpus callosum (Schlaug et al.) and fundamentally different auditory cortex organization compared to non-musicians — changes that persist into adulthood.
+        </p>
+
+        <p>
+          Recovery from early adversity demonstrates neuroplasticity's extraordinary reach. The Bucharest Early Intervention Project (Nelson, Fox &amp; Zeanah) followed Romanian orphans raised in severely depriving institutions. Children placed in high-quality foster care showed significant neural recovery compared to those who remained institutionalized. The younger the placement, the better the outcome — but children placed even at 18–24 months showed meaningful recovery in brain structure and cognitive function, demonstrating that while timing matters enormously, the brain retains remarkable recovery capacity when provided responsive, stimulating relationships.
+        </p>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(2rem,5vw,3rem);">700</div>
+            <div class="stat-label">New hippocampal neurons generated per day even in adulthood (Spalding et al., 2013)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(2rem,5vw,3rem);">25,000</div>
+            <div class="stat-label">Streets memorized by London taxi drivers — physically enlarging their hippocampi</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(2rem,5vw,3rem);">Age 2</div>
+            <div class="stat-label">Critical threshold in BEIP — foster care before this age produced the strongest neural recovery</div>
+          </div>
+        </div>
+
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            💡 Mind-Blowing Fact
+          </div>
+          <p>
+            <strong>The Brain Never Stops Building</strong> — Even in adults, the hippocampus generates approximately 700 new neurons per day (Spalding et al., 2013), established through carbon-14 dating. This challenged the decades-old belief that adult brains cannot grow new neurons. Combined with neuroplasticity findings, this means the brain's capacity to change in response to experience never fully closes — making every learning opportunity, at every age, genuinely consequential.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION J: Critical vs. Sensitive Periods
+         ======================================== -->
+    <section class="content-section" data-section-id="section-j">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Critical vs. <span class="text-gradient">Sensitive Periods</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Understanding when the brain is most — and least — receptive to change</p>
+        </div>
+
+        <p>
+          Critical periods are narrow windows during which specific input is absolutely required for normal development. If the window closes without the input, the capacity may be permanently impaired. Sensitive periods are broader windows of heightened receptivity — learning can still occur after the window narrows, but requires more effort and produces less complete results. Crucially, few human capacities have true critical periods; most have sensitive periods. Understanding the difference has enormous implications for both early intervention policy and for managing realistic expectations about recovery and remediation.
+        </p>
+
+        <p>
+          Vision provides the clearest example of a true critical period. David Hubel and Torsten Wiesel's Nobel Prize-winning research (1960s–70s) showed that kittens deprived of vision in one eye during the first months of life permanently lost normal vision in that eye — the visual cortex reorganized to serve only the seeing eye, with the deprived eye's columns shrinking dramatically. In humans, children with untreated congenital cataracts who do not receive corrective surgery before approximately age 6–8 months may never develop normal binocular vision (Maurer et al., 2005). The critical period is that narrow — and the consequences of missing it that severe.
+        </p>
+
+        <p>
+          Language represents a sensitive period rather than a true critical period. Patricia Kuhl's perceptual narrowing research showed that infants can distinguish all human speech sounds at birth but lose the ability to discriminate non-native sounds between 6–12 months — the brain specializes for the sounds of the ambient language. Eric Lenneberg's (1967) critical period hypothesis proposed that language acquisition is most efficient before puberty. The case of Genie (Curtiss, 1977) — isolated until age 13 — provides the most extreme test: she acquired vocabulary (~200 words) but never mastered syntax, suggesting a sensitive period specifically for grammatical acquisition that does not fully close but is vastly more efficient during childhood.
+        </p>
+
+        <p>
+          The policy implications are direct. The distinction between critical and sensitive periods explains why early intervention programs are more cost-effective and neurologically powerful than later intervention — not because later intervention is impossible, but because the brain is more receptive earlier, making every unit of effort more effective. James Heckman's economic analysis (Nobel laureate economist) shows that returns on human capital investment are highest for early childhood programs, with each dollar invested in high-quality early childhood programs returning $7–13 in reduced special education, crime, healthcare, and welfare costs.
+        </p>
+
+        <!-- SVG: Critical vs. Sensitive Periods Diagram -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:640px;">
+          <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing critical period (narrow red curve) versus sensitive period (broader blue curve) across development from birth to adulthood">
+            <defs>
+              <linearGradient id="critical-fill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#EF4444" stop-opacity="0.3"/>
+                <stop offset="100%" stop-color="#EF4444" stop-opacity="0.03"/>
+              </linearGradient>
+              <linearGradient id="sensitive-fill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2"/>
+                <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.02"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="640" height="320" fill="#FAFAFA" rx="12"/>
+
+            <!-- Title -->
+            <text x="320" y="26" fill="#1E293B" font-family="Nunito, sans-serif" font-size="14" font-weight="800" text-anchor="middle">Critical vs. Sensitive Periods of Development</text>
+
+            <!-- Axes -->
+            <line x1="70" y1="220" x2="580" y2="220" stroke="#CBD5E1" stroke-width="1.5"/>
+            <line x1="70" y1="45" x2="70" y2="220" stroke="#CBD5E1" stroke-width="1.5"/>
+
+            <!-- X-axis labels -->
+            <text x="70" y="238" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Birth</text>
+            <text x="185" y="238" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">2 yrs</text>
+            <text x="300" y="238" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Puberty</text>
+            <text x="440" y="238" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Young adult</text>
+            <text x="570" y="238" fill="#64748B" font-family="Nunito, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Adult</text>
+            <text x="325" y="258" fill="#64748B" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Age</text>
+
+            <!-- Y-axis label -->
+            <text x="20" y="140" fill="#64748B" font-family="Nunito, sans-serif" font-size="10" font-weight="700" text-anchor="middle" transform="rotate(-90, 20, 140)">Brain Receptivity</text>
+
+            <!-- Sensitive Period: blue broad hill (birth → peaks early → tapers gently) -->
+            <path d="M70,215 C100,200 130,110 185,62 C240,30 280,35 320,58 C370,85 420,130 480,175 C520,195 550,210 580,215 Z" fill="url(#sensitive-fill)"/>
+            <path d="M70,215 C100,200 130,110 185,62 C240,30 280,35 320,58 C370,85 420,130 480,175 C520,195 550,210 580,215" fill="none" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round"/>
+
+            <!-- Critical Period: red narrow spike (birth → sharp peak at ~2 months → drops steeply → flat) -->
+            <path d="M70,218 C80,215 90,180 100,100 C110,55 118,48 125,95 C132,140 140,200 160,217 L580,218 Z" fill="url(#critical-fill)"/>
+            <path d="M70,218 C80,215 90,180 100,100 C110,55 118,48 125,95 C132,140 140,200 160,217 L580,218" fill="none" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+
+            <!-- Legend -->
+            <rect x="380" y="48" width="185" height="86" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+            <line x1="393" y1="68" x2="418" y2="68" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+            <text x="426" y="73" fill="#DC2626" font-family="Quicksand, sans-serif" font-size="9.5" font-weight="700">Critical Period</text>
+            <text x="426" y="86" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8">Narrow — permanent if missed</text>
+            <line x1="393" y1="104" x2="418" y2="104" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round"/>
+            <text x="426" y="109" fill="#2563EB" font-family="Quicksand, sans-serif" font-size="9.5" font-weight="700">Sensitive Period</text>
+            <text x="426" y="122" fill="#64748B" font-family="Quicksand, sans-serif" font-size="8">Broad — tapers but never fully closes</text>
+
+            <!-- Annotations -->
+            <rect x="72" y="270" width="100" height="36" rx="6" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+            <text x="122" y="284" fill="#DC2626" font-family="Quicksand, sans-serif" font-size="8" font-weight="700" text-anchor="middle">Vision</text>
+            <text x="122" y="296" fill="#DC2626" font-family="Quicksand, sans-serif" font-size="7.5" text-anchor="middle">0–8 months</text>
+            <text x="122" y="306" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="7" text-anchor="middle">(critical)</text>
+
+            <rect x="185" y="270" width="112" height="36" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+            <text x="241" y="284" fill="#2563EB" font-family="Quicksand, sans-serif" font-size="8" font-weight="700" text-anchor="middle">Language sounds</text>
+            <text x="241" y="296" fill="#2563EB" font-family="Quicksand, sans-serif" font-size="7.5" text-anchor="middle">0–12 months</text>
+            <text x="241" y="306" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="7" text-anchor="middle">(sensitive)</text>
+
+            <rect x="312" y="270" width="112" height="36" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+            <text x="368" y="284" fill="#2563EB" font-family="Quicksand, sans-serif" font-size="8" font-weight="700" text-anchor="middle">Language grammar</text>
+            <text x="368" y="296" fill="#2563EB" font-family="Quicksand, sans-serif" font-size="7.5" text-anchor="middle">0–puberty</text>
+            <text x="368" y="306" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="7" text-anchor="middle">(sensitive)</text>
+
+            <rect x="438" y="270" width="120" height="36" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+            <text x="498" y="284" fill="#2563EB" font-family="Quicksand, sans-serif" font-size="8" font-weight="700" text-anchor="middle">Social attachment</text>
+            <text x="498" y="296" fill="#2563EB" font-family="Quicksand, sans-serif" font-size="7.5" text-anchor="middle">0–3 years</text>
+            <text x="498" y="306" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="7" text-anchor="middle">(sensitive)</text>
+          </svg>
+        </div>
+
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 1l2.5 5 5.5.8-4 3.9.9 5.3L9 13.5 4.1 16l.9-5.3-4-3.9 5.5-.8L9 1z" fill="var(--accent-400)"/>
+            </svg>
+            🔬 Case Study
+          </div>
+          <p>
+            <strong>The Case of Genie</strong> — Discovered in 1970 at age 13, having been isolated in a room since infancy, Genie provided a tragic natural experiment on the language sensitive period. She was never taught language. Given intensive language instruction, she acquired vocabulary and basic phrases but never mastered English grammar — she could not reliably form correct sentences. Her case suggests a sensitive period specifically for syntax: vocabulary acquisition remained possible, but grammatical competence did not. The window had narrowed, not closed — but it could no longer fully open again.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION K: Neurotransmitters in Development
+         ======================================== -->
+    <section class="content-section" data-section-id="section-k">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>The <span class="text-gradient">Chemical Messengers</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>How neurotransmitters shape the developing brain — and why adolescence is a neurochemical revolution</p>
+        </div>
+
+        <p>
+          Neurons communicate through chemical messengers called neurotransmitters. When an electrical signal reaches the axon terminal, it triggers release of neurotransmitter molecules into the synapse — the tiny gap between neurons. These chemicals bind to receptors on the receiving neuron, either exciting it (making it more likely to fire its own signal) or inhibiting it (making it less likely to fire). The balance between excitation and inhibition is fundamental to all brain function — and this balance changes dramatically across development, with profound consequences for behavior, emotion, and learning.
+        </p>
+
+        <p>
+          <strong>Dopamine</strong> is the neurotransmitter most associated with motivation, reward, and novelty-seeking. During adolescence, dopamine receptor density in the striatum (the brain's reward center) peaks dramatically and then declines to adult levels by the mid-20s (Galvan et al., 2006; Wahlstrom et al., 2010). This peak in dopamine sensitivity explains why teenagers experience pleasure more intensely, seek novelty more aggressively, and are more vulnerable to addiction. Adriana Galvan's fMRI research showed that adolescents' nucleus accumbens responds 2–4 times more strongly to rewards than either children's or adults' brains — a finding that has transformed how developmental psychologists understand risk-taking behavior.
+        </p>
+
+        <p>
+          <strong>Serotonin</strong> modulates mood, sleep, appetite, and emotional regulation. Serotonin systems are active from early fetal development and play a critical role in brain circuit formation. Caspi &amp; Moffitt (2003) proposed a landmark gene-environment interaction: the "short allele" of the serotonin transporter gene (5-HTTLPR) moderated the relationship between childhood maltreatment and adult depression. However, subsequent meta-analyses produced mixed results (Risch et al., 2009) — teaching a lesson strikingly parallel to the marshmallow test: compelling initial findings require robust replication. The relationship between serotonin genes, stress, and depression is real but more complex than the original study suggested.
+        </p>
+
+        <p>
+          <strong>GABA</strong> (gamma-aminobutyric acid) is the brain's primary inhibitory neurotransmitter — the chemical brake on neural excitation. A remarkable developmental fact: GABA is actually <em>excitatory</em> in the fetal and neonatal brain and only becomes inhibitory during the first weeks of postnatal life (Ben-Ari, 2002). This developmental switch is critical for normal brain circuit formation. The gradual maturation of GABAergic inhibition throughout childhood and adolescence is a key mechanism underlying developing impulse control — the neural "brakes" are being chemically calibrated over two decades, helping explain why impulse control improves so gradually.
+        </p>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+          <div class="stat-card" style="text-align:left;padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:var(--primary-50);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.5rem;" aria-hidden="true">⚡</div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">Dopamine</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;"><strong style="color:var(--primary-600);">Reward &amp; Motivation.</strong> PEAKS during adolescence — making rewards feel more intense and novelty more compelling than at any other point in life.</p>
+          </div>
+          <div class="stat-card" style="text-align:left;padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:var(--secondary-50);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.5rem;" aria-hidden="true">🌊</div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">Serotonin</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;"><strong style="color:var(--secondary-600);">Mood &amp; Regulation.</strong> Active from fetal life. Modulates emotional development across childhood — and its interaction with stress genes is more complex than early research suggested.</p>
+          </div>
+          <div class="stat-card" style="text-align:left;padding:1.75rem;">
+            <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+              <div style="width:48px;height:48px;border-radius:var(--radius-md);background:#EFF6FF;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1.5rem;" aria-hidden="true">🛑</div>
+              <h4 style="font-size:var(--text-base);margin-bottom:0;">GABA</h4>
+            </div>
+            <p style="font-size:var(--text-sm);color:var(--neutral-500);margin-bottom:0;max-width:100%;"><strong style="color:#2563EB;">The Brake.</strong> EXCITATORY at birth, switches to INHIBITORY after birth — the chemical foundation of impulse control, being calibrated over two decades of development.</p>
+          </div>
+        </div>
+
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            💡 The Teenage Dopamine Surge
+          </div>
+          <p>
+            Adolescents' reward centers respond 2–4x more strongly to rewards than either children's or adults' brains (Galvan et al., 2006). This is not a character flaw — it is a neurochemical reality. The dopamine system peaks precisely when the prefrontal brakes are still developing, explaining why the combination of intense pleasure-seeking and weak impulse control is so characteristic of adolescence. Risk-taking is not irrationality — it is biology.
+          </p>
+        </div>
+
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 1l2.5 5 5.5.8-4 3.9.9 5.3L9 13.5 4.1 16l.9-5.3-4-3.9 5.5-.8L9 1z" fill="var(--accent-400)"/>
+            </svg>
+            🔬 The Serotonin Replication Lesson
+          </div>
+          <p>
+            Caspi &amp; Moffitt's (2003) finding that the 5-HTTLPR gene variant moderated depression risk after childhood maltreatment was widely celebrated as the first clear gene-environment interaction for depression. But Risch et al.'s (2009) meta-analysis of 14 studies found no consistent support. This parallels the marshmallow test story: a compelling, plausible initial finding that requires more careful investigation. The field of gene-environment interactions has become substantially more methodologically rigorous — requiring larger samples, pre-registration, and independent replication — as a direct result.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C360 45 720 0 1080 30C1260 45 1380 20 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION L: Sleep — The Brain's Night Shift
+         ======================================== -->
+    <section class="content-section" data-section-id="section-l">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Sleep: The Brain's <span class="text-gradient">Night Shift</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>Why sleep is the most underrated force in child development</p>
+        </div>
+
+        <p>
+          Sleep is not passive. The brain during sleep is extraordinarily active — consolidating memories by replaying and strengthening neural connections formed during the day, processing emotional experiences, and clearing metabolic waste products through the glymphatic system (discovered by Nedergaard, 2012–2013). The glymphatic system expands dramatically during sleep, allowing cerebrospinal fluid to flush out toxic proteins that accumulate during waking hours. For developing brains, sleep is when much of the physical construction work happens — newly formed synapses are strengthened, and selective pruning accelerates. Far from "time lost," sleep is the night shift of brain building.
+        </p>
+
+        <p>
+          Sleep architecture changes dramatically across development. Newborns sleep 14–17 hours per day with approximately 50% in REM sleep — the stage associated with memory consolidation and emotional processing. By age 5, sleep decreases to 10–13 hours with about 20% REM. Adolescents need 8–10 hours but average only 6–7 hours. This gap is not laziness: puberty triggers a biological shift in circadian timing — melatonin release delays approximately 1–2 hours (Carskadon, 2011), pushing the natural sleep onset later into the night. When school start times do not accommodate this biological reality, adolescents are forced into chronic sleep deprivation during precisely the years when their brains are undergoing the most active restructuring since infancy.
+        </p>
+
+        <p>
+          Sleep deprivation in children produces cascading effects on neural architecture and function: reduced hippocampal volume (impairing memory consolidation), heightened amygdala reactivity (producing emotional dysregulation), and impaired prefrontal cortex function (reducing impulse control). In a landmark study, Gruber et al. (2012) found that extending children's sleep by just 27 minutes per night for 5 nights produced measurable improvements in emotional regulation, impulsivity, and academic performance. The effect size from such a modest intervention was striking — suggesting that many children are operating in a state of chronic sleep deprivation that significantly impairs their cognitive and emotional functioning.
+        </p>
+
+        <p>
+          School start times represent one of the clearest opportunities to apply developmental neuroscience directly to policy. California became the first US state to mandate later high school start times (2019), requiring most high schools to start no earlier than 8:30 AM. Research in districts that made this change documents improved attendance, better academic performance, and reduced traffic accidents among teen drivers (Wahlstrom et al., 2014). This is one of the most evidence-grounded, cost-effective interventions available — requiring no new curriculum, no new buildings, and no new technology. It simply aligns school schedules with biological reality.
+        </p>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));">
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(1.8rem,4vw,2.8rem);">14–17 hrs</div>
+            <div class="stat-label">Sleep needed by newborns</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(1.8rem,4vw,2.8rem);">10–13 hrs</div>
+            <div class="stat-label">Sleep needed by preschoolers</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(1.8rem,4vw,2.8rem);">8–10 hrs</div>
+            <div class="stat-label">Sleep needed by adolescents</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(1.8rem,4vw,2.8rem);">6–7 hrs</div>
+            <div class="stat-label">Sleep actually obtained by average US teenager</div>
+          </div>
+        </div>
+
+        <div class="callout callout-wow" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="8" stroke="var(--primary-500)" stroke-width="1.5"/>
+              <path d="M9 5v4M9 12h.01" stroke="var(--primary-500)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            💡 27 Minutes That Changed Everything
+          </div>
+          <p>
+            Gruber et al. (2012) found that extending children's sleep by just 27 minutes per night for 5 nights significantly improved emotional regulation, reduced impulsivity, and boosted classroom performance. The brain's night shift is so powerful that even a modest extension of sleep produces measurable cognitive benefits within a week. If a supplement produced these effects, it would dominate headlines.
+          </p>
+        </div>
+
+        <div class="callout callout-myth" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 2l1.8 5.4H17l-4.8 3.6 1.8 5.4L9 13l-5 3.4 1.8-5.4L1 7.4h6.2z" fill="var(--warn-400)"/>
+            </svg>
+            🎯 Sleep Hygiene for Developing Brains
+          </div>
+          <p>
+            Evidence-based recommendations: (1) Consistent bedtime routines — same time, same sequence every night. (2) No screens 60 minutes before bed — blue light suppresses melatonin release. (3) Cool, dark room — body temperature drop signals sleep onset. (4) For adolescents: advocate for later school start times — this is a public health issue, not a preference. (5) Protect weekend sleep — "social jetlag" from weekend late nights disrupts the circadian clock and undoes weeknight discipline.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         SECTION M: Building Better Brains
+         ======================================== -->
+    <section class="content-section" data-section-id="section-m">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header">
+          <h2>Building <span class="text-gradient">Better Brains</span></h2>
+          <div class="cute-divider" aria-hidden="true">✨ • ✨</div>
+          <p>What nutrition, exercise, and early intervention actually change in developing brains</p>
+        </div>
+
+        <p>
+          The brain consumes approximately 60% of a child's total metabolic energy (compared to ~20% in adults). This extraordinary demand makes the developing brain uniquely vulnerable to nutritional deficiencies. Iron deficiency — the most common nutritional deficiency worldwide — is associated with impaired myelination and cognitive deficits that can persist even after iron levels are corrected (Lozoff et al., 2006). DHA (docosahexaenoic acid, an omega-3 fatty acid) is a critical structural component of neuronal membranes, essential for synaptogenesis and visual development. The Lancet's landmark nutrition series (2013) documented that deficiencies during the "First 1,000 Days" (conception to age 2) can produce irreversible cognitive impairments — a window that coincides precisely with the most intense period of brain construction.
+        </p>
+
+        <p>
+          Physical exercise is one of the most powerful brain-building interventions available — and one of the most underutilized. Exercise increases BDNF (brain-derived neurotrophic factor), often called "Miracle-Gro for the brain," promoting neurogenesis, synaptogenesis, and neuronal survival. Charles Hillman's research (2009, 2014) shows that physically fit children have larger hippocampal volumes, better sustained attention, and superior academic performance compared to less-fit peers. Remarkably, a single bout of moderate exercise improves executive function for up to 2 hours afterward. Aerobic fitness is also associated with better white matter integrity (myelination quality) in frontal circuits — the circuits underlying executive function and impulse control.
+        </p>
+
+        <p>
+          Musical training and bilingualism also produce measurable structural neural changes. Musical training before age 7 produces a larger corpus callosum (Schlaug et al.) — the fiber tract connecting the two hemispheres — and different auditory cortex organization. Bilingual children consistently show advantages in executive function tasks requiring cognitive flexibility and inhibitory control (Bialystok, 2001, 2011) — though the magnitude of this "bilingual advantage" is debated in the literature. The mechanism appears to be the constant management of two competing language systems, which exercises inhibitory control circuits the way weight training exercises muscles.
+        </p>
+
+        <p>
+          Evidence-based early interventions show lasting effects that extend decades beyond the intervention itself. The Nurse-Family Partnership (David Olds): home visiting by nurses during pregnancy and the first 2 years produces lasting improvements in child cognitive development, significantly reduces abuse and neglect rates, and improves maternal outcomes. The Perry Preschool Project (40-year follow-up): children who received high-quality early education showed higher earnings, lower crime rates, and better health outcomes decades later — with an estimated 7–10% annual return on investment (Heckman). The most effective interventions share common features: early start, responsive relationships, and sustained engagement over time.
+        </p>
+
+        <!-- SVG: Three Pillars of Brain-Building -->
+        <div class="diagram-container" data-animate="fade-up" style="margin:2.5rem auto;max-width:620px;">
+          <svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three pillars of brain-building: Nutrition, Exercise, and Enrichment, all working through experience-dependent neuroplasticity">
+            <defs>
+              <linearGradient id="pillar-green" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#22C55E" stop-opacity="0.15"/>
+                <stop offset="100%" stop-color="#22C55E" stop-opacity="0.04"/>
+              </linearGradient>
+              <linearGradient id="pillar-blue" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
+                <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.04"/>
+              </linearGradient>
+              <linearGradient id="pillar-purple" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.15"/>
+                <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.04"/>
+              </linearGradient>
+              <linearGradient id="bar-grad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#22C55E"/>
+                <stop offset="50%" stop-color="#3B82F6"/>
+                <stop offset="100%" stop-color="#8B5CF6"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Background -->
+            <rect x="0" y="0" width="620" height="260" fill="#FAFAFA" rx="12"/>
+
+            <!-- Title -->
+            <text x="310" y="26" fill="#1E293B" font-family="Nunito, sans-serif" font-size="14" font-weight="800" text-anchor="middle">Three Pillars of Brain-Building</text>
+
+            <!-- PILLAR 1: Nutrition (green) -->
+            <rect x="30" y="40" width="170" height="165" rx="10" fill="url(#pillar-green)" stroke="#22C55E" stroke-width="1.5"/>
+            <!-- Nutrition icon: apple/leaf -->
+            <circle cx="115" cy="68" r="18" fill="#DCFCE7" stroke="#22C55E" stroke-width="1.5"/>
+            <text x="115" y="75" fill="#16A34A" font-family="Nunito, sans-serif" font-size="18" text-anchor="middle" aria-hidden="true">🌿</text>
+            <text x="115" y="106" fill="#15803D" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Nutrition</text>
+            <text x="115" y="124" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Iron → myelination</text>
+            <text x="115" y="140" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">DHA → synapses</text>
+            <text x="115" y="156" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Protein → neurotransmitters</text>
+            <text x="115" y="172" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="8.5" font-style="italic" text-anchor="middle">First 1,000 Days critical</text>
+            <text x="115" y="188" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="8.5" font-style="italic" text-anchor="middle">window (Lancet, 2013)</text>
+
+            <!-- PILLAR 2: Exercise (blue) -->
+            <rect x="225" y="40" width="170" height="165" rx="10" fill="url(#pillar-blue)" stroke="#3B82F6" stroke-width="1.5"/>
+            <circle cx="310" cy="68" r="18" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+            <text x="310" y="75" fill="#2563EB" font-family="Nunito, sans-serif" font-size="18" text-anchor="middle" aria-hidden="true">🏃</text>
+            <text x="310" y="106" fill="#1D4ED8" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Exercise</text>
+            <text x="310" y="124" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">BDNF → neurogenesis</text>
+            <text x="310" y="140" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Hippocampal growth</text>
+            <text x="310" y="156" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Executive function boost</text>
+            <text x="310" y="172" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="8.5" font-style="italic" text-anchor="middle">+2 hrs cognition after</text>
+            <text x="310" y="188" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="8.5" font-style="italic" text-anchor="middle">single bout (Hillman)</text>
+
+            <!-- PILLAR 3: Enrichment (purple) -->
+            <rect x="420" y="40" width="170" height="165" rx="10" fill="url(#pillar-purple)" stroke="#8B5CF6" stroke-width="1.5"/>
+            <circle cx="505" cy="68" r="18" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+            <text x="505" y="75" fill="#7C3AED" font-family="Nunito, sans-serif" font-size="18" text-anchor="middle" aria-hidden="true">🎵</text>
+            <text x="505" y="106" fill="#6D28D9" font-family="Nunito, sans-serif" font-size="13" font-weight="800" text-anchor="middle">Enrichment</text>
+            <text x="505" y="124" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Music → corpus callosum</text>
+            <text x="505" y="140" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Bilingualism → exec. function</text>
+            <text x="505" y="156" fill="#64748B" font-family="Quicksand, sans-serif" font-size="9.5" text-anchor="middle">Relationships → all circuits</text>
+            <text x="505" y="172" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="8.5" font-style="italic" text-anchor="middle">Responsive interaction is</text>
+            <text x="505" y="188" fill="#9CA3AF" font-family="Quicksand, sans-serif" font-size="8.5" font-style="italic" text-anchor="middle">the foundation</text>
+
+            <!-- Connecting bar at bottom -->
+            <rect x="30" y="218" width="560" height="30" rx="15" fill="url(#bar-grad)" opacity="0.15" stroke="url(#bar-grad)" stroke-width="1.5"/>
+            <text x="310" y="237" fill="#334155" font-family="Quicksand, sans-serif" font-size="10" font-weight="700" text-anchor="middle">All work through the same mechanism: experience-dependent neuroplasticity</text>
+          </svg>
+        </div>
+
+        <div class="stat-grid" data-animate="stagger" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(2rem,5vw,3rem);">60%</div>
+            <div class="stat-label">Of a child's metabolic energy consumed by the brain (vs. 20% in adults)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(2rem,5vw,3rem);">7–10%</div>
+            <div class="stat-label">Annual return on investment from quality early childhood programs (Heckman)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" style="font-size:clamp(2rem,5vw,3rem);">2 hrs</div>
+            <div class="stat-label">Duration of improved executive function after a single exercise bout (Hillman)</div>
+          </div>
+        </div>
+
+        <div class="callout callout-research" data-animate="fade-up">
+          <div class="callout-label">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 1l2.5 5 5.5.8-4 3.9.9 5.3L9 13.5 4.1 16l.9-5.3-4-3.9 5.5-.8L9 1z" fill="var(--accent-400)"/>
+            </svg>
+            🔬 The First 1,000 Days
+          </div>
+          <p>
+            The Lancet's landmark nutrition series (2013) documented that nutritional deficiencies during the first 1,000 days (conception through age 2) can produce cognitive impairments that persist throughout life, even when nutrition later improves. This window coincides with the period of most intense brain construction and is when nutritional investment produces the greatest returns. Global malnutrition does not just harm bodies — it shapes the architecture of developing minds, with consequences that extend across generations.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 0v40c240 20 480-20 720-10s480 20 720-10V0H0z" fill="white"/>
+    </svg>
+
+    <!-- ========================================
+         QUIZ SECTION
+         ======================================== -->
+    <section class="content-section" id="quiz-section" style="background:white;">
+      <div class="container-narrow" data-animate="fade-up">
+        <div class="section-header" style="text-align:center;">
+          <h2>🎉 Test Your <span class="text-gradient">Knowledge</span></h2>
+          <p style="margin-left:auto;margin-right:auto;">5 questions to check your understanding of this module</p>
+        </div>
+
+        <div id="quiz-container" data-module="module8"></div>
+      </div>
+    </section>
+
+    <!-- Wave divider -->
+    <svg class="wave-divider wave-divider-bottom" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 60V20C240 0 480 40 720 30C960 20 1200 0 1440 20V60H0Z" fill="var(--neutral-50)"/>
+    </svg>
+
+    <!-- ========================================
+         MODULE NAVIGATION (prev/next)
+         ======================================== -->
+    <section class="content-section" style="padding:0 0 2rem;">
+      <div class="container-narrow">
+        <div class="module-nav">
+          <a href="module7.html" class="module-nav-link" data-transition>
+            <span class="nav-direction">&larr; Previous Module</span>
+            <span class="nav-title">Module 7: Reading Minds</span>
+          </a>
+
+          <a href="module9.html" class="module-nav-link is-next" data-transition>
+            <span class="nav-direction">Next Module &rarr;</span>
+            <span class="nav-title">Module 9: Serious Fun</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <p style="margin-bottom:0.5rem;">
+          <a href="index.html" style="color:var(--primary-300);font-weight:700;">Growing Minds</a> &mdash; A Free Child Psychology Course
+        </p>
+        <p style="margin-bottom:0;font-size:var(--text-xs);color:var(--neutral-500);">
+          Built with 💜 curiosity and science ✨
+        </p>
+      </div>
+    </footer>
+
+  </div><!-- /.page-wrapper -->
+
+  <!-- ========================================
+       SCRIPTS
+       ======================================== -->
+  <!-- GSAP 3.12 + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- App scripts -->
+  <script src="js/progress.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
