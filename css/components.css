@@ -1079,17 +1079,20 @@
     grid-template-columns: 1fr;
   }
 
-  /* SVG diagrams: horizontal scroll for readability */
+  /* SVG diagrams: scale to fit by default, scroll only for wide ones */
   .diagram-container {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
   }
 
-  .diagram-container svg[viewBox] {
-    min-width: 500px;
+  /* Very wide/panoramic diagrams get horizontal scroll */
+  .diagram-container.diagram-scrollable svg[viewBox] {
+    min-width: 600px;
   }
 
-  .diagram-scroll-hint {
+  .diagram-container.diagram-scrollable .diagram-scroll-hint {
     display: flex;
     align-items: center;
     justify-content: center;

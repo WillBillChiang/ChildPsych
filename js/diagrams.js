@@ -552,6 +552,47 @@
   }
 
   /* ------------------------------------------
+     MOBILE DIAGRAM RESPONSIVE HANDLER
+     Auto-detects very wide/panoramic SVGs and
+     enables horizontal scrolling only for those.
+     All other diagrams scale to fit the screen.
+  ------------------------------------------ */
+  function initMobileDiagramScaling() {
+    if (window.innerWidth > 640) return;
+
+    var containers = document.querySelectorAll('.diagram-container svg[viewBox]');
+    for (var i = 0; i < containers.length; i++) {
+      var svg = containers[i];
+      var vb = svg.getAttribute('viewBox');
+      if (!vb) continue;
+
+      var parts = vb.trim().split(/[\s,]+/);
+      if (parts.length < 4) continue;
+
+      var w = parseFloat(parts[2]);
+      var h = parseFloat(parts[3]);
+      if (!w || !h) continue;
+
+      var ratio = w / h;
+      // Wide diagrams (≥800px or very panoramic) get scrolling
+      if (w >= 800 || ratio > 2.5) {
+        var container = svg.closest('.diagram-container');
+        if (!container) continue;
+
+        container.classList.add('diagram-scrollable');
+
+        // Add scroll hint if not already present
+        if (!container.querySelector('.diagram-scroll-hint')) {
+          var hint = document.createElement('div');
+          hint.className = 'diagram-scroll-hint';
+          hint.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg> <span style="font-size:0.75rem;color:var(--neutral-400);">Scroll to explore</span>';
+          container.appendChild(hint);
+        }
+      }
+    }
+  }
+
+  /* ------------------------------------------
      INITIALIZATION
      Each init function checks for the relevant
      DOM elements before doing any work.
@@ -561,6 +602,7 @@
     initBrainDiagram();
     initHotspots();
     initInteractiveScale();
+    initMobileDiagramScaling();
 
     console.log('[ChildPsych] Diagrams initialized');
   });
@@ -569,5 +611,6 @@
   window.initBrainDiagram = initBrainDiagram;
   window.initHotspots = initHotspots;
   window.initInteractiveScale = initInteractiveScale;
+  window.initMobileDiagramScaling = initMobileDiagramScaling;
 
 })();
