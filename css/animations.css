@@ -62,8 +62,8 @@
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(155, 91, 191, 0); }
-  50% { box-shadow: 0 0 20px 4px rgba(155, 91, 191, 0.15); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(139, 114, 80, 0); }
+  50% { box-shadow: 0 0 20px 4px rgba(139, 114, 80, 0.15); }
 }
 
 @keyframes breathe {
@@ -204,15 +204,15 @@
 }
 
 .svg-glow {
-  filter: drop-shadow(0 0 8px rgba(155, 91, 191, 0.3));
+  filter: drop-shadow(0 0 8px rgba(139, 114, 80, 0.3));
 }
 
 .svg-glow-teal {
-  filter: drop-shadow(0 0 8px rgba(62, 181, 137, 0.3));
+  filter: drop-shadow(0 0 8px rgba(98, 138, 72, 0.3));
 }
 
 .svg-glow-amber {
-  filter: drop-shadow(0 0 8px rgba(255, 144, 64, 0.3));
+  filter: drop-shadow(0 0 8px rgba(179, 109, 63, 0.3));
 }
 
 /* Brain region transitions */
@@ -223,7 +223,7 @@
 }
 
 .brain-region:hover {
-  filter: drop-shadow(0 0 12px rgba(155, 91, 191, 0.4));
+  filter: drop-shadow(0 0 12px rgba(139, 114, 80, 0.4));
 }
 
 /* ========================================
@@ -274,6 +274,52 @@
 }
 
 /* ========================================
+   FLIP CARD ANIMATION
+   ======================================== */
+
+@keyframes flip-reveal {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(180deg); }
+}
+
+/* ========================================
+   TOAST SLIDE-IN
+   ======================================== */
+
+@keyframes toast-slide-in {
+  0% { transform: translateX(120%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes toast-slide-out {
+  0% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(120%); opacity: 0; }
+}
+
+/* ========================================
+   BADGE EARN ANIMATION
+   ======================================== */
+
+@keyframes badge-earn {
+  0% { transform: scale(0) rotate(-30deg); opacity: 0; }
+  50% { transform: scale(1.3) rotate(10deg); }
+  70% { transform: scale(0.9) rotate(-5deg); }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+/* ========================================
+   XP FLOAT UP
+   ======================================== */
+
+@keyframes xp-float-up {
+  0% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-50px) scale(0.7); }
+}
+
+.animate-badge-earn { animation: badge-earn 0.5s var(--ease-bounce); }
+.animate-xp-float { animation: xp-float-up 1s var(--ease-out) forwards; }
+
+/* ========================================
    REDUCED MOTION: DISABLE CUTE ANIMATIONS
    ======================================== */
 @media (prefers-reduced-motion: reduce) {
@@ -284,9 +330,21 @@
   .animate-sparkle,
   .animate-star-twinkle,
   .animate-float-wiggle,
+  .animate-badge-earn,
+  .animate-xp-float,
   .hover-wiggle:hover,
   .hover-bounce:hover,
   .hover-jelly:hover {
     animation: none !important;
+  }
+
+  .flip-card-inner {
+    transition: none !important;
+  }
+
+  .think-prompt-answer,
+  .scenario-card-feedback,
+  .visual-timeline-detail {
+    transition: none !important;
   }
 }

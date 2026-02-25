@@ -9,16 +9,16 @@
 
   /* Default colors matching the design tokens */
   var DEFAULT_COLORS = [
-    '#9B5BBF', // primary-600
-    '#3EB589', // secondary-500
-    '#FFA75A', // accent-500
-    '#7EB8E8', // blue
-    '#FF6B8A', // rose
-    '#7DD8AD', // emerald
-    '#A96BCF', // primary-500
-    '#2FA07A', // secondary-600
-    '#E07830', // accent-600
-    '#8B8FE0'  // indigo
+    '#8B7250', // primary-600
+    '#628A48', // secondary-500
+    '#C48558', // accent-400
+    '#7089A0', // slate blue
+    '#A5695C', // dusty rose
+    '#7A9E5C', // sage
+    '#A38660', // primary-500
+    '#51753A', // secondary-600
+    '#985834', // accent-600
+    '#8E7A9A'  // dusty mauve
   ];
 
   var SVG_NS = 'http://www.w3.org/2000/svg';
@@ -439,8 +439,8 @@
     var opts = Object.assign({
       width: 500,
       height: 300,
-      lineColor: '#9B5BBF',
-      fillColor: 'rgba(155, 91, 191, 0.08)',
+      lineColor: '#8B7250',
+      fillColor: 'rgba(139, 114, 80, 0.08)',
       lineWidth: 2.5,
       showDots: true,
       showLabels: true,
@@ -893,7 +893,7 @@
        <div data-chart
             data-chart-type="bar"
             data-chart-data='[{"label":"A","value":30},{"label":"B","value":50}]'
-            data-chart-options='{"barColor":"#9B5BBF"}'>
+            data-chart-options='{"barColor":"#8B7250"}'>
        </div>
   ========================================== */
   function initCharts() {

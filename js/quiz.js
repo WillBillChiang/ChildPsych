@@ -614,6 +614,11 @@
       window.progressManager.saveQuizScore(this.moduleId, scorePercent);
     }
 
+    // Record XP via gamification
+    if (window.gamification && typeof window.gamification.onQuizComplete === 'function') {
+      window.gamification.onQuizComplete(scorePercent, this.questions.length, this.score);
+    }
+
     var html = '<div class="quiz-results">';
 
     // Animated score
@@ -1118,26 +1123,26 @@
       '  opacity: 0.45; cursor: not-allowed;' +
       '}' +
       '.quiz-btn-check {' +
-      '  background: var(--primary-500, #8B5CF6); color: white;' +
+      '  background: var(--primary-500, #A38660); color: white;' +
       '}' +
       '.quiz-btn-check:hover:not(:disabled) {' +
-      '  background: var(--primary-600, #9B5BBF);' +
+      '  background: var(--primary-600, #8B7250);' +
       '  transform: translateY(-1px);' +
-      '  box-shadow: 0 4px 12px rgba(155,91,191,0.3);' +
+      '  box-shadow: 0 4px 12px rgba(139,114,80,0.3);' +
       '}' +
       '.quiz-btn-next {' +
-      '  background: var(--secondary-500, #3EB589); color: white;' +
+      '  background: var(--secondary-500, #628A48); color: white;' +
       '}' +
       '.quiz-btn-next:hover {' +
-      '  background: var(--secondary-600, #2FA07A);' +
+      '  background: var(--secondary-600, #51753A);' +
       '  transform: translateY(-1px);' +
-      '  box-shadow: 0 4px 12px rgba(20,184,166,0.3);' +
+      '  box-shadow: 0 4px 12px rgba(81,117,58,0.3);' +
       '}' +
       '.quiz-actions { display: flex; gap: 0.75rem; margin-top: 1.5rem; }' +
       '.drag-item.is-selected {' +
-      '  border-color: var(--primary-500, #8B5CF6);' +
-      '  background: var(--primary-50, #FAF5FF);' +
-      '  box-shadow: 0 0 0 3px rgba(139,92,246,0.15);' +
+      '  border-color: var(--primary-500, #A38660);' +
+      '  background: var(--primary-50, #FBF7F2);' +
+      '  box-shadow: 0 0 0 3px rgba(139,114,80,0.15);' +
       '}' +
       '@media (max-width: 480px) {' +
       '  .quiz-btn { min-width: auto; width: 100%; padding: 0.875rem 1.25rem; }' +

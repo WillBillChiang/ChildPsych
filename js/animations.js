@@ -434,7 +434,7 @@
   }
 
   function createSparkles(x, y, count) {
-    var colors = ['#FF85A3', '#C08ADE', '#FFBE85', '#5CC99B', '#66B3FF'];
+    var colors = ['#B88072', '#A38660', '#C48558', '#6B9E5E', '#7089A0'];
     for (var i = 0; i < count; i++) {
       var sparkle = document.createElement('div');
       sparkle.style.cssText = 'position:fixed;pointer-events:none;z-index:9999;' +

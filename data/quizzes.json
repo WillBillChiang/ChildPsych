@@ -4,6 +4,54 @@
       "moduleId": "module1",
       "title": "The Child Who Changed Science",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-A",
+          "questions": [{
+            "id": "m1iq1",
+            "type": "multiple-choice",
+            "question": "What was revolutionary about Piaget's observation of children's errors?",
+            "options": [
+              { "id": "a", "text": "They were random and unpredictable" },
+              { "id": "b", "text": "Same-age children made the same types of errors" },
+              { "id": "c", "text": "Only boys made errors" },
+              { "id": "d", "text": "Errors decreased with age uniformly" }
+            ],
+            "correctAnswer": "b",
+            "explanation": "Piaget discovered that children's errors follow systematic patterns, revealing a different logic of thinking rather than mere ignorance."
+          }]
+        },
+        {
+          "sectionId": "section-E",
+          "questions": [{
+            "id": "m1iq2",
+            "type": "multiple-choice",
+            "question": "Vygotsky's Zone of Proximal Development describes:",
+            "options": [
+              { "id": "a", "text": "What a child can do completely alone" },
+              { "id": "b", "text": "The gap between what a child can do alone and with guidance" },
+              { "id": "c", "text": "The earliest age at which learning begins" }
+            ],
+            "correctAnswer": "b",
+            "explanation": "The ZPD is the sweet spot between what a child can do independently and what they can achieve with skilled help from a more knowledgeable other."
+          }]
+        },
+        {
+          "sectionId": "section-G",
+          "questions": [{
+            "id": "m1iq3",
+            "type": "multiple-choice",
+            "question": "What percentage of psychology studies successfully replicated in the landmark 2015 project?",
+            "options": [
+              { "id": "a", "text": "75%" },
+              { "id": "b", "text": "50%" },
+              { "id": "c", "text": "36%" }
+            ],
+            "correctAnswer": "c",
+            "explanation": "Only about 36% of the 100 studies replicated, sparking the 'replication crisis' and transforming how research is conducted."
+          }]
+        }
+      ],
       "questions": [
         {
           "id": "m1q1",
@@ -135,6 +183,20 @@
       "moduleId": "module2",
       "title": "You Are Not Just Your DNA",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-A",
+          "questions": [{"id":"m2iq1","type":"multiple-choice","question":"What does 'epigenetics' literally mean?","options":[{"id":"a","text":"Beyond genetics"},{"id":"b","text":"Inside the gene"},{"id":"c","text":"Above or on top of genetics"}],"correctAnswer":"c","explanation":"Epigenetics means 'above the genome' — it refers to chemical modifications that sit on top of DNA and control which genes are turned on or off, without changing the DNA sequence itself."}]
+        },
+        {
+          "sectionId": "section-H",
+          "questions": [{"id":"m2iq2","type":"multiple-choice","question":"In twin studies, if identical twins are more similar than fraternal twins on a trait, this suggests:","options":[{"id":"a","text":"The trait is entirely genetic"},{"id":"b","text":"Genes play a significant role in that trait"},{"id":"c","text":"Environment has no influence"}],"correctAnswer":"b","explanation":"Greater similarity in identical (MZ) twins compared to fraternal (DZ) twins suggests a genetic component, but it doesn't mean the trait is entirely genetic — environment always plays a role too."}]
+        },
+        {
+          "sectionId": "section-K",
+          "questions": [{"id":"m2iq3","type":"multiple-choice","question":"A naturally shy child who avoids social situations and therefore gets less social practice is an example of:","options":[{"id":"a","text":"Passive gene-environment correlation"},{"id":"b","text":"Evocative gene-environment correlation"},{"id":"c","text":"Active gene-environment correlation"}],"correctAnswer":"c","explanation":"Active (niche-picking) gene-environment correlation occurs when children seek out environments that match their genetic predispositions. The shy child actively avoids social situations, reinforcing their temperament."}]
+        }
+      ],
       "questions": [
         {
           "id": "m2q1",
@@ -260,6 +322,20 @@
       "moduleId": "module3",
       "title": "Building a Mind",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "piaget-stages",
+          "questions": [{"id":"m3iq1","type":"multiple-choice","question":"Object permanence — understanding that things exist even when hidden — typically develops during which of Piaget's stages?","options":[{"id":"a","text":"Preoperational"},{"id":"b","text":"Sensorimotor"},{"id":"c","text":"Concrete operational"}],"correctAnswer":"b","explanation":"Object permanence is a key milestone of the sensorimotor stage (birth to ~2 years). Before this, babies act as if hidden objects have simply ceased to exist."}]
+        },
+        {
+          "sectionId": "vygotsky",
+          "questions": [{"id":"m3iq2","type":"multiple-choice","question":"A child who insists the taller glass has 'more juice' despite watching the same amount being poured is failing at:","options":[{"id":"a","text":"Object permanence"},{"id":"b","text":"Conservation"},{"id":"c","text":"Theory of mind"}],"correctAnswer":"b","explanation":"Conservation is the understanding that quantity stays the same despite changes in appearance. Preoperational children (ages 2-7) typically fail conservation tasks because they focus on one dimension (height) rather than considering the whole picture."}]
+        },
+        {
+          "sectionId": "executive-function",
+          "questions": [{"id":"m3iq3","type":"multiple-choice","question":"Vygotsky's concept of scaffolding means:","options":[{"id":"a","text":"Letting children figure things out entirely on their own"},{"id":"b","text":"Providing temporary support that is gradually removed as the child masters a skill"},{"id":"c","text":"Testing children repeatedly until they get the right answer"}],"correctAnswer":"b","explanation":"Scaffolding is like training wheels — an adult provides just enough support to help the child succeed at a task slightly beyond their current ability, then gradually removes that support as competence grows."}]
+        }
+      ],
       "questions": [
         {
           "id": "m3q1",
@@ -391,6 +467,20 @@
       "moduleId": "module4",
       "title": "The Language Explosion",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-a",
+          "questions": [{"id":"m4iq1","type":"multiple-choice","question":"Newborns can distinguish between all ~800 phonemes used in human languages. By 10-12 months, they can only distinguish:","options":[{"id":"a","text":"About 200 phonemes"},{"id":"b","text":"The phonemes used in their native language(s)"},{"id":"c","text":"No phonemes at all — they must relearn"}],"correctAnswer":"b","explanation":"Babies undergo 'perceptual narrowing' — they start as universal listeners but specialize in the sounds of the language(s) they hear most often, losing sensitivity to unused phonemes."}]
+        },
+        {
+          "sectionId": "section-e",
+          "questions": [{"id":"m4iq2","type":"multiple-choice","question":"When a toddler calls all four-legged animals 'doggy,' this is an example of:","options":[{"id":"a","text":"Underextension"},{"id":"b","text":"Overextension"},{"id":"c","text":"Telegraphic speech"}],"correctAnswer":"b","explanation":"Overextension is when children apply a word too broadly. They have the concept of 'four-legged animal' but haven't yet learned the specific labels for each type. It shows they're actively building categories."}]
+        },
+        {
+          "sectionId": "section-f",
+          "questions": [{"id":"m4iq3","type":"multiple-choice","question":"Research on bilingual children shows that learning two languages:","options":[{"id":"a","text":"Causes permanent language delays"},{"id":"b","text":"May cause brief initial mixing but leads to cognitive advantages"},{"id":"c","text":"Has no effect compared to monolingual development"}],"correctAnswer":"b","explanation":"Bilingual children may briefly mix languages, but this is a normal part of code-switching. Long-term, bilingualism is linked to enhanced executive function, better attention control, and cognitive flexibility."}]
+        }
+      ],
       "questions": [
         {
           "id": "m4q1",
@@ -516,6 +606,20 @@
       "moduleId": "module5",
       "title": "The Invisible Bond",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-a",
+          "questions": [{"id":"m5iq1","type":"multiple-choice","question":"Bowlby's attachment theory was revolutionary because it proposed that infant-caregiver bonding is:","options":[{"id":"a","text":"Learned through feeding (cupboard theory)"},{"id":"b","text":"A biologically evolved survival system"},{"id":"c","text":"Only important in the first month of life"}],"correctAnswer":"b","explanation":"Bowlby overturned the dominant 'cupboard theory' (that babies bond with whoever feeds them) by showing attachment is an evolved biological system designed to keep vulnerable infants close to protective caregivers."}]
+        },
+        {
+          "sectionId": "section-d",
+          "questions": [{"id":"m5iq2","type":"multiple-choice","question":"In Harlow's famous experiment, infant monkeys preferred:","options":[{"id":"a","text":"The wire mother with food"},{"id":"b","text":"The cloth mother without food"},{"id":"c","text":"Neither — they avoided both"}],"correctAnswer":"b","explanation":"The monkeys overwhelmingly preferred the soft cloth mother, even though the wire mother provided food. This demonstrated that contact comfort — not feeding — is the primary basis of attachment."}]
+        },
+        {
+          "sectionId": "section-g",
+          "questions": [{"id":"m5iq3","type":"multiple-choice","question":"In Ainsworth's Strange Situation, securely attached children typically:","options":[{"id":"a","text":"Show no distress when the parent leaves"},{"id":"b","text":"Are distressed at separation but quickly comforted upon reunion"},{"id":"c","text":"Cling to the parent and refuse to explore"}],"correctAnswer":"b","explanation":"Securely attached children use their caregiver as a 'safe base' for exploration. They may protest separation but are easily soothed when reunited — showing both healthy attachment and confidence."}]
+        }
+      ],
       "questions": [
         {
           "id": "m5q1",
@@ -615,6 +719,20 @@
       "moduleId": "module6",
       "title": "Feeling It All",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-a",
+          "questions": [{"id":"m6iq1","type":"multiple-choice","question":"Self-conscious emotions like guilt, shame, and pride emerge around age:","options":[{"id":"a","text":"6 months"},{"id":"b","text":"18-24 months"},{"id":"c","text":"5-6 years"}],"correctAnswer":"b","explanation":"Self-conscious emotions require self-awareness — the ability to see yourself as others see you. This develops around 18-24 months, which is also when children start recognizing themselves in mirrors."}]
+        },
+        {
+          "sectionId": "section-d",
+          "questions": [{"id":"m6iq2","type":"multiple-choice","question":"When a parent says 'I can see you're really angry. It's okay to feel angry, but we can't hit,' they are practicing:","options":[{"id":"a","text":"Emotion dismissing"},{"id":"b","text":"Emotion coaching"},{"id":"c","text":"Permissive parenting"}],"correctAnswer":"b","explanation":"Emotion coaching involves acknowledging the child's feelings, labeling the emotion, and setting limits on behavior while validating the feeling itself. Research shows it leads to better emotional regulation."}]
+        },
+        {
+          "sectionId": "section-g",
+          "questions": [{"id":"m6iq3","type":"multiple-choice","question":"Temperament is best described as:","options":[{"id":"a","text":"A child's personality that is entirely shaped by parenting"},{"id":"b","text":"Biologically-based individual differences in emotional reactivity and self-regulation"},{"id":"c","text":"A disorder that requires treatment"}],"correctAnswer":"b","explanation":"Temperament refers to innate, biologically-based tendencies in how children react to the world and regulate those reactions. It's the raw material that personality is built from, shaped by both genes and experience."}]
+        }
+      ],
       "questions": [
         {
           "id": "m6q1",
@@ -720,6 +838,20 @@
       "moduleId": "module7",
       "title": "Reading Minds",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-B",
+          "questions": [{"id":"m7iq1","type":"multiple-choice","question":"Theory of mind — the ability to understand that others have different beliefs and perspectives — typically emerges around age:","options":[{"id":"a","text":"12 months"},{"id":"b","text":"4-5 years"},{"id":"c","text":"7-8 years"}],"correctAnswer":"b","explanation":"Most children pass the classic false belief test around age 4-5, marking the emergence of a mature theory of mind. Before this, they assume everyone knows what they know."}]
+        },
+        {
+          "sectionId": "section-D",
+          "questions": [{"id":"m7iq2","type":"multiple-choice","question":"In the Sally-Anne false belief test, children are asked where Sally will look for her marble. Children under 4 typically say:","options":[{"id":"a","text":"Where Sally left it (the basket)"},{"id":"b","text":"Where Anne moved it to (the box)"},{"id":"c","text":"They don't understand the question"}],"correctAnswer":"b","explanation":"Young children say Sally will look in the box — where the marble actually is — because they can't separate their own knowledge from Sally's. They know the marble moved, so they assume Sally knows too."}]
+        },
+        {
+          "sectionId": "section-K",
+          "questions": [{"id":"m7iq3","type":"multiple-choice","question":"Kohlberg's theory of moral development suggests that moral reasoning progresses from:","options":[{"id":"a","text":"Abstract principles to concrete rules"},{"id":"b","text":"Self-interest to social conventions to universal principles"},{"id":"c","text":"Emotional responses to logical reasoning"}],"correctAnswer":"b","explanation":"Kohlberg proposed three levels: preconventional (self-interest, avoiding punishment), conventional (following social rules and expectations), and postconventional (abstract ethical principles). Most adults operate at the conventional level."}]
+        }
+      ],
       "questions": [
         {
           "id": "m7q1",
@@ -825,6 +957,20 @@
       "moduleId": "module8",
       "title": "The Brain Under Construction",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-C",
+          "questions": [{"id":"m8iq1","type":"multiple-choice","question":"Why does the brain overproduce synapses in early childhood only to prune many of them away?","options":[{"id":"a","text":"It's a developmental error that evolution hasn't corrected"},{"id":"b","text":"Overproduction creates flexibility; pruning sculpts circuits based on experience"},{"id":"c","text":"The brain needs extra synapses for physical growth"}],"correctAnswer":"b","explanation":"The brain's 'produce then prune' strategy is brilliantly adaptive. Overproduction prepares the brain for any possible environment, while pruning strengthens the connections actually used and eliminates those that aren't — customizing the brain for the child's specific world."}]
+        },
+        {
+          "sectionId": "section-F",
+          "questions": [{"id":"m8iq2","type":"multiple-choice","question":"By age 5, the brain has reached approximately what percentage of its adult size?","options":[{"id":"a","text":"50%"},{"id":"b","text":"70%"},{"id":"c","text":"90%"}],"correctAnswer":"c","explanation":"The brain reaches roughly 90% of its adult size by age 5, though it continues to develop and refine its connections well into the mid-20s. Size isn't everything — it's the quality of connections that matters most."}]
+        },
+        {
+          "sectionId": "section-G",
+          "questions": [{"id":"m8iq3","type":"multiple-choice","question":"The prefrontal cortex — responsible for planning, impulse control, and decision-making — doesn't fully mature until:","options":[{"id":"a","text":"Age 12"},{"id":"b","text":"Age 18"},{"id":"c","text":"The mid-20s"}],"correctAnswer":"c","explanation":"The prefrontal cortex is the last brain region to fully mature, not completing development until the mid-20s. This explains why adolescents can be brilliant yet impulsive — their emotional brain matures faster than their rational brain."}]
+        }
+      ],
       "questions": [
         {
           "id": "m8q1",
@@ -930,6 +1076,20 @@
       "moduleId": "module9",
       "title": "Serious Fun",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-a",
+          "questions": [{"id":"m9iq1","type":"multiple-choice","question":"Research shows that free, unstructured play is important because it:","options":[{"id":"a","text":"Is just a way for children to burn off energy"},{"id":"b","text":"Develops creativity, problem-solving, and social skills simultaneously"},{"id":"c","text":"Has no measurable benefits compared to structured activities"}],"correctAnswer":"b","explanation":"Free play is like a cognitive gymnasium — children practice negotiation, creativity, risk assessment, and emotional regulation all at once. It's one of the most powerful learning experiences in childhood."}]
+        },
+        {
+          "sectionId": "section-c",
+          "questions": [{"id":"m9iq2","type":"multiple-choice","question":"Pretend play (e.g., playing 'house' or 'superhero') is cognitively valuable because it requires children to:","options":[{"id":"a","text":"Follow strict rules set by adults"},{"id":"b","text":"Hold multiple representations in mind (what IS vs. what we're PRETENDING)"},{"id":"c","text":"Repeat actions they've seen on television"}],"correctAnswer":"b","explanation":"Pretend play requires dual representation — understanding that a banana is both a banana AND a phone simultaneously. This cognitive flexibility is foundational for abstract thinking, reading, and math."}]
+        },
+        {
+          "sectionId": "section-h",
+          "questions": [{"id":"m9iq3","type":"multiple-choice","question":"'Adventure playgrounds' — where children build with real tools and materials — originated from:","options":[{"id":"a","text":"A Montessori school in Italy"},{"id":"b","text":"Children playing in WWII bomb sites in Copenhagen"},{"id":"c","text":"A Silicon Valley tech company"}],"correctAnswer":"b","explanation":"Architect C.Th. Sørensen noticed that children preferred playing in rubble-strewn bomb sites over traditional playgrounds. This led to the creation of 'junk playgrounds' — now called adventure playgrounds — where children build, create, and take managed risks."}]
+        }
+      ],
       "questions": [
         {
           "id": "m9q1",
@@ -1029,6 +1189,20 @@
       "moduleId": "module10",
       "title": "Growing Up Digital",
       "passingScore": 70,
+      "inlineQuizzes": [
+        {
+          "sectionId": "section-a",
+          "questions": [{"id":"m10iq1","type":"multiple-choice","question":"The original marshmallow test claimed to predict life success. Why has this conclusion been challenged?","options":[{"id":"a","text":"The marshmallows were the wrong flavor"},{"id":"b","text":"When socioeconomic factors were controlled for, the effect largely disappeared"},{"id":"c","text":"Children today are better at waiting than in the 1960s"}],"correctAnswer":"b","explanation":"Watts, Duncan & Quan (2018) found that once family income and education were accounted for, the marshmallow test's predictive power shrank dramatically. It was measuring socioeconomic advantage, not pure willpower."}]
+        },
+        {
+          "sectionId": "section-c",
+          "questions": [{"id":"m10iq2","type":"multiple-choice","question":"Research suggests the effect of screen time on adolescent wellbeing is roughly equivalent to:","options":[{"id":"a","text":"Eating potato chips once a day"},{"id":"b","text":"Wearing glasses"},{"id":"c","text":"Getting no exercise at all"}],"correctAnswer":"b","explanation":"Orben & Przybylski's analysis of 350,000+ adolescents found that screen time's negative association with wellbeing was tiny — about the same as wearing glasses. Context and content matter far more than raw screen hours."}]
+        },
+        {
+          "sectionId": "section-k",
+          "questions": [{"id":"m10iq3","type":"multiple-choice","question":"The key distinction in screen time research is between:","options":[{"id":"a","text":"Small screens vs large screens"},{"id":"b","text":"Passive consumption vs active, creative use"},{"id":"c","text":"Morning screen time vs evening screen time"}],"correctAnswer":"b","explanation":"Not all screen time is equal. Passively scrolling social media has different effects than video-calling grandma, creating digital art, or learning to code. The quality and context of screen use matters more than quantity alone."}]
+        }
+      ],
       "questions": [
         {
           "id": "m10q1",
